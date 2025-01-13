@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/cache_synthesizable/cache_synthesizable.sim/sim_1/impl/func/xsim/tb_tag_mem_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tag_mem
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/cache_synthesizable/cache_synthesizable.srcs/sim_1/new/tb_tag_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_tag_mem
+WARNING: [VRFC 10-3248] data object 'wr_en' is already declared [F:/cache_synthesizable/cache_synthesizable.srcs/sim_1/new/tb_tag_mem.v:41]
+WARNING: [VRFC 10-9364] second declaration of 'wr_en' is ignored [F:/cache_synthesizable/cache_synthesizable.srcs/sim_1/new/tb_tag_mem.v:41]

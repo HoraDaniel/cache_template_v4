@@ -1,0 +1,10 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+F:/cache_synthesizable/cache_synthesizable.sim/sim_1/synth/timing/xsim/tb_interface_time_synth.v,1736480390,verilog,,F:/cache_synthesizable/cache_synthesizable.srcs/sim_1/new/tb_tag_mem.v,,dual_port_bram;eviction_controller;glbl;interface_top_level,,,,,,,,
+F:/cache_synthesizable/cache_synthesizable.srcs/sim_1/new/tb_LRU_modules.v,1735467906,verilog,,F:/cache_synthesizable/cache_synthesizable.srcs/sim_1/new/tb_data_mem.v,,tb_LRU_modules,,,,,,,,
+F:/cache_synthesizable/cache_synthesizable.srcs/sim_1/new/tb_data_mem.v,1735701954,verilog,,F:/cache_synthesizable/cache_synthesizable.srcs/sim_1/new/tb_interface.v,,tb_data_mem,,,,,,,,
+,,,,,,tb_interface,,,,,,,,
+F:/cache_synthesizable/cache_synthesizable.srcs/sim_1/new/tb_tag_array.v,1735215529,verilog,,F:/cache_synthesizable/cache_synthesizable.srcs/sim_1/new/tb_LRU_modules.v,,tb_tag_array,,,,,,,,
+F:/cache_synthesizable/cache_synthesizable.srcs/sim_1/new/tb_tag_mem.v,1735214297,verilog,,F:/cache_synthesizable/cache_synthesizable.srcs/sim_1/new/tb_tag_array.v,,tb_tag_mem,,,,,,,,

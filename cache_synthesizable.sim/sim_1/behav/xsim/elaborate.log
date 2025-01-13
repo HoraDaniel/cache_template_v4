@@ -1,0 +1,27 @@
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: F:/Vivado/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_top_behav xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'doutA' [F:/cache_synthesizable/cache_synthesizable.srcs/sources_1/new/cache_top.v:180]
+WARNING: [VRFC 10-5021] port 'i_dm_write' is not connected on this instance [F:/cache_synthesizable/cache_synthesizable.srcs/sim_1/new/tb_top.v:53]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.tag_mem(TAG_BITS=3,INDEX_BITS=5)
+Compiling module xil_defaultlib.tag_array(TAG_BITS=3,INDEX_BITS=...
+Compiling module xil_defaultlib.twoway_LRU
+Compiling module xil_defaultlib.cache_controller(CACHE_WAY=2,TAG...
+Compiling module xil_defaultlib.data_mem_column(INDEX_BITS=5)
+Compiling module xil_defaultlib.data_mem_way(INDEX_BITS=5)
+Compiling module xil_defaultlib.data_array(CACHE_WAY=2,INDEX_BIT...
+Compiling module xil_defaultlib.refill_controller
+Compiling module xil_defaultlib.eviction_controller
+Compiling module xil_defaultlib.dual_port_bram_default
+Compiling module xil_defaultlib.cache_top(CACHE_WAY=2,CACHE_SIZE...
+Compiling module xil_defaultlib.tb_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_top_behav

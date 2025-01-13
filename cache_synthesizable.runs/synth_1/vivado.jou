@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Fri Jan 10 11:33:44 2025
+# Process ID: 3136
+# Current directory: F:/cache_synthesizable/cache_synthesizable.runs/synth_1
+# Command line: vivado.exe -log interface_top_level.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source interface_top_level.tcl
+# Log file: F:/cache_synthesizable/cache_synthesizable.runs/synth_1/interface_top_level.vds
+# Journal file: F:/cache_synthesizable/cache_synthesizable.runs/synth_1\vivado.jou
+# Running On        :DESKTOP-9IG3UKH
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :19045
+# Processor Detail  :AMD A8-9600 RADEON R7, 10 COMPUTE CORES 4C+6G  
+# CPU Frequency     :3094 MHz
+# CPU Physical cores:4
+# CPU Logical cores :4
+# Host memory       :8519 MB
+# Swap memory       :5905 MB
+# Total Virtual     :14425 MB
+# Available Virtual :2704 MB
+#-----------------------------------------------------------
+source interface_top_level.tcl -notrace

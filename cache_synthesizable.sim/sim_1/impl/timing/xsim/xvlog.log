@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/cache_synthesizable/cache_synthesizable.sim/sim_1/impl/timing/xsim/tb_tag_mem_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM32X1S_UNIQ_BASE_
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD21
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD22
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD23
+INFO: [VRFC 10-311] analyzing module RAM32X1S_HD24
+INFO: [VRFC 10-311] analyzing module tag_mem
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/cache_synthesizable/cache_synthesizable.srcs/sim_1/new/tb_tag_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_tag_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/cache_synthesizable/cache_synthesizable.srcs/sim_1/new/tb_valid.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_valid
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/cache_synthesizable/cache_synthesizable.srcs/sim_1/new/tb_hit_check.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_hit_check

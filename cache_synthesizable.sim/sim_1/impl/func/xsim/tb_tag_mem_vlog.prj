@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"tb_tag_mem_func_impl.v" \
+"../../../../../cache_synthesizable.srcs/sim_1/new/tb_tag_mem.v" \
+
+# Do not sort compile order
+nosort

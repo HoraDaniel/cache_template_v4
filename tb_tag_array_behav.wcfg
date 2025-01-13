@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_tag_array_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_tag_array" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="486.600 ns"></ZoomStartTime>
+      <ZoomEndTime time="645.001 ns"></ZoomEndTime>
+      <Cursor1Time time="593.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="116"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/tb_tag_array/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tag_array/nrst" type="logic">
+      <obj_property name="ElementShortName">nrst</obj_property>
+      <obj_property name="ObjectShortName">nrst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tag_array/wr_en" type="logic">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tag_array/invalidate" type="logic">
+      <obj_property name="ElementShortName">invalidate</obj_property>
+      <obj_property name="ObjectShortName">invalidate</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tag_array/modify" type="logic">
+      <obj_property name="ElementShortName">modify</obj_property>
+      <obj_property name="ObjectShortName">modify</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tag_array/reserve_exclusive" type="logic">
+      <obj_property name="ElementShortName">reserve_exclusive</obj_property>
+      <obj_property name="ObjectShortName">reserve_exclusive</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tag_array/tag" type="array">
+      <obj_property name="ElementShortName">tag[4:0]</obj_property>
+      <obj_property name="ObjectShortName">tag[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tag_array/index" type="array">
+      <obj_property name="ElementShortName">index[2:0]</obj_property>
+      <obj_property name="ObjectShortName">index[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tag_array/LRU_set" type="array">
+      <obj_property name="ElementShortName">LRU_set[7:0]</obj_property>
+      <obj_property name="ObjectShortName">LRU_set[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tag_array/hit" type="array">
+      <obj_property name="ElementShortName">hit[7:0]</obj_property>
+      <obj_property name="ObjectShortName">hit[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tag_array/tag_info_of_LRU" type="array">
+      <obj_property name="ElementShortName">tag_info_of_LRU[6:0]</obj_property>
+      <obj_property name="ObjectShortName">tag_info_of_LRU[6:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+</wave_config>

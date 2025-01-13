@@ -1,0 +1,8 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+F:/cache_synthesizable/cache_synthesizable.sim/sim_1/impl/timing/xsim/tb_tag_mem_time_impl.v,1735185767,verilog,,F:/cache_synthesizable/cache_synthesizable.srcs/sim_1/new/tb_tag_mem.v,,RAM32X1S_HD21;RAM32X1S_HD22;RAM32X1S_HD23;RAM32X1S_HD24;RAM32X1S_UNIQ_BASE_;glbl;tag_mem,,,,,,,,
+,,,,,,tb_hit_check,,,,,,,,
+F:/cache_synthesizable/cache_synthesizable.srcs/sim_1/new/tb_tag_mem.v,1735006425,verilog,,F:/cache_synthesizable/cache_synthesizable.srcs/sim_1/new/tb_valid.v,,tb_tag_mem,,,,,,,,
+,,,,F:/cache_synthesizable/cache_synthesizable.srcs/sim_1/new/tb_hit_check.v,,tb_valid,,,,,,,,

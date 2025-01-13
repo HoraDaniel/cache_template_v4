@@ -1,0 +1,28 @@
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: F:/Vivado/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot tb_tag_mem_func_impl xil_defaultlib.tb_tag_mem xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-2861] module 'tag_mem' does not have a parameter named TAG_BITS [F:/cache_synthesizable/cache_synthesizable.srcs/sim_1/new/tb_tag_mem.v:43]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1(INIT=2'b01)
+Compiling module unisims_ver.FDRE_default
+Compiling module unisims_ver.OBUF
+Compiling module unisims_ver.MUXF7
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.RAM32X1S
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2(INIT=4'b1000)
+Compiling module xil_defaultlib.tag_mem
+Compiling module xil_defaultlib.tb_tag_mem
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_tag_mem_func_impl

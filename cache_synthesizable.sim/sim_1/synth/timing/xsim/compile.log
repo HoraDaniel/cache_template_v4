@@ -1,0 +1,15 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/cache_synthesizable/cache_synthesizable.sim/sim_1/synth/timing/xsim/tb_interface_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dual_port_bram
+INFO: [VRFC 10-311] analyzing module eviction_controller
+INFO: [VRFC 10-311] analyzing module interface_top_level
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/cache_synthesizable/cache_synthesizable.srcs/sim_1/new/tb_tag_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_tag_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/cache_synthesizable/cache_synthesizable.srcs/sim_1/new/tb_tag_array.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_tag_array
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/cache_synthesizable/cache_synthesizable.srcs/sim_1/new/tb_LRU_modules.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_LRU_modules
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/cache_synthesizable/cache_synthesizable.srcs/sim_1/new/tb_data_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_data_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/cache_synthesizable/cache_synthesizable.srcs/sim_1/new/tb_interface.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_interface

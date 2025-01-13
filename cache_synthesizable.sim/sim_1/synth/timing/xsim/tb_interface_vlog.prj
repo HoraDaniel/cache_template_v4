@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"tb_interface_time_synth.v" \
+"../../../../../cache_synthesizable.srcs/sim_1/new/tb_tag_mem.v" \
+"../../../../../cache_synthesizable.srcs/sim_1/new/tb_tag_array.v" \
+"../../../../../cache_synthesizable.srcs/sim_1/new/tb_LRU_modules.v" \
+"../../../../../cache_synthesizable.srcs/sim_1/new/tb_data_mem.v" \
+"../../../../../cache_synthesizable.srcs/sim_1/new/tb_interface.v" \
+
+# Do not sort compile order
+nosort

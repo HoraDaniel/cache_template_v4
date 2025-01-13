@@ -1,0 +1,32 @@
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: F:/Vivado/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot tb_tag_mem_time_impl -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.tb_tag_mem xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-2861] module 'tag_mem' does not have a parameter named TAG_BITS [F:/cache_synthesizable/cache_synthesizable.srcs/sim_1/new/tb_tag_mem.v:42]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+WARNING: [XSIM 43-3918] Unable to determine HDL language type of design hierarchy in SDF. Returning without back annotation.
+Time Resolution for simulation is 1ps
+Compiling module simprims_ver.LUT6
+Compiling module simprims_ver.FDRE_default
+Compiling module simprims_ver.BUFG
+Compiling module simprims_ver.IBUF
+Compiling module simprims_ver.OBUF
+Compiling module simprims_ver.LUT5(INIT=32'b010100000000000001...
+Compiling module simprims_ver.LUT4
+Compiling module simprims_ver.RAMS32
+Compiling module xil_defaultlib.RAM32X1S_UNIQ_BASE_
+Compiling module simprims_ver.x_lut2_mux4
+Compiling module simprims_ver.LUT2(INIT=4'b1000)
+Compiling module xil_defaultlib.RAM32X1S_HD21
+Compiling module xil_defaultlib.RAM32X1S_HD22
+Compiling module xil_defaultlib.RAM32X1S_HD23
+Compiling module xil_defaultlib.RAM32X1S_HD24
+Compiling module xil_defaultlib.tag_mem
+Compiling module xil_defaultlib.tb_tag_mem
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_tag_mem_time_impl

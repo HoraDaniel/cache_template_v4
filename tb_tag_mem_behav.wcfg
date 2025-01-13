@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_tag_mem_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_tag_mem" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="594.500 ns"></ZoomStartTime>
+      <ZoomEndTime time="673.301 ns"></ZoomEndTime>
+      <Cursor1Time time="593.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="120"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/tb_tag_mem/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tag_mem/nrst" type="logic">
+      <obj_property name="ElementShortName">nrst</obj_property>
+      <obj_property name="ObjectShortName">nrst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tag_mem/wr_en" type="logic">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tag_mem/am_LRU" type="logic">
+      <obj_property name="ElementShortName">am_LRU</obj_property>
+      <obj_property name="ObjectShortName">am_LRU</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tag_mem/tag" type="array">
+      <obj_property name="ElementShortName">tag[4:0]</obj_property>
+      <obj_property name="ObjectShortName">tag[4:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tag_mem/index" type="array">
+      <obj_property name="ElementShortName">index[2:0]</obj_property>
+      <obj_property name="ObjectShortName">index[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tag_mem/out_tag" type="array">
+      <obj_property name="ElementShortName">out_tag[6:0]</obj_property>
+      <obj_property name="ObjectShortName">out_tag[6:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tag_mem/invalidate" type="logic">
+      <obj_property name="ElementShortName">invalidate</obj_property>
+      <obj_property name="ObjectShortName">invalidate</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tag_mem/modify" type="logic">
+      <obj_property name="ElementShortName">modify</obj_property>
+      <obj_property name="ObjectShortName">modify</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tag_mem/reserve" type="logic">
+      <obj_property name="ElementShortName">reserve</obj_property>
+      <obj_property name="ObjectShortName">reserve</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tag_mem/hit" type="logic">
+      <obj_property name="ElementShortName">hit</obj_property>
+      <obj_property name="ObjectShortName">hit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tag_mem/UUT/MESI" type="array">
+      <obj_property name="ElementShortName">MESI[1:0]</obj_property>
+      <obj_property name="ObjectShortName">MESI[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tag_mem/UUT/MESI_state_bit_0" type="logic">
+      <obj_property name="ElementShortName">MESI_state_bit_0</obj_property>
+      <obj_property name="ObjectShortName">MESI_state_bit_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tag_mem/UUT/MESI_state_bit_1" type="logic">
+      <obj_property name="ElementShortName">MESI_state_bit_1</obj_property>
+      <obj_property name="ObjectShortName">MESI_state_bit_1</obj_property>
+   </wvobject>
+</wave_config>
