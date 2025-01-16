@@ -43,10 +43,10 @@ module data_mem_way
     
     assign o_block = (i_am_LRU) ? { output_column[3], output_column[2], output_column[1], output_column[0] } : 128'b0;
     // parse each data_from_mem
-    assign data_from_mem_n[0] = i_data_from_mem[31:0];
-    assign data_from_mem_n[1] = i_data_from_mem[63:32];
-    assign data_from_mem_n[2] = i_data_from_mem[95:64];
-    assign data_from_mem_n[3] = i_data_from_mem[127:96];
+    assign data_from_mem_n[3] = i_data_from_mem[31:0];
+    assign data_from_mem_n[2] = i_data_from_mem[63:32];
+    assign data_from_mem_n[1] = i_data_from_mem[95:64];
+    assign data_from_mem_n[0] = i_data_from_mem[127:96];
     
     
     genvar i;

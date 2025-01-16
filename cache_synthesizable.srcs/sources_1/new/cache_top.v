@@ -36,6 +36,7 @@ module cache_top
 	input                  i_wr,
 	input [ADDR_BITS-1:0]  i_data_addr,
 	input [31:0]           i_data,
+	input                  i_ready_mm,
 	
 	// Outputs
 	output [31:0]          o_data,	// data output to the RISC-V core
@@ -45,6 +46,7 @@ module cache_top
     output                 o_stall
 
     );
+    wire clk_inv = ~clk; // what
     
     // parameters
     // one word = 32-bits or 4 bytes
@@ -71,6 +73,7 @@ module cache_top
     wire done_mm;
     wire done_evict;
     wire sample_en;
+    wire sample_addr;
     wire evict_en;
     wire [3:0] weB;
     
@@ -106,7 +109,7 @@ module cache_top
         controller (
             .clk(clk),              .nrst(nrst),
             .i_addr(i_data_addr),   .i_hit(hit),
-            .i_readymm(1'b1),           .i_rd(i_rd),
+            .i_readymm(i_ready_mm),           .i_rd(i_rd),
             .i_wr(i_wr),                .i_way_accessed(hit_way),
             .i_LRU_set_tag_info(LRU_set_tag_info),
             .i_done_mm(done_mm),
@@ -118,7 +121,8 @@ module cache_top
             
             
             .o_refill_en(refill_en),
-            .o_sample_en(sample_en),
+            .o_sample_data(sample_en),
+            .o_sample_addr(sample_addr),
             .o_evict_en(evict_en),
             .o_addr_evicted(evicted_base_addr),
             
@@ -149,8 +153,9 @@ module cache_top
     refill_controller #(.ADDR_BITS(ADDR_BITS))
         refill_cont (
             .clk(clk),      .nrst(nrst),
-            .i_base_addr(i_data_addr),  .i_data_from_mem(data_from_memA),
-            .i_refill_en(refill_en),  .ready_mm(1'b1),
+            .i_base_addr(i_data_addr[ADDR_BITS-1:4]),  .i_data_from_mem(data_from_memA),
+            .i_sample_signal(sample_addr),
+            .i_refill_en(refill_en),  .ready_mm(i_ready_mm),
             
             .o_data_block(data_block_from_mem), .o_addr_to_mem(addr_to_memA),
             .o_done(done_mm)
@@ -162,7 +167,7 @@ module cache_top
         evict_cont (
             .clk(clk),                          .nrst(nrst),
             .i_sample_signal(sample_en),        .i_evict_en(evict_en),
-            .ready_mm(1'b1),                    .i_evicted_block(data_block_to_mem),
+            .ready_mm(i_ready_mm),                    .i_evicted_block(data_block_to_mem),
             .i_base_addr(evicted_base_addr),    .o_addr_to_bram(addr_to_memB),
             .o_data_to_bram(data_to_memB),       .o_done(done_evict),
             .o_write_signal(weB)
@@ -176,13 +181,16 @@ module cache_top
             // PORT A - refills
             .clkA(clk),
             .enaA(1'b1),
+            .weA(4'b0),
             .addrA(addr_to_memA),
-            .doutA(data_from_mem),
+            .doutA(data_from_memA)
             
+            /*
             .clkB(clk),
             .enaB(1'b1),
             .weB(weB),
             .addrB(addr_to_memB),
             .dinB(data_to_memB)
+            */
         );
 endmodule

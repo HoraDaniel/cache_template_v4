@@ -27,7 +27,7 @@ module tb_interface();
     reg clk, nrst;
     reg [ADDR_BITS-1:0]   base_addr;
        
-    reg                   evict_en;
+    reg                   refill_en;
     reg                   sample_signal;
     reg                   ready_mm;
     reg [127:0]           evicted_block;
@@ -43,15 +43,11 @@ module tb_interface();
     interface_top_level #(.ADDR_BITS(ADDR_BITS))
         UUT(
             .clk(clk),  .nrst(nrst),
-            .i_base_addr(base_addr),
-            .i_sample_signal(sample_signal),
-            .i_evicted_block(evicted_block),
-            .i_evict_en(evict_en),
-            .ready_mm(ready_mm),
-            .o_done(done),
+            .i_base_addr(base_addr), .i_sample_signal(sample_signal),
+            .i_refill_en(refill_en), .ready_mm(ready_mm),
+            .o_done(done), .o_data_block(data_block),
+            .o_testbench_data()
             
-            .i_testbench_addr(testbench_addr),
-            .o_testbench_data(testbench_data)
         );
     
     always #10 clk = ~clk;
@@ -59,7 +55,7 @@ module tb_interface();
     initial begin
         clk = 0;
         nrst = 0;
-        base_addr = 12'h020;
+        base_addr = 12'h004;
         ready_mm = 0;
         sample_signal =0;
         evicted_block = 0;
@@ -67,14 +63,12 @@ module tb_interface();
         #512
         nrst = 1;
         #20
-        ready_mm = 1;
-        evict_en = 1;
         sample_signal = 1;
-        evicted_block = 128'h01010101ABABABABCDCDCDCD23232323;
-        #100
-        testbench_addr = 12'h024 >> 2;
         #20
-        testbench_addr = 12'h02C >> 2;
+        sample_signal = 0;
+        refill_en = 1;
+        ready_mm = 1;
+
         
         
     end

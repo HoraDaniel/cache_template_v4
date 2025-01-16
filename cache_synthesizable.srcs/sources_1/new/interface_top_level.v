@@ -31,10 +31,10 @@ module interface_top_level
     input [ADDR_BITS-1:0]   i_testbench_addr,
     input [ADDR_BITS-1:0]   i_base_addr,
     input                   i_sample_signal,
-    input                   i_evict_en,
+    input                   i_refill_en,
     input                   ready_mm,
-    input [127:0]           i_evicted_block,
     output                  o_done,
+    output  [127:0]         o_data_block,
     output [31:0]           o_testbench_data
     
     );
@@ -42,34 +42,30 @@ module interface_top_level
     
     
     wire done;
-    wire o_done = done;
+    assign o_done = done;
     
     wire [ADDR_BITS-1:0] addr_to_mem;
     wire [31:0] data_from_mem;
-    wire [3:0] weA;
-    eviction_controller #(.ADDR_BITS(ADDR_BITS))
-        evict_cont (
-            .clk(clk),  .nrst(nrst),
-            .i_sample_signal(i_sample_signal), .i_evict_en(i_evict_en),
-            .ready_mm(ready_mm), .i_evicted_block(i_evicted_block),
-            .i_base_addr(i_base_addr),  .o_addr_to_bram(addr_to_mem),
-            .o_data_to_bram(data_from_mem), .o_write_signal(weA),
+
+    refill_controller #(.ADDR_BITS(ADDR_BITS))
+        refill_cont (
+            .clk(clk),     .nrst(nrst),
+            .i_base_addr(i_base_addr[ADDR_BITS-1:2]), .i_data_from_mem(data_from_mem),
+            .i_sample_signal(i_sample_signal), .i_refill_en(i_refill_en),
+            .ready_mm(ready_mm), .o_data_block(o_data_block),
+            .o_addr_to_mem(addr_to_mem),
             .o_done(done)
+            
         );
-    
-    
     
     dual_port_bram #(.ADDR_WIDTH(ADDR_BITS))
         BRAM(
             .clkA(clk),
             .enaA(1'b1),
             .addrA(addr_to_mem),
-            .weA(weA),
-            .dinA(data_from_mem),
+            .doutA(data_from_mem)
             
-            .clkB(clk),
-            .enaB(1'b1),
-            .addrB(i_testbench_addr),
-            .doutB(o_testbench_data)
+            
+
         );
 endmodule

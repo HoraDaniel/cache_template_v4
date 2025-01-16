@@ -24,9 +24,10 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "F:/cache_synthesizable/cache_synthe
 INFO: [VRFC 10-311] analyzing module dual_port_bram
 INFO: [VRFC 10-2263] Analyzing Verilog file "F:/cache_synthesizable/cache_synthesizable.srcs/sources_1/new/interface_top_level.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module interface_top_level
-WARNING: [VRFC 10-9336] redeclaration of ANSI port 'o_done' is not allowed [F:/cache_synthesizable/cache_synthesizable.srcs/sources_1/new/interface_top_level.v:45]
 INFO: [VRFC 10-2263] Analyzing Verilog file "F:/cache_synthesizable/cache_synthesizable.srcs/sources_1/new/eviction_controller.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module eviction_controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/cache_synthesizable/cache_synthesizable.srcs/sources_1/new/data_refill_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_refill_bram
 INFO: [VRFC 10-2263] Analyzing Verilog file "F:/cache_synthesizable/cache_synthesizable.srcs/sim_1/new/tb_tag_mem.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module tb_tag_mem
 INFO: [VRFC 10-2263] Analyzing Verilog file "F:/cache_synthesizable/cache_synthesizable.srcs/sim_1/new/tb_tag_array.v" into library xil_defaultlib
@@ -39,3 +40,5 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "F:/cache_synthesizable/cache_synthe
 INFO: [VRFC 10-311] analyzing module tb_interface
 INFO: [VRFC 10-2263] Analyzing Verilog file "F:/cache_synthesizable/cache_synthesizable.srcs/sim_1/new/tb_top.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module tb_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/cache_synthesizable/cache_synthesizable.srcs/sim_1/new/tb_data_refill_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_data_refill_bram

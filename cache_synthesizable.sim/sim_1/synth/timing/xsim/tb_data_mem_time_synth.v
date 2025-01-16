@@ -2,7 +2,7 @@
 // Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
-// Date        : Wed Jan  1 11:48:25 2025
+// Date        : Wed Jan 15 19:29:02 2025
 // Host        : DESKTOP-9IG3UKH running 64-bit major release  (build 9200)
 // Command     : write_verilog -mode timesim -nolib -sdf_anno true -force -file
 //               F:/cache_synthesizable/cache_synthesizable.sim/sim_1/synth/timing/xsim/tb_data_mem_time_synth.v
@@ -59,7 +59,7 @@ module RAM32X1S_UNIQ_BASE_
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD1000
+module RAM32X1S_HD1
    (O,
     A0,
     A1,
@@ -104,7 +104,7 @@ module RAM32X1S_HD1000
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD1001
+module RAM32X1S_HD10
    (O,
     A0,
     A1,
@@ -149,7 +149,7 @@ module RAM32X1S_HD1001
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD1002
+module RAM32X1S_HD100
    (O,
     A0,
     A1,
@@ -180,7 +180,7 @@ module RAM32X1S_HD1002
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -194,7 +194,7 @@ module RAM32X1S_HD1002
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD1003
+module RAM32X1S_HD101
    (O,
     A0,
     A1,
@@ -225,7 +225,7 @@ module RAM32X1S_HD1003
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -239,7 +239,7 @@ module RAM32X1S_HD1003
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD1004
+module RAM32X1S_HD102
    (O,
     A0,
     A1,
@@ -270,7 +270,7 @@ module RAM32X1S_HD1004
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -284,7 +284,7 @@ module RAM32X1S_HD1004
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD1005
+module RAM32X1S_HD103
    (O,
     A0,
     A1,
@@ -315,7 +315,7 @@ module RAM32X1S_HD1005
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -329,7 +329,7 @@ module RAM32X1S_HD1005
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD1006
+module RAM32X1S_HD104
    (O,
     A0,
     A1,
@@ -360,7 +360,7 @@ module RAM32X1S_HD1006
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -374,7 +374,7 @@ module RAM32X1S_HD1006
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD1007
+module RAM32X1S_HD105
    (O,
     A0,
     A1,
@@ -405,7 +405,7 @@ module RAM32X1S_HD1007
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -419,7 +419,7 @@ module RAM32X1S_HD1007
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD1008
+module RAM32X1S_HD106
    (O,
     A0,
     A1,
@@ -464,7 +464,7 @@ module RAM32X1S_HD1008
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD1009
+module RAM32X1S_HD107
    (O,
     A0,
     A1,
@@ -509,7 +509,7 @@ module RAM32X1S_HD1009
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD1010
+module RAM32X1S_HD108
    (O,
     A0,
     A1,
@@ -540,7 +540,7 @@ module RAM32X1S_HD1010
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -554,7 +554,7 @@ module RAM32X1S_HD1010
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD1011
+module RAM32X1S_HD109
    (O,
     A0,
     A1,
@@ -585,7 +585,7 @@ module RAM32X1S_HD1011
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -599,7 +599,7 @@ module RAM32X1S_HD1011
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD1012
+module RAM32X1S_HD11
    (O,
     A0,
     A1,
@@ -630,7 +630,7 @@ module RAM32X1S_HD1012
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -644,7 +644,7 @@ module RAM32X1S_HD1012
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD1013
+module RAM32X1S_HD110
    (O,
     A0,
     A1,
@@ -675,7 +675,7 @@ module RAM32X1S_HD1013
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -689,7 +689,7 @@ module RAM32X1S_HD1013
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD1014
+module RAM32X1S_HD111
    (O,
     A0,
     A1,
@@ -734,7 +734,7 @@ module RAM32X1S_HD1014
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD1015
+module RAM32X1S_HD112
    (O,
     A0,
     A1,
@@ -765,7 +765,7 @@ module RAM32X1S_HD1015
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -779,7 +779,7 @@ module RAM32X1S_HD1015
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD1016
+module RAM32X1S_HD113
    (O,
     A0,
     A1,
@@ -824,7 +824,7 @@ module RAM32X1S_HD1016
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD1017
+module RAM32X1S_HD114
    (O,
     A0,
     A1,
@@ -855,7 +855,7 @@ module RAM32X1S_HD1017
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -869,7 +869,7 @@ module RAM32X1S_HD1017
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD1018
+module RAM32X1S_HD115
    (O,
     A0,
     A1,
@@ -900,7 +900,7 @@ module RAM32X1S_HD1018
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -914,7 +914,7 @@ module RAM32X1S_HD1018
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD1019
+module RAM32X1S_HD116
    (O,
     A0,
     A1,
@@ -959,7 +959,7 @@ module RAM32X1S_HD1019
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD1020
+module RAM32X1S_HD117
    (O,
     A0,
     A1,
@@ -990,7 +990,7 @@ module RAM32X1S_HD1020
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -1004,7 +1004,7 @@ module RAM32X1S_HD1020
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD1021
+module RAM32X1S_HD118
    (O,
     A0,
     A1,
@@ -1035,7 +1035,7 @@ module RAM32X1S_HD1021
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -1049,7 +1049,7 @@ module RAM32X1S_HD1021
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD1022
+module RAM32X1S_HD119
    (O,
     A0,
     A1,
@@ -1094,7 +1094,7 @@ module RAM32X1S_HD1022
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD512
+module RAM32X1S_HD12
    (O,
     A0,
     A1,
@@ -1125,7 +1125,7 @@ module RAM32X1S_HD512
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -1139,7 +1139,7 @@ module RAM32X1S_HD512
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD513
+module RAM32X1S_HD120
    (O,
     A0,
     A1,
@@ -1184,7 +1184,7 @@ module RAM32X1S_HD513
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD514
+module RAM32X1S_HD121
    (O,
     A0,
     A1,
@@ -1229,7 +1229,7 @@ module RAM32X1S_HD514
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD515
+module RAM32X1S_HD122
    (O,
     A0,
     A1,
@@ -1260,7 +1260,7 @@ module RAM32X1S_HD515
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -1274,7 +1274,7 @@ module RAM32X1S_HD515
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD516
+module RAM32X1S_HD123
    (O,
     A0,
     A1,
@@ -1305,7 +1305,7 @@ module RAM32X1S_HD516
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -1319,7 +1319,7 @@ module RAM32X1S_HD516
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD517
+module RAM32X1S_HD124
    (O,
     A0,
     A1,
@@ -1364,7 +1364,7 @@ module RAM32X1S_HD517
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD518
+module RAM32X1S_HD125
    (O,
     A0,
     A1,
@@ -1409,7 +1409,7 @@ module RAM32X1S_HD518
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD519
+module RAM32X1S_HD126
    (O,
     A0,
     A1,
@@ -1440,7 +1440,7 @@ module RAM32X1S_HD519
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -1454,7 +1454,7 @@ module RAM32X1S_HD519
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD520
+module RAM32X1S_HD127
    (O,
     A0,
     A1,
@@ -1485,7 +1485,7 @@ module RAM32X1S_HD520
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -1499,7 +1499,7 @@ module RAM32X1S_HD520
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD521
+module RAM32X1S_HD128
    (O,
     A0,
     A1,
@@ -1530,7 +1530,7 @@ module RAM32X1S_HD521
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -1544,7 +1544,7 @@ module RAM32X1S_HD521
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD522
+module RAM32X1S_HD129
    (O,
     A0,
     A1,
@@ -1575,7 +1575,7 @@ module RAM32X1S_HD522
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -1589,7 +1589,7 @@ module RAM32X1S_HD522
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD523
+module RAM32X1S_HD13
    (O,
     A0,
     A1,
@@ -1620,7 +1620,7 @@ module RAM32X1S_HD523
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -1634,7 +1634,7 @@ module RAM32X1S_HD523
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD524
+module RAM32X1S_HD130
    (O,
     A0,
     A1,
@@ -1665,7 +1665,7 @@ module RAM32X1S_HD524
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -1679,7 +1679,7 @@ module RAM32X1S_HD524
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD525
+module RAM32X1S_HD131
    (O,
     A0,
     A1,
@@ -1710,7 +1710,7 @@ module RAM32X1S_HD525
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -1724,7 +1724,7 @@ module RAM32X1S_HD525
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD526
+module RAM32X1S_HD132
    (O,
     A0,
     A1,
@@ -1755,7 +1755,7 @@ module RAM32X1S_HD526
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -1769,7 +1769,7 @@ module RAM32X1S_HD526
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD527
+module RAM32X1S_HD133
    (O,
     A0,
     A1,
@@ -1814,7 +1814,7 @@ module RAM32X1S_HD527
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD528
+module RAM32X1S_HD134
    (O,
     A0,
     A1,
@@ -1845,7 +1845,7 @@ module RAM32X1S_HD528
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -1859,7 +1859,7 @@ module RAM32X1S_HD528
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD529
+module RAM32X1S_HD135
    (O,
     A0,
     A1,
@@ -1890,7 +1890,7 @@ module RAM32X1S_HD529
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -1904,7 +1904,7 @@ module RAM32X1S_HD529
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD530
+module RAM32X1S_HD136
    (O,
     A0,
     A1,
@@ -1935,7 +1935,7 @@ module RAM32X1S_HD530
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -1949,7 +1949,7 @@ module RAM32X1S_HD530
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD531
+module RAM32X1S_HD137
    (O,
     A0,
     A1,
@@ -1994,7 +1994,7 @@ module RAM32X1S_HD531
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD532
+module RAM32X1S_HD138
    (O,
     A0,
     A1,
@@ -2025,7 +2025,7 @@ module RAM32X1S_HD532
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -2039,7 +2039,7 @@ module RAM32X1S_HD532
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD533
+module RAM32X1S_HD139
    (O,
     A0,
     A1,
@@ -2084,7 +2084,7 @@ module RAM32X1S_HD533
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD534
+module RAM32X1S_HD14
    (O,
     A0,
     A1,
@@ -2115,7 +2115,7 @@ module RAM32X1S_HD534
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -2129,7 +2129,7 @@ module RAM32X1S_HD534
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD535
+module RAM32X1S_HD140
    (O,
     A0,
     A1,
@@ -2160,7 +2160,7 @@ module RAM32X1S_HD535
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -2174,7 +2174,7 @@ module RAM32X1S_HD535
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD536
+module RAM32X1S_HD141
    (O,
     A0,
     A1,
@@ -2219,7 +2219,7 @@ module RAM32X1S_HD536
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD537
+module RAM32X1S_HD142
    (O,
     A0,
     A1,
@@ -2250,7 +2250,7 @@ module RAM32X1S_HD537
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -2264,7 +2264,7 @@ module RAM32X1S_HD537
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD538
+module RAM32X1S_HD143
    (O,
     A0,
     A1,
@@ -2295,7 +2295,7 @@ module RAM32X1S_HD538
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -2309,7 +2309,7 @@ module RAM32X1S_HD538
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD539
+module RAM32X1S_HD144
    (O,
     A0,
     A1,
@@ -2340,7 +2340,7 @@ module RAM32X1S_HD539
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -2354,7 +2354,7 @@ module RAM32X1S_HD539
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD540
+module RAM32X1S_HD145
    (O,
     A0,
     A1,
@@ -2385,7 +2385,7 @@ module RAM32X1S_HD540
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -2399,7 +2399,7 @@ module RAM32X1S_HD540
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD541
+module RAM32X1S_HD146
    (O,
     A0,
     A1,
@@ -2430,7 +2430,7 @@ module RAM32X1S_HD541
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -2444,7 +2444,7 @@ module RAM32X1S_HD541
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD542
+module RAM32X1S_HD147
    (O,
     A0,
     A1,
@@ -2489,7 +2489,7 @@ module RAM32X1S_HD542
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD543
+module RAM32X1S_HD148
    (O,
     A0,
     A1,
@@ -2534,7 +2534,7 @@ module RAM32X1S_HD543
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD544
+module RAM32X1S_HD149
    (O,
     A0,
     A1,
@@ -2565,7 +2565,7 @@ module RAM32X1S_HD544
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -2579,7 +2579,7 @@ module RAM32X1S_HD544
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD545
+module RAM32X1S_HD15
    (O,
     A0,
     A1,
@@ -2610,7 +2610,7 @@ module RAM32X1S_HD545
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -2624,7 +2624,7 @@ module RAM32X1S_HD545
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD546
+module RAM32X1S_HD150
    (O,
     A0,
     A1,
@@ -2669,7 +2669,7 @@ module RAM32X1S_HD546
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD547
+module RAM32X1S_HD151
    (O,
     A0,
     A1,
@@ -2700,7 +2700,7 @@ module RAM32X1S_HD547
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -2714,7 +2714,7 @@ module RAM32X1S_HD547
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD548
+module RAM32X1S_HD152
    (O,
     A0,
     A1,
@@ -2745,7 +2745,7 @@ module RAM32X1S_HD548
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -2759,7 +2759,7 @@ module RAM32X1S_HD548
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD549
+module RAM32X1S_HD153
    (O,
     A0,
     A1,
@@ -2790,7 +2790,7 @@ module RAM32X1S_HD549
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -2804,7 +2804,7 @@ module RAM32X1S_HD549
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD550
+module RAM32X1S_HD154
    (O,
     A0,
     A1,
@@ -2835,7 +2835,7 @@ module RAM32X1S_HD550
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -2849,7 +2849,7 @@ module RAM32X1S_HD550
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD551
+module RAM32X1S_HD155
    (O,
     A0,
     A1,
@@ -2880,7 +2880,7 @@ module RAM32X1S_HD551
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -2894,7 +2894,7 @@ module RAM32X1S_HD551
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD552
+module RAM32X1S_HD156
    (O,
     A0,
     A1,
@@ -2939,7 +2939,7 @@ module RAM32X1S_HD552
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD553
+module RAM32X1S_HD157
    (O,
     A0,
     A1,
@@ -2970,7 +2970,7 @@ module RAM32X1S_HD553
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -2984,7 +2984,7 @@ module RAM32X1S_HD553
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD554
+module RAM32X1S_HD158
    (O,
     A0,
     A1,
@@ -3015,7 +3015,7 @@ module RAM32X1S_HD554
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -3029,7 +3029,7 @@ module RAM32X1S_HD554
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD555
+module RAM32X1S_HD159
    (O,
     A0,
     A1,
@@ -3060,7 +3060,7 @@ module RAM32X1S_HD555
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -3074,7 +3074,7 @@ module RAM32X1S_HD555
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD556
+module RAM32X1S_HD16
    (O,
     A0,
     A1,
@@ -3105,7 +3105,7 @@ module RAM32X1S_HD556
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -3119,7 +3119,7 @@ module RAM32X1S_HD556
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD557
+module RAM32X1S_HD160
    (O,
     A0,
     A1,
@@ -3150,7 +3150,7 @@ module RAM32X1S_HD557
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -3164,7 +3164,7 @@ module RAM32X1S_HD557
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD558
+module RAM32X1S_HD161
    (O,
     A0,
     A1,
@@ -3195,7 +3195,7 @@ module RAM32X1S_HD558
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -3209,7 +3209,7 @@ module RAM32X1S_HD558
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD559
+module RAM32X1S_HD162
    (O,
     A0,
     A1,
@@ -3240,7 +3240,7 @@ module RAM32X1S_HD559
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -3254,7 +3254,7 @@ module RAM32X1S_HD559
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD560
+module RAM32X1S_HD163
    (O,
     A0,
     A1,
@@ -3299,7 +3299,7 @@ module RAM32X1S_HD560
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD561
+module RAM32X1S_HD164
    (O,
     A0,
     A1,
@@ -3330,7 +3330,7 @@ module RAM32X1S_HD561
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -3344,7 +3344,7 @@ module RAM32X1S_HD561
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD562
+module RAM32X1S_HD165
    (O,
     A0,
     A1,
@@ -3375,7 +3375,7 @@ module RAM32X1S_HD562
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -3389,7 +3389,7 @@ module RAM32X1S_HD562
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD563
+module RAM32X1S_HD166
    (O,
     A0,
     A1,
@@ -3434,7 +3434,7 @@ module RAM32X1S_HD563
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD564
+module RAM32X1S_HD167
    (O,
     A0,
     A1,
@@ -3465,7 +3465,7 @@ module RAM32X1S_HD564
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -3479,7 +3479,7 @@ module RAM32X1S_HD564
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD565
+module RAM32X1S_HD168
    (O,
     A0,
     A1,
@@ -3510,7 +3510,7 @@ module RAM32X1S_HD565
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -3524,7 +3524,7 @@ module RAM32X1S_HD565
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD566
+module RAM32X1S_HD169
    (O,
     A0,
     A1,
@@ -3555,7 +3555,7 @@ module RAM32X1S_HD566
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -3569,7 +3569,7 @@ module RAM32X1S_HD566
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD567
+module RAM32X1S_HD17
    (O,
     A0,
     A1,
@@ -3600,7 +3600,7 @@ module RAM32X1S_HD567
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -3614,7 +3614,7 @@ module RAM32X1S_HD567
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD568
+module RAM32X1S_HD170
    (O,
     A0,
     A1,
@@ -3659,7 +3659,7 @@ module RAM32X1S_HD568
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD569
+module RAM32X1S_HD171
    (O,
     A0,
     A1,
@@ -3690,7 +3690,7 @@ module RAM32X1S_HD569
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -3704,7 +3704,7 @@ module RAM32X1S_HD569
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD570
+module RAM32X1S_HD172
    (O,
     A0,
     A1,
@@ -3735,7 +3735,7 @@ module RAM32X1S_HD570
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -3749,7 +3749,7 @@ module RAM32X1S_HD570
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD571
+module RAM32X1S_HD173
    (O,
     A0,
     A1,
@@ -3780,7 +3780,7 @@ module RAM32X1S_HD571
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -3794,7 +3794,7 @@ module RAM32X1S_HD571
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD572
+module RAM32X1S_HD174
    (O,
     A0,
     A1,
@@ -3825,7 +3825,7 @@ module RAM32X1S_HD572
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -3839,7 +3839,7 @@ module RAM32X1S_HD572
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD573
+module RAM32X1S_HD175
    (O,
     A0,
     A1,
@@ -3870,7 +3870,7 @@ module RAM32X1S_HD573
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -3884,7 +3884,7 @@ module RAM32X1S_HD573
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD574
+module RAM32X1S_HD176
    (O,
     A0,
     A1,
@@ -3915,7 +3915,7 @@ module RAM32X1S_HD574
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -3929,7 +3929,7 @@ module RAM32X1S_HD574
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD575
+module RAM32X1S_HD177
    (O,
     A0,
     A1,
@@ -3960,7 +3960,7 @@ module RAM32X1S_HD575
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -3974,7 +3974,7 @@ module RAM32X1S_HD575
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD576
+module RAM32X1S_HD178
    (O,
     A0,
     A1,
@@ -4005,7 +4005,7 @@ module RAM32X1S_HD576
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -4019,7 +4019,7 @@ module RAM32X1S_HD576
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD577
+module RAM32X1S_HD179
    (O,
     A0,
     A1,
@@ -4050,7 +4050,7 @@ module RAM32X1S_HD577
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -4064,7 +4064,7 @@ module RAM32X1S_HD577
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD578
+module RAM32X1S_HD18
    (O,
     A0,
     A1,
@@ -4109,7 +4109,7 @@ module RAM32X1S_HD578
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD579
+module RAM32X1S_HD180
    (O,
     A0,
     A1,
@@ -4154,7 +4154,7 @@ module RAM32X1S_HD579
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD580
+module RAM32X1S_HD181
    (O,
     A0,
     A1,
@@ -4185,7 +4185,7 @@ module RAM32X1S_HD580
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -4199,7 +4199,7 @@ module RAM32X1S_HD580
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD581
+module RAM32X1S_HD182
    (O,
     A0,
     A1,
@@ -4230,7 +4230,7 @@ module RAM32X1S_HD581
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -4244,7 +4244,7 @@ module RAM32X1S_HD581
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD582
+module RAM32X1S_HD183
    (O,
     A0,
     A1,
@@ -4275,7 +4275,7 @@ module RAM32X1S_HD582
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -4289,7 +4289,7 @@ module RAM32X1S_HD582
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD583
+module RAM32X1S_HD184
    (O,
     A0,
     A1,
@@ -4320,7 +4320,7 @@ module RAM32X1S_HD583
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -4334,7 +4334,7 @@ module RAM32X1S_HD583
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD584
+module RAM32X1S_HD185
    (O,
     A0,
     A1,
@@ -4365,7 +4365,7 @@ module RAM32X1S_HD584
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -4379,7 +4379,7 @@ module RAM32X1S_HD584
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD585
+module RAM32X1S_HD186
    (O,
     A0,
     A1,
@@ -4410,7 +4410,7 @@ module RAM32X1S_HD585
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -4424,7 +4424,7 @@ module RAM32X1S_HD585
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD586
+module RAM32X1S_HD187
    (O,
     A0,
     A1,
@@ -4455,7 +4455,7 @@ module RAM32X1S_HD586
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -4469,7 +4469,7 @@ module RAM32X1S_HD586
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD587
+module RAM32X1S_HD188
    (O,
     A0,
     A1,
@@ -4500,7 +4500,7 @@ module RAM32X1S_HD587
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -4514,7 +4514,7 @@ module RAM32X1S_HD587
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD588
+module RAM32X1S_HD189
    (O,
     A0,
     A1,
@@ -4545,7 +4545,7 @@ module RAM32X1S_HD588
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -4559,7 +4559,7 @@ module RAM32X1S_HD588
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD589
+module RAM32X1S_HD19
    (O,
     A0,
     A1,
@@ -4590,7 +4590,7 @@ module RAM32X1S_HD589
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -4604,7 +4604,7 @@ module RAM32X1S_HD589
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD590
+module RAM32X1S_HD190
    (O,
     A0,
     A1,
@@ -4635,7 +4635,7 @@ module RAM32X1S_HD590
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -4649,7 +4649,7 @@ module RAM32X1S_HD590
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD591
+module RAM32X1S_HD191
    (O,
     A0,
     A1,
@@ -4680,7 +4680,7 @@ module RAM32X1S_HD591
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -4694,7 +4694,7 @@ module RAM32X1S_HD591
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD592
+module RAM32X1S_HD192
    (O,
     A0,
     A1,
@@ -4725,7 +4725,7 @@ module RAM32X1S_HD592
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -4739,7 +4739,7 @@ module RAM32X1S_HD592
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD593
+module RAM32X1S_HD193
    (O,
     A0,
     A1,
@@ -4770,7 +4770,7 @@ module RAM32X1S_HD593
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -4784,7 +4784,7 @@ module RAM32X1S_HD593
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD594
+module RAM32X1S_HD194
    (O,
     A0,
     A1,
@@ -4815,7 +4815,7 @@ module RAM32X1S_HD594
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -4829,7 +4829,7 @@ module RAM32X1S_HD594
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD595
+module RAM32X1S_HD195
    (O,
     A0,
     A1,
@@ -4860,7 +4860,7 @@ module RAM32X1S_HD595
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -4874,7 +4874,7 @@ module RAM32X1S_HD595
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD596
+module RAM32X1S_HD196
    (O,
     A0,
     A1,
@@ -4905,7 +4905,7 @@ module RAM32X1S_HD596
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -4919,7 +4919,7 @@ module RAM32X1S_HD596
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD597
+module RAM32X1S_HD197
    (O,
     A0,
     A1,
@@ -4950,7 +4950,7 @@ module RAM32X1S_HD597
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -4964,7 +4964,7 @@ module RAM32X1S_HD597
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD598
+module RAM32X1S_HD198
    (O,
     A0,
     A1,
@@ -4995,7 +4995,7 @@ module RAM32X1S_HD598
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -5009,7 +5009,7 @@ module RAM32X1S_HD598
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD599
+module RAM32X1S_HD199
    (O,
     A0,
     A1,
@@ -5054,7 +5054,7 @@ module RAM32X1S_HD599
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD600
+module RAM32X1S_HD2
    (O,
     A0,
     A1,
@@ -5085,7 +5085,7 @@ module RAM32X1S_HD600
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -5099,7 +5099,7 @@ module RAM32X1S_HD600
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD601
+module RAM32X1S_HD20
    (O,
     A0,
     A1,
@@ -5130,7 +5130,7 @@ module RAM32X1S_HD601
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -5144,7 +5144,7 @@ module RAM32X1S_HD601
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD602
+module RAM32X1S_HD200
    (O,
     A0,
     A1,
@@ -5175,7 +5175,7 @@ module RAM32X1S_HD602
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -5189,7 +5189,7 @@ module RAM32X1S_HD602
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD603
+module RAM32X1S_HD201
    (O,
     A0,
     A1,
@@ -5234,7 +5234,7 @@ module RAM32X1S_HD603
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD604
+module RAM32X1S_HD202
    (O,
     A0,
     A1,
@@ -5265,7 +5265,7 @@ module RAM32X1S_HD604
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -5279,7 +5279,7 @@ module RAM32X1S_HD604
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD605
+module RAM32X1S_HD203
    (O,
     A0,
     A1,
@@ -5310,7 +5310,7 @@ module RAM32X1S_HD605
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -5324,7 +5324,7 @@ module RAM32X1S_HD605
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD606
+module RAM32X1S_HD204
    (O,
     A0,
     A1,
@@ -5355,7 +5355,7 @@ module RAM32X1S_HD606
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -5369,7 +5369,7 @@ module RAM32X1S_HD606
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD607
+module RAM32X1S_HD205
    (O,
     A0,
     A1,
@@ -5400,7 +5400,7 @@ module RAM32X1S_HD607
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -5414,7 +5414,7 @@ module RAM32X1S_HD607
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD608
+module RAM32X1S_HD206
    (O,
     A0,
     A1,
@@ -5445,7 +5445,7 @@ module RAM32X1S_HD608
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -5459,7 +5459,7 @@ module RAM32X1S_HD608
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD609
+module RAM32X1S_HD207
    (O,
     A0,
     A1,
@@ -5490,7 +5490,7 @@ module RAM32X1S_HD609
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -5504,7 +5504,7 @@ module RAM32X1S_HD609
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD610
+module RAM32X1S_HD208
    (O,
     A0,
     A1,
@@ -5535,7 +5535,7 @@ module RAM32X1S_HD610
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -5549,7 +5549,7 @@ module RAM32X1S_HD610
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD611
+module RAM32X1S_HD209
    (O,
     A0,
     A1,
@@ -5580,7 +5580,7 @@ module RAM32X1S_HD611
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -5594,7 +5594,7 @@ module RAM32X1S_HD611
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD612
+module RAM32X1S_HD21
    (O,
     A0,
     A1,
@@ -5625,7 +5625,7 @@ module RAM32X1S_HD612
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -5639,7 +5639,7 @@ module RAM32X1S_HD612
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD613
+module RAM32X1S_HD210
    (O,
     A0,
     A1,
@@ -5670,7 +5670,7 @@ module RAM32X1S_HD613
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -5684,7 +5684,7 @@ module RAM32X1S_HD613
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD614
+module RAM32X1S_HD211
    (O,
     A0,
     A1,
@@ -5715,7 +5715,7 @@ module RAM32X1S_HD614
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -5729,7 +5729,7 @@ module RAM32X1S_HD614
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD615
+module RAM32X1S_HD212
    (O,
     A0,
     A1,
@@ -5760,7 +5760,7 @@ module RAM32X1S_HD615
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -5774,7 +5774,7 @@ module RAM32X1S_HD615
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD616
+module RAM32X1S_HD213
    (O,
     A0,
     A1,
@@ -5805,7 +5805,7 @@ module RAM32X1S_HD616
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -5819,7 +5819,7 @@ module RAM32X1S_HD616
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD617
+module RAM32X1S_HD214
    (O,
     A0,
     A1,
@@ -5864,7 +5864,7 @@ module RAM32X1S_HD617
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD618
+module RAM32X1S_HD215
    (O,
     A0,
     A1,
@@ -5909,7 +5909,7 @@ module RAM32X1S_HD618
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD619
+module RAM32X1S_HD216
    (O,
     A0,
     A1,
@@ -5940,7 +5940,7 @@ module RAM32X1S_HD619
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -5954,7 +5954,7 @@ module RAM32X1S_HD619
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD620
+module RAM32X1S_HD217
    (O,
     A0,
     A1,
@@ -5999,7 +5999,7 @@ module RAM32X1S_HD620
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD621
+module RAM32X1S_HD218
    (O,
     A0,
     A1,
@@ -6030,7 +6030,7 @@ module RAM32X1S_HD621
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -6044,7 +6044,7 @@ module RAM32X1S_HD621
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD622
+module RAM32X1S_HD219
    (O,
     A0,
     A1,
@@ -6075,7 +6075,7 @@ module RAM32X1S_HD622
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -6089,7 +6089,7 @@ module RAM32X1S_HD622
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD623
+module RAM32X1S_HD22
    (O,
     A0,
     A1,
@@ -6120,7 +6120,7 @@ module RAM32X1S_HD623
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -6134,7 +6134,7 @@ module RAM32X1S_HD623
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD624
+module RAM32X1S_HD220
    (O,
     A0,
     A1,
@@ -6165,7 +6165,7 @@ module RAM32X1S_HD624
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -6179,7 +6179,7 @@ module RAM32X1S_HD624
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD625
+module RAM32X1S_HD221
    (O,
     A0,
     A1,
@@ -6210,7 +6210,7 @@ module RAM32X1S_HD625
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -6224,7 +6224,7 @@ module RAM32X1S_HD625
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD626
+module RAM32X1S_HD222
    (O,
     A0,
     A1,
@@ -6255,7 +6255,7 @@ module RAM32X1S_HD626
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -6269,7 +6269,7 @@ module RAM32X1S_HD626
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD627
+module RAM32X1S_HD223
    (O,
     A0,
     A1,
@@ -6300,7 +6300,7 @@ module RAM32X1S_HD627
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -6314,7 +6314,7 @@ module RAM32X1S_HD627
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD628
+module RAM32X1S_HD224
    (O,
     A0,
     A1,
@@ -6345,7 +6345,7 @@ module RAM32X1S_HD628
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -6359,7 +6359,7 @@ module RAM32X1S_HD628
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD629
+module RAM32X1S_HD225
    (O,
     A0,
     A1,
@@ -6390,7 +6390,7 @@ module RAM32X1S_HD629
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -6404,7 +6404,7 @@ module RAM32X1S_HD629
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD630
+module RAM32X1S_HD226
    (O,
     A0,
     A1,
@@ -6435,7 +6435,7 @@ module RAM32X1S_HD630
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -6449,7 +6449,7 @@ module RAM32X1S_HD630
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD631
+module RAM32X1S_HD227
    (O,
     A0,
     A1,
@@ -6480,7 +6480,7 @@ module RAM32X1S_HD631
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -6494,7 +6494,7 @@ module RAM32X1S_HD631
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD632
+module RAM32X1S_HD228
    (O,
     A0,
     A1,
@@ -6525,7 +6525,7 @@ module RAM32X1S_HD632
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -6539,7 +6539,7 @@ module RAM32X1S_HD632
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD633
+module RAM32X1S_HD229
    (O,
     A0,
     A1,
@@ -6584,7 +6584,7 @@ module RAM32X1S_HD633
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD634
+module RAM32X1S_HD23
    (O,
     A0,
     A1,
@@ -6615,7 +6615,7 @@ module RAM32X1S_HD634
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -6629,7 +6629,7 @@ module RAM32X1S_HD634
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD635
+module RAM32X1S_HD230
    (O,
     A0,
     A1,
@@ -6674,7 +6674,7 @@ module RAM32X1S_HD635
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD636
+module RAM32X1S_HD231
    (O,
     A0,
     A1,
@@ -6719,7 +6719,7 @@ module RAM32X1S_HD636
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD637
+module RAM32X1S_HD232
    (O,
     A0,
     A1,
@@ -6750,7 +6750,7 @@ module RAM32X1S_HD637
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -6764,7 +6764,7 @@ module RAM32X1S_HD637
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD638
+module RAM32X1S_HD233
    (O,
     A0,
     A1,
@@ -6795,7 +6795,7 @@ module RAM32X1S_HD638
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -6809,7 +6809,7 @@ module RAM32X1S_HD638
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD639
+module RAM32X1S_HD234
    (O,
     A0,
     A1,
@@ -6840,7 +6840,7 @@ module RAM32X1S_HD639
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -6854,7 +6854,7 @@ module RAM32X1S_HD639
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD640
+module RAM32X1S_HD235
    (O,
     A0,
     A1,
@@ -6885,7 +6885,7 @@ module RAM32X1S_HD640
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -6899,7 +6899,7 @@ module RAM32X1S_HD640
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD641
+module RAM32X1S_HD236
    (O,
     A0,
     A1,
@@ -6930,7 +6930,7 @@ module RAM32X1S_HD641
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -6944,7 +6944,7 @@ module RAM32X1S_HD641
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD642
+module RAM32X1S_HD237
    (O,
     A0,
     A1,
@@ -6989,7 +6989,7 @@ module RAM32X1S_HD642
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD643
+module RAM32X1S_HD238
    (O,
     A0,
     A1,
@@ -7020,7 +7020,7 @@ module RAM32X1S_HD643
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -7034,7 +7034,7 @@ module RAM32X1S_HD643
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD644
+module RAM32X1S_HD239
    (O,
     A0,
     A1,
@@ -7065,7 +7065,7 @@ module RAM32X1S_HD644
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -7079,7 +7079,7 @@ module RAM32X1S_HD644
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD645
+module RAM32X1S_HD24
    (O,
     A0,
     A1,
@@ -7124,7 +7124,7 @@ module RAM32X1S_HD645
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD646
+module RAM32X1S_HD240
    (O,
     A0,
     A1,
@@ -7155,7 +7155,7 @@ module RAM32X1S_HD646
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -7169,7 +7169,7 @@ module RAM32X1S_HD646
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD647
+module RAM32X1S_HD241
    (O,
     A0,
     A1,
@@ -7200,7 +7200,7 @@ module RAM32X1S_HD647
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -7214,7 +7214,7 @@ module RAM32X1S_HD647
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD648
+module RAM32X1S_HD242
    (O,
     A0,
     A1,
@@ -7245,7 +7245,7 @@ module RAM32X1S_HD648
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -7259,7 +7259,7 @@ module RAM32X1S_HD648
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD649
+module RAM32X1S_HD243
    (O,
     A0,
     A1,
@@ -7304,7 +7304,7 @@ module RAM32X1S_HD649
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD650
+module RAM32X1S_HD244
    (O,
     A0,
     A1,
@@ -7335,7 +7335,7 @@ module RAM32X1S_HD650
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -7349,7 +7349,7 @@ module RAM32X1S_HD650
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD651
+module RAM32X1S_HD245
    (O,
     A0,
     A1,
@@ -7394,7 +7394,7 @@ module RAM32X1S_HD651
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD652
+module RAM32X1S_HD246
    (O,
     A0,
     A1,
@@ -7439,7 +7439,7 @@ module RAM32X1S_HD652
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD653
+module RAM32X1S_HD247
    (O,
     A0,
     A1,
@@ -7470,7 +7470,7 @@ module RAM32X1S_HD653
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -7484,7 +7484,7 @@ module RAM32X1S_HD653
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD654
+module RAM32X1S_HD248
    (O,
     A0,
     A1,
@@ -7515,7 +7515,7 @@ module RAM32X1S_HD654
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -7529,7 +7529,7 @@ module RAM32X1S_HD654
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD655
+module RAM32X1S_HD249
    (O,
     A0,
     A1,
@@ -7560,7 +7560,7 @@ module RAM32X1S_HD655
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -7574,7 +7574,7 @@ module RAM32X1S_HD655
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD656
+module RAM32X1S_HD25
    (O,
     A0,
     A1,
@@ -7619,7 +7619,7 @@ module RAM32X1S_HD656
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD657
+module RAM32X1S_HD250
    (O,
     A0,
     A1,
@@ -7650,7 +7650,7 @@ module RAM32X1S_HD657
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -7664,7 +7664,7 @@ module RAM32X1S_HD657
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD658
+module RAM32X1S_HD251
    (O,
     A0,
     A1,
@@ -7695,7 +7695,7 @@ module RAM32X1S_HD658
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -7709,7 +7709,7 @@ module RAM32X1S_HD658
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD659
+module RAM32X1S_HD252
    (O,
     A0,
     A1,
@@ -7754,7 +7754,7 @@ module RAM32X1S_HD659
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD660
+module RAM32X1S_HD253
    (O,
     A0,
     A1,
@@ -7785,7 +7785,7 @@ module RAM32X1S_HD660
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -7799,7 +7799,7 @@ module RAM32X1S_HD660
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD661
+module RAM32X1S_HD254
    (O,
     A0,
     A1,
@@ -7830,7 +7830,7 @@ module RAM32X1S_HD661
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -7844,7 +7844,7 @@ module RAM32X1S_HD661
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD662
+module RAM32X1S_HD255
    (O,
     A0,
     A1,
@@ -7889,7 +7889,7 @@ module RAM32X1S_HD662
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD663
+module RAM32X1S_HD256
    (O,
     A0,
     A1,
@@ -7934,7 +7934,7 @@ module RAM32X1S_HD663
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD664
+module RAM32X1S_HD257
    (O,
     A0,
     A1,
@@ -7965,7 +7965,7 @@ module RAM32X1S_HD664
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -7979,7 +7979,7 @@ module RAM32X1S_HD664
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD665
+module RAM32X1S_HD258
    (O,
     A0,
     A1,
@@ -8010,7 +8010,7 @@ module RAM32X1S_HD665
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -8024,7 +8024,7 @@ module RAM32X1S_HD665
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD666
+module RAM32X1S_HD259
    (O,
     A0,
     A1,
@@ -8055,7 +8055,7 @@ module RAM32X1S_HD666
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -8069,7 +8069,7 @@ module RAM32X1S_HD666
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD667
+module RAM32X1S_HD26
    (O,
     A0,
     A1,
@@ -8100,7 +8100,7 @@ module RAM32X1S_HD667
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -8114,7 +8114,7 @@ module RAM32X1S_HD667
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD668
+module RAM32X1S_HD260
    (O,
     A0,
     A1,
@@ -8159,7 +8159,7 @@ module RAM32X1S_HD668
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD669
+module RAM32X1S_HD261
    (O,
     A0,
     A1,
@@ -8190,7 +8190,7 @@ module RAM32X1S_HD669
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -8204,7 +8204,7 @@ module RAM32X1S_HD669
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD670
+module RAM32X1S_HD262
    (O,
     A0,
     A1,
@@ -8235,7 +8235,7 @@ module RAM32X1S_HD670
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -8249,7 +8249,7 @@ module RAM32X1S_HD670
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD671
+module RAM32X1S_HD263
    (O,
     A0,
     A1,
@@ -8294,7 +8294,7 @@ module RAM32X1S_HD671
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD672
+module RAM32X1S_HD264
    (O,
     A0,
     A1,
@@ -8325,7 +8325,7 @@ module RAM32X1S_HD672
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -8339,7 +8339,7 @@ module RAM32X1S_HD672
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD673
+module RAM32X1S_HD265
    (O,
     A0,
     A1,
@@ -8384,7 +8384,7 @@ module RAM32X1S_HD673
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD674
+module RAM32X1S_HD266
    (O,
     A0,
     A1,
@@ -8429,7 +8429,7 @@ module RAM32X1S_HD674
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD675
+module RAM32X1S_HD267
    (O,
     A0,
     A1,
@@ -8460,7 +8460,7 @@ module RAM32X1S_HD675
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -8474,7 +8474,7 @@ module RAM32X1S_HD675
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD676
+module RAM32X1S_HD268
    (O,
     A0,
     A1,
@@ -8505,7 +8505,7 @@ module RAM32X1S_HD676
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -8519,7 +8519,7 @@ module RAM32X1S_HD676
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD677
+module RAM32X1S_HD269
    (O,
     A0,
     A1,
@@ -8550,7 +8550,7 @@ module RAM32X1S_HD677
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -8564,7 +8564,7 @@ module RAM32X1S_HD677
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD678
+module RAM32X1S_HD27
    (O,
     A0,
     A1,
@@ -8609,7 +8609,7 @@ module RAM32X1S_HD678
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD679
+module RAM32X1S_HD270
    (O,
     A0,
     A1,
@@ -8640,7 +8640,7 @@ module RAM32X1S_HD679
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -8654,7 +8654,7 @@ module RAM32X1S_HD679
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD680
+module RAM32X1S_HD271
    (O,
     A0,
     A1,
@@ -8685,7 +8685,7 @@ module RAM32X1S_HD680
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -8699,7 +8699,7 @@ module RAM32X1S_HD680
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD681
+module RAM32X1S_HD272
    (O,
     A0,
     A1,
@@ -8730,7 +8730,7 @@ module RAM32X1S_HD681
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -8744,7 +8744,7 @@ module RAM32X1S_HD681
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD682
+module RAM32X1S_HD273
    (O,
     A0,
     A1,
@@ -8789,7 +8789,7 @@ module RAM32X1S_HD682
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD683
+module RAM32X1S_HD274
    (O,
     A0,
     A1,
@@ -8820,7 +8820,7 @@ module RAM32X1S_HD683
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -8834,7 +8834,7 @@ module RAM32X1S_HD683
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD684
+module RAM32X1S_HD275
    (O,
     A0,
     A1,
@@ -8879,7 +8879,7 @@ module RAM32X1S_HD684
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD685
+module RAM32X1S_HD276
    (O,
     A0,
     A1,
@@ -8910,7 +8910,7 @@ module RAM32X1S_HD685
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -8924,7 +8924,7 @@ module RAM32X1S_HD685
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD686
+module RAM32X1S_HD277
    (O,
     A0,
     A1,
@@ -8955,7 +8955,7 @@ module RAM32X1S_HD686
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -8969,7 +8969,7 @@ module RAM32X1S_HD686
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD687
+module RAM32X1S_HD278
    (O,
     A0,
     A1,
@@ -9000,7 +9000,7 @@ module RAM32X1S_HD687
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -9014,7 +9014,7 @@ module RAM32X1S_HD687
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD688
+module RAM32X1S_HD279
    (O,
     A0,
     A1,
@@ -9059,7 +9059,7 @@ module RAM32X1S_HD688
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD689
+module RAM32X1S_HD28
    (O,
     A0,
     A1,
@@ -9090,7 +9090,7 @@ module RAM32X1S_HD689
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -9104,7 +9104,7 @@ module RAM32X1S_HD689
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD690
+module RAM32X1S_HD280
    (O,
     A0,
     A1,
@@ -9135,7 +9135,7 @@ module RAM32X1S_HD690
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -9149,7 +9149,7 @@ module RAM32X1S_HD690
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD691
+module RAM32X1S_HD281
    (O,
     A0,
     A1,
@@ -9180,7 +9180,7 @@ module RAM32X1S_HD691
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -9194,7 +9194,7 @@ module RAM32X1S_HD691
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD692
+module RAM32X1S_HD282
    (O,
     A0,
     A1,
@@ -9225,7 +9225,7 @@ module RAM32X1S_HD692
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -9239,7 +9239,7 @@ module RAM32X1S_HD692
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD693
+module RAM32X1S_HD283
    (O,
     A0,
     A1,
@@ -9270,7 +9270,7 @@ module RAM32X1S_HD693
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -9284,7 +9284,7 @@ module RAM32X1S_HD693
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD694
+module RAM32X1S_HD284
    (O,
     A0,
     A1,
@@ -9315,7 +9315,7 @@ module RAM32X1S_HD694
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -9329,7 +9329,7 @@ module RAM32X1S_HD694
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD695
+module RAM32X1S_HD285
    (O,
     A0,
     A1,
@@ -9374,7 +9374,7 @@ module RAM32X1S_HD695
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD696
+module RAM32X1S_HD286
    (O,
     A0,
     A1,
@@ -9405,7 +9405,7 @@ module RAM32X1S_HD696
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -9419,7 +9419,7 @@ module RAM32X1S_HD696
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD697
+module RAM32X1S_HD287
    (O,
     A0,
     A1,
@@ -9450,7 +9450,7 @@ module RAM32X1S_HD697
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -9464,7 +9464,7 @@ module RAM32X1S_HD697
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD698
+module RAM32X1S_HD288
    (O,
     A0,
     A1,
@@ -9509,7 +9509,7 @@ module RAM32X1S_HD698
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD699
+module RAM32X1S_HD289
    (O,
     A0,
     A1,
@@ -9554,7 +9554,7 @@ module RAM32X1S_HD699
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD700
+module RAM32X1S_HD29
    (O,
     A0,
     A1,
@@ -9599,7 +9599,7 @@ module RAM32X1S_HD700
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD701
+module RAM32X1S_HD290
    (O,
     A0,
     A1,
@@ -9630,7 +9630,7 @@ module RAM32X1S_HD701
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -9644,7 +9644,7 @@ module RAM32X1S_HD701
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD702
+module RAM32X1S_HD291
    (O,
     A0,
     A1,
@@ -9689,7 +9689,7 @@ module RAM32X1S_HD702
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD703
+module RAM32X1S_HD292
    (O,
     A0,
     A1,
@@ -9734,7 +9734,7 @@ module RAM32X1S_HD703
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD704
+module RAM32X1S_HD293
    (O,
     A0,
     A1,
@@ -9765,7 +9765,7 @@ module RAM32X1S_HD704
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -9779,7 +9779,7 @@ module RAM32X1S_HD704
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD705
+module RAM32X1S_HD294
    (O,
     A0,
     A1,
@@ -9824,7 +9824,7 @@ module RAM32X1S_HD705
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD706
+module RAM32X1S_HD295
    (O,
     A0,
     A1,
@@ -9855,7 +9855,7 @@ module RAM32X1S_HD706
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -9869,7 +9869,7 @@ module RAM32X1S_HD706
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD707
+module RAM32X1S_HD296
    (O,
     A0,
     A1,
@@ -9900,7 +9900,7 @@ module RAM32X1S_HD707
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -9914,7 +9914,7 @@ module RAM32X1S_HD707
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD708
+module RAM32X1S_HD297
    (O,
     A0,
     A1,
@@ -9945,7 +9945,7 @@ module RAM32X1S_HD708
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -9959,7 +9959,7 @@ module RAM32X1S_HD708
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD709
+module RAM32X1S_HD298
    (O,
     A0,
     A1,
@@ -9990,7 +9990,7 @@ module RAM32X1S_HD709
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -10004,7 +10004,7 @@ module RAM32X1S_HD709
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD710
+module RAM32X1S_HD299
    (O,
     A0,
     A1,
@@ -10035,7 +10035,7 @@ module RAM32X1S_HD710
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -10049,7 +10049,7 @@ module RAM32X1S_HD710
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD711
+module RAM32X1S_HD3
    (O,
     A0,
     A1,
@@ -10080,7 +10080,7 @@ module RAM32X1S_HD711
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -10094,7 +10094,7 @@ module RAM32X1S_HD711
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD712
+module RAM32X1S_HD30
    (O,
     A0,
     A1,
@@ -10125,7 +10125,7 @@ module RAM32X1S_HD712
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -10139,7 +10139,7 @@ module RAM32X1S_HD712
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD713
+module RAM32X1S_HD300
    (O,
     A0,
     A1,
@@ -10170,7 +10170,7 @@ module RAM32X1S_HD713
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -10184,7 +10184,7 @@ module RAM32X1S_HD713
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD714
+module RAM32X1S_HD301
    (O,
     A0,
     A1,
@@ -10229,7 +10229,7 @@ module RAM32X1S_HD714
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD715
+module RAM32X1S_HD302
    (O,
     A0,
     A1,
@@ -10274,7 +10274,7 @@ module RAM32X1S_HD715
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD716
+module RAM32X1S_HD303
    (O,
     A0,
     A1,
@@ -10319,7 +10319,7 @@ module RAM32X1S_HD716
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD717
+module RAM32X1S_HD304
    (O,
     A0,
     A1,
@@ -10350,7 +10350,7 @@ module RAM32X1S_HD717
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -10364,7 +10364,7 @@ module RAM32X1S_HD717
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD718
+module RAM32X1S_HD305
    (O,
     A0,
     A1,
@@ -10409,7 +10409,7 @@ module RAM32X1S_HD718
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD719
+module RAM32X1S_HD306
    (O,
     A0,
     A1,
@@ -10440,7 +10440,7 @@ module RAM32X1S_HD719
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -10454,7 +10454,7 @@ module RAM32X1S_HD719
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD720
+module RAM32X1S_HD307
    (O,
     A0,
     A1,
@@ -10499,7 +10499,7 @@ module RAM32X1S_HD720
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD721
+module RAM32X1S_HD308
    (O,
     A0,
     A1,
@@ -10530,7 +10530,7 @@ module RAM32X1S_HD721
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -10544,7 +10544,7 @@ module RAM32X1S_HD721
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD722
+module RAM32X1S_HD309
    (O,
     A0,
     A1,
@@ -10575,7 +10575,7 @@ module RAM32X1S_HD722
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -10589,7 +10589,7 @@ module RAM32X1S_HD722
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD723
+module RAM32X1S_HD31
    (O,
     A0,
     A1,
@@ -10620,7 +10620,7 @@ module RAM32X1S_HD723
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -10634,7 +10634,7 @@ module RAM32X1S_HD723
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD724
+module RAM32X1S_HD310
    (O,
     A0,
     A1,
@@ -10665,7 +10665,7 @@ module RAM32X1S_HD724
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -10679,7 +10679,7 @@ module RAM32X1S_HD724
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD725
+module RAM32X1S_HD311
    (O,
     A0,
     A1,
@@ -10724,7 +10724,7 @@ module RAM32X1S_HD725
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD726
+module RAM32X1S_HD312
    (O,
     A0,
     A1,
@@ -10755,7 +10755,7 @@ module RAM32X1S_HD726
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -10769,7 +10769,7 @@ module RAM32X1S_HD726
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD727
+module RAM32X1S_HD313
    (O,
     A0,
     A1,
@@ -10800,7 +10800,7 @@ module RAM32X1S_HD727
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -10814,7 +10814,7 @@ module RAM32X1S_HD727
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD728
+module RAM32X1S_HD314
    (O,
     A0,
     A1,
@@ -10845,7 +10845,7 @@ module RAM32X1S_HD728
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -10859,7 +10859,7 @@ module RAM32X1S_HD728
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD729
+module RAM32X1S_HD315
    (O,
     A0,
     A1,
@@ -10890,7 +10890,7 @@ module RAM32X1S_HD729
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -10904,7 +10904,7 @@ module RAM32X1S_HD729
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD730
+module RAM32X1S_HD316
    (O,
     A0,
     A1,
@@ -10949,7 +10949,7 @@ module RAM32X1S_HD730
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD731
+module RAM32X1S_HD317
    (O,
     A0,
     A1,
@@ -10994,7 +10994,7 @@ module RAM32X1S_HD731
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD732
+module RAM32X1S_HD318
    (O,
     A0,
     A1,
@@ -11025,7 +11025,7 @@ module RAM32X1S_HD732
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -11039,7 +11039,7 @@ module RAM32X1S_HD732
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD733
+module RAM32X1S_HD319
    (O,
     A0,
     A1,
@@ -11070,7 +11070,7 @@ module RAM32X1S_HD733
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -11084,7 +11084,7 @@ module RAM32X1S_HD733
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD734
+module RAM32X1S_HD32
    (O,
     A0,
     A1,
@@ -11115,7 +11115,7 @@ module RAM32X1S_HD734
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -11129,7 +11129,7 @@ module RAM32X1S_HD734
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD735
+module RAM32X1S_HD320
    (O,
     A0,
     A1,
@@ -11174,7 +11174,7 @@ module RAM32X1S_HD735
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD736
+module RAM32X1S_HD321
    (O,
     A0,
     A1,
@@ -11219,7 +11219,7 @@ module RAM32X1S_HD736
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD737
+module RAM32X1S_HD322
    (O,
     A0,
     A1,
@@ -11264,7 +11264,7 @@ module RAM32X1S_HD737
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD738
+module RAM32X1S_HD323
    (O,
     A0,
     A1,
@@ -11309,7 +11309,7 @@ module RAM32X1S_HD738
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD739
+module RAM32X1S_HD324
    (O,
     A0,
     A1,
@@ -11354,7 +11354,7 @@ module RAM32X1S_HD739
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD740
+module RAM32X1S_HD325
    (O,
     A0,
     A1,
@@ -11399,7 +11399,7 @@ module RAM32X1S_HD740
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD741
+module RAM32X1S_HD326
    (O,
     A0,
     A1,
@@ -11444,7 +11444,7 @@ module RAM32X1S_HD741
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD742
+module RAM32X1S_HD327
    (O,
     A0,
     A1,
@@ -11489,7 +11489,7 @@ module RAM32X1S_HD742
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD743
+module RAM32X1S_HD328
    (O,
     A0,
     A1,
@@ -11534,7 +11534,7 @@ module RAM32X1S_HD743
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD744
+module RAM32X1S_HD329
    (O,
     A0,
     A1,
@@ -11579,7 +11579,7 @@ module RAM32X1S_HD744
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD745
+module RAM32X1S_HD33
    (O,
     A0,
     A1,
@@ -11610,7 +11610,7 @@ module RAM32X1S_HD745
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -11624,7 +11624,7 @@ module RAM32X1S_HD745
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD746
+module RAM32X1S_HD330
    (O,
     A0,
     A1,
@@ -11669,7 +11669,7 @@ module RAM32X1S_HD746
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD747
+module RAM32X1S_HD331
    (O,
     A0,
     A1,
@@ -11700,7 +11700,7 @@ module RAM32X1S_HD747
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -11714,7 +11714,7 @@ module RAM32X1S_HD747
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD748
+module RAM32X1S_HD332
    (O,
     A0,
     A1,
@@ -11745,7 +11745,7 @@ module RAM32X1S_HD748
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -11759,7 +11759,7 @@ module RAM32X1S_HD748
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD749
+module RAM32X1S_HD333
    (O,
     A0,
     A1,
@@ -11790,7 +11790,7 @@ module RAM32X1S_HD749
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -11804,7 +11804,7 @@ module RAM32X1S_HD749
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD750
+module RAM32X1S_HD334
    (O,
     A0,
     A1,
@@ -11835,7 +11835,7 @@ module RAM32X1S_HD750
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -11849,7 +11849,7 @@ module RAM32X1S_HD750
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD751
+module RAM32X1S_HD335
    (O,
     A0,
     A1,
@@ -11880,7 +11880,7 @@ module RAM32X1S_HD751
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -11894,7 +11894,7 @@ module RAM32X1S_HD751
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD752
+module RAM32X1S_HD336
    (O,
     A0,
     A1,
@@ -11925,7 +11925,7 @@ module RAM32X1S_HD752
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -11939,7 +11939,7 @@ module RAM32X1S_HD752
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD753
+module RAM32X1S_HD337
    (O,
     A0,
     A1,
@@ -11984,7 +11984,7 @@ module RAM32X1S_HD753
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD754
+module RAM32X1S_HD338
    (O,
     A0,
     A1,
@@ -12029,7 +12029,7 @@ module RAM32X1S_HD754
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD755
+module RAM32X1S_HD339
    (O,
     A0,
     A1,
@@ -12060,7 +12060,7 @@ module RAM32X1S_HD755
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -12074,7 +12074,7 @@ module RAM32X1S_HD755
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD756
+module RAM32X1S_HD34
    (O,
     A0,
     A1,
@@ -12105,7 +12105,7 @@ module RAM32X1S_HD756
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -12119,7 +12119,7 @@ module RAM32X1S_HD756
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD757
+module RAM32X1S_HD340
    (O,
     A0,
     A1,
@@ -12150,7 +12150,7 @@ module RAM32X1S_HD757
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -12164,7 +12164,7 @@ module RAM32X1S_HD757
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD758
+module RAM32X1S_HD341
    (O,
     A0,
     A1,
@@ -12195,7 +12195,7 @@ module RAM32X1S_HD758
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -12209,7 +12209,7 @@ module RAM32X1S_HD758
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD759
+module RAM32X1S_HD342
    (O,
     A0,
     A1,
@@ -12240,7 +12240,7 @@ module RAM32X1S_HD759
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -12254,7 +12254,7 @@ module RAM32X1S_HD759
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD760
+module RAM32X1S_HD343
    (O,
     A0,
     A1,
@@ -12299,7 +12299,7 @@ module RAM32X1S_HD760
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD761
+module RAM32X1S_HD344
    (O,
     A0,
     A1,
@@ -12330,7 +12330,7 @@ module RAM32X1S_HD761
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -12344,7 +12344,7 @@ module RAM32X1S_HD761
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD762
+module RAM32X1S_HD345
    (O,
     A0,
     A1,
@@ -12375,7 +12375,7 @@ module RAM32X1S_HD762
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -12389,7 +12389,7 @@ module RAM32X1S_HD762
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD763
+module RAM32X1S_HD346
    (O,
     A0,
     A1,
@@ -12420,7 +12420,7 @@ module RAM32X1S_HD763
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -12434,7 +12434,7 @@ module RAM32X1S_HD763
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD764
+module RAM32X1S_HD347
    (O,
     A0,
     A1,
@@ -12479,7 +12479,7 @@ module RAM32X1S_HD764
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD765
+module RAM32X1S_HD348
    (O,
     A0,
     A1,
@@ -12510,7 +12510,7 @@ module RAM32X1S_HD765
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -12524,7 +12524,7 @@ module RAM32X1S_HD765
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD766
+module RAM32X1S_HD349
    (O,
     A0,
     A1,
@@ -12555,7 +12555,7 @@ module RAM32X1S_HD766
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -12569,7 +12569,7 @@ module RAM32X1S_HD766
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD767
+module RAM32X1S_HD35
    (O,
     A0,
     A1,
@@ -12600,7 +12600,7 @@ module RAM32X1S_HD767
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -12614,7 +12614,7 @@ module RAM32X1S_HD767
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD768
+module RAM32X1S_HD350
    (O,
     A0,
     A1,
@@ -12645,7 +12645,7 @@ module RAM32X1S_HD768
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -12659,7 +12659,7 @@ module RAM32X1S_HD768
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD769
+module RAM32X1S_HD351
    (O,
     A0,
     A1,
@@ -12690,7 +12690,7 @@ module RAM32X1S_HD769
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -12704,7 +12704,7 @@ module RAM32X1S_HD769
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD770
+module RAM32X1S_HD352
    (O,
     A0,
     A1,
@@ -12735,7 +12735,7 @@ module RAM32X1S_HD770
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -12749,7 +12749,7 @@ module RAM32X1S_HD770
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD771
+module RAM32X1S_HD353
    (O,
     A0,
     A1,
@@ -12794,7 +12794,7 @@ module RAM32X1S_HD771
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD772
+module RAM32X1S_HD354
    (O,
     A0,
     A1,
@@ -12825,7 +12825,7 @@ module RAM32X1S_HD772
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -12839,7 +12839,7 @@ module RAM32X1S_HD772
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD773
+module RAM32X1S_HD355
    (O,
     A0,
     A1,
@@ -12870,7 +12870,7 @@ module RAM32X1S_HD773
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -12884,7 +12884,7 @@ module RAM32X1S_HD773
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD774
+module RAM32X1S_HD356
    (O,
     A0,
     A1,
@@ -12929,7 +12929,7 @@ module RAM32X1S_HD774
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD775
+module RAM32X1S_HD357
    (O,
     A0,
     A1,
@@ -12974,7 +12974,7 @@ module RAM32X1S_HD775
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD776
+module RAM32X1S_HD358
    (O,
     A0,
     A1,
@@ -13019,7 +13019,7 @@ module RAM32X1S_HD776
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD777
+module RAM32X1S_HD359
    (O,
     A0,
     A1,
@@ -13050,7 +13050,7 @@ module RAM32X1S_HD777
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -13064,7 +13064,7 @@ module RAM32X1S_HD777
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD778
+module RAM32X1S_HD36
    (O,
     A0,
     A1,
@@ -13095,7 +13095,7 @@ module RAM32X1S_HD778
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -13109,7 +13109,7 @@ module RAM32X1S_HD778
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD779
+module RAM32X1S_HD360
    (O,
     A0,
     A1,
@@ -13140,7 +13140,7 @@ module RAM32X1S_HD779
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -13154,7 +13154,7 @@ module RAM32X1S_HD779
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD780
+module RAM32X1S_HD361
    (O,
     A0,
     A1,
@@ -13185,7 +13185,7 @@ module RAM32X1S_HD780
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -13199,7 +13199,7 @@ module RAM32X1S_HD780
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD781
+module RAM32X1S_HD362
    (O,
     A0,
     A1,
@@ -13230,7 +13230,7 @@ module RAM32X1S_HD781
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -13244,7 +13244,7 @@ module RAM32X1S_HD781
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD782
+module RAM32X1S_HD363
    (O,
     A0,
     A1,
@@ -13289,7 +13289,7 @@ module RAM32X1S_HD782
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD783
+module RAM32X1S_HD364
    (O,
     A0,
     A1,
@@ -13320,7 +13320,7 @@ module RAM32X1S_HD783
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -13334,7 +13334,7 @@ module RAM32X1S_HD783
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD784
+module RAM32X1S_HD365
    (O,
     A0,
     A1,
@@ -13379,7 +13379,7 @@ module RAM32X1S_HD784
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD785
+module RAM32X1S_HD366
    (O,
     A0,
     A1,
@@ -13410,7 +13410,7 @@ module RAM32X1S_HD785
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -13424,7 +13424,7 @@ module RAM32X1S_HD785
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD786
+module RAM32X1S_HD367
    (O,
     A0,
     A1,
@@ -13469,7 +13469,7 @@ module RAM32X1S_HD786
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD787
+module RAM32X1S_HD368
    (O,
     A0,
     A1,
@@ -13500,7 +13500,7 @@ module RAM32X1S_HD787
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -13514,7 +13514,7 @@ module RAM32X1S_HD787
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD788
+module RAM32X1S_HD369
    (O,
     A0,
     A1,
@@ -13545,7 +13545,7 @@ module RAM32X1S_HD788
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -13559,7 +13559,7 @@ module RAM32X1S_HD788
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD789
+module RAM32X1S_HD37
    (O,
     A0,
     A1,
@@ -13590,7 +13590,7 @@ module RAM32X1S_HD789
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -13604,7 +13604,7 @@ module RAM32X1S_HD789
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD790
+module RAM32X1S_HD370
    (O,
     A0,
     A1,
@@ -13649,7 +13649,7 @@ module RAM32X1S_HD790
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD791
+module RAM32X1S_HD371
    (O,
     A0,
     A1,
@@ -13680,7 +13680,7 @@ module RAM32X1S_HD791
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -13694,7 +13694,7 @@ module RAM32X1S_HD791
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD792
+module RAM32X1S_HD372
    (O,
     A0,
     A1,
@@ -13725,7 +13725,7 @@ module RAM32X1S_HD792
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -13739,7 +13739,7 @@ module RAM32X1S_HD792
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD793
+module RAM32X1S_HD373
    (O,
     A0,
     A1,
@@ -13770,7 +13770,7 @@ module RAM32X1S_HD793
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -13784,7 +13784,7 @@ module RAM32X1S_HD793
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD794
+module RAM32X1S_HD374
    (O,
     A0,
     A1,
@@ -13815,7 +13815,7 @@ module RAM32X1S_HD794
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -13829,7 +13829,7 @@ module RAM32X1S_HD794
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD795
+module RAM32X1S_HD375
    (O,
     A0,
     A1,
@@ -13860,7 +13860,7 @@ module RAM32X1S_HD795
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -13874,7 +13874,7 @@ module RAM32X1S_HD795
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD796
+module RAM32X1S_HD376
    (O,
     A0,
     A1,
@@ -13919,7 +13919,7 @@ module RAM32X1S_HD796
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD797
+module RAM32X1S_HD377
    (O,
     A0,
     A1,
@@ -13950,7 +13950,7 @@ module RAM32X1S_HD797
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -13964,7 +13964,7 @@ module RAM32X1S_HD797
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD798
+module RAM32X1S_HD378
    (O,
     A0,
     A1,
@@ -13995,7 +13995,7 @@ module RAM32X1S_HD798
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -14009,7 +14009,7 @@ module RAM32X1S_HD798
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD799
+module RAM32X1S_HD379
    (O,
     A0,
     A1,
@@ -14054,7 +14054,7 @@ module RAM32X1S_HD799
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD800
+module RAM32X1S_HD38
    (O,
     A0,
     A1,
@@ -14099,7 +14099,7 @@ module RAM32X1S_HD800
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD801
+module RAM32X1S_HD380
    (O,
     A0,
     A1,
@@ -14144,7 +14144,7 @@ module RAM32X1S_HD801
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD802
+module RAM32X1S_HD381
    (O,
     A0,
     A1,
@@ -14175,7 +14175,7 @@ module RAM32X1S_HD802
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -14189,7 +14189,7 @@ module RAM32X1S_HD802
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD803
+module RAM32X1S_HD382
    (O,
     A0,
     A1,
@@ -14220,7 +14220,7 @@ module RAM32X1S_HD803
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -14234,7 +14234,7 @@ module RAM32X1S_HD803
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD804
+module RAM32X1S_HD383
    (O,
     A0,
     A1,
@@ -14265,7 +14265,7 @@ module RAM32X1S_HD804
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -14279,7 +14279,7 @@ module RAM32X1S_HD804
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD805
+module RAM32X1S_HD384
    (O,
     A0,
     A1,
@@ -14324,7 +14324,7 @@ module RAM32X1S_HD805
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD806
+module RAM32X1S_HD385
    (O,
     A0,
     A1,
@@ -14369,7 +14369,7 @@ module RAM32X1S_HD806
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD807
+module RAM32X1S_HD386
    (O,
     A0,
     A1,
@@ -14400,7 +14400,7 @@ module RAM32X1S_HD807
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -14414,7 +14414,7 @@ module RAM32X1S_HD807
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD808
+module RAM32X1S_HD387
    (O,
     A0,
     A1,
@@ -14445,7 +14445,7 @@ module RAM32X1S_HD808
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -14459,7 +14459,7 @@ module RAM32X1S_HD808
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD809
+module RAM32X1S_HD388
    (O,
     A0,
     A1,
@@ -14490,7 +14490,7 @@ module RAM32X1S_HD809
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -14504,7 +14504,7 @@ module RAM32X1S_HD809
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD810
+module RAM32X1S_HD389
    (O,
     A0,
     A1,
@@ -14535,7 +14535,7 @@ module RAM32X1S_HD810
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -14549,7 +14549,7 @@ module RAM32X1S_HD810
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD811
+module RAM32X1S_HD39
    (O,
     A0,
     A1,
@@ -14580,7 +14580,7 @@ module RAM32X1S_HD811
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -14594,7 +14594,7 @@ module RAM32X1S_HD811
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD812
+module RAM32X1S_HD390
    (O,
     A0,
     A1,
@@ -14625,7 +14625,7 @@ module RAM32X1S_HD812
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -14639,7 +14639,7 @@ module RAM32X1S_HD812
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD813
+module RAM32X1S_HD391
    (O,
     A0,
     A1,
@@ -14670,7 +14670,7 @@ module RAM32X1S_HD813
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -14684,7 +14684,7 @@ module RAM32X1S_HD813
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD814
+module RAM32X1S_HD392
    (O,
     A0,
     A1,
@@ -14715,7 +14715,7 @@ module RAM32X1S_HD814
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -14729,7 +14729,7 @@ module RAM32X1S_HD814
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD815
+module RAM32X1S_HD393
    (O,
     A0,
     A1,
@@ -14760,7 +14760,7 @@ module RAM32X1S_HD815
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -14774,7 +14774,7 @@ module RAM32X1S_HD815
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD816
+module RAM32X1S_HD394
    (O,
     A0,
     A1,
@@ -14819,7 +14819,7 @@ module RAM32X1S_HD816
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD817
+module RAM32X1S_HD395
    (O,
     A0,
     A1,
@@ -14864,7 +14864,7 @@ module RAM32X1S_HD817
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD818
+module RAM32X1S_HD396
    (O,
     A0,
     A1,
@@ -14895,7 +14895,7 @@ module RAM32X1S_HD818
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -14909,7 +14909,7 @@ module RAM32X1S_HD818
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD819
+module RAM32X1S_HD397
    (O,
     A0,
     A1,
@@ -14940,7 +14940,7 @@ module RAM32X1S_HD819
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -14954,7 +14954,7 @@ module RAM32X1S_HD819
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD820
+module RAM32X1S_HD398
    (O,
     A0,
     A1,
@@ -14999,7 +14999,7 @@ module RAM32X1S_HD820
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD821
+module RAM32X1S_HD399
    (O,
     A0,
     A1,
@@ -15044,7 +15044,7 @@ module RAM32X1S_HD821
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD822
+module RAM32X1S_HD4
    (O,
     A0,
     A1,
@@ -15075,7 +15075,7 @@ module RAM32X1S_HD822
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -15089,7 +15089,7 @@ module RAM32X1S_HD822
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD823
+module RAM32X1S_HD40
    (O,
     A0,
     A1,
@@ -15120,7 +15120,7 @@ module RAM32X1S_HD823
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -15134,7 +15134,7 @@ module RAM32X1S_HD823
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD824
+module RAM32X1S_HD400
    (O,
     A0,
     A1,
@@ -15165,7 +15165,7 @@ module RAM32X1S_HD824
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -15179,7 +15179,7 @@ module RAM32X1S_HD824
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD825
+module RAM32X1S_HD401
    (O,
     A0,
     A1,
@@ -15210,7 +15210,7 @@ module RAM32X1S_HD825
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -15224,7 +15224,7 @@ module RAM32X1S_HD825
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD826
+module RAM32X1S_HD402
    (O,
     A0,
     A1,
@@ -15255,7 +15255,7 @@ module RAM32X1S_HD826
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -15269,7 +15269,7 @@ module RAM32X1S_HD826
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD827
+module RAM32X1S_HD403
    (O,
     A0,
     A1,
@@ -15300,7 +15300,7 @@ module RAM32X1S_HD827
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -15314,7 +15314,7 @@ module RAM32X1S_HD827
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD828
+module RAM32X1S_HD404
    (O,
     A0,
     A1,
@@ -15359,7 +15359,7 @@ module RAM32X1S_HD828
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD829
+module RAM32X1S_HD405
    (O,
     A0,
     A1,
@@ -15404,7 +15404,7 @@ module RAM32X1S_HD829
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD830
+module RAM32X1S_HD406
    (O,
     A0,
     A1,
@@ -15449,7 +15449,7 @@ module RAM32X1S_HD830
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD831
+module RAM32X1S_HD407
    (O,
     A0,
     A1,
@@ -15480,7 +15480,7 @@ module RAM32X1S_HD831
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -15494,7 +15494,7 @@ module RAM32X1S_HD831
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD832
+module RAM32X1S_HD408
    (O,
     A0,
     A1,
@@ -15539,7 +15539,7 @@ module RAM32X1S_HD832
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD833
+module RAM32X1S_HD409
    (O,
     A0,
     A1,
@@ -15570,7 +15570,7 @@ module RAM32X1S_HD833
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -15584,7 +15584,7 @@ module RAM32X1S_HD833
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD834
+module RAM32X1S_HD41
    (O,
     A0,
     A1,
@@ -15615,7 +15615,7 @@ module RAM32X1S_HD834
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -15629,7 +15629,7 @@ module RAM32X1S_HD834
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD835
+module RAM32X1S_HD410
    (O,
     A0,
     A1,
@@ -15660,7 +15660,7 @@ module RAM32X1S_HD835
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -15674,7 +15674,7 @@ module RAM32X1S_HD835
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD836
+module RAM32X1S_HD411
    (O,
     A0,
     A1,
@@ -15705,7 +15705,7 @@ module RAM32X1S_HD836
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -15719,7 +15719,7 @@ module RAM32X1S_HD836
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD837
+module RAM32X1S_HD412
    (O,
     A0,
     A1,
@@ -15764,7 +15764,7 @@ module RAM32X1S_HD837
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD838
+module RAM32X1S_HD413
    (O,
     A0,
     A1,
@@ -15809,7 +15809,7 @@ module RAM32X1S_HD838
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD839
+module RAM32X1S_HD414
    (O,
     A0,
     A1,
@@ -15840,7 +15840,7 @@ module RAM32X1S_HD839
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -15854,7 +15854,7 @@ module RAM32X1S_HD839
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD840
+module RAM32X1S_HD415
    (O,
     A0,
     A1,
@@ -15885,7 +15885,7 @@ module RAM32X1S_HD840
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -15899,7 +15899,7 @@ module RAM32X1S_HD840
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD841
+module RAM32X1S_HD416
    (O,
     A0,
     A1,
@@ -15930,7 +15930,7 @@ module RAM32X1S_HD841
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -15944,7 +15944,7 @@ module RAM32X1S_HD841
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD842
+module RAM32X1S_HD417
    (O,
     A0,
     A1,
@@ -15975,7 +15975,7 @@ module RAM32X1S_HD842
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -15989,7 +15989,7 @@ module RAM32X1S_HD842
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD843
+module RAM32X1S_HD418
    (O,
     A0,
     A1,
@@ -16020,7 +16020,7 @@ module RAM32X1S_HD843
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -16034,7 +16034,7 @@ module RAM32X1S_HD843
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD844
+module RAM32X1S_HD419
    (O,
     A0,
     A1,
@@ -16079,7 +16079,7 @@ module RAM32X1S_HD844
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD845
+module RAM32X1S_HD42
    (O,
     A0,
     A1,
@@ -16110,7 +16110,7 @@ module RAM32X1S_HD845
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -16124,7 +16124,7 @@ module RAM32X1S_HD845
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD846
+module RAM32X1S_HD420
    (O,
     A0,
     A1,
@@ -16155,7 +16155,7 @@ module RAM32X1S_HD846
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -16169,7 +16169,7 @@ module RAM32X1S_HD846
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD847
+module RAM32X1S_HD421
    (O,
     A0,
     A1,
@@ -16214,7 +16214,7 @@ module RAM32X1S_HD847
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD848
+module RAM32X1S_HD422
    (O,
     A0,
     A1,
@@ -16245,7 +16245,7 @@ module RAM32X1S_HD848
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -16259,7 +16259,7 @@ module RAM32X1S_HD848
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD849
+module RAM32X1S_HD423
    (O,
     A0,
     A1,
@@ -16290,7 +16290,7 @@ module RAM32X1S_HD849
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -16304,7 +16304,7 @@ module RAM32X1S_HD849
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD850
+module RAM32X1S_HD424
    (O,
     A0,
     A1,
@@ -16335,7 +16335,7 @@ module RAM32X1S_HD850
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -16349,7 +16349,7 @@ module RAM32X1S_HD850
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD851
+module RAM32X1S_HD425
    (O,
     A0,
     A1,
@@ -16394,7 +16394,7 @@ module RAM32X1S_HD851
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD852
+module RAM32X1S_HD426
    (O,
     A0,
     A1,
@@ -16425,7 +16425,7 @@ module RAM32X1S_HD852
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -16439,7 +16439,7 @@ module RAM32X1S_HD852
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD853
+module RAM32X1S_HD427
    (O,
     A0,
     A1,
@@ -16484,7 +16484,7 @@ module RAM32X1S_HD853
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD854
+module RAM32X1S_HD428
    (O,
     A0,
     A1,
@@ -16515,7 +16515,7 @@ module RAM32X1S_HD854
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -16529,7 +16529,7 @@ module RAM32X1S_HD854
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD855
+module RAM32X1S_HD429
    (O,
     A0,
     A1,
@@ -16560,7 +16560,7 @@ module RAM32X1S_HD855
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -16574,7 +16574,7 @@ module RAM32X1S_HD855
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD856
+module RAM32X1S_HD43
    (O,
     A0,
     A1,
@@ -16619,7 +16619,7 @@ module RAM32X1S_HD856
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD857
+module RAM32X1S_HD430
    (O,
     A0,
     A1,
@@ -16650,7 +16650,7 @@ module RAM32X1S_HD857
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -16664,7 +16664,7 @@ module RAM32X1S_HD857
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD858
+module RAM32X1S_HD431
    (O,
     A0,
     A1,
@@ -16695,7 +16695,7 @@ module RAM32X1S_HD858
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -16709,7 +16709,7 @@ module RAM32X1S_HD858
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD859
+module RAM32X1S_HD432
    (O,
     A0,
     A1,
@@ -16740,7 +16740,7 @@ module RAM32X1S_HD859
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -16754,7 +16754,7 @@ module RAM32X1S_HD859
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD860
+module RAM32X1S_HD433
    (O,
     A0,
     A1,
@@ -16785,7 +16785,7 @@ module RAM32X1S_HD860
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -16799,7 +16799,7 @@ module RAM32X1S_HD860
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD861
+module RAM32X1S_HD434
    (O,
     A0,
     A1,
@@ -16830,7 +16830,7 @@ module RAM32X1S_HD861
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -16844,7 +16844,7 @@ module RAM32X1S_HD861
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD862
+module RAM32X1S_HD435
    (O,
     A0,
     A1,
@@ -16889,7 +16889,7 @@ module RAM32X1S_HD862
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD863
+module RAM32X1S_HD436
    (O,
     A0,
     A1,
@@ -16934,7 +16934,7 @@ module RAM32X1S_HD863
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD864
+module RAM32X1S_HD437
    (O,
     A0,
     A1,
@@ -16965,7 +16965,7 @@ module RAM32X1S_HD864
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -16979,7 +16979,7 @@ module RAM32X1S_HD864
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD865
+module RAM32X1S_HD438
    (O,
     A0,
     A1,
@@ -17010,7 +17010,7 @@ module RAM32X1S_HD865
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -17024,7 +17024,7 @@ module RAM32X1S_HD865
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD866
+module RAM32X1S_HD439
    (O,
     A0,
     A1,
@@ -17069,7 +17069,7 @@ module RAM32X1S_HD866
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD867
+module RAM32X1S_HD44
    (O,
     A0,
     A1,
@@ -17100,7 +17100,7 @@ module RAM32X1S_HD867
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -17114,7 +17114,7 @@ module RAM32X1S_HD867
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD868
+module RAM32X1S_HD440
    (O,
     A0,
     A1,
@@ -17145,7 +17145,7 @@ module RAM32X1S_HD868
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -17159,7 +17159,7 @@ module RAM32X1S_HD868
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD869
+module RAM32X1S_HD441
    (O,
     A0,
     A1,
@@ -17190,7 +17190,7 @@ module RAM32X1S_HD869
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -17204,7 +17204,7 @@ module RAM32X1S_HD869
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD870
+module RAM32X1S_HD442
    (O,
     A0,
     A1,
@@ -17235,7 +17235,7 @@ module RAM32X1S_HD870
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -17249,7 +17249,7 @@ module RAM32X1S_HD870
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD871
+module RAM32X1S_HD443
    (O,
     A0,
     A1,
@@ -17280,7 +17280,7 @@ module RAM32X1S_HD871
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -17294,7 +17294,7 @@ module RAM32X1S_HD871
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD872
+module RAM32X1S_HD444
    (O,
     A0,
     A1,
@@ -17339,7 +17339,7 @@ module RAM32X1S_HD872
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD873
+module RAM32X1S_HD445
    (O,
     A0,
     A1,
@@ -17370,7 +17370,7 @@ module RAM32X1S_HD873
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -17384,7 +17384,7 @@ module RAM32X1S_HD873
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD874
+module RAM32X1S_HD446
    (O,
     A0,
     A1,
@@ -17415,7 +17415,7 @@ module RAM32X1S_HD874
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -17429,7 +17429,7 @@ module RAM32X1S_HD874
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD875
+module RAM32X1S_HD447
    (O,
     A0,
     A1,
@@ -17460,7 +17460,7 @@ module RAM32X1S_HD875
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -17474,7 +17474,7 @@ module RAM32X1S_HD875
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD876
+module RAM32X1S_HD448
    (O,
     A0,
     A1,
@@ -17505,7 +17505,7 @@ module RAM32X1S_HD876
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -17519,7 +17519,7 @@ module RAM32X1S_HD876
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD877
+module RAM32X1S_HD449
    (O,
     A0,
     A1,
@@ -17550,7 +17550,7 @@ module RAM32X1S_HD877
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -17564,7 +17564,7 @@ module RAM32X1S_HD877
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD878
+module RAM32X1S_HD45
    (O,
     A0,
     A1,
@@ -17609,7 +17609,7 @@ module RAM32X1S_HD878
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD879
+module RAM32X1S_HD450
    (O,
     A0,
     A1,
@@ -17640,7 +17640,7 @@ module RAM32X1S_HD879
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -17654,7 +17654,7 @@ module RAM32X1S_HD879
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD880
+module RAM32X1S_HD451
    (O,
     A0,
     A1,
@@ -17699,7 +17699,7 @@ module RAM32X1S_HD880
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD881
+module RAM32X1S_HD452
    (O,
     A0,
     A1,
@@ -17730,7 +17730,7 @@ module RAM32X1S_HD881
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -17744,7 +17744,7 @@ module RAM32X1S_HD881
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD882
+module RAM32X1S_HD453
    (O,
     A0,
     A1,
@@ -17775,7 +17775,7 @@ module RAM32X1S_HD882
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -17789,7 +17789,7 @@ module RAM32X1S_HD882
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD883
+module RAM32X1S_HD454
    (O,
     A0,
     A1,
@@ -17834,7 +17834,7 @@ module RAM32X1S_HD883
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD884
+module RAM32X1S_HD455
    (O,
     A0,
     A1,
@@ -17865,7 +17865,7 @@ module RAM32X1S_HD884
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -17879,7 +17879,7 @@ module RAM32X1S_HD884
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD885
+module RAM32X1S_HD456
    (O,
     A0,
     A1,
@@ -17910,7 +17910,7 @@ module RAM32X1S_HD885
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -17924,7 +17924,7 @@ module RAM32X1S_HD885
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD886
+module RAM32X1S_HD457
    (O,
     A0,
     A1,
@@ -17955,7 +17955,7 @@ module RAM32X1S_HD886
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -17969,7 +17969,7 @@ module RAM32X1S_HD886
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD887
+module RAM32X1S_HD458
    (O,
     A0,
     A1,
@@ -18000,7 +18000,7 @@ module RAM32X1S_HD887
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -18014,7 +18014,7 @@ module RAM32X1S_HD887
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD888
+module RAM32X1S_HD459
    (O,
     A0,
     A1,
@@ -18059,7 +18059,7 @@ module RAM32X1S_HD888
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD889
+module RAM32X1S_HD46
    (O,
     A0,
     A1,
@@ -18090,7 +18090,7 @@ module RAM32X1S_HD889
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -18104,7 +18104,7 @@ module RAM32X1S_HD889
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD890
+module RAM32X1S_HD460
    (O,
     A0,
     A1,
@@ -18135,7 +18135,7 @@ module RAM32X1S_HD890
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -18149,7 +18149,7 @@ module RAM32X1S_HD890
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD891
+module RAM32X1S_HD461
    (O,
     A0,
     A1,
@@ -18180,7 +18180,7 @@ module RAM32X1S_HD891
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -18194,7 +18194,7 @@ module RAM32X1S_HD891
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD892
+module RAM32X1S_HD462
    (O,
     A0,
     A1,
@@ -18225,7 +18225,7 @@ module RAM32X1S_HD892
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -18239,7 +18239,7 @@ module RAM32X1S_HD892
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD893
+module RAM32X1S_HD463
    (O,
     A0,
     A1,
@@ -18270,7 +18270,7 @@ module RAM32X1S_HD893
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -18284,7 +18284,7 @@ module RAM32X1S_HD893
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD894
+module RAM32X1S_HD464
    (O,
     A0,
     A1,
@@ -18315,7 +18315,7 @@ module RAM32X1S_HD894
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -18329,7 +18329,7 @@ module RAM32X1S_HD894
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD895
+module RAM32X1S_HD465
    (O,
     A0,
     A1,
@@ -18360,7 +18360,7 @@ module RAM32X1S_HD895
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -18374,7 +18374,7 @@ module RAM32X1S_HD895
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD896
+module RAM32X1S_HD466
    (O,
     A0,
     A1,
@@ -18405,7 +18405,7 @@ module RAM32X1S_HD896
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -18419,7 +18419,7 @@ module RAM32X1S_HD896
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD897
+module RAM32X1S_HD467
    (O,
     A0,
     A1,
@@ -18450,7 +18450,7 @@ module RAM32X1S_HD897
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -18464,7 +18464,7 @@ module RAM32X1S_HD897
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD898
+module RAM32X1S_HD468
    (O,
     A0,
     A1,
@@ -18495,7 +18495,7 @@ module RAM32X1S_HD898
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -18509,7 +18509,7 @@ module RAM32X1S_HD898
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD899
+module RAM32X1S_HD469
    (O,
     A0,
     A1,
@@ -18540,7 +18540,7 @@ module RAM32X1S_HD899
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -18554,7 +18554,7 @@ module RAM32X1S_HD899
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD900
+module RAM32X1S_HD47
    (O,
     A0,
     A1,
@@ -18585,7 +18585,7 @@ module RAM32X1S_HD900
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -18599,7 +18599,7 @@ module RAM32X1S_HD900
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD901
+module RAM32X1S_HD470
    (O,
     A0,
     A1,
@@ -18630,7 +18630,7 @@ module RAM32X1S_HD901
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -18644,7 +18644,7 @@ module RAM32X1S_HD901
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD902
+module RAM32X1S_HD471
    (O,
     A0,
     A1,
@@ -18675,7 +18675,7 @@ module RAM32X1S_HD902
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -18689,7 +18689,7 @@ module RAM32X1S_HD902
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD903
+module RAM32X1S_HD472
    (O,
     A0,
     A1,
@@ -18720,7 +18720,7 @@ module RAM32X1S_HD903
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -18734,7 +18734,7 @@ module RAM32X1S_HD903
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD904
+module RAM32X1S_HD473
    (O,
     A0,
     A1,
@@ -18765,7 +18765,7 @@ module RAM32X1S_HD904
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -18779,7 +18779,7 @@ module RAM32X1S_HD904
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD905
+module RAM32X1S_HD474
    (O,
     A0,
     A1,
@@ -18810,7 +18810,7 @@ module RAM32X1S_HD905
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -18824,7 +18824,7 @@ module RAM32X1S_HD905
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD906
+module RAM32X1S_HD475
    (O,
     A0,
     A1,
@@ -18855,7 +18855,7 @@ module RAM32X1S_HD906
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -18869,7 +18869,7 @@ module RAM32X1S_HD906
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD907
+module RAM32X1S_HD476
    (O,
     A0,
     A1,
@@ -18900,7 +18900,7 @@ module RAM32X1S_HD907
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -18914,7 +18914,7 @@ module RAM32X1S_HD907
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD908
+module RAM32X1S_HD477
    (O,
     A0,
     A1,
@@ -18945,7 +18945,7 @@ module RAM32X1S_HD908
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -18959,7 +18959,7 @@ module RAM32X1S_HD908
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD909
+module RAM32X1S_HD478
    (O,
     A0,
     A1,
@@ -19004,7 +19004,7 @@ module RAM32X1S_HD909
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD910
+module RAM32X1S_HD479
    (O,
     A0,
     A1,
@@ -19049,7 +19049,7 @@ module RAM32X1S_HD910
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD911
+module RAM32X1S_HD48
    (O,
     A0,
     A1,
@@ -19094,7 +19094,7 @@ module RAM32X1S_HD911
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD912
+module RAM32X1S_HD480
    (O,
     A0,
     A1,
@@ -19125,7 +19125,7 @@ module RAM32X1S_HD912
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -19139,7 +19139,7 @@ module RAM32X1S_HD912
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD913
+module RAM32X1S_HD481
    (O,
     A0,
     A1,
@@ -19170,7 +19170,7 @@ module RAM32X1S_HD913
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -19184,7 +19184,7 @@ module RAM32X1S_HD913
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD914
+module RAM32X1S_HD482
    (O,
     A0,
     A1,
@@ -19215,7 +19215,7 @@ module RAM32X1S_HD914
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -19229,7 +19229,7 @@ module RAM32X1S_HD914
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD915
+module RAM32X1S_HD483
    (O,
     A0,
     A1,
@@ -19260,7 +19260,7 @@ module RAM32X1S_HD915
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -19274,7 +19274,7 @@ module RAM32X1S_HD915
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD916
+module RAM32X1S_HD484
    (O,
     A0,
     A1,
@@ -19305,7 +19305,7 @@ module RAM32X1S_HD916
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -19319,7 +19319,7 @@ module RAM32X1S_HD916
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD917
+module RAM32X1S_HD485
    (O,
     A0,
     A1,
@@ -19350,7 +19350,7 @@ module RAM32X1S_HD917
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -19364,7 +19364,7 @@ module RAM32X1S_HD917
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD918
+module RAM32X1S_HD486
    (O,
     A0,
     A1,
@@ -19395,7 +19395,7 @@ module RAM32X1S_HD918
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -19409,7 +19409,7 @@ module RAM32X1S_HD918
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD919
+module RAM32X1S_HD487
    (O,
     A0,
     A1,
@@ -19454,7 +19454,7 @@ module RAM32X1S_HD919
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD920
+module RAM32X1S_HD488
    (O,
     A0,
     A1,
@@ -19485,7 +19485,7 @@ module RAM32X1S_HD920
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -19499,7 +19499,7 @@ module RAM32X1S_HD920
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD921
+module RAM32X1S_HD489
    (O,
     A0,
     A1,
@@ -19530,7 +19530,7 @@ module RAM32X1S_HD921
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -19544,7 +19544,7 @@ module RAM32X1S_HD921
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD922
+module RAM32X1S_HD49
    (O,
     A0,
     A1,
@@ -19575,7 +19575,7 @@ module RAM32X1S_HD922
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -19589,7 +19589,7 @@ module RAM32X1S_HD922
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD923
+module RAM32X1S_HD490
    (O,
     A0,
     A1,
@@ -19620,7 +19620,7 @@ module RAM32X1S_HD923
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -19634,7 +19634,7 @@ module RAM32X1S_HD923
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD924
+module RAM32X1S_HD491
    (O,
     A0,
     A1,
@@ -19665,7 +19665,7 @@ module RAM32X1S_HD924
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -19679,7 +19679,7 @@ module RAM32X1S_HD924
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD925
+module RAM32X1S_HD492
    (O,
     A0,
     A1,
@@ -19724,7 +19724,7 @@ module RAM32X1S_HD925
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD926
+module RAM32X1S_HD493
    (O,
     A0,
     A1,
@@ -19769,7 +19769,7 @@ module RAM32X1S_HD926
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD927
+module RAM32X1S_HD494
    (O,
     A0,
     A1,
@@ -19800,7 +19800,7 @@ module RAM32X1S_HD927
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -19814,7 +19814,7 @@ module RAM32X1S_HD927
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD928
+module RAM32X1S_HD495
    (O,
     A0,
     A1,
@@ -19845,7 +19845,7 @@ module RAM32X1S_HD928
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -19859,7 +19859,7 @@ module RAM32X1S_HD928
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD929
+module RAM32X1S_HD496
    (O,
     A0,
     A1,
@@ -19890,7 +19890,7 @@ module RAM32X1S_HD929
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -19904,7 +19904,7 @@ module RAM32X1S_HD929
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD930
+module RAM32X1S_HD497
    (O,
     A0,
     A1,
@@ -19949,7 +19949,7 @@ module RAM32X1S_HD930
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD931
+module RAM32X1S_HD498
    (O,
     A0,
     A1,
@@ -19980,7 +19980,7 @@ module RAM32X1S_HD931
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -19994,7 +19994,7 @@ module RAM32X1S_HD931
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD932
+module RAM32X1S_HD499
    (O,
     A0,
     A1,
@@ -20025,7 +20025,7 @@ module RAM32X1S_HD932
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -20039,7 +20039,7 @@ module RAM32X1S_HD932
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD933
+module RAM32X1S_HD5
    (O,
     A0,
     A1,
@@ -20070,7 +20070,7 @@ module RAM32X1S_HD933
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -20084,7 +20084,7 @@ module RAM32X1S_HD933
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD934
+module RAM32X1S_HD50
    (O,
     A0,
     A1,
@@ -20115,7 +20115,7 @@ module RAM32X1S_HD934
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -20129,7 +20129,7 @@ module RAM32X1S_HD934
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD935
+module RAM32X1S_HD500
    (O,
     A0,
     A1,
@@ -20160,7 +20160,7 @@ module RAM32X1S_HD935
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -20174,7 +20174,7 @@ module RAM32X1S_HD935
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD936
+module RAM32X1S_HD501
    (O,
     A0,
     A1,
@@ -20205,7 +20205,7 @@ module RAM32X1S_HD936
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -20219,7 +20219,7 @@ module RAM32X1S_HD936
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD937
+module RAM32X1S_HD502
    (O,
     A0,
     A1,
@@ -20264,7 +20264,7 @@ module RAM32X1S_HD937
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD938
+module RAM32X1S_HD503
    (O,
     A0,
     A1,
@@ -20309,7 +20309,7 @@ module RAM32X1S_HD938
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD939
+module RAM32X1S_HD504
    (O,
     A0,
     A1,
@@ -20340,7 +20340,7 @@ module RAM32X1S_HD939
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -20354,7 +20354,7 @@ module RAM32X1S_HD939
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD940
+module RAM32X1S_HD505
    (O,
     A0,
     A1,
@@ -20399,7 +20399,7 @@ module RAM32X1S_HD940
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD941
+module RAM32X1S_HD506
    (O,
     A0,
     A1,
@@ -20430,7 +20430,7 @@ module RAM32X1S_HD941
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -20444,7 +20444,7 @@ module RAM32X1S_HD941
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD942
+module RAM32X1S_HD507
    (O,
     A0,
     A1,
@@ -20475,7 +20475,7 @@ module RAM32X1S_HD942
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -20489,7 +20489,7 @@ module RAM32X1S_HD942
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD943
+module RAM32X1S_HD508
    (O,
     A0,
     A1,
@@ -20520,7 +20520,7 @@ module RAM32X1S_HD943
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -20534,7 +20534,7 @@ module RAM32X1S_HD943
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD944
+module RAM32X1S_HD509
    (O,
     A0,
     A1,
@@ -20565,7 +20565,7 @@ module RAM32X1S_HD944
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -20579,7 +20579,7 @@ module RAM32X1S_HD944
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD945
+module RAM32X1S_HD51
    (O,
     A0,
     A1,
@@ -20624,7 +20624,7 @@ module RAM32X1S_HD945
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD946
+module RAM32X1S_HD510
    (O,
     A0,
     A1,
@@ -20655,7 +20655,7 @@ module RAM32X1S_HD946
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -20669,7 +20669,7 @@ module RAM32X1S_HD946
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD947
+module RAM32X1S_HD511
    (O,
     A0,
     A1,
@@ -20700,7 +20700,7 @@ module RAM32X1S_HD947
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -20714,7 +20714,7 @@ module RAM32X1S_HD947
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD948
+module RAM32X1S_HD52
    (O,
     A0,
     A1,
@@ -20745,7 +20745,7 @@ module RAM32X1S_HD948
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -20759,7 +20759,7 @@ module RAM32X1S_HD948
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD949
+module RAM32X1S_HD53
    (O,
     A0,
     A1,
@@ -20790,7 +20790,7 @@ module RAM32X1S_HD949
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -20804,7 +20804,7 @@ module RAM32X1S_HD949
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD950
+module RAM32X1S_HD54
    (O,
     A0,
     A1,
@@ -20849,7 +20849,7 @@ module RAM32X1S_HD950
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD951
+module RAM32X1S_HD55
    (O,
     A0,
     A1,
@@ -20880,7 +20880,7 @@ module RAM32X1S_HD951
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -20894,7 +20894,7 @@ module RAM32X1S_HD951
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD952
+module RAM32X1S_HD56
    (O,
     A0,
     A1,
@@ -20925,7 +20925,7 @@ module RAM32X1S_HD952
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -20939,7 +20939,7 @@ module RAM32X1S_HD952
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD953
+module RAM32X1S_HD57
    (O,
     A0,
     A1,
@@ -20970,7 +20970,7 @@ module RAM32X1S_HD953
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -20984,7 +20984,7 @@ module RAM32X1S_HD953
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD954
+module RAM32X1S_HD58
    (O,
     A0,
     A1,
@@ -21015,7 +21015,7 @@ module RAM32X1S_HD954
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -21029,7 +21029,7 @@ module RAM32X1S_HD954
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD955
+module RAM32X1S_HD59
    (O,
     A0,
     A1,
@@ -21074,7 +21074,7 @@ module RAM32X1S_HD955
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD956
+module RAM32X1S_HD6
    (O,
     A0,
     A1,
@@ -21119,7 +21119,7 @@ module RAM32X1S_HD956
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD957
+module RAM32X1S_HD60
    (O,
     A0,
     A1,
@@ -21150,7 +21150,7 @@ module RAM32X1S_HD957
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -21164,7 +21164,7 @@ module RAM32X1S_HD957
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD958
+module RAM32X1S_HD61
    (O,
     A0,
     A1,
@@ -21195,7 +21195,7 @@ module RAM32X1S_HD958
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -21209,7 +21209,7 @@ module RAM32X1S_HD958
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD959
+module RAM32X1S_HD62
    (O,
     A0,
     A1,
@@ -21240,7 +21240,7 @@ module RAM32X1S_HD959
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -21254,7 +21254,7 @@ module RAM32X1S_HD959
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD960
+module RAM32X1S_HD63
    (O,
     A0,
     A1,
@@ -21285,7 +21285,7 @@ module RAM32X1S_HD960
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -21299,7 +21299,7 @@ module RAM32X1S_HD960
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD961
+module RAM32X1S_HD64
    (O,
     A0,
     A1,
@@ -21344,7 +21344,7 @@ module RAM32X1S_HD961
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD962
+module RAM32X1S_HD65
    (O,
     A0,
     A1,
@@ -21375,7 +21375,7 @@ module RAM32X1S_HD962
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -21389,7 +21389,7 @@ module RAM32X1S_HD962
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD963
+module RAM32X1S_HD66
    (O,
     A0,
     A1,
@@ -21434,7 +21434,7 @@ module RAM32X1S_HD963
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD964
+module RAM32X1S_HD67
    (O,
     A0,
     A1,
@@ -21465,7 +21465,7 @@ module RAM32X1S_HD964
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -21479,7 +21479,7 @@ module RAM32X1S_HD964
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD965
+module RAM32X1S_HD68
    (O,
     A0,
     A1,
@@ -21524,7 +21524,7 @@ module RAM32X1S_HD965
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD966
+module RAM32X1S_HD69
    (O,
     A0,
     A1,
@@ -21555,7 +21555,7 @@ module RAM32X1S_HD966
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -21569,7 +21569,7 @@ module RAM32X1S_HD966
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD967
+module RAM32X1S_HD7
    (O,
     A0,
     A1,
@@ -21600,7 +21600,7 @@ module RAM32X1S_HD967
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -21614,7 +21614,7 @@ module RAM32X1S_HD967
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD968
+module RAM32X1S_HD70
    (O,
     A0,
     A1,
@@ -21659,7 +21659,7 @@ module RAM32X1S_HD968
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD969
+module RAM32X1S_HD71
    (O,
     A0,
     A1,
@@ -21690,7 +21690,7 @@ module RAM32X1S_HD969
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -21704,7 +21704,7 @@ module RAM32X1S_HD969
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD970
+module RAM32X1S_HD72
    (O,
     A0,
     A1,
@@ -21735,7 +21735,7 @@ module RAM32X1S_HD970
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -21749,7 +21749,7 @@ module RAM32X1S_HD970
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD971
+module RAM32X1S_HD73
    (O,
     A0,
     A1,
@@ -21780,7 +21780,7 @@ module RAM32X1S_HD971
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -21794,7 +21794,7 @@ module RAM32X1S_HD971
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD972
+module RAM32X1S_HD74
    (O,
     A0,
     A1,
@@ -21839,7 +21839,7 @@ module RAM32X1S_HD972
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD973
+module RAM32X1S_HD75
    (O,
     A0,
     A1,
@@ -21870,7 +21870,7 @@ module RAM32X1S_HD973
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -21884,7 +21884,7 @@ module RAM32X1S_HD973
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD974
+module RAM32X1S_HD76
    (O,
     A0,
     A1,
@@ -21915,7 +21915,7 @@ module RAM32X1S_HD974
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -21929,7 +21929,7 @@ module RAM32X1S_HD974
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD975
+module RAM32X1S_HD77
    (O,
     A0,
     A1,
@@ -21960,7 +21960,7 @@ module RAM32X1S_HD975
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -21974,7 +21974,7 @@ module RAM32X1S_HD975
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD976
+module RAM32X1S_HD78
    (O,
     A0,
     A1,
@@ -22005,7 +22005,7 @@ module RAM32X1S_HD976
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -22019,7 +22019,7 @@ module RAM32X1S_HD976
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD977
+module RAM32X1S_HD79
    (O,
     A0,
     A1,
@@ -22064,7 +22064,7 @@ module RAM32X1S_HD977
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD978
+module RAM32X1S_HD8
    (O,
     A0,
     A1,
@@ -22095,7 +22095,7 @@ module RAM32X1S_HD978
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -22109,7 +22109,7 @@ module RAM32X1S_HD978
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD979
+module RAM32X1S_HD80
    (O,
     A0,
     A1,
@@ -22140,7 +22140,7 @@ module RAM32X1S_HD979
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -22154,7 +22154,7 @@ module RAM32X1S_HD979
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD980
+module RAM32X1S_HD81
    (O,
     A0,
     A1,
@@ -22185,7 +22185,7 @@ module RAM32X1S_HD980
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -22199,7 +22199,7 @@ module RAM32X1S_HD980
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD981
+module RAM32X1S_HD82
    (O,
     A0,
     A1,
@@ -22244,7 +22244,7 @@ module RAM32X1S_HD981
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD982
+module RAM32X1S_HD83
    (O,
     A0,
     A1,
@@ -22289,7 +22289,7 @@ module RAM32X1S_HD982
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD983
+module RAM32X1S_HD84
    (O,
     A0,
     A1,
@@ -22334,7 +22334,7 @@ module RAM32X1S_HD983
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD984
+module RAM32X1S_HD85
    (O,
     A0,
     A1,
@@ -22365,7 +22365,7 @@ module RAM32X1S_HD984
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -22379,7 +22379,7 @@ module RAM32X1S_HD984
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD985
+module RAM32X1S_HD86
    (O,
     A0,
     A1,
@@ -22410,7 +22410,7 @@ module RAM32X1S_HD985
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -22424,7 +22424,7 @@ module RAM32X1S_HD985
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD986
+module RAM32X1S_HD87
    (O,
     A0,
     A1,
@@ -22455,7 +22455,7 @@ module RAM32X1S_HD986
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -22469,7 +22469,7 @@ module RAM32X1S_HD986
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD987
+module RAM32X1S_HD88
    (O,
     A0,
     A1,
@@ -22514,7 +22514,7 @@ module RAM32X1S_HD987
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD988
+module RAM32X1S_HD89
    (O,
     A0,
     A1,
@@ -22545,7 +22545,7 @@ module RAM32X1S_HD988
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -22559,7 +22559,7 @@ module RAM32X1S_HD988
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD989
+module RAM32X1S_HD9
    (O,
     A0,
     A1,
@@ -22590,7 +22590,7 @@ module RAM32X1S_HD989
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000002),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -22604,7 +22604,7 @@ module RAM32X1S_HD989
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD990
+module RAM32X1S_HD90
    (O,
     A0,
     A1,
@@ -22635,7 +22635,7 @@ module RAM32X1S_HD990
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000000),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -22649,7 +22649,7 @@ module RAM32X1S_HD990
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD991
+module RAM32X1S_HD91
    (O,
     A0,
     A1,
@@ -22694,7 +22694,7 @@ module RAM32X1S_HD991
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD992
+module RAM32X1S_HD92
    (O,
     A0,
     A1,
@@ -22739,7 +22739,7 @@ module RAM32X1S_HD992
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD993
+module RAM32X1S_HD93
    (O,
     A0,
     A1,
@@ -22784,7 +22784,7 @@ module RAM32X1S_HD993
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD994
+module RAM32X1S_HD94
    (O,
     A0,
     A1,
@@ -22815,7 +22815,7 @@ module RAM32X1S_HD994
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000001),
+    .INIT(32'h00000002),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -22829,7 +22829,7 @@ module RAM32X1S_HD994
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD995
+module RAM32X1S_HD95
    (O,
     A0,
     A1,
@@ -22860,7 +22860,7 @@ module RAM32X1S_HD995
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000003),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -22874,7 +22874,7 @@ module RAM32X1S_HD995
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD996
+module RAM32X1S_HD96
    (O,
     A0,
     A1,
@@ -22905,7 +22905,7 @@ module RAM32X1S_HD996
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000003),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -22919,7 +22919,7 @@ module RAM32X1S_HD996
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD997
+module RAM32X1S_HD97
    (O,
     A0,
     A1,
@@ -22964,7 +22964,7 @@ module RAM32X1S_HD997
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD998
+module RAM32X1S_HD98
    (O,
     A0,
     A1,
@@ -23009,7 +23009,7 @@ module RAM32X1S_HD998
         .WE(WE));
 endmodule
 
-module RAM32X1S_HD999
+module RAM32X1S_HD99
    (O,
     A0,
     A1,
@@ -23040,7 +23040,7 @@ module RAM32X1S_HD999
   wire WE;
 
   RAMS32 #(
-    .INIT(32'h00000000),
+    .INIT(32'h00000001),
     .IS_CLK_INVERTED(1'b0)) 
     SP
        (.ADR0(A0),
@@ -23058,6 +23058,7 @@ endmodule
 (* NotValidForBitStream *)
 module data_array
    (clk,
+    i_rd,
     i_wr,
     i_index,
     i_offset,
@@ -23069,6 +23070,7 @@ module data_array
     o_data_to_core,
     o_block_to_mem);
   input clk;
+  input i_rd;
   input i_wr;
   input [2:0]i_index;
   input [1:0]i_offset;
@@ -23417,26 +23419,28 @@ module data_array
   wire [2:0]i_index_IBUF;
   wire [1:0]i_offset;
   wire [1:0]i_offset_IBUF;
+  wire i_rd;
+  wire i_rd_IBUF;
   wire [3:0]i_way;
   wire [3:0]i_way_IBUF;
   wire i_wr;
   wire i_wr_IBUF;
   wire n_0_325_BUFG;
   wire n_0_325_BUFG_inst_n_1;
-  wire n_1_196_BUFG;
-  wire n_1_196_BUFG_inst_n_2;
+  wire n_1_194_BUFG;
+  wire n_1_194_BUFG_inst_n_2;
   wire [127:0]o_block_to_mem;
   wire [127:0]o_block_to_mem_OBUF;
   wire [31:0]o_data_to_core;
   wire [31:0]o_data_to_core_OBUF;
   wire [31:0]\output_column[0]_1 ;
-  wire [31:0]\output_column[0]_7 ;
+  wire [31:0]\output_column[0]_6 ;
   wire [31:0]\output_column[1]_0 ;
-  wire [31:0]\output_column[1]_6 ;
+  wire [31:0]\output_column[1]_4 ;
   wire [31:0]\output_column[2]_3 ;
   wire [31:0]\output_column[2]_5 ;
   wire [31:0]\output_column[3]_2 ;
-  wire [31:0]\output_column[3]_4 ;
+  wire [31:0]\output_column[3]_7 ;
 
 initial begin
  $sdf_annotate("tb_data_mem_time_synth.sdf",,,,"tool_control");
@@ -23450,7 +23454,6 @@ end
   data_mem_way \genblk1[0].data_mem_way_n 
        (.clk_IBUF_BUFG(clk_IBUF_BUFG),
         .\data_out_from_way[0] (\data_out_from_way[0] ),
-        .i_LRU_IBUF(i_LRU_IBUF[0]),
         .i_data_from_core_IBUF(i_data_from_core_IBUF),
         .i_data_from_mem_IBUF(i_data_from_mem_IBUF),
         .i_data_from_mem_valid_IBUF(i_data_from_mem_valid_IBUF),
@@ -23599,38 +23602,39 @@ end
         .i_data_from_mem_valid_IBUF(i_data_from_mem_valid_IBUF),
         .i_index_IBUF(i_index_IBUF),
         .i_offset_IBUF(i_offset_IBUF),
-        .\i_way[2] (\genblk1[1].data_mem_way_n_n_2 ),
-        .\i_way[2]_0 (\genblk1[1].data_mem_way_n_n_3 ),
-        .\i_way[2]_1 (\genblk1[1].data_mem_way_n_n_4 ),
-        .\i_way[2]_10 (\genblk1[1].data_mem_way_n_n_13 ),
-        .\i_way[2]_11 (\genblk1[1].data_mem_way_n_n_14 ),
-        .\i_way[2]_12 (\genblk1[1].data_mem_way_n_n_15 ),
-        .\i_way[2]_13 (\genblk1[1].data_mem_way_n_n_16 ),
-        .\i_way[2]_14 (\genblk1[1].data_mem_way_n_n_17 ),
-        .\i_way[2]_15 (\genblk1[1].data_mem_way_n_n_18 ),
-        .\i_way[2]_16 (\genblk1[1].data_mem_way_n_n_19 ),
-        .\i_way[2]_17 (\genblk1[1].data_mem_way_n_n_20 ),
-        .\i_way[2]_18 (\genblk1[1].data_mem_way_n_n_21 ),
-        .\i_way[2]_19 (\genblk1[1].data_mem_way_n_n_22 ),
-        .\i_way[2]_2 (\genblk1[1].data_mem_way_n_n_5 ),
-        .\i_way[2]_20 (\genblk1[1].data_mem_way_n_n_23 ),
-        .\i_way[2]_21 (\genblk1[1].data_mem_way_n_n_24 ),
-        .\i_way[2]_22 (\genblk1[1].data_mem_way_n_n_25 ),
-        .\i_way[2]_23 (\genblk1[1].data_mem_way_n_n_26 ),
-        .\i_way[2]_24 (\genblk1[1].data_mem_way_n_n_27 ),
-        .\i_way[2]_25 (\genblk1[1].data_mem_way_n_n_28 ),
-        .\i_way[2]_26 (\genblk1[1].data_mem_way_n_n_29 ),
-        .\i_way[2]_27 (\genblk1[1].data_mem_way_n_n_30 ),
-        .\i_way[2]_28 (\genblk1[1].data_mem_way_n_n_31 ),
-        .\i_way[2]_29 (\genblk1[1].data_mem_way_n_n_32 ),
-        .\i_way[2]_3 (\genblk1[1].data_mem_way_n_n_6 ),
-        .\i_way[2]_30 (\genblk1[1].data_mem_way_n_n_33 ),
-        .\i_way[2]_4 (\genblk1[1].data_mem_way_n_n_7 ),
-        .\i_way[2]_5 (\genblk1[1].data_mem_way_n_n_8 ),
-        .\i_way[2]_6 (\genblk1[1].data_mem_way_n_n_9 ),
-        .\i_way[2]_7 (\genblk1[1].data_mem_way_n_n_10 ),
-        .\i_way[2]_8 (\genblk1[1].data_mem_way_n_n_11 ),
-        .\i_way[2]_9 (\genblk1[1].data_mem_way_n_n_12 ),
+        .i_rd_IBUF(i_rd_IBUF),
+        .\i_way[0] (\genblk1[1].data_mem_way_n_n_2 ),
+        .\i_way[0]_0 (\genblk1[1].data_mem_way_n_n_3 ),
+        .\i_way[0]_1 (\genblk1[1].data_mem_way_n_n_4 ),
+        .\i_way[0]_10 (\genblk1[1].data_mem_way_n_n_13 ),
+        .\i_way[0]_11 (\genblk1[1].data_mem_way_n_n_14 ),
+        .\i_way[0]_12 (\genblk1[1].data_mem_way_n_n_15 ),
+        .\i_way[0]_13 (\genblk1[1].data_mem_way_n_n_16 ),
+        .\i_way[0]_14 (\genblk1[1].data_mem_way_n_n_17 ),
+        .\i_way[0]_15 (\genblk1[1].data_mem_way_n_n_18 ),
+        .\i_way[0]_16 (\genblk1[1].data_mem_way_n_n_19 ),
+        .\i_way[0]_17 (\genblk1[1].data_mem_way_n_n_20 ),
+        .\i_way[0]_18 (\genblk1[1].data_mem_way_n_n_21 ),
+        .\i_way[0]_19 (\genblk1[1].data_mem_way_n_n_22 ),
+        .\i_way[0]_2 (\genblk1[1].data_mem_way_n_n_5 ),
+        .\i_way[0]_20 (\genblk1[1].data_mem_way_n_n_23 ),
+        .\i_way[0]_21 (\genblk1[1].data_mem_way_n_n_24 ),
+        .\i_way[0]_22 (\genblk1[1].data_mem_way_n_n_25 ),
+        .\i_way[0]_23 (\genblk1[1].data_mem_way_n_n_26 ),
+        .\i_way[0]_24 (\genblk1[1].data_mem_way_n_n_27 ),
+        .\i_way[0]_25 (\genblk1[1].data_mem_way_n_n_28 ),
+        .\i_way[0]_26 (\genblk1[1].data_mem_way_n_n_29 ),
+        .\i_way[0]_27 (\genblk1[1].data_mem_way_n_n_30 ),
+        .\i_way[0]_28 (\genblk1[1].data_mem_way_n_n_31 ),
+        .\i_way[0]_29 (\genblk1[1].data_mem_way_n_n_32 ),
+        .\i_way[0]_3 (\genblk1[1].data_mem_way_n_n_6 ),
+        .\i_way[0]_30 (\genblk1[1].data_mem_way_n_n_33 ),
+        .\i_way[0]_4 (\genblk1[1].data_mem_way_n_n_7 ),
+        .\i_way[0]_5 (\genblk1[1].data_mem_way_n_n_8 ),
+        .\i_way[0]_6 (\genblk1[1].data_mem_way_n_n_9 ),
+        .\i_way[0]_7 (\genblk1[1].data_mem_way_n_n_10 ),
+        .\i_way[0]_8 (\genblk1[1].data_mem_way_n_n_11 ),
+        .\i_way[0]_9 (\genblk1[1].data_mem_way_n_n_12 ),
         .i_way_IBUF(i_way_IBUF),
         .i_wr_IBUF(i_wr_IBUF),
         .\o_block_to_mem_reg[127]_i_1 (\output_column[3]_2 ),
@@ -23679,7 +23683,7 @@ end
         .\o_block_to_mem_reg[124] (\genblk1[1].data_mem_way_n_n_158 ),
         .\o_block_to_mem_reg[125] (\genblk1[1].data_mem_way_n_n_159 ),
         .\o_block_to_mem_reg[126] (\genblk1[1].data_mem_way_n_n_160 ),
-        .\o_block_to_mem_reg[127] (\output_column[3]_4 ),
+        .\o_block_to_mem_reg[127] (\output_column[3]_7 ),
         .\o_block_to_mem_reg[127]_0 (\genblk1[1].data_mem_way_n_n_161 ),
         .\o_block_to_mem_reg[12] (\genblk1[1].data_mem_way_n_n_46 ),
         .\o_block_to_mem_reg[13] (\genblk1[1].data_mem_way_n_n_47 ),
@@ -23737,7 +23741,7 @@ end
         .\o_block_to_mem_reg[60] (\genblk1[1].data_mem_way_n_n_94 ),
         .\o_block_to_mem_reg[61] (\genblk1[1].data_mem_way_n_n_95 ),
         .\o_block_to_mem_reg[62] (\genblk1[1].data_mem_way_n_n_96 ),
-        .\o_block_to_mem_reg[63] (\output_column[1]_6 ),
+        .\o_block_to_mem_reg[63] (\output_column[1]_4 ),
         .\o_block_to_mem_reg[63]_0 (\genblk1[1].data_mem_way_n_n_97 ),
         .\o_block_to_mem_reg[64] (\genblk1[1].data_mem_way_n_n_98 ),
         .\o_block_to_mem_reg[65] (\genblk1[1].data_mem_way_n_n_99 ),
@@ -23780,55 +23784,55 @@ end
         .\o_block_to_mem_reg[98] (\genblk1[1].data_mem_way_n_n_132 ),
         .\o_block_to_mem_reg[99] (\genblk1[1].data_mem_way_n_n_133 ),
         .\o_block_to_mem_reg[9] (\genblk1[1].data_mem_way_n_n_43 ),
-        .o_data(\output_column[0]_7 ));
+        .o_data(\output_column[0]_6 ));
   data_mem_way_2 \genblk1[3].data_mem_way_n 
        (.D({\genblk1[3].data_mem_way_n_n_2 ,\genblk1[3].data_mem_way_n_n_3 ,\genblk1[3].data_mem_way_n_n_4 ,\genblk1[3].data_mem_way_n_n_5 ,\genblk1[3].data_mem_way_n_n_6 ,\genblk1[3].data_mem_way_n_n_7 ,\genblk1[3].data_mem_way_n_n_8 ,\genblk1[3].data_mem_way_n_n_9 ,\genblk1[3].data_mem_way_n_n_10 ,\genblk1[3].data_mem_way_n_n_11 ,\genblk1[3].data_mem_way_n_n_12 ,\genblk1[3].data_mem_way_n_n_13 ,\genblk1[3].data_mem_way_n_n_14 ,\genblk1[3].data_mem_way_n_n_15 ,\genblk1[3].data_mem_way_n_n_16 ,\genblk1[3].data_mem_way_n_n_17 ,\genblk1[3].data_mem_way_n_n_18 ,\genblk1[3].data_mem_way_n_n_19 ,\genblk1[3].data_mem_way_n_n_20 ,\genblk1[3].data_mem_way_n_n_21 ,\genblk1[3].data_mem_way_n_n_22 ,\genblk1[3].data_mem_way_n_n_23 ,\genblk1[3].data_mem_way_n_n_24 ,\genblk1[3].data_mem_way_n_n_25 ,\genblk1[3].data_mem_way_n_n_26 ,\genblk1[3].data_mem_way_n_n_27 ,\genblk1[3].data_mem_way_n_n_28 ,\genblk1[3].data_mem_way_n_n_29 ,\genblk1[3].data_mem_way_n_n_30 ,\genblk1[3].data_mem_way_n_n_31 ,\genblk1[3].data_mem_way_n_n_32 ,\genblk1[3].data_mem_way_n_n_33 }),
         .clk_IBUF_BUFG(clk_IBUF_BUFG),
         .\data_out_from_way[2] (\data_out_from_way[2] ),
-        .i_LRU_IBUF(i_LRU_IBUF[3]),
         .i_data_from_core_IBUF(i_data_from_core_IBUF),
         .i_data_from_mem_IBUF(i_data_from_mem_IBUF),
         .i_data_from_mem_valid_IBUF(i_data_from_mem_valid_IBUF),
-        .\i_index[0] (\output_column[1]_6 ),
+        .\i_index[0] (\output_column[0]_6 ),
         .\i_index[0]_0 (\output_column[2]_5 ),
-        .\i_index[0]_1 (\output_column[3]_4 ),
+        .\i_index[0]_1 (\output_column[1]_4 ),
         .i_index_IBUF(i_index_IBUF),
         .i_offset_IBUF(i_offset_IBUF),
+        .i_rd_IBUF(i_rd_IBUF),
         .i_way_IBUF(i_way_IBUF),
         .i_wr_IBUF(i_wr_IBUF),
-        .o_data(\output_column[0]_7 ),
-        .\o_data_to_core_reg[0] (\genblk1[1].data_mem_way_n_n_2 ),
-        .\o_data_to_core_reg[10] (\genblk1[1].data_mem_way_n_n_12 ),
-        .\o_data_to_core_reg[11] (\genblk1[1].data_mem_way_n_n_13 ),
-        .\o_data_to_core_reg[12] (\genblk1[1].data_mem_way_n_n_14 ),
-        .\o_data_to_core_reg[13] (\genblk1[1].data_mem_way_n_n_15 ),
-        .\o_data_to_core_reg[14] (\genblk1[1].data_mem_way_n_n_16 ),
-        .\o_data_to_core_reg[15] (\genblk1[1].data_mem_way_n_n_17 ),
-        .\o_data_to_core_reg[16] (\genblk1[1].data_mem_way_n_n_18 ),
-        .\o_data_to_core_reg[17] (\genblk1[1].data_mem_way_n_n_19 ),
-        .\o_data_to_core_reg[18] (\genblk1[1].data_mem_way_n_n_20 ),
-        .\o_data_to_core_reg[19] (\genblk1[1].data_mem_way_n_n_21 ),
-        .\o_data_to_core_reg[1] (\genblk1[1].data_mem_way_n_n_3 ),
-        .\o_data_to_core_reg[20] (\genblk1[1].data_mem_way_n_n_22 ),
-        .\o_data_to_core_reg[21] (\genblk1[1].data_mem_way_n_n_23 ),
-        .\o_data_to_core_reg[22] (\genblk1[1].data_mem_way_n_n_24 ),
-        .\o_data_to_core_reg[23] (\genblk1[1].data_mem_way_n_n_25 ),
-        .\o_data_to_core_reg[24] (\genblk1[1].data_mem_way_n_n_26 ),
-        .\o_data_to_core_reg[25] (\genblk1[1].data_mem_way_n_n_27 ),
-        .\o_data_to_core_reg[26] (\genblk1[1].data_mem_way_n_n_28 ),
-        .\o_data_to_core_reg[27] (\genblk1[1].data_mem_way_n_n_29 ),
-        .\o_data_to_core_reg[28] (\genblk1[1].data_mem_way_n_n_30 ),
-        .\o_data_to_core_reg[29] (\genblk1[1].data_mem_way_n_n_31 ),
-        .\o_data_to_core_reg[2] (\genblk1[1].data_mem_way_n_n_4 ),
-        .\o_data_to_core_reg[30] (\genblk1[1].data_mem_way_n_n_32 ),
-        .\o_data_to_core_reg[31] (\genblk1[1].data_mem_way_n_n_33 ),
-        .\o_data_to_core_reg[3] (\genblk1[1].data_mem_way_n_n_5 ),
-        .\o_data_to_core_reg[4] (\genblk1[1].data_mem_way_n_n_6 ),
-        .\o_data_to_core_reg[5] (\genblk1[1].data_mem_way_n_n_7 ),
-        .\o_data_to_core_reg[6] (\genblk1[1].data_mem_way_n_n_8 ),
-        .\o_data_to_core_reg[7] (\genblk1[1].data_mem_way_n_n_9 ),
-        .\o_data_to_core_reg[8] (\genblk1[1].data_mem_way_n_n_10 ),
-        .\o_data_to_core_reg[9] (\genblk1[1].data_mem_way_n_n_11 ));
+        .o_data(\output_column[3]_7 ),
+        .\o_data_to_core_reg[0] (\genblk1[1].data_mem_way_n_n_33 ),
+        .\o_data_to_core_reg[10] (\genblk1[1].data_mem_way_n_n_23 ),
+        .\o_data_to_core_reg[11] (\genblk1[1].data_mem_way_n_n_22 ),
+        .\o_data_to_core_reg[12] (\genblk1[1].data_mem_way_n_n_21 ),
+        .\o_data_to_core_reg[13] (\genblk1[1].data_mem_way_n_n_20 ),
+        .\o_data_to_core_reg[14] (\genblk1[1].data_mem_way_n_n_19 ),
+        .\o_data_to_core_reg[15] (\genblk1[1].data_mem_way_n_n_18 ),
+        .\o_data_to_core_reg[16] (\genblk1[1].data_mem_way_n_n_17 ),
+        .\o_data_to_core_reg[17] (\genblk1[1].data_mem_way_n_n_16 ),
+        .\o_data_to_core_reg[18] (\genblk1[1].data_mem_way_n_n_15 ),
+        .\o_data_to_core_reg[19] (\genblk1[1].data_mem_way_n_n_14 ),
+        .\o_data_to_core_reg[1] (\genblk1[1].data_mem_way_n_n_32 ),
+        .\o_data_to_core_reg[20] (\genblk1[1].data_mem_way_n_n_13 ),
+        .\o_data_to_core_reg[21] (\genblk1[1].data_mem_way_n_n_12 ),
+        .\o_data_to_core_reg[22] (\genblk1[1].data_mem_way_n_n_11 ),
+        .\o_data_to_core_reg[23] (\genblk1[1].data_mem_way_n_n_10 ),
+        .\o_data_to_core_reg[24] (\genblk1[1].data_mem_way_n_n_9 ),
+        .\o_data_to_core_reg[25] (\genblk1[1].data_mem_way_n_n_8 ),
+        .\o_data_to_core_reg[26] (\genblk1[1].data_mem_way_n_n_7 ),
+        .\o_data_to_core_reg[27] (\genblk1[1].data_mem_way_n_n_6 ),
+        .\o_data_to_core_reg[28] (\genblk1[1].data_mem_way_n_n_5 ),
+        .\o_data_to_core_reg[29] (\genblk1[1].data_mem_way_n_n_4 ),
+        .\o_data_to_core_reg[2] (\genblk1[1].data_mem_way_n_n_31 ),
+        .\o_data_to_core_reg[30] (\genblk1[1].data_mem_way_n_n_3 ),
+        .\o_data_to_core_reg[31] (\genblk1[1].data_mem_way_n_n_2 ),
+        .\o_data_to_core_reg[3] (\genblk1[1].data_mem_way_n_n_30 ),
+        .\o_data_to_core_reg[4] (\genblk1[1].data_mem_way_n_n_29 ),
+        .\o_data_to_core_reg[5] (\genblk1[1].data_mem_way_n_n_28 ),
+        .\o_data_to_core_reg[6] (\genblk1[1].data_mem_way_n_n_27 ),
+        .\o_data_to_core_reg[7] (\genblk1[1].data_mem_way_n_n_26 ),
+        .\o_data_to_core_reg[8] (\genblk1[1].data_mem_way_n_n_25 ),
+        .\o_data_to_core_reg[9] (\genblk1[1].data_mem_way_n_n_24 ));
   IBUF \i_LRU_IBUF[0]_inst 
        (.I(i_LRU[0]),
         .O(i_LRU_IBUF[0]));
@@ -24339,6 +24343,9 @@ end
   IBUF \i_offset_IBUF[1]_inst 
        (.I(i_offset[1]),
         .O(i_offset_IBUF[1]));
+  IBUF i_rd_IBUF_inst
+       (.I(i_rd),
+        .O(i_rd_IBUF));
   IBUF \i_way_IBUF[0]_inst 
        (.I(i_way[0]),
         .O(i_way_IBUF[0]));
@@ -24365,17 +24372,18 @@ end
         .I2(i_LRU_IBUF[2]),
         .I3(i_LRU_IBUF[0]),
         .O(n_0_325_BUFG_inst_n_1));
-  BUFG n_1_196_BUFG_inst
-       (.I(n_1_196_BUFG_inst_n_2),
-        .O(n_1_196_BUFG));
-  LUT4 #(
-    .INIT(16'hFFFE)) 
-    n_1_196_BUFG_inst_i_1
+  BUFG n_1_194_BUFG_inst
+       (.I(n_1_194_BUFG_inst_n_2),
+        .O(n_1_194_BUFG));
+  LUT5 #(
+    .INIT(32'hFF00FE00)) 
+    n_1_194_BUFG_inst_i_1
        (.I0(i_way_IBUF[1]),
         .I1(i_way_IBUF[3]),
         .I2(i_way_IBUF[2]),
-        .I3(i_way_IBUF[0]),
-        .O(n_1_196_BUFG_inst_n_2));
+        .I3(i_rd_IBUF),
+        .I4(i_way_IBUF[0]),
+        .O(n_1_194_BUFG_inst_n_2));
   OBUF \o_block_to_mem_OBUF[0]_inst 
        (.I(o_block_to_mem_OBUF[0]),
         .O(o_block_to_mem[0]));
@@ -26143,7 +26151,7 @@ end
     \o_data_to_core_reg[0] 
        (.CLR(1'b0),
         .D(\genblk1[3].data_mem_way_n_n_33 ),
-        .G(n_1_196_BUFG),
+        .G(n_1_194_BUFG),
         .GE(1'b1),
         .Q(o_data_to_core_OBUF[0]));
   (* XILINX_LEGACY_PRIM = "LD" *) 
@@ -26153,7 +26161,7 @@ end
     \o_data_to_core_reg[10] 
        (.CLR(1'b0),
         .D(\genblk1[3].data_mem_way_n_n_23 ),
-        .G(n_1_196_BUFG),
+        .G(n_1_194_BUFG),
         .GE(1'b1),
         .Q(o_data_to_core_OBUF[10]));
   (* XILINX_LEGACY_PRIM = "LD" *) 
@@ -26163,7 +26171,7 @@ end
     \o_data_to_core_reg[11] 
        (.CLR(1'b0),
         .D(\genblk1[3].data_mem_way_n_n_22 ),
-        .G(n_1_196_BUFG),
+        .G(n_1_194_BUFG),
         .GE(1'b1),
         .Q(o_data_to_core_OBUF[11]));
   (* XILINX_LEGACY_PRIM = "LD" *) 
@@ -26173,7 +26181,7 @@ end
     \o_data_to_core_reg[12] 
        (.CLR(1'b0),
         .D(\genblk1[3].data_mem_way_n_n_21 ),
-        .G(n_1_196_BUFG),
+        .G(n_1_194_BUFG),
         .GE(1'b1),
         .Q(o_data_to_core_OBUF[12]));
   (* XILINX_LEGACY_PRIM = "LD" *) 
@@ -26183,7 +26191,7 @@ end
     \o_data_to_core_reg[13] 
        (.CLR(1'b0),
         .D(\genblk1[3].data_mem_way_n_n_20 ),
-        .G(n_1_196_BUFG),
+        .G(n_1_194_BUFG),
         .GE(1'b1),
         .Q(o_data_to_core_OBUF[13]));
   (* XILINX_LEGACY_PRIM = "LD" *) 
@@ -26193,7 +26201,7 @@ end
     \o_data_to_core_reg[14] 
        (.CLR(1'b0),
         .D(\genblk1[3].data_mem_way_n_n_19 ),
-        .G(n_1_196_BUFG),
+        .G(n_1_194_BUFG),
         .GE(1'b1),
         .Q(o_data_to_core_OBUF[14]));
   (* XILINX_LEGACY_PRIM = "LD" *) 
@@ -26203,7 +26211,7 @@ end
     \o_data_to_core_reg[15] 
        (.CLR(1'b0),
         .D(\genblk1[3].data_mem_way_n_n_18 ),
-        .G(n_1_196_BUFG),
+        .G(n_1_194_BUFG),
         .GE(1'b1),
         .Q(o_data_to_core_OBUF[15]));
   (* XILINX_LEGACY_PRIM = "LD" *) 
@@ -26213,7 +26221,7 @@ end
     \o_data_to_core_reg[16] 
        (.CLR(1'b0),
         .D(\genblk1[3].data_mem_way_n_n_17 ),
-        .G(n_1_196_BUFG),
+        .G(n_1_194_BUFG),
         .GE(1'b1),
         .Q(o_data_to_core_OBUF[16]));
   (* XILINX_LEGACY_PRIM = "LD" *) 
@@ -26223,7 +26231,7 @@ end
     \o_data_to_core_reg[17] 
        (.CLR(1'b0),
         .D(\genblk1[3].data_mem_way_n_n_16 ),
-        .G(n_1_196_BUFG),
+        .G(n_1_194_BUFG),
         .GE(1'b1),
         .Q(o_data_to_core_OBUF[17]));
   (* XILINX_LEGACY_PRIM = "LD" *) 
@@ -26233,7 +26241,7 @@ end
     \o_data_to_core_reg[18] 
        (.CLR(1'b0),
         .D(\genblk1[3].data_mem_way_n_n_15 ),
-        .G(n_1_196_BUFG),
+        .G(n_1_194_BUFG),
         .GE(1'b1),
         .Q(o_data_to_core_OBUF[18]));
   (* XILINX_LEGACY_PRIM = "LD" *) 
@@ -26243,7 +26251,7 @@ end
     \o_data_to_core_reg[19] 
        (.CLR(1'b0),
         .D(\genblk1[3].data_mem_way_n_n_14 ),
-        .G(n_1_196_BUFG),
+        .G(n_1_194_BUFG),
         .GE(1'b1),
         .Q(o_data_to_core_OBUF[19]));
   (* XILINX_LEGACY_PRIM = "LD" *) 
@@ -26253,7 +26261,7 @@ end
     \o_data_to_core_reg[1] 
        (.CLR(1'b0),
         .D(\genblk1[3].data_mem_way_n_n_32 ),
-        .G(n_1_196_BUFG),
+        .G(n_1_194_BUFG),
         .GE(1'b1),
         .Q(o_data_to_core_OBUF[1]));
   (* XILINX_LEGACY_PRIM = "LD" *) 
@@ -26263,7 +26271,7 @@ end
     \o_data_to_core_reg[20] 
        (.CLR(1'b0),
         .D(\genblk1[3].data_mem_way_n_n_13 ),
-        .G(n_1_196_BUFG),
+        .G(n_1_194_BUFG),
         .GE(1'b1),
         .Q(o_data_to_core_OBUF[20]));
   (* XILINX_LEGACY_PRIM = "LD" *) 
@@ -26273,7 +26281,7 @@ end
     \o_data_to_core_reg[21] 
        (.CLR(1'b0),
         .D(\genblk1[3].data_mem_way_n_n_12 ),
-        .G(n_1_196_BUFG),
+        .G(n_1_194_BUFG),
         .GE(1'b1),
         .Q(o_data_to_core_OBUF[21]));
   (* XILINX_LEGACY_PRIM = "LD" *) 
@@ -26283,7 +26291,7 @@ end
     \o_data_to_core_reg[22] 
        (.CLR(1'b0),
         .D(\genblk1[3].data_mem_way_n_n_11 ),
-        .G(n_1_196_BUFG),
+        .G(n_1_194_BUFG),
         .GE(1'b1),
         .Q(o_data_to_core_OBUF[22]));
   (* XILINX_LEGACY_PRIM = "LD" *) 
@@ -26293,7 +26301,7 @@ end
     \o_data_to_core_reg[23] 
        (.CLR(1'b0),
         .D(\genblk1[3].data_mem_way_n_n_10 ),
-        .G(n_1_196_BUFG),
+        .G(n_1_194_BUFG),
         .GE(1'b1),
         .Q(o_data_to_core_OBUF[23]));
   (* XILINX_LEGACY_PRIM = "LD" *) 
@@ -26303,7 +26311,7 @@ end
     \o_data_to_core_reg[24] 
        (.CLR(1'b0),
         .D(\genblk1[3].data_mem_way_n_n_9 ),
-        .G(n_1_196_BUFG),
+        .G(n_1_194_BUFG),
         .GE(1'b1),
         .Q(o_data_to_core_OBUF[24]));
   (* XILINX_LEGACY_PRIM = "LD" *) 
@@ -26313,7 +26321,7 @@ end
     \o_data_to_core_reg[25] 
        (.CLR(1'b0),
         .D(\genblk1[3].data_mem_way_n_n_8 ),
-        .G(n_1_196_BUFG),
+        .G(n_1_194_BUFG),
         .GE(1'b1),
         .Q(o_data_to_core_OBUF[25]));
   (* XILINX_LEGACY_PRIM = "LD" *) 
@@ -26323,7 +26331,7 @@ end
     \o_data_to_core_reg[26] 
        (.CLR(1'b0),
         .D(\genblk1[3].data_mem_way_n_n_7 ),
-        .G(n_1_196_BUFG),
+        .G(n_1_194_BUFG),
         .GE(1'b1),
         .Q(o_data_to_core_OBUF[26]));
   (* XILINX_LEGACY_PRIM = "LD" *) 
@@ -26333,7 +26341,7 @@ end
     \o_data_to_core_reg[27] 
        (.CLR(1'b0),
         .D(\genblk1[3].data_mem_way_n_n_6 ),
-        .G(n_1_196_BUFG),
+        .G(n_1_194_BUFG),
         .GE(1'b1),
         .Q(o_data_to_core_OBUF[27]));
   (* XILINX_LEGACY_PRIM = "LD" *) 
@@ -26343,7 +26351,7 @@ end
     \o_data_to_core_reg[28] 
        (.CLR(1'b0),
         .D(\genblk1[3].data_mem_way_n_n_5 ),
-        .G(n_1_196_BUFG),
+        .G(n_1_194_BUFG),
         .GE(1'b1),
         .Q(o_data_to_core_OBUF[28]));
   (* XILINX_LEGACY_PRIM = "LD" *) 
@@ -26353,7 +26361,7 @@ end
     \o_data_to_core_reg[29] 
        (.CLR(1'b0),
         .D(\genblk1[3].data_mem_way_n_n_4 ),
-        .G(n_1_196_BUFG),
+        .G(n_1_194_BUFG),
         .GE(1'b1),
         .Q(o_data_to_core_OBUF[29]));
   (* XILINX_LEGACY_PRIM = "LD" *) 
@@ -26363,7 +26371,7 @@ end
     \o_data_to_core_reg[2] 
        (.CLR(1'b0),
         .D(\genblk1[3].data_mem_way_n_n_31 ),
-        .G(n_1_196_BUFG),
+        .G(n_1_194_BUFG),
         .GE(1'b1),
         .Q(o_data_to_core_OBUF[2]));
   (* XILINX_LEGACY_PRIM = "LD" *) 
@@ -26373,7 +26381,7 @@ end
     \o_data_to_core_reg[30] 
        (.CLR(1'b0),
         .D(\genblk1[3].data_mem_way_n_n_3 ),
-        .G(n_1_196_BUFG),
+        .G(n_1_194_BUFG),
         .GE(1'b1),
         .Q(o_data_to_core_OBUF[30]));
   (* XILINX_LEGACY_PRIM = "LD" *) 
@@ -26383,7 +26391,7 @@ end
     \o_data_to_core_reg[31] 
        (.CLR(1'b0),
         .D(\genblk1[3].data_mem_way_n_n_2 ),
-        .G(n_1_196_BUFG),
+        .G(n_1_194_BUFG),
         .GE(1'b1),
         .Q(o_data_to_core_OBUF[31]));
   (* XILINX_LEGACY_PRIM = "LD" *) 
@@ -26393,7 +26401,7 @@ end
     \o_data_to_core_reg[3] 
        (.CLR(1'b0),
         .D(\genblk1[3].data_mem_way_n_n_30 ),
-        .G(n_1_196_BUFG),
+        .G(n_1_194_BUFG),
         .GE(1'b1),
         .Q(o_data_to_core_OBUF[3]));
   (* XILINX_LEGACY_PRIM = "LD" *) 
@@ -26403,7 +26411,7 @@ end
     \o_data_to_core_reg[4] 
        (.CLR(1'b0),
         .D(\genblk1[3].data_mem_way_n_n_29 ),
-        .G(n_1_196_BUFG),
+        .G(n_1_194_BUFG),
         .GE(1'b1),
         .Q(o_data_to_core_OBUF[4]));
   (* XILINX_LEGACY_PRIM = "LD" *) 
@@ -26413,7 +26421,7 @@ end
     \o_data_to_core_reg[5] 
        (.CLR(1'b0),
         .D(\genblk1[3].data_mem_way_n_n_28 ),
-        .G(n_1_196_BUFG),
+        .G(n_1_194_BUFG),
         .GE(1'b1),
         .Q(o_data_to_core_OBUF[5]));
   (* XILINX_LEGACY_PRIM = "LD" *) 
@@ -26423,7 +26431,7 @@ end
     \o_data_to_core_reg[6] 
        (.CLR(1'b0),
         .D(\genblk1[3].data_mem_way_n_n_27 ),
-        .G(n_1_196_BUFG),
+        .G(n_1_194_BUFG),
         .GE(1'b1),
         .Q(o_data_to_core_OBUF[6]));
   (* XILINX_LEGACY_PRIM = "LD" *) 
@@ -26433,7 +26441,7 @@ end
     \o_data_to_core_reg[7] 
        (.CLR(1'b0),
         .D(\genblk1[3].data_mem_way_n_n_26 ),
-        .G(n_1_196_BUFG),
+        .G(n_1_194_BUFG),
         .GE(1'b1),
         .Q(o_data_to_core_OBUF[7]));
   (* XILINX_LEGACY_PRIM = "LD" *) 
@@ -26443,7 +26451,7 @@ end
     \o_data_to_core_reg[8] 
        (.CLR(1'b0),
         .D(\genblk1[3].data_mem_way_n_n_25 ),
-        .G(n_1_196_BUFG),
+        .G(n_1_194_BUFG),
         .GE(1'b1),
         .Q(o_data_to_core_OBUF[8]));
   (* XILINX_LEGACY_PRIM = "LD" *) 
@@ -26453,243 +26461,146 @@ end
     \o_data_to_core_reg[9] 
        (.CLR(1'b0),
         .D(\genblk1[3].data_mem_way_n_n_24 ),
-        .G(n_1_196_BUFG),
+        .G(n_1_194_BUFG),
         .GE(1'b1),
         .Q(o_data_to_core_OBUF[9]));
 endmodule
 
 module data_mem_column
-   (D,
-    o_data,
-    \o_data_to_core_reg[0] ,
-    \data_out_from_way[2] ,
-    \o_data_to_core_reg[0]_0 ,
-    \o_data_to_core_reg[1] ,
-    \o_data_to_core_reg[1]_0 ,
-    \o_data_to_core_reg[2] ,
-    \o_data_to_core_reg[2]_0 ,
-    \o_data_to_core_reg[3] ,
-    \o_data_to_core_reg[3]_0 ,
-    \o_data_to_core_reg[4] ,
-    \o_data_to_core_reg[4]_0 ,
-    \o_data_to_core_reg[5] ,
-    \o_data_to_core_reg[5]_0 ,
-    \o_data_to_core_reg[6] ,
-    \o_data_to_core_reg[6]_0 ,
-    \o_data_to_core_reg[7] ,
-    \o_data_to_core_reg[7]_0 ,
-    \o_data_to_core_reg[8] ,
-    \o_data_to_core_reg[8]_0 ,
-    \o_data_to_core_reg[9] ,
-    \o_data_to_core_reg[9]_0 ,
-    \o_data_to_core_reg[10] ,
-    \o_data_to_core_reg[10]_0 ,
-    \o_data_to_core_reg[11] ,
-    \o_data_to_core_reg[11]_0 ,
-    \o_data_to_core_reg[12] ,
-    \o_data_to_core_reg[12]_0 ,
-    \o_data_to_core_reg[13] ,
-    \o_data_to_core_reg[13]_0 ,
-    \o_data_to_core_reg[14] ,
-    \o_data_to_core_reg[14]_0 ,
-    \o_data_to_core_reg[15] ,
-    \o_data_to_core_reg[15]_0 ,
-    \o_data_to_core_reg[16] ,
-    \o_data_to_core_reg[16]_0 ,
-    \o_data_to_core_reg[17] ,
-    \o_data_to_core_reg[17]_0 ,
-    \o_data_to_core_reg[18] ,
-    \o_data_to_core_reg[18]_0 ,
-    \o_data_to_core_reg[19] ,
-    \o_data_to_core_reg[19]_0 ,
-    \o_data_to_core_reg[20] ,
-    \o_data_to_core_reg[20]_0 ,
-    \o_data_to_core_reg[21] ,
-    \o_data_to_core_reg[21]_0 ,
-    \o_data_to_core_reg[22] ,
-    \o_data_to_core_reg[22]_0 ,
-    \o_data_to_core_reg[23] ,
-    \o_data_to_core_reg[23]_0 ,
-    \o_data_to_core_reg[24] ,
-    \o_data_to_core_reg[24]_0 ,
-    \o_data_to_core_reg[25] ,
-    \o_data_to_core_reg[25]_0 ,
-    \o_data_to_core_reg[26] ,
-    \o_data_to_core_reg[26]_0 ,
-    \o_data_to_core_reg[27] ,
-    \o_data_to_core_reg[27]_0 ,
-    \o_data_to_core_reg[28] ,
-    \o_data_to_core_reg[28]_0 ,
-    \o_data_to_core_reg[29] ,
-    \o_data_to_core_reg[29]_0 ,
-    \o_data_to_core_reg[30] ,
-    \o_data_to_core_reg[30]_0 ,
-    \o_data_to_core_reg[31] ,
-    \o_data_to_core_reg[31]_0 ,
+   (\i_offset[1] ,
+    \i_index[0] ,
+    \i_offset[1]_0 ,
+    \i_offset[1]_1 ,
+    \i_offset[1]_2 ,
+    \i_offset[1]_3 ,
+    \i_offset[1]_4 ,
+    \i_offset[1]_5 ,
+    \i_offset[1]_6 ,
+    \i_offset[1]_7 ,
+    \i_offset[1]_8 ,
+    \i_offset[1]_9 ,
+    \i_offset[1]_10 ,
+    \i_offset[1]_11 ,
+    \i_offset[1]_12 ,
+    \i_offset[1]_13 ,
+    \i_offset[1]_14 ,
+    \i_offset[1]_15 ,
+    \i_offset[1]_16 ,
+    \i_offset[1]_17 ,
+    \i_offset[1]_18 ,
+    \i_offset[1]_19 ,
+    \i_offset[1]_20 ,
+    \i_offset[1]_21 ,
+    \i_offset[1]_22 ,
+    \i_offset[1]_23 ,
+    \i_offset[1]_24 ,
+    \i_offset[1]_25 ,
+    \i_offset[1]_26 ,
+    \i_offset[1]_27 ,
+    \i_offset[1]_28 ,
+    \i_offset[1]_29 ,
+    \i_offset[1]_30 ,
     i_offset_IBUF,
+    o_data_to_core1,
+    \data_out_from_way[2] ,
     i_way_IBUF,
+    i_rd_IBUF,
     i_data_from_mem_valid_IBUF,
-    i_LRU_IBUF,
     i_data_from_mem_IBUF,
     i_data_from_core_IBUF,
     i_wr_IBUF,
     clk_IBUF_BUFG,
     i_index_IBUF);
-  output [31:0]D;
-  output [31:0]o_data;
-  input \o_data_to_core_reg[0] ;
-  input [31:0]\data_out_from_way[2] ;
-  input \o_data_to_core_reg[0]_0 ;
-  input \o_data_to_core_reg[1] ;
-  input \o_data_to_core_reg[1]_0 ;
-  input \o_data_to_core_reg[2] ;
-  input \o_data_to_core_reg[2]_0 ;
-  input \o_data_to_core_reg[3] ;
-  input \o_data_to_core_reg[3]_0 ;
-  input \o_data_to_core_reg[4] ;
-  input \o_data_to_core_reg[4]_0 ;
-  input \o_data_to_core_reg[5] ;
-  input \o_data_to_core_reg[5]_0 ;
-  input \o_data_to_core_reg[6] ;
-  input \o_data_to_core_reg[6]_0 ;
-  input \o_data_to_core_reg[7] ;
-  input \o_data_to_core_reg[7]_0 ;
-  input \o_data_to_core_reg[8] ;
-  input \o_data_to_core_reg[8]_0 ;
-  input \o_data_to_core_reg[9] ;
-  input \o_data_to_core_reg[9]_0 ;
-  input \o_data_to_core_reg[10] ;
-  input \o_data_to_core_reg[10]_0 ;
-  input \o_data_to_core_reg[11] ;
-  input \o_data_to_core_reg[11]_0 ;
-  input \o_data_to_core_reg[12] ;
-  input \o_data_to_core_reg[12]_0 ;
-  input \o_data_to_core_reg[13] ;
-  input \o_data_to_core_reg[13]_0 ;
-  input \o_data_to_core_reg[14] ;
-  input \o_data_to_core_reg[14]_0 ;
-  input \o_data_to_core_reg[15] ;
-  input \o_data_to_core_reg[15]_0 ;
-  input \o_data_to_core_reg[16] ;
-  input \o_data_to_core_reg[16]_0 ;
-  input \o_data_to_core_reg[17] ;
-  input \o_data_to_core_reg[17]_0 ;
-  input \o_data_to_core_reg[18] ;
-  input \o_data_to_core_reg[18]_0 ;
-  input \o_data_to_core_reg[19] ;
-  input \o_data_to_core_reg[19]_0 ;
-  input \o_data_to_core_reg[20] ;
-  input \o_data_to_core_reg[20]_0 ;
-  input \o_data_to_core_reg[21] ;
-  input \o_data_to_core_reg[21]_0 ;
-  input \o_data_to_core_reg[22] ;
-  input \o_data_to_core_reg[22]_0 ;
-  input \o_data_to_core_reg[23] ;
-  input \o_data_to_core_reg[23]_0 ;
-  input \o_data_to_core_reg[24] ;
-  input \o_data_to_core_reg[24]_0 ;
-  input \o_data_to_core_reg[25] ;
-  input \o_data_to_core_reg[25]_0 ;
-  input \o_data_to_core_reg[26] ;
-  input \o_data_to_core_reg[26]_0 ;
-  input \o_data_to_core_reg[27] ;
-  input \o_data_to_core_reg[27]_0 ;
-  input \o_data_to_core_reg[28] ;
-  input \o_data_to_core_reg[28]_0 ;
-  input \o_data_to_core_reg[29] ;
-  input \o_data_to_core_reg[29]_0 ;
-  input \o_data_to_core_reg[30] ;
-  input \o_data_to_core_reg[30]_0 ;
-  input \o_data_to_core_reg[31] ;
-  input \o_data_to_core_reg[31]_0 ;
+  output \i_offset[1] ;
+  output [31:0]\i_index[0] ;
+  output \i_offset[1]_0 ;
+  output \i_offset[1]_1 ;
+  output \i_offset[1]_2 ;
+  output \i_offset[1]_3 ;
+  output \i_offset[1]_4 ;
+  output \i_offset[1]_5 ;
+  output \i_offset[1]_6 ;
+  output \i_offset[1]_7 ;
+  output \i_offset[1]_8 ;
+  output \i_offset[1]_9 ;
+  output \i_offset[1]_10 ;
+  output \i_offset[1]_11 ;
+  output \i_offset[1]_12 ;
+  output \i_offset[1]_13 ;
+  output \i_offset[1]_14 ;
+  output \i_offset[1]_15 ;
+  output \i_offset[1]_16 ;
+  output \i_offset[1]_17 ;
+  output \i_offset[1]_18 ;
+  output \i_offset[1]_19 ;
+  output \i_offset[1]_20 ;
+  output \i_offset[1]_21 ;
+  output \i_offset[1]_22 ;
+  output \i_offset[1]_23 ;
+  output \i_offset[1]_24 ;
+  output \i_offset[1]_25 ;
+  output \i_offset[1]_26 ;
+  output \i_offset[1]_27 ;
+  output \i_offset[1]_28 ;
+  output \i_offset[1]_29 ;
+  output \i_offset[1]_30 ;
   input [1:0]i_offset_IBUF;
+  input o_data_to_core1;
+  input [31:0]\data_out_from_way[2] ;
   input [3:0]i_way_IBUF;
+  input i_rd_IBUF;
   input i_data_from_mem_valid_IBUF;
-  input [0:0]i_LRU_IBUF;
   input [31:0]i_data_from_mem_IBUF;
   input [31:0]i_data_from_core_IBUF;
   input i_wr_IBUF;
   input clk_IBUF_BUFG;
   input [2:0]i_index_IBUF;
 
-  wire [31:0]D;
   wire clk_IBUF_BUFG;
   wire [31:0]\data_out_from_way[2] ;
-  wire [0:0]i_LRU_IBUF;
   wire [31:0]i_data_from_core_IBUF;
   wire [31:0]i_data_from_mem_IBUF;
   wire i_data_from_mem_valid_IBUF;
+  wire [31:0]\i_index[0] ;
   wire [2:0]i_index_IBUF;
+  wire \i_offset[1] ;
+  wire \i_offset[1]_0 ;
+  wire \i_offset[1]_1 ;
+  wire \i_offset[1]_10 ;
+  wire \i_offset[1]_11 ;
+  wire \i_offset[1]_12 ;
+  wire \i_offset[1]_13 ;
+  wire \i_offset[1]_14 ;
+  wire \i_offset[1]_15 ;
+  wire \i_offset[1]_16 ;
+  wire \i_offset[1]_17 ;
+  wire \i_offset[1]_18 ;
+  wire \i_offset[1]_19 ;
+  wire \i_offset[1]_2 ;
+  wire \i_offset[1]_20 ;
+  wire \i_offset[1]_21 ;
+  wire \i_offset[1]_22 ;
+  wire \i_offset[1]_23 ;
+  wire \i_offset[1]_24 ;
+  wire \i_offset[1]_25 ;
+  wire \i_offset[1]_26 ;
+  wire \i_offset[1]_27 ;
+  wire \i_offset[1]_28 ;
+  wire \i_offset[1]_29 ;
+  wire \i_offset[1]_3 ;
+  wire \i_offset[1]_30 ;
+  wire \i_offset[1]_4 ;
+  wire \i_offset[1]_5 ;
+  wire \i_offset[1]_6 ;
+  wire \i_offset[1]_7 ;
+  wire \i_offset[1]_8 ;
+  wire \i_offset[1]_9 ;
   wire [1:0]i_offset_IBUF;
+  wire i_rd_IBUF;
   wire [3:0]i_way_IBUF;
   wire i_wr_IBUF;
-  wire [31:0]o_data;
-  wire \o_data_to_core_reg[0] ;
-  wire \o_data_to_core_reg[0]_0 ;
-  wire \o_data_to_core_reg[10] ;
-  wire \o_data_to_core_reg[10]_0 ;
-  wire \o_data_to_core_reg[11] ;
-  wire \o_data_to_core_reg[11]_0 ;
-  wire \o_data_to_core_reg[12] ;
-  wire \o_data_to_core_reg[12]_0 ;
-  wire \o_data_to_core_reg[13] ;
-  wire \o_data_to_core_reg[13]_0 ;
-  wire \o_data_to_core_reg[14] ;
-  wire \o_data_to_core_reg[14]_0 ;
-  wire \o_data_to_core_reg[15] ;
-  wire \o_data_to_core_reg[15]_0 ;
-  wire \o_data_to_core_reg[16] ;
-  wire \o_data_to_core_reg[16]_0 ;
-  wire \o_data_to_core_reg[17] ;
-  wire \o_data_to_core_reg[17]_0 ;
-  wire \o_data_to_core_reg[18] ;
-  wire \o_data_to_core_reg[18]_0 ;
-  wire \o_data_to_core_reg[19] ;
-  wire \o_data_to_core_reg[19]_0 ;
-  wire \o_data_to_core_reg[1] ;
-  wire \o_data_to_core_reg[1]_0 ;
-  wire \o_data_to_core_reg[20] ;
-  wire \o_data_to_core_reg[20]_0 ;
-  wire \o_data_to_core_reg[21] ;
-  wire \o_data_to_core_reg[21]_0 ;
-  wire \o_data_to_core_reg[22] ;
-  wire \o_data_to_core_reg[22]_0 ;
-  wire \o_data_to_core_reg[23] ;
-  wire \o_data_to_core_reg[23]_0 ;
-  wire \o_data_to_core_reg[24] ;
-  wire \o_data_to_core_reg[24]_0 ;
-  wire \o_data_to_core_reg[25] ;
-  wire \o_data_to_core_reg[25]_0 ;
-  wire \o_data_to_core_reg[26] ;
-  wire \o_data_to_core_reg[26]_0 ;
-  wire \o_data_to_core_reg[27] ;
-  wire \o_data_to_core_reg[27]_0 ;
-  wire \o_data_to_core_reg[28] ;
-  wire \o_data_to_core_reg[28]_0 ;
-  wire \o_data_to_core_reg[29] ;
-  wire \o_data_to_core_reg[29]_0 ;
-  wire \o_data_to_core_reg[2] ;
-  wire \o_data_to_core_reg[2]_0 ;
-  wire \o_data_to_core_reg[30] ;
-  wire \o_data_to_core_reg[30]_0 ;
-  wire \o_data_to_core_reg[31] ;
-  wire \o_data_to_core_reg[31]_0 ;
-  wire \o_data_to_core_reg[31]_i_3_n_2 ;
-  wire \o_data_to_core_reg[31]_i_5_n_2 ;
-  wire \o_data_to_core_reg[3] ;
-  wire \o_data_to_core_reg[3]_0 ;
-  wire \o_data_to_core_reg[4] ;
-  wire \o_data_to_core_reg[4]_0 ;
-  wire \o_data_to_core_reg[5] ;
-  wire \o_data_to_core_reg[5]_0 ;
-  wire \o_data_to_core_reg[6] ;
-  wire \o_data_to_core_reg[6]_0 ;
-  wire \o_data_to_core_reg[7] ;
-  wire \o_data_to_core_reg[7]_0 ;
-  wire \o_data_to_core_reg[8] ;
-  wire \o_data_to_core_reg[8]_0 ;
-  wire \o_data_to_core_reg[9] ;
-  wire \o_data_to_core_reg[9]_0 ;
+  wire o_data_to_core1;
+  wire \o_data_to_core_reg[31]_i_12_n_2 ;
   wire p_0_in__11;
   wire [31:0]p_1_in;
 
@@ -26704,33 +26615,32 @@ module data_mem_column
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "0" *) 
   (* ram_slice_end = "0" *) 
-  RAM32X1S_HD895 data_mem_reg_0_7_0_0
+  RAM32X1S_HD384 data_mem_reg_0_7_0_0
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[0]),
-        .O(o_data[0]),
+        .O(\i_index[0] [0]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__11));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_0_0_i_1__11
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[0]),
         .I3(i_data_from_core_IBUF[0]),
         .O(p_1_in[0]));
-  LUT6 #(
-    .INIT(64'h888F888888888888)) 
+  LUT5 #(
+    .INIT(32'h888A8888)) 
     data_mem_reg_0_7_0_0_i_2__14
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
-        .I2(i_offset_IBUF[0]),
-        .I3(i_offset_IBUF[1]),
-        .I4(i_way_IBUF[3]),
-        .I5(i_wr_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
+        .I2(i_offset_IBUF[1]),
+        .I3(i_offset_IBUF[0]),
+        .I4(i_wr_IBUF),
         .O(p_0_in__11));
   (* INIT = "32'h00000003" *) 
   (* RTL_RAM_BITS = "256" *) 
@@ -26743,21 +26653,21 @@ module data_mem_column
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "10" *) 
   (* ram_slice_end = "10" *) 
-  RAM32X1S_HD896 data_mem_reg_0_7_10_10
+  RAM32X1S_HD385 data_mem_reg_0_7_10_10
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[10]),
-        .O(o_data[10]),
+        .O(\i_index[0] [10]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__11));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_10_10_i_1__11
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[10]),
         .I3(i_data_from_core_IBUF[10]),
         .O(p_1_in[10]));
@@ -26772,21 +26682,21 @@ module data_mem_column
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "11" *) 
   (* ram_slice_end = "11" *) 
-  RAM32X1S_HD897 data_mem_reg_0_7_11_11
+  RAM32X1S_HD386 data_mem_reg_0_7_11_11
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[11]),
-        .O(o_data[11]),
+        .O(\i_index[0] [11]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__11));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_11_11_i_1__11
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[11]),
         .I3(i_data_from_core_IBUF[11]),
         .O(p_1_in[11]));
@@ -26801,21 +26711,21 @@ module data_mem_column
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "12" *) 
   (* ram_slice_end = "12" *) 
-  RAM32X1S_HD898 data_mem_reg_0_7_12_12
+  RAM32X1S_HD387 data_mem_reg_0_7_12_12
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[12]),
-        .O(o_data[12]),
+        .O(\i_index[0] [12]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__11));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_12_12_i_1__11
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[12]),
         .I3(i_data_from_core_IBUF[12]),
         .O(p_1_in[12]));
@@ -26830,21 +26740,21 @@ module data_mem_column
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "13" *) 
   (* ram_slice_end = "13" *) 
-  RAM32X1S_HD899 data_mem_reg_0_7_13_13
+  RAM32X1S_HD388 data_mem_reg_0_7_13_13
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[13]),
-        .O(o_data[13]),
+        .O(\i_index[0] [13]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__11));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_13_13_i_1__11
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[13]),
         .I3(i_data_from_core_IBUF[13]),
         .O(p_1_in[13]));
@@ -26859,21 +26769,21 @@ module data_mem_column
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "14" *) 
   (* ram_slice_end = "14" *) 
-  RAM32X1S_HD900 data_mem_reg_0_7_14_14
+  RAM32X1S_HD389 data_mem_reg_0_7_14_14
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[14]),
-        .O(o_data[14]),
+        .O(\i_index[0] [14]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__11));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_14_14_i_1__11
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[14]),
         .I3(i_data_from_core_IBUF[14]),
         .O(p_1_in[14]));
@@ -26888,21 +26798,21 @@ module data_mem_column
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "15" *) 
   (* ram_slice_end = "15" *) 
-  RAM32X1S_HD901 data_mem_reg_0_7_15_15
+  RAM32X1S_HD390 data_mem_reg_0_7_15_15
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[15]),
-        .O(o_data[15]),
+        .O(\i_index[0] [15]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__11));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_15_15_i_1__11
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[15]),
         .I3(i_data_from_core_IBUF[15]),
         .O(p_1_in[15]));
@@ -26917,21 +26827,21 @@ module data_mem_column
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "16" *) 
   (* ram_slice_end = "16" *) 
-  RAM32X1S_HD902 data_mem_reg_0_7_16_16
+  RAM32X1S_HD391 data_mem_reg_0_7_16_16
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[16]),
-        .O(o_data[16]),
+        .O(\i_index[0] [16]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__11));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_16_16_i_1__11
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[16]),
         .I3(i_data_from_core_IBUF[16]),
         .O(p_1_in[16]));
@@ -26946,21 +26856,21 @@ module data_mem_column
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "17" *) 
   (* ram_slice_end = "17" *) 
-  RAM32X1S_HD903 data_mem_reg_0_7_17_17
+  RAM32X1S_HD392 data_mem_reg_0_7_17_17
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[17]),
-        .O(o_data[17]),
+        .O(\i_index[0] [17]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__11));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_17_17_i_1__11
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[17]),
         .I3(i_data_from_core_IBUF[17]),
         .O(p_1_in[17]));
@@ -26975,21 +26885,21 @@ module data_mem_column
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "18" *) 
   (* ram_slice_end = "18" *) 
-  RAM32X1S_HD904 data_mem_reg_0_7_18_18
+  RAM32X1S_HD393 data_mem_reg_0_7_18_18
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[18]),
-        .O(o_data[18]),
+        .O(\i_index[0] [18]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__11));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_18_18_i_1__11
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[18]),
         .I3(i_data_from_core_IBUF[18]),
         .O(p_1_in[18]));
@@ -27004,21 +26914,21 @@ module data_mem_column
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "19" *) 
   (* ram_slice_end = "19" *) 
-  RAM32X1S_HD905 data_mem_reg_0_7_19_19
+  RAM32X1S_HD394 data_mem_reg_0_7_19_19
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[19]),
-        .O(o_data[19]),
+        .O(\i_index[0] [19]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__11));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_19_19_i_1__11
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[19]),
         .I3(i_data_from_core_IBUF[19]),
         .O(p_1_in[19]));
@@ -27033,21 +26943,21 @@ module data_mem_column
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "1" *) 
   (* ram_slice_end = "1" *) 
-  RAM32X1S_HD906 data_mem_reg_0_7_1_1
+  RAM32X1S_HD395 data_mem_reg_0_7_1_1
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[1]),
-        .O(o_data[1]),
+        .O(\i_index[0] [1]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__11));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_1_1_i_1__11
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[1]),
         .I3(i_data_from_core_IBUF[1]),
         .O(p_1_in[1]));
@@ -27062,21 +26972,21 @@ module data_mem_column
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "20" *) 
   (* ram_slice_end = "20" *) 
-  RAM32X1S_HD907 data_mem_reg_0_7_20_20
+  RAM32X1S_HD396 data_mem_reg_0_7_20_20
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[20]),
-        .O(o_data[20]),
+        .O(\i_index[0] [20]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__11));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_20_20_i_1__11
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[20]),
         .I3(i_data_from_core_IBUF[20]),
         .O(p_1_in[20]));
@@ -27091,21 +27001,21 @@ module data_mem_column
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "21" *) 
   (* ram_slice_end = "21" *) 
-  RAM32X1S_HD908 data_mem_reg_0_7_21_21
+  RAM32X1S_HD397 data_mem_reg_0_7_21_21
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[21]),
-        .O(o_data[21]),
+        .O(\i_index[0] [21]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__11));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_21_21_i_1__11
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[21]),
         .I3(i_data_from_core_IBUF[21]),
         .O(p_1_in[21]));
@@ -27120,21 +27030,21 @@ module data_mem_column
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "22" *) 
   (* ram_slice_end = "22" *) 
-  RAM32X1S_HD909 data_mem_reg_0_7_22_22
+  RAM32X1S_HD398 data_mem_reg_0_7_22_22
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[22]),
-        .O(o_data[22]),
+        .O(\i_index[0] [22]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__11));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_22_22_i_1__11
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[22]),
         .I3(i_data_from_core_IBUF[22]),
         .O(p_1_in[22]));
@@ -27149,21 +27059,21 @@ module data_mem_column
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "23" *) 
   (* ram_slice_end = "23" *) 
-  RAM32X1S_HD910 data_mem_reg_0_7_23_23
+  RAM32X1S_HD399 data_mem_reg_0_7_23_23
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[23]),
-        .O(o_data[23]),
+        .O(\i_index[0] [23]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__11));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_23_23_i_1__11
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[23]),
         .I3(i_data_from_core_IBUF[23]),
         .O(p_1_in[23]));
@@ -27178,21 +27088,21 @@ module data_mem_column
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "24" *) 
   (* ram_slice_end = "24" *) 
-  RAM32X1S_HD911 data_mem_reg_0_7_24_24
+  RAM32X1S_HD400 data_mem_reg_0_7_24_24
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[24]),
-        .O(o_data[24]),
+        .O(\i_index[0] [24]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__11));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_24_24_i_1__11
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[24]),
         .I3(i_data_from_core_IBUF[24]),
         .O(p_1_in[24]));
@@ -27207,21 +27117,21 @@ module data_mem_column
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "25" *) 
   (* ram_slice_end = "25" *) 
-  RAM32X1S_HD912 data_mem_reg_0_7_25_25
+  RAM32X1S_HD401 data_mem_reg_0_7_25_25
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[25]),
-        .O(o_data[25]),
+        .O(\i_index[0] [25]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__11));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_25_25_i_1__11
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[25]),
         .I3(i_data_from_core_IBUF[25]),
         .O(p_1_in[25]));
@@ -27236,21 +27146,21 @@ module data_mem_column
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "26" *) 
   (* ram_slice_end = "26" *) 
-  RAM32X1S_HD913 data_mem_reg_0_7_26_26
+  RAM32X1S_HD402 data_mem_reg_0_7_26_26
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[26]),
-        .O(o_data[26]),
+        .O(\i_index[0] [26]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__11));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_26_26_i_1__11
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[26]),
         .I3(i_data_from_core_IBUF[26]),
         .O(p_1_in[26]));
@@ -27265,21 +27175,21 @@ module data_mem_column
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "27" *) 
   (* ram_slice_end = "27" *) 
-  RAM32X1S_HD914 data_mem_reg_0_7_27_27
+  RAM32X1S_HD403 data_mem_reg_0_7_27_27
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[27]),
-        .O(o_data[27]),
+        .O(\i_index[0] [27]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__11));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_27_27_i_1__11
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[27]),
         .I3(i_data_from_core_IBUF[27]),
         .O(p_1_in[27]));
@@ -27294,21 +27204,21 @@ module data_mem_column
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "28" *) 
   (* ram_slice_end = "28" *) 
-  RAM32X1S_HD915 data_mem_reg_0_7_28_28
+  RAM32X1S_HD404 data_mem_reg_0_7_28_28
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[28]),
-        .O(o_data[28]),
+        .O(\i_index[0] [28]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__11));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_28_28_i_1__11
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[28]),
         .I3(i_data_from_core_IBUF[28]),
         .O(p_1_in[28]));
@@ -27323,21 +27233,21 @@ module data_mem_column
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "29" *) 
   (* ram_slice_end = "29" *) 
-  RAM32X1S_HD916 data_mem_reg_0_7_29_29
+  RAM32X1S_HD405 data_mem_reg_0_7_29_29
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[29]),
-        .O(o_data[29]),
+        .O(\i_index[0] [29]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__11));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_29_29_i_1__11
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[29]),
         .I3(i_data_from_core_IBUF[29]),
         .O(p_1_in[29]));
@@ -27352,21 +27262,21 @@ module data_mem_column
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "2" *) 
   (* ram_slice_end = "2" *) 
-  RAM32X1S_HD917 data_mem_reg_0_7_2_2
+  RAM32X1S_HD406 data_mem_reg_0_7_2_2
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[2]),
-        .O(o_data[2]),
+        .O(\i_index[0] [2]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__11));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_2_2_i_1__11
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[2]),
         .I3(i_data_from_core_IBUF[2]),
         .O(p_1_in[2]));
@@ -27381,21 +27291,21 @@ module data_mem_column
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "30" *) 
   (* ram_slice_end = "30" *) 
-  RAM32X1S_HD918 data_mem_reg_0_7_30_30
+  RAM32X1S_HD407 data_mem_reg_0_7_30_30
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[30]),
-        .O(o_data[30]),
+        .O(\i_index[0] [30]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__11));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_30_30_i_1__11
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[30]),
         .I3(i_data_from_core_IBUF[30]),
         .O(p_1_in[30]));
@@ -27410,21 +27320,21 @@ module data_mem_column
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "31" *) 
   (* ram_slice_end = "31" *) 
-  RAM32X1S_HD919 data_mem_reg_0_7_31_31
+  RAM32X1S_HD408 data_mem_reg_0_7_31_31
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[31]),
-        .O(o_data[31]),
+        .O(\i_index[0] [31]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__11));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_31_31_i_1__11
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[31]),
         .I3(i_data_from_core_IBUF[31]),
         .O(p_1_in[31]));
@@ -27439,21 +27349,21 @@ module data_mem_column
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "3" *) 
   (* ram_slice_end = "3" *) 
-  RAM32X1S_HD920 data_mem_reg_0_7_3_3
+  RAM32X1S_HD409 data_mem_reg_0_7_3_3
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[3]),
-        .O(o_data[3]),
+        .O(\i_index[0] [3]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__11));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_3_3_i_1__11
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[3]),
         .I3(i_data_from_core_IBUF[3]),
         .O(p_1_in[3]));
@@ -27468,21 +27378,21 @@ module data_mem_column
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "4" *) 
   (* ram_slice_end = "4" *) 
-  RAM32X1S_HD921 data_mem_reg_0_7_4_4
+  RAM32X1S_HD410 data_mem_reg_0_7_4_4
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[4]),
-        .O(o_data[4]),
+        .O(\i_index[0] [4]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__11));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_4_4_i_1__11
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[4]),
         .I3(i_data_from_core_IBUF[4]),
         .O(p_1_in[4]));
@@ -27497,21 +27407,21 @@ module data_mem_column
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "5" *) 
   (* ram_slice_end = "5" *) 
-  RAM32X1S_HD922 data_mem_reg_0_7_5_5
+  RAM32X1S_HD411 data_mem_reg_0_7_5_5
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[5]),
-        .O(o_data[5]),
+        .O(\i_index[0] [5]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__11));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_5_5_i_1__11
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[5]),
         .I3(i_data_from_core_IBUF[5]),
         .O(p_1_in[5]));
@@ -27526,21 +27436,21 @@ module data_mem_column
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "6" *) 
   (* ram_slice_end = "6" *) 
-  RAM32X1S_HD923 data_mem_reg_0_7_6_6
+  RAM32X1S_HD412 data_mem_reg_0_7_6_6
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[6]),
-        .O(o_data[6]),
+        .O(\i_index[0] [6]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__11));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_6_6_i_1__11
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[6]),
         .I3(i_data_from_core_IBUF[6]),
         .O(p_1_in[6]));
@@ -27555,21 +27465,21 @@ module data_mem_column
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "7" *) 
   (* ram_slice_end = "7" *) 
-  RAM32X1S_HD924 data_mem_reg_0_7_7_7
+  RAM32X1S_HD413 data_mem_reg_0_7_7_7
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[7]),
-        .O(o_data[7]),
+        .O(\i_index[0] [7]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__11));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_7_7_i_1__11
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[7]),
         .I3(i_data_from_core_IBUF[7]),
         .O(p_1_in[7]));
@@ -27584,21 +27494,21 @@ module data_mem_column
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "8" *) 
   (* ram_slice_end = "8" *) 
-  RAM32X1S_HD925 data_mem_reg_0_7_8_8
+  RAM32X1S_HD414 data_mem_reg_0_7_8_8
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[8]),
-        .O(o_data[8]),
+        .O(\i_index[0] [8]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__11));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_8_8_i_1__11
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[8]),
         .I3(i_data_from_core_IBUF[8]),
         .O(p_1_in[8]));
@@ -27613,361 +27523,352 @@ module data_mem_column
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "9" *) 
   (* ram_slice_end = "9" *) 
-  RAM32X1S_HD926 data_mem_reg_0_7_9_9
+  RAM32X1S_HD415 data_mem_reg_0_7_9_9
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[9]),
-        .O(o_data[9]),
+        .O(\i_index[0] [9]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__11));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_9_9_i_1__11
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[9]),
         .I3(i_data_from_core_IBUF[9]),
         .O(p_1_in[9]));
   LUT6 #(
-    .INIT(64'hFFFFFFFFFFEAEAEA)) 
-    \o_data_to_core_reg[0]_i_1 
-       (.I0(\o_data_to_core_reg[0] ),
-        .I1(o_data[0]),
-        .I2(\o_data_to_core_reg[31]_i_3_n_2 ),
-        .I3(\data_out_from_way[2] [0]),
-        .I4(\o_data_to_core_reg[31]_i_5_n_2 ),
-        .I5(\o_data_to_core_reg[0]_0 ),
-        .O(D[0]));
+    .INIT(64'hFFFF020002000200)) 
+    \o_data_to_core_reg[0]_i_4 
+       (.I0(\i_index[0] [0]),
+        .I1(i_offset_IBUF[1]),
+        .I2(i_offset_IBUF[0]),
+        .I3(o_data_to_core1),
+        .I4(\data_out_from_way[2] [0]),
+        .I5(\o_data_to_core_reg[31]_i_12_n_2 ),
+        .O(\i_offset[1] ));
   LUT6 #(
-    .INIT(64'hFFFFFFFFFFEAEAEA)) 
-    \o_data_to_core_reg[10]_i_1 
-       (.I0(\o_data_to_core_reg[10] ),
-        .I1(o_data[10]),
-        .I2(\o_data_to_core_reg[31]_i_3_n_2 ),
-        .I3(\data_out_from_way[2] [10]),
-        .I4(\o_data_to_core_reg[31]_i_5_n_2 ),
-        .I5(\o_data_to_core_reg[10]_0 ),
-        .O(D[10]));
+    .INIT(64'hFFFF020002000200)) 
+    \o_data_to_core_reg[10]_i_4 
+       (.I0(\i_index[0] [10]),
+        .I1(i_offset_IBUF[1]),
+        .I2(i_offset_IBUF[0]),
+        .I3(o_data_to_core1),
+        .I4(\data_out_from_way[2] [10]),
+        .I5(\o_data_to_core_reg[31]_i_12_n_2 ),
+        .O(\i_offset[1]_9 ));
   LUT6 #(
-    .INIT(64'hFFFFFFFFFFEAEAEA)) 
-    \o_data_to_core_reg[11]_i_1 
-       (.I0(\o_data_to_core_reg[11] ),
-        .I1(o_data[11]),
-        .I2(\o_data_to_core_reg[31]_i_3_n_2 ),
-        .I3(\data_out_from_way[2] [11]),
-        .I4(\o_data_to_core_reg[31]_i_5_n_2 ),
-        .I5(\o_data_to_core_reg[11]_0 ),
-        .O(D[11]));
+    .INIT(64'hFFFF020002000200)) 
+    \o_data_to_core_reg[11]_i_4 
+       (.I0(\i_index[0] [11]),
+        .I1(i_offset_IBUF[1]),
+        .I2(i_offset_IBUF[0]),
+        .I3(o_data_to_core1),
+        .I4(\data_out_from_way[2] [11]),
+        .I5(\o_data_to_core_reg[31]_i_12_n_2 ),
+        .O(\i_offset[1]_10 ));
   LUT6 #(
-    .INIT(64'hFFFFFFFFFFEAEAEA)) 
-    \o_data_to_core_reg[12]_i_1 
-       (.I0(\o_data_to_core_reg[12] ),
-        .I1(o_data[12]),
-        .I2(\o_data_to_core_reg[31]_i_3_n_2 ),
-        .I3(\data_out_from_way[2] [12]),
-        .I4(\o_data_to_core_reg[31]_i_5_n_2 ),
-        .I5(\o_data_to_core_reg[12]_0 ),
-        .O(D[12]));
+    .INIT(64'hFFFF020002000200)) 
+    \o_data_to_core_reg[12]_i_4 
+       (.I0(\i_index[0] [12]),
+        .I1(i_offset_IBUF[1]),
+        .I2(i_offset_IBUF[0]),
+        .I3(o_data_to_core1),
+        .I4(\data_out_from_way[2] [12]),
+        .I5(\o_data_to_core_reg[31]_i_12_n_2 ),
+        .O(\i_offset[1]_11 ));
   LUT6 #(
-    .INIT(64'hFFFFFFFFFFEAEAEA)) 
-    \o_data_to_core_reg[13]_i_1 
-       (.I0(\o_data_to_core_reg[13] ),
-        .I1(o_data[13]),
-        .I2(\o_data_to_core_reg[31]_i_3_n_2 ),
-        .I3(\data_out_from_way[2] [13]),
-        .I4(\o_data_to_core_reg[31]_i_5_n_2 ),
-        .I5(\o_data_to_core_reg[13]_0 ),
-        .O(D[13]));
+    .INIT(64'hFFFF020002000200)) 
+    \o_data_to_core_reg[13]_i_4 
+       (.I0(\i_index[0] [13]),
+        .I1(i_offset_IBUF[1]),
+        .I2(i_offset_IBUF[0]),
+        .I3(o_data_to_core1),
+        .I4(\data_out_from_way[2] [13]),
+        .I5(\o_data_to_core_reg[31]_i_12_n_2 ),
+        .O(\i_offset[1]_12 ));
   LUT6 #(
-    .INIT(64'hFFFFFFFFFFEAEAEA)) 
-    \o_data_to_core_reg[14]_i_1 
-       (.I0(\o_data_to_core_reg[14] ),
-        .I1(o_data[14]),
-        .I2(\o_data_to_core_reg[31]_i_3_n_2 ),
-        .I3(\data_out_from_way[2] [14]),
-        .I4(\o_data_to_core_reg[31]_i_5_n_2 ),
-        .I5(\o_data_to_core_reg[14]_0 ),
-        .O(D[14]));
+    .INIT(64'hFFFF020002000200)) 
+    \o_data_to_core_reg[14]_i_4 
+       (.I0(\i_index[0] [14]),
+        .I1(i_offset_IBUF[1]),
+        .I2(i_offset_IBUF[0]),
+        .I3(o_data_to_core1),
+        .I4(\data_out_from_way[2] [14]),
+        .I5(\o_data_to_core_reg[31]_i_12_n_2 ),
+        .O(\i_offset[1]_13 ));
   LUT6 #(
-    .INIT(64'hFFFFFFFFFFEAEAEA)) 
-    \o_data_to_core_reg[15]_i_1 
-       (.I0(\o_data_to_core_reg[15] ),
-        .I1(o_data[15]),
-        .I2(\o_data_to_core_reg[31]_i_3_n_2 ),
-        .I3(\data_out_from_way[2] [15]),
-        .I4(\o_data_to_core_reg[31]_i_5_n_2 ),
-        .I5(\o_data_to_core_reg[15]_0 ),
-        .O(D[15]));
+    .INIT(64'hFFFF020002000200)) 
+    \o_data_to_core_reg[15]_i_4 
+       (.I0(\i_index[0] [15]),
+        .I1(i_offset_IBUF[1]),
+        .I2(i_offset_IBUF[0]),
+        .I3(o_data_to_core1),
+        .I4(\data_out_from_way[2] [15]),
+        .I5(\o_data_to_core_reg[31]_i_12_n_2 ),
+        .O(\i_offset[1]_14 ));
   LUT6 #(
-    .INIT(64'hFFFFFFFFFFEAEAEA)) 
-    \o_data_to_core_reg[16]_i_1 
-       (.I0(\o_data_to_core_reg[16] ),
-        .I1(o_data[16]),
-        .I2(\o_data_to_core_reg[31]_i_3_n_2 ),
-        .I3(\data_out_from_way[2] [16]),
-        .I4(\o_data_to_core_reg[31]_i_5_n_2 ),
-        .I5(\o_data_to_core_reg[16]_0 ),
-        .O(D[16]));
+    .INIT(64'hFFFF020002000200)) 
+    \o_data_to_core_reg[16]_i_4 
+       (.I0(\i_index[0] [16]),
+        .I1(i_offset_IBUF[1]),
+        .I2(i_offset_IBUF[0]),
+        .I3(o_data_to_core1),
+        .I4(\data_out_from_way[2] [16]),
+        .I5(\o_data_to_core_reg[31]_i_12_n_2 ),
+        .O(\i_offset[1]_15 ));
   LUT6 #(
-    .INIT(64'hFFFFFFFFFFEAEAEA)) 
-    \o_data_to_core_reg[17]_i_1 
-       (.I0(\o_data_to_core_reg[17] ),
-        .I1(o_data[17]),
-        .I2(\o_data_to_core_reg[31]_i_3_n_2 ),
-        .I3(\data_out_from_way[2] [17]),
-        .I4(\o_data_to_core_reg[31]_i_5_n_2 ),
-        .I5(\o_data_to_core_reg[17]_0 ),
-        .O(D[17]));
+    .INIT(64'hFFFF020002000200)) 
+    \o_data_to_core_reg[17]_i_4 
+       (.I0(\i_index[0] [17]),
+        .I1(i_offset_IBUF[1]),
+        .I2(i_offset_IBUF[0]),
+        .I3(o_data_to_core1),
+        .I4(\data_out_from_way[2] [17]),
+        .I5(\o_data_to_core_reg[31]_i_12_n_2 ),
+        .O(\i_offset[1]_16 ));
   LUT6 #(
-    .INIT(64'hFFFFFFFFFFEAEAEA)) 
-    \o_data_to_core_reg[18]_i_1 
-       (.I0(\o_data_to_core_reg[18] ),
-        .I1(o_data[18]),
-        .I2(\o_data_to_core_reg[31]_i_3_n_2 ),
-        .I3(\data_out_from_way[2] [18]),
-        .I4(\o_data_to_core_reg[31]_i_5_n_2 ),
-        .I5(\o_data_to_core_reg[18]_0 ),
-        .O(D[18]));
+    .INIT(64'hFFFF020002000200)) 
+    \o_data_to_core_reg[18]_i_4 
+       (.I0(\i_index[0] [18]),
+        .I1(i_offset_IBUF[1]),
+        .I2(i_offset_IBUF[0]),
+        .I3(o_data_to_core1),
+        .I4(\data_out_from_way[2] [18]),
+        .I5(\o_data_to_core_reg[31]_i_12_n_2 ),
+        .O(\i_offset[1]_17 ));
   LUT6 #(
-    .INIT(64'hFFFFFFFFFFEAEAEA)) 
-    \o_data_to_core_reg[19]_i_1 
-       (.I0(\o_data_to_core_reg[19] ),
-        .I1(o_data[19]),
-        .I2(\o_data_to_core_reg[31]_i_3_n_2 ),
-        .I3(\data_out_from_way[2] [19]),
-        .I4(\o_data_to_core_reg[31]_i_5_n_2 ),
-        .I5(\o_data_to_core_reg[19]_0 ),
-        .O(D[19]));
+    .INIT(64'hFFFF020002000200)) 
+    \o_data_to_core_reg[19]_i_4 
+       (.I0(\i_index[0] [19]),
+        .I1(i_offset_IBUF[1]),
+        .I2(i_offset_IBUF[0]),
+        .I3(o_data_to_core1),
+        .I4(\data_out_from_way[2] [19]),
+        .I5(\o_data_to_core_reg[31]_i_12_n_2 ),
+        .O(\i_offset[1]_18 ));
   LUT6 #(
-    .INIT(64'hFFFFFFFFFFEAEAEA)) 
-    \o_data_to_core_reg[1]_i_1 
-       (.I0(\o_data_to_core_reg[1] ),
-        .I1(o_data[1]),
-        .I2(\o_data_to_core_reg[31]_i_3_n_2 ),
-        .I3(\data_out_from_way[2] [1]),
-        .I4(\o_data_to_core_reg[31]_i_5_n_2 ),
-        .I5(\o_data_to_core_reg[1]_0 ),
-        .O(D[1]));
+    .INIT(64'hFFFF020002000200)) 
+    \o_data_to_core_reg[1]_i_4 
+       (.I0(\i_index[0] [1]),
+        .I1(i_offset_IBUF[1]),
+        .I2(i_offset_IBUF[0]),
+        .I3(o_data_to_core1),
+        .I4(\data_out_from_way[2] [1]),
+        .I5(\o_data_to_core_reg[31]_i_12_n_2 ),
+        .O(\i_offset[1]_0 ));
   LUT6 #(
-    .INIT(64'hFFFFFFFFFFEAEAEA)) 
-    \o_data_to_core_reg[20]_i_1 
-       (.I0(\o_data_to_core_reg[20] ),
-        .I1(o_data[20]),
-        .I2(\o_data_to_core_reg[31]_i_3_n_2 ),
-        .I3(\data_out_from_way[2] [20]),
-        .I4(\o_data_to_core_reg[31]_i_5_n_2 ),
-        .I5(\o_data_to_core_reg[20]_0 ),
-        .O(D[20]));
+    .INIT(64'hFFFF020002000200)) 
+    \o_data_to_core_reg[20]_i_4 
+       (.I0(\i_index[0] [20]),
+        .I1(i_offset_IBUF[1]),
+        .I2(i_offset_IBUF[0]),
+        .I3(o_data_to_core1),
+        .I4(\data_out_from_way[2] [20]),
+        .I5(\o_data_to_core_reg[31]_i_12_n_2 ),
+        .O(\i_offset[1]_19 ));
   LUT6 #(
-    .INIT(64'hFFFFFFFFFFEAEAEA)) 
-    \o_data_to_core_reg[21]_i_1 
-       (.I0(\o_data_to_core_reg[21] ),
-        .I1(o_data[21]),
-        .I2(\o_data_to_core_reg[31]_i_3_n_2 ),
-        .I3(\data_out_from_way[2] [21]),
-        .I4(\o_data_to_core_reg[31]_i_5_n_2 ),
-        .I5(\o_data_to_core_reg[21]_0 ),
-        .O(D[21]));
+    .INIT(64'hFFFF020002000200)) 
+    \o_data_to_core_reg[21]_i_4 
+       (.I0(\i_index[0] [21]),
+        .I1(i_offset_IBUF[1]),
+        .I2(i_offset_IBUF[0]),
+        .I3(o_data_to_core1),
+        .I4(\data_out_from_way[2] [21]),
+        .I5(\o_data_to_core_reg[31]_i_12_n_2 ),
+        .O(\i_offset[1]_20 ));
   LUT6 #(
-    .INIT(64'hFFFFFFFFFFEAEAEA)) 
-    \o_data_to_core_reg[22]_i_1 
-       (.I0(\o_data_to_core_reg[22] ),
-        .I1(o_data[22]),
-        .I2(\o_data_to_core_reg[31]_i_3_n_2 ),
-        .I3(\data_out_from_way[2] [22]),
-        .I4(\o_data_to_core_reg[31]_i_5_n_2 ),
-        .I5(\o_data_to_core_reg[22]_0 ),
-        .O(D[22]));
+    .INIT(64'hFFFF020002000200)) 
+    \o_data_to_core_reg[22]_i_4 
+       (.I0(\i_index[0] [22]),
+        .I1(i_offset_IBUF[1]),
+        .I2(i_offset_IBUF[0]),
+        .I3(o_data_to_core1),
+        .I4(\data_out_from_way[2] [22]),
+        .I5(\o_data_to_core_reg[31]_i_12_n_2 ),
+        .O(\i_offset[1]_21 ));
   LUT6 #(
-    .INIT(64'hFFFFFFFFFFEAEAEA)) 
-    \o_data_to_core_reg[23]_i_1 
-       (.I0(\o_data_to_core_reg[23] ),
-        .I1(o_data[23]),
-        .I2(\o_data_to_core_reg[31]_i_3_n_2 ),
-        .I3(\data_out_from_way[2] [23]),
-        .I4(\o_data_to_core_reg[31]_i_5_n_2 ),
-        .I5(\o_data_to_core_reg[23]_0 ),
-        .O(D[23]));
+    .INIT(64'hFFFF020002000200)) 
+    \o_data_to_core_reg[23]_i_4 
+       (.I0(\i_index[0] [23]),
+        .I1(i_offset_IBUF[1]),
+        .I2(i_offset_IBUF[0]),
+        .I3(o_data_to_core1),
+        .I4(\data_out_from_way[2] [23]),
+        .I5(\o_data_to_core_reg[31]_i_12_n_2 ),
+        .O(\i_offset[1]_22 ));
   LUT6 #(
-    .INIT(64'hFFFFFFFFFFEAEAEA)) 
-    \o_data_to_core_reg[24]_i_1 
-       (.I0(\o_data_to_core_reg[24] ),
-        .I1(o_data[24]),
-        .I2(\o_data_to_core_reg[31]_i_3_n_2 ),
-        .I3(\data_out_from_way[2] [24]),
-        .I4(\o_data_to_core_reg[31]_i_5_n_2 ),
-        .I5(\o_data_to_core_reg[24]_0 ),
-        .O(D[24]));
+    .INIT(64'hFFFF020002000200)) 
+    \o_data_to_core_reg[24]_i_4 
+       (.I0(\i_index[0] [24]),
+        .I1(i_offset_IBUF[1]),
+        .I2(i_offset_IBUF[0]),
+        .I3(o_data_to_core1),
+        .I4(\data_out_from_way[2] [24]),
+        .I5(\o_data_to_core_reg[31]_i_12_n_2 ),
+        .O(\i_offset[1]_23 ));
   LUT6 #(
-    .INIT(64'hFFFFFFFFFFEAEAEA)) 
-    \o_data_to_core_reg[25]_i_1 
-       (.I0(\o_data_to_core_reg[25] ),
-        .I1(o_data[25]),
-        .I2(\o_data_to_core_reg[31]_i_3_n_2 ),
-        .I3(\data_out_from_way[2] [25]),
-        .I4(\o_data_to_core_reg[31]_i_5_n_2 ),
-        .I5(\o_data_to_core_reg[25]_0 ),
-        .O(D[25]));
+    .INIT(64'hFFFF020002000200)) 
+    \o_data_to_core_reg[25]_i_4 
+       (.I0(\i_index[0] [25]),
+        .I1(i_offset_IBUF[1]),
+        .I2(i_offset_IBUF[0]),
+        .I3(o_data_to_core1),
+        .I4(\data_out_from_way[2] [25]),
+        .I5(\o_data_to_core_reg[31]_i_12_n_2 ),
+        .O(\i_offset[1]_24 ));
   LUT6 #(
-    .INIT(64'hFFFFFFFFFFEAEAEA)) 
-    \o_data_to_core_reg[26]_i_1 
-       (.I0(\o_data_to_core_reg[26] ),
-        .I1(o_data[26]),
-        .I2(\o_data_to_core_reg[31]_i_3_n_2 ),
-        .I3(\data_out_from_way[2] [26]),
-        .I4(\o_data_to_core_reg[31]_i_5_n_2 ),
-        .I5(\o_data_to_core_reg[26]_0 ),
-        .O(D[26]));
+    .INIT(64'hFFFF020002000200)) 
+    \o_data_to_core_reg[26]_i_4 
+       (.I0(\i_index[0] [26]),
+        .I1(i_offset_IBUF[1]),
+        .I2(i_offset_IBUF[0]),
+        .I3(o_data_to_core1),
+        .I4(\data_out_from_way[2] [26]),
+        .I5(\o_data_to_core_reg[31]_i_12_n_2 ),
+        .O(\i_offset[1]_25 ));
   LUT6 #(
-    .INIT(64'hFFFFFFFFFFEAEAEA)) 
-    \o_data_to_core_reg[27]_i_1 
-       (.I0(\o_data_to_core_reg[27] ),
-        .I1(o_data[27]),
-        .I2(\o_data_to_core_reg[31]_i_3_n_2 ),
-        .I3(\data_out_from_way[2] [27]),
-        .I4(\o_data_to_core_reg[31]_i_5_n_2 ),
-        .I5(\o_data_to_core_reg[27]_0 ),
-        .O(D[27]));
+    .INIT(64'hFFFF020002000200)) 
+    \o_data_to_core_reg[27]_i_4 
+       (.I0(\i_index[0] [27]),
+        .I1(i_offset_IBUF[1]),
+        .I2(i_offset_IBUF[0]),
+        .I3(o_data_to_core1),
+        .I4(\data_out_from_way[2] [27]),
+        .I5(\o_data_to_core_reg[31]_i_12_n_2 ),
+        .O(\i_offset[1]_26 ));
   LUT6 #(
-    .INIT(64'hFFFFFFFFFFEAEAEA)) 
-    \o_data_to_core_reg[28]_i_1 
-       (.I0(\o_data_to_core_reg[28] ),
-        .I1(o_data[28]),
-        .I2(\o_data_to_core_reg[31]_i_3_n_2 ),
-        .I3(\data_out_from_way[2] [28]),
-        .I4(\o_data_to_core_reg[31]_i_5_n_2 ),
-        .I5(\o_data_to_core_reg[28]_0 ),
-        .O(D[28]));
+    .INIT(64'hFFFF020002000200)) 
+    \o_data_to_core_reg[28]_i_4 
+       (.I0(\i_index[0] [28]),
+        .I1(i_offset_IBUF[1]),
+        .I2(i_offset_IBUF[0]),
+        .I3(o_data_to_core1),
+        .I4(\data_out_from_way[2] [28]),
+        .I5(\o_data_to_core_reg[31]_i_12_n_2 ),
+        .O(\i_offset[1]_27 ));
   LUT6 #(
-    .INIT(64'hFFFFFFFFFFEAEAEA)) 
-    \o_data_to_core_reg[29]_i_1 
-       (.I0(\o_data_to_core_reg[29] ),
-        .I1(o_data[29]),
-        .I2(\o_data_to_core_reg[31]_i_3_n_2 ),
-        .I3(\data_out_from_way[2] [29]),
-        .I4(\o_data_to_core_reg[31]_i_5_n_2 ),
-        .I5(\o_data_to_core_reg[29]_0 ),
-        .O(D[29]));
+    .INIT(64'hFFFF020002000200)) 
+    \o_data_to_core_reg[29]_i_4 
+       (.I0(\i_index[0] [29]),
+        .I1(i_offset_IBUF[1]),
+        .I2(i_offset_IBUF[0]),
+        .I3(o_data_to_core1),
+        .I4(\data_out_from_way[2] [29]),
+        .I5(\o_data_to_core_reg[31]_i_12_n_2 ),
+        .O(\i_offset[1]_28 ));
   LUT6 #(
-    .INIT(64'hFFFFFFFFFFEAEAEA)) 
-    \o_data_to_core_reg[2]_i_1 
-       (.I0(\o_data_to_core_reg[2] ),
-        .I1(o_data[2]),
-        .I2(\o_data_to_core_reg[31]_i_3_n_2 ),
-        .I3(\data_out_from_way[2] [2]),
-        .I4(\o_data_to_core_reg[31]_i_5_n_2 ),
-        .I5(\o_data_to_core_reg[2]_0 ),
-        .O(D[2]));
+    .INIT(64'hFFFF020002000200)) 
+    \o_data_to_core_reg[2]_i_4 
+       (.I0(\i_index[0] [2]),
+        .I1(i_offset_IBUF[1]),
+        .I2(i_offset_IBUF[0]),
+        .I3(o_data_to_core1),
+        .I4(\data_out_from_way[2] [2]),
+        .I5(\o_data_to_core_reg[31]_i_12_n_2 ),
+        .O(\i_offset[1]_1 ));
   LUT6 #(
-    .INIT(64'hFFFFFFFFFFEAEAEA)) 
-    \o_data_to_core_reg[30]_i_1 
-       (.I0(\o_data_to_core_reg[30] ),
-        .I1(o_data[30]),
-        .I2(\o_data_to_core_reg[31]_i_3_n_2 ),
-        .I3(\data_out_from_way[2] [30]),
-        .I4(\o_data_to_core_reg[31]_i_5_n_2 ),
-        .I5(\o_data_to_core_reg[30]_0 ),
-        .O(D[30]));
-  LUT6 #(
-    .INIT(64'hFFFFFFFFFFEAEAEA)) 
-    \o_data_to_core_reg[31]_i_1 
-       (.I0(\o_data_to_core_reg[31] ),
-        .I1(o_data[31]),
-        .I2(\o_data_to_core_reg[31]_i_3_n_2 ),
-        .I3(\data_out_from_way[2] [31]),
-        .I4(\o_data_to_core_reg[31]_i_5_n_2 ),
-        .I5(\o_data_to_core_reg[31]_0 ),
-        .O(D[31]));
-  LUT6 #(
-    .INIT(64'h0000000100000000)) 
-    \o_data_to_core_reg[31]_i_3 
-       (.I0(i_offset_IBUF[1]),
-        .I1(i_offset_IBUF[0]),
-        .I2(i_way_IBUF[2]),
-        .I3(i_way_IBUF[0]),
-        .I4(i_way_IBUF[1]),
-        .I5(i_way_IBUF[3]),
-        .O(\o_data_to_core_reg[31]_i_3_n_2 ));
-  LUT3 #(
-    .INIT(8'h02)) 
-    \o_data_to_core_reg[31]_i_5 
+    .INIT(64'hFFFF020002000200)) 
+    \o_data_to_core_reg[30]_i_4 
+       (.I0(\i_index[0] [30]),
+        .I1(i_offset_IBUF[1]),
+        .I2(i_offset_IBUF[0]),
+        .I3(o_data_to_core1),
+        .I4(\data_out_from_way[2] [30]),
+        .I5(\o_data_to_core_reg[31]_i_12_n_2 ),
+        .O(\i_offset[1]_29 ));
+  LUT4 #(
+    .INIT(16'h0020)) 
+    \o_data_to_core_reg[31]_i_12 
        (.I0(i_way_IBUF[2]),
         .I1(i_way_IBUF[0]),
-        .I2(i_way_IBUF[1]),
-        .O(\o_data_to_core_reg[31]_i_5_n_2 ));
+        .I2(i_rd_IBUF),
+        .I3(i_way_IBUF[1]),
+        .O(\o_data_to_core_reg[31]_i_12_n_2 ));
   LUT6 #(
-    .INIT(64'hFFFFFFFFFFEAEAEA)) 
-    \o_data_to_core_reg[3]_i_1 
-       (.I0(\o_data_to_core_reg[3] ),
-        .I1(o_data[3]),
-        .I2(\o_data_to_core_reg[31]_i_3_n_2 ),
-        .I3(\data_out_from_way[2] [3]),
-        .I4(\o_data_to_core_reg[31]_i_5_n_2 ),
-        .I5(\o_data_to_core_reg[3]_0 ),
-        .O(D[3]));
+    .INIT(64'hFFFF020002000200)) 
+    \o_data_to_core_reg[31]_i_5 
+       (.I0(\i_index[0] [31]),
+        .I1(i_offset_IBUF[1]),
+        .I2(i_offset_IBUF[0]),
+        .I3(o_data_to_core1),
+        .I4(\data_out_from_way[2] [31]),
+        .I5(\o_data_to_core_reg[31]_i_12_n_2 ),
+        .O(\i_offset[1]_30 ));
   LUT6 #(
-    .INIT(64'hFFFFFFFFFFEAEAEA)) 
-    \o_data_to_core_reg[4]_i_1 
-       (.I0(\o_data_to_core_reg[4] ),
-        .I1(o_data[4]),
-        .I2(\o_data_to_core_reg[31]_i_3_n_2 ),
-        .I3(\data_out_from_way[2] [4]),
-        .I4(\o_data_to_core_reg[31]_i_5_n_2 ),
-        .I5(\o_data_to_core_reg[4]_0 ),
-        .O(D[4]));
+    .INIT(64'hFFFF020002000200)) 
+    \o_data_to_core_reg[3]_i_4 
+       (.I0(\i_index[0] [3]),
+        .I1(i_offset_IBUF[1]),
+        .I2(i_offset_IBUF[0]),
+        .I3(o_data_to_core1),
+        .I4(\data_out_from_way[2] [3]),
+        .I5(\o_data_to_core_reg[31]_i_12_n_2 ),
+        .O(\i_offset[1]_2 ));
   LUT6 #(
-    .INIT(64'hFFFFFFFFFFEAEAEA)) 
-    \o_data_to_core_reg[5]_i_1 
-       (.I0(\o_data_to_core_reg[5] ),
-        .I1(o_data[5]),
-        .I2(\o_data_to_core_reg[31]_i_3_n_2 ),
-        .I3(\data_out_from_way[2] [5]),
-        .I4(\o_data_to_core_reg[31]_i_5_n_2 ),
-        .I5(\o_data_to_core_reg[5]_0 ),
-        .O(D[5]));
+    .INIT(64'hFFFF020002000200)) 
+    \o_data_to_core_reg[4]_i_4 
+       (.I0(\i_index[0] [4]),
+        .I1(i_offset_IBUF[1]),
+        .I2(i_offset_IBUF[0]),
+        .I3(o_data_to_core1),
+        .I4(\data_out_from_way[2] [4]),
+        .I5(\o_data_to_core_reg[31]_i_12_n_2 ),
+        .O(\i_offset[1]_3 ));
   LUT6 #(
-    .INIT(64'hFFFFFFFFFFEAEAEA)) 
-    \o_data_to_core_reg[6]_i_1 
-       (.I0(\o_data_to_core_reg[6] ),
-        .I1(o_data[6]),
-        .I2(\o_data_to_core_reg[31]_i_3_n_2 ),
-        .I3(\data_out_from_way[2] [6]),
-        .I4(\o_data_to_core_reg[31]_i_5_n_2 ),
-        .I5(\o_data_to_core_reg[6]_0 ),
-        .O(D[6]));
+    .INIT(64'hFFFF020002000200)) 
+    \o_data_to_core_reg[5]_i_4 
+       (.I0(\i_index[0] [5]),
+        .I1(i_offset_IBUF[1]),
+        .I2(i_offset_IBUF[0]),
+        .I3(o_data_to_core1),
+        .I4(\data_out_from_way[2] [5]),
+        .I5(\o_data_to_core_reg[31]_i_12_n_2 ),
+        .O(\i_offset[1]_4 ));
   LUT6 #(
-    .INIT(64'hFFFFFFFFFFEAEAEA)) 
-    \o_data_to_core_reg[7]_i_1 
-       (.I0(\o_data_to_core_reg[7] ),
-        .I1(o_data[7]),
-        .I2(\o_data_to_core_reg[31]_i_3_n_2 ),
-        .I3(\data_out_from_way[2] [7]),
-        .I4(\o_data_to_core_reg[31]_i_5_n_2 ),
-        .I5(\o_data_to_core_reg[7]_0 ),
-        .O(D[7]));
+    .INIT(64'hFFFF020002000200)) 
+    \o_data_to_core_reg[6]_i_4 
+       (.I0(\i_index[0] [6]),
+        .I1(i_offset_IBUF[1]),
+        .I2(i_offset_IBUF[0]),
+        .I3(o_data_to_core1),
+        .I4(\data_out_from_way[2] [6]),
+        .I5(\o_data_to_core_reg[31]_i_12_n_2 ),
+        .O(\i_offset[1]_5 ));
   LUT6 #(
-    .INIT(64'hFFFFFFFFFFEAEAEA)) 
-    \o_data_to_core_reg[8]_i_1 
-       (.I0(\o_data_to_core_reg[8] ),
-        .I1(o_data[8]),
-        .I2(\o_data_to_core_reg[31]_i_3_n_2 ),
-        .I3(\data_out_from_way[2] [8]),
-        .I4(\o_data_to_core_reg[31]_i_5_n_2 ),
-        .I5(\o_data_to_core_reg[8]_0 ),
-        .O(D[8]));
+    .INIT(64'hFFFF020002000200)) 
+    \o_data_to_core_reg[7]_i_4 
+       (.I0(\i_index[0] [7]),
+        .I1(i_offset_IBUF[1]),
+        .I2(i_offset_IBUF[0]),
+        .I3(o_data_to_core1),
+        .I4(\data_out_from_way[2] [7]),
+        .I5(\o_data_to_core_reg[31]_i_12_n_2 ),
+        .O(\i_offset[1]_6 ));
   LUT6 #(
-    .INIT(64'hFFFFFFFFFFEAEAEA)) 
-    \o_data_to_core_reg[9]_i_1 
-       (.I0(\o_data_to_core_reg[9] ),
-        .I1(o_data[9]),
-        .I2(\o_data_to_core_reg[31]_i_3_n_2 ),
-        .I3(\data_out_from_way[2] [9]),
-        .I4(\o_data_to_core_reg[31]_i_5_n_2 ),
-        .I5(\o_data_to_core_reg[9]_0 ),
-        .O(D[9]));
+    .INIT(64'hFFFF020002000200)) 
+    \o_data_to_core_reg[8]_i_4 
+       (.I0(\i_index[0] [8]),
+        .I1(i_offset_IBUF[1]),
+        .I2(i_offset_IBUF[0]),
+        .I3(o_data_to_core1),
+        .I4(\data_out_from_way[2] [8]),
+        .I5(\o_data_to_core_reg[31]_i_12_n_2 ),
+        .O(\i_offset[1]_7 ));
+  LUT6 #(
+    .INIT(64'hFFFF020002000200)) 
+    \o_data_to_core_reg[9]_i_4 
+       (.I0(\i_index[0] [9]),
+        .I1(i_offset_IBUF[1]),
+        .I2(i_offset_IBUF[0]),
+        .I3(o_data_to_core1),
+        .I4(\data_out_from_way[2] [9]),
+        .I5(\o_data_to_core_reg[31]_i_12_n_2 ),
+        .O(\i_offset[1]_8 ));
 endmodule
 
 (* ORIG_REF_NAME = "data_mem_column" *) 
@@ -28005,13 +27906,13 @@ module data_mem_column_10
     \i_LRU[0]_28 ,
     \i_LRU[0]_29 ,
     \i_LRU[0]_30 ,
+    i_way_IBUF,
     i_data_from_mem_valid_IBUF,
-    i_LRU_IBUF,
     i_data_from_mem_IBUF,
     i_data_from_core_IBUF,
     i_offset_IBUF,
-    i_way_IBUF,
     i_wr_IBUF,
+    i_LRU_IBUF,
     \o_block_to_mem_reg[31]_i_1 ,
     clk_IBUF_BUFG,
     i_index_IBUF);
@@ -28048,13 +27949,13 @@ module data_mem_column_10
   output \i_LRU[0]_28 ;
   output \i_LRU[0]_29 ;
   output \i_LRU[0]_30 ;
+  input [0:0]i_way_IBUF;
   input i_data_from_mem_valid_IBUF;
-  input [1:0]i_LRU_IBUF;
   input [31:0]i_data_from_mem_IBUF;
   input [31:0]i_data_from_core_IBUF;
   input [1:0]i_offset_IBUF;
-  input [0:0]i_way_IBUF;
   input i_wr_IBUF;
+  input [1:0]i_LRU_IBUF;
   input [31:0]\o_block_to_mem_reg[31]_i_1 ;
   input clk_IBUF_BUFG;
   input [2:0]i_index_IBUF;
@@ -28116,7 +28017,7 @@ module data_mem_column_10
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "0" *) 
   (* ram_slice_end = "0" *) 
-  RAM32X1S_HD639 data_mem_reg_0_7_0_0
+  RAM32X1S_HD128 data_mem_reg_0_7_0_0
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -28129,20 +28030,19 @@ module data_mem_column_10
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_0_0_i_1__3
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[0]),
         .I3(i_data_from_core_IBUF[0]),
         .O(p_1_in[0]));
-  LUT6 #(
-    .INIT(64'h888F888888888888)) 
+  LUT5 #(
+    .INIT(32'h888A8888)) 
     data_mem_reg_0_7_0_0_i_2__6
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
-        .I2(i_offset_IBUF[0]),
-        .I3(i_offset_IBUF[1]),
-        .I4(i_way_IBUF),
-        .I5(i_wr_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
+        .I2(i_offset_IBUF[1]),
+        .I3(i_offset_IBUF[0]),
+        .I4(i_wr_IBUF),
         .O(p_0_in__3));
   (* INIT = "32'h00000003" *) 
   (* RTL_RAM_BITS = "256" *) 
@@ -28155,7 +28055,7 @@ module data_mem_column_10
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "10" *) 
   (* ram_slice_end = "10" *) 
-  RAM32X1S_HD640 data_mem_reg_0_7_10_10
+  RAM32X1S_HD129 data_mem_reg_0_7_10_10
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -28168,8 +28068,8 @@ module data_mem_column_10
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_10_10_i_1__3
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[10]),
         .I3(i_data_from_core_IBUF[10]),
         .O(p_1_in[10]));
@@ -28184,7 +28084,7 @@ module data_mem_column_10
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "11" *) 
   (* ram_slice_end = "11" *) 
-  RAM32X1S_HD641 data_mem_reg_0_7_11_11
+  RAM32X1S_HD130 data_mem_reg_0_7_11_11
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -28197,8 +28097,8 @@ module data_mem_column_10
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_11_11_i_1__3
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[11]),
         .I3(i_data_from_core_IBUF[11]),
         .O(p_1_in[11]));
@@ -28213,7 +28113,7 @@ module data_mem_column_10
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "12" *) 
   (* ram_slice_end = "12" *) 
-  RAM32X1S_HD642 data_mem_reg_0_7_12_12
+  RAM32X1S_HD131 data_mem_reg_0_7_12_12
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -28226,8 +28126,8 @@ module data_mem_column_10
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_12_12_i_1__3
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[12]),
         .I3(i_data_from_core_IBUF[12]),
         .O(p_1_in[12]));
@@ -28242,7 +28142,7 @@ module data_mem_column_10
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "13" *) 
   (* ram_slice_end = "13" *) 
-  RAM32X1S_HD643 data_mem_reg_0_7_13_13
+  RAM32X1S_HD132 data_mem_reg_0_7_13_13
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -28255,8 +28155,8 @@ module data_mem_column_10
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_13_13_i_1__3
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[13]),
         .I3(i_data_from_core_IBUF[13]),
         .O(p_1_in[13]));
@@ -28271,7 +28171,7 @@ module data_mem_column_10
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "14" *) 
   (* ram_slice_end = "14" *) 
-  RAM32X1S_HD644 data_mem_reg_0_7_14_14
+  RAM32X1S_HD133 data_mem_reg_0_7_14_14
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -28284,8 +28184,8 @@ module data_mem_column_10
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_14_14_i_1__3
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[14]),
         .I3(i_data_from_core_IBUF[14]),
         .O(p_1_in[14]));
@@ -28300,7 +28200,7 @@ module data_mem_column_10
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "15" *) 
   (* ram_slice_end = "15" *) 
-  RAM32X1S_HD645 data_mem_reg_0_7_15_15
+  RAM32X1S_HD134 data_mem_reg_0_7_15_15
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -28313,8 +28213,8 @@ module data_mem_column_10
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_15_15_i_1__3
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[15]),
         .I3(i_data_from_core_IBUF[15]),
         .O(p_1_in[15]));
@@ -28329,7 +28229,7 @@ module data_mem_column_10
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "16" *) 
   (* ram_slice_end = "16" *) 
-  RAM32X1S_HD646 data_mem_reg_0_7_16_16
+  RAM32X1S_HD135 data_mem_reg_0_7_16_16
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -28342,8 +28242,8 @@ module data_mem_column_10
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_16_16_i_1__3
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[16]),
         .I3(i_data_from_core_IBUF[16]),
         .O(p_1_in[16]));
@@ -28358,7 +28258,7 @@ module data_mem_column_10
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "17" *) 
   (* ram_slice_end = "17" *) 
-  RAM32X1S_HD647 data_mem_reg_0_7_17_17
+  RAM32X1S_HD136 data_mem_reg_0_7_17_17
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -28371,8 +28271,8 @@ module data_mem_column_10
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_17_17_i_1__3
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[17]),
         .I3(i_data_from_core_IBUF[17]),
         .O(p_1_in[17]));
@@ -28387,7 +28287,7 @@ module data_mem_column_10
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "18" *) 
   (* ram_slice_end = "18" *) 
-  RAM32X1S_HD648 data_mem_reg_0_7_18_18
+  RAM32X1S_HD137 data_mem_reg_0_7_18_18
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -28400,8 +28300,8 @@ module data_mem_column_10
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_18_18_i_1__3
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[18]),
         .I3(i_data_from_core_IBUF[18]),
         .O(p_1_in[18]));
@@ -28416,7 +28316,7 @@ module data_mem_column_10
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "19" *) 
   (* ram_slice_end = "19" *) 
-  RAM32X1S_HD649 data_mem_reg_0_7_19_19
+  RAM32X1S_HD138 data_mem_reg_0_7_19_19
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -28429,8 +28329,8 @@ module data_mem_column_10
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_19_19_i_1__3
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[19]),
         .I3(i_data_from_core_IBUF[19]),
         .O(p_1_in[19]));
@@ -28445,7 +28345,7 @@ module data_mem_column_10
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "1" *) 
   (* ram_slice_end = "1" *) 
-  RAM32X1S_HD650 data_mem_reg_0_7_1_1
+  RAM32X1S_HD139 data_mem_reg_0_7_1_1
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -28458,8 +28358,8 @@ module data_mem_column_10
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_1_1_i_1__3
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[1]),
         .I3(i_data_from_core_IBUF[1]),
         .O(p_1_in[1]));
@@ -28474,7 +28374,7 @@ module data_mem_column_10
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "20" *) 
   (* ram_slice_end = "20" *) 
-  RAM32X1S_HD651 data_mem_reg_0_7_20_20
+  RAM32X1S_HD140 data_mem_reg_0_7_20_20
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -28487,8 +28387,8 @@ module data_mem_column_10
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_20_20_i_1__3
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[20]),
         .I3(i_data_from_core_IBUF[20]),
         .O(p_1_in[20]));
@@ -28503,7 +28403,7 @@ module data_mem_column_10
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "21" *) 
   (* ram_slice_end = "21" *) 
-  RAM32X1S_HD652 data_mem_reg_0_7_21_21
+  RAM32X1S_HD141 data_mem_reg_0_7_21_21
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -28516,8 +28416,8 @@ module data_mem_column_10
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_21_21_i_1__3
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[21]),
         .I3(i_data_from_core_IBUF[21]),
         .O(p_1_in[21]));
@@ -28532,7 +28432,7 @@ module data_mem_column_10
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "22" *) 
   (* ram_slice_end = "22" *) 
-  RAM32X1S_HD653 data_mem_reg_0_7_22_22
+  RAM32X1S_HD142 data_mem_reg_0_7_22_22
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -28545,8 +28445,8 @@ module data_mem_column_10
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_22_22_i_1__3
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[22]),
         .I3(i_data_from_core_IBUF[22]),
         .O(p_1_in[22]));
@@ -28561,7 +28461,7 @@ module data_mem_column_10
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "23" *) 
   (* ram_slice_end = "23" *) 
-  RAM32X1S_HD654 data_mem_reg_0_7_23_23
+  RAM32X1S_HD143 data_mem_reg_0_7_23_23
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -28574,8 +28474,8 @@ module data_mem_column_10
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_23_23_i_1__3
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[23]),
         .I3(i_data_from_core_IBUF[23]),
         .O(p_1_in[23]));
@@ -28590,7 +28490,7 @@ module data_mem_column_10
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "24" *) 
   (* ram_slice_end = "24" *) 
-  RAM32X1S_HD655 data_mem_reg_0_7_24_24
+  RAM32X1S_HD144 data_mem_reg_0_7_24_24
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -28603,8 +28503,8 @@ module data_mem_column_10
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_24_24_i_1__3
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[24]),
         .I3(i_data_from_core_IBUF[24]),
         .O(p_1_in[24]));
@@ -28619,7 +28519,7 @@ module data_mem_column_10
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "25" *) 
   (* ram_slice_end = "25" *) 
-  RAM32X1S_HD656 data_mem_reg_0_7_25_25
+  RAM32X1S_HD145 data_mem_reg_0_7_25_25
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -28632,8 +28532,8 @@ module data_mem_column_10
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_25_25_i_1__3
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[25]),
         .I3(i_data_from_core_IBUF[25]),
         .O(p_1_in[25]));
@@ -28648,7 +28548,7 @@ module data_mem_column_10
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "26" *) 
   (* ram_slice_end = "26" *) 
-  RAM32X1S_HD657 data_mem_reg_0_7_26_26
+  RAM32X1S_HD146 data_mem_reg_0_7_26_26
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -28661,8 +28561,8 @@ module data_mem_column_10
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_26_26_i_1__3
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[26]),
         .I3(i_data_from_core_IBUF[26]),
         .O(p_1_in[26]));
@@ -28677,7 +28577,7 @@ module data_mem_column_10
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "27" *) 
   (* ram_slice_end = "27" *) 
-  RAM32X1S_HD658 data_mem_reg_0_7_27_27
+  RAM32X1S_HD147 data_mem_reg_0_7_27_27
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -28690,8 +28590,8 @@ module data_mem_column_10
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_27_27_i_1__3
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[27]),
         .I3(i_data_from_core_IBUF[27]),
         .O(p_1_in[27]));
@@ -28706,7 +28606,7 @@ module data_mem_column_10
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "28" *) 
   (* ram_slice_end = "28" *) 
-  RAM32X1S_HD659 data_mem_reg_0_7_28_28
+  RAM32X1S_HD148 data_mem_reg_0_7_28_28
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -28719,8 +28619,8 @@ module data_mem_column_10
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_28_28_i_1__3
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[28]),
         .I3(i_data_from_core_IBUF[28]),
         .O(p_1_in[28]));
@@ -28735,7 +28635,7 @@ module data_mem_column_10
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "29" *) 
   (* ram_slice_end = "29" *) 
-  RAM32X1S_HD660 data_mem_reg_0_7_29_29
+  RAM32X1S_HD149 data_mem_reg_0_7_29_29
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -28748,8 +28648,8 @@ module data_mem_column_10
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_29_29_i_1__3
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[29]),
         .I3(i_data_from_core_IBUF[29]),
         .O(p_1_in[29]));
@@ -28764,7 +28664,7 @@ module data_mem_column_10
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "2" *) 
   (* ram_slice_end = "2" *) 
-  RAM32X1S_HD661 data_mem_reg_0_7_2_2
+  RAM32X1S_HD150 data_mem_reg_0_7_2_2
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -28777,8 +28677,8 @@ module data_mem_column_10
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_2_2_i_1__3
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[2]),
         .I3(i_data_from_core_IBUF[2]),
         .O(p_1_in[2]));
@@ -28793,7 +28693,7 @@ module data_mem_column_10
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "30" *) 
   (* ram_slice_end = "30" *) 
-  RAM32X1S_HD662 data_mem_reg_0_7_30_30
+  RAM32X1S_HD151 data_mem_reg_0_7_30_30
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -28806,8 +28706,8 @@ module data_mem_column_10
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_30_30_i_1__3
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[30]),
         .I3(i_data_from_core_IBUF[30]),
         .O(p_1_in[30]));
@@ -28822,7 +28722,7 @@ module data_mem_column_10
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "31" *) 
   (* ram_slice_end = "31" *) 
-  RAM32X1S_HD663 data_mem_reg_0_7_31_31
+  RAM32X1S_HD152 data_mem_reg_0_7_31_31
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -28835,8 +28735,8 @@ module data_mem_column_10
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_31_31_i_1__3
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[31]),
         .I3(i_data_from_core_IBUF[31]),
         .O(p_1_in[31]));
@@ -28851,7 +28751,7 @@ module data_mem_column_10
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "3" *) 
   (* ram_slice_end = "3" *) 
-  RAM32X1S_HD664 data_mem_reg_0_7_3_3
+  RAM32X1S_HD153 data_mem_reg_0_7_3_3
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -28864,8 +28764,8 @@ module data_mem_column_10
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_3_3_i_1__3
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[3]),
         .I3(i_data_from_core_IBUF[3]),
         .O(p_1_in[3]));
@@ -28880,7 +28780,7 @@ module data_mem_column_10
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "4" *) 
   (* ram_slice_end = "4" *) 
-  RAM32X1S_HD665 data_mem_reg_0_7_4_4
+  RAM32X1S_HD154 data_mem_reg_0_7_4_4
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -28893,8 +28793,8 @@ module data_mem_column_10
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_4_4_i_1__3
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[4]),
         .I3(i_data_from_core_IBUF[4]),
         .O(p_1_in[4]));
@@ -28909,7 +28809,7 @@ module data_mem_column_10
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "5" *) 
   (* ram_slice_end = "5" *) 
-  RAM32X1S_HD666 data_mem_reg_0_7_5_5
+  RAM32X1S_HD155 data_mem_reg_0_7_5_5
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -28922,8 +28822,8 @@ module data_mem_column_10
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_5_5_i_1__3
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[5]),
         .I3(i_data_from_core_IBUF[5]),
         .O(p_1_in[5]));
@@ -28938,7 +28838,7 @@ module data_mem_column_10
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "6" *) 
   (* ram_slice_end = "6" *) 
-  RAM32X1S_HD667 data_mem_reg_0_7_6_6
+  RAM32X1S_HD156 data_mem_reg_0_7_6_6
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -28951,8 +28851,8 @@ module data_mem_column_10
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_6_6_i_1__3
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[6]),
         .I3(i_data_from_core_IBUF[6]),
         .O(p_1_in[6]));
@@ -28967,7 +28867,7 @@ module data_mem_column_10
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "7" *) 
   (* ram_slice_end = "7" *) 
-  RAM32X1S_HD668 data_mem_reg_0_7_7_7
+  RAM32X1S_HD157 data_mem_reg_0_7_7_7
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -28980,8 +28880,8 @@ module data_mem_column_10
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_7_7_i_1__3
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[7]),
         .I3(i_data_from_core_IBUF[7]),
         .O(p_1_in[7]));
@@ -28996,7 +28896,7 @@ module data_mem_column_10
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "8" *) 
   (* ram_slice_end = "8" *) 
-  RAM32X1S_HD669 data_mem_reg_0_7_8_8
+  RAM32X1S_HD158 data_mem_reg_0_7_8_8
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -29009,8 +28909,8 @@ module data_mem_column_10
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_8_8_i_1__3
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[8]),
         .I3(i_data_from_core_IBUF[8]),
         .O(p_1_in[8]));
@@ -29025,7 +28925,7 @@ module data_mem_column_10
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "9" *) 
   (* ram_slice_end = "9" *) 
-  RAM32X1S_HD670 data_mem_reg_0_7_9_9
+  RAM32X1S_HD159 data_mem_reg_0_7_9_9
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -29038,8 +28938,8 @@ module data_mem_column_10
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_9_9_i_1__3
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[9]),
         .I3(i_data_from_core_IBUF[9]),
         .O(p_1_in[9]));
@@ -29336,13 +29236,13 @@ module data_mem_column_11
     \i_LRU[0]_28 ,
     \i_LRU[0]_29 ,
     \i_LRU[0]_30 ,
+    i_way_IBUF,
     i_data_from_mem_valid_IBUF,
-    i_LRU_IBUF,
     i_data_from_mem_IBUF,
     i_data_from_core_IBUF,
     i_offset_IBUF,
-    i_way_IBUF,
     i_wr_IBUF,
+    i_LRU_IBUF,
     \o_block_to_mem_reg[63]_i_1 ,
     clk_IBUF_BUFG,
     i_index_IBUF);
@@ -29379,13 +29279,13 @@ module data_mem_column_11
   output \i_LRU[0]_28 ;
   output \i_LRU[0]_29 ;
   output \i_LRU[0]_30 ;
+  input [0:0]i_way_IBUF;
   input i_data_from_mem_valid_IBUF;
-  input [1:0]i_LRU_IBUF;
   input [31:0]i_data_from_mem_IBUF;
   input [31:0]i_data_from_core_IBUF;
   input [1:0]i_offset_IBUF;
-  input [0:0]i_way_IBUF;
   input i_wr_IBUF;
+  input [1:0]i_LRU_IBUF;
   input [31:0]\o_block_to_mem_reg[63]_i_1 ;
   input clk_IBUF_BUFG;
   input [2:0]i_index_IBUF;
@@ -29447,7 +29347,7 @@ module data_mem_column_11
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "0" *) 
   (* ram_slice_end = "0" *) 
-  RAM32X1S_HD671 data_mem_reg_0_7_0_0
+  RAM32X1S_HD160 data_mem_reg_0_7_0_0
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -29460,20 +29360,19 @@ module data_mem_column_11
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_0_0_i_1__4
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[0]),
         .I3(i_data_from_core_IBUF[0]),
         .O(p_1_in[0]));
-  LUT6 #(
-    .INIT(64'h88F8888888888888)) 
+  LUT5 #(
+    .INIT(32'h8A888888)) 
     data_mem_reg_0_7_0_0_i_2__5
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
-        .I2(i_offset_IBUF[0]),
-        .I3(i_offset_IBUF[1]),
-        .I4(i_way_IBUF),
-        .I5(i_wr_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
+        .I2(i_offset_IBUF[1]),
+        .I3(i_offset_IBUF[0]),
+        .I4(i_wr_IBUF),
         .O(p_0_in__4));
   (* INIT = "32'h00000003" *) 
   (* RTL_RAM_BITS = "256" *) 
@@ -29486,7 +29385,7 @@ module data_mem_column_11
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "10" *) 
   (* ram_slice_end = "10" *) 
-  RAM32X1S_HD672 data_mem_reg_0_7_10_10
+  RAM32X1S_HD161 data_mem_reg_0_7_10_10
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -29499,8 +29398,8 @@ module data_mem_column_11
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_10_10_i_1__4
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[10]),
         .I3(i_data_from_core_IBUF[10]),
         .O(p_1_in[10]));
@@ -29515,7 +29414,7 @@ module data_mem_column_11
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "11" *) 
   (* ram_slice_end = "11" *) 
-  RAM32X1S_HD673 data_mem_reg_0_7_11_11
+  RAM32X1S_HD162 data_mem_reg_0_7_11_11
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -29528,8 +29427,8 @@ module data_mem_column_11
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_11_11_i_1__4
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[11]),
         .I3(i_data_from_core_IBUF[11]),
         .O(p_1_in[11]));
@@ -29544,7 +29443,7 @@ module data_mem_column_11
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "12" *) 
   (* ram_slice_end = "12" *) 
-  RAM32X1S_HD674 data_mem_reg_0_7_12_12
+  RAM32X1S_HD163 data_mem_reg_0_7_12_12
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -29557,8 +29456,8 @@ module data_mem_column_11
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_12_12_i_1__4
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[12]),
         .I3(i_data_from_core_IBUF[12]),
         .O(p_1_in[12]));
@@ -29573,7 +29472,7 @@ module data_mem_column_11
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "13" *) 
   (* ram_slice_end = "13" *) 
-  RAM32X1S_HD675 data_mem_reg_0_7_13_13
+  RAM32X1S_HD164 data_mem_reg_0_7_13_13
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -29586,8 +29485,8 @@ module data_mem_column_11
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_13_13_i_1__4
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[13]),
         .I3(i_data_from_core_IBUF[13]),
         .O(p_1_in[13]));
@@ -29602,7 +29501,7 @@ module data_mem_column_11
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "14" *) 
   (* ram_slice_end = "14" *) 
-  RAM32X1S_HD676 data_mem_reg_0_7_14_14
+  RAM32X1S_HD165 data_mem_reg_0_7_14_14
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -29615,8 +29514,8 @@ module data_mem_column_11
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_14_14_i_1__4
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[14]),
         .I3(i_data_from_core_IBUF[14]),
         .O(p_1_in[14]));
@@ -29631,7 +29530,7 @@ module data_mem_column_11
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "15" *) 
   (* ram_slice_end = "15" *) 
-  RAM32X1S_HD677 data_mem_reg_0_7_15_15
+  RAM32X1S_HD166 data_mem_reg_0_7_15_15
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -29644,8 +29543,8 @@ module data_mem_column_11
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_15_15_i_1__4
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[15]),
         .I3(i_data_from_core_IBUF[15]),
         .O(p_1_in[15]));
@@ -29660,7 +29559,7 @@ module data_mem_column_11
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "16" *) 
   (* ram_slice_end = "16" *) 
-  RAM32X1S_HD678 data_mem_reg_0_7_16_16
+  RAM32X1S_HD167 data_mem_reg_0_7_16_16
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -29673,8 +29572,8 @@ module data_mem_column_11
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_16_16_i_1__4
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[16]),
         .I3(i_data_from_core_IBUF[16]),
         .O(p_1_in[16]));
@@ -29689,7 +29588,7 @@ module data_mem_column_11
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "17" *) 
   (* ram_slice_end = "17" *) 
-  RAM32X1S_HD679 data_mem_reg_0_7_17_17
+  RAM32X1S_HD168 data_mem_reg_0_7_17_17
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -29702,8 +29601,8 @@ module data_mem_column_11
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_17_17_i_1__4
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[17]),
         .I3(i_data_from_core_IBUF[17]),
         .O(p_1_in[17]));
@@ -29718,7 +29617,7 @@ module data_mem_column_11
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "18" *) 
   (* ram_slice_end = "18" *) 
-  RAM32X1S_HD680 data_mem_reg_0_7_18_18
+  RAM32X1S_HD169 data_mem_reg_0_7_18_18
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -29731,8 +29630,8 @@ module data_mem_column_11
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_18_18_i_1__4
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[18]),
         .I3(i_data_from_core_IBUF[18]),
         .O(p_1_in[18]));
@@ -29747,7 +29646,7 @@ module data_mem_column_11
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "19" *) 
   (* ram_slice_end = "19" *) 
-  RAM32X1S_HD681 data_mem_reg_0_7_19_19
+  RAM32X1S_HD170 data_mem_reg_0_7_19_19
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -29760,8 +29659,8 @@ module data_mem_column_11
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_19_19_i_1__4
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[19]),
         .I3(i_data_from_core_IBUF[19]),
         .O(p_1_in[19]));
@@ -29776,7 +29675,7 @@ module data_mem_column_11
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "1" *) 
   (* ram_slice_end = "1" *) 
-  RAM32X1S_HD682 data_mem_reg_0_7_1_1
+  RAM32X1S_HD171 data_mem_reg_0_7_1_1
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -29789,8 +29688,8 @@ module data_mem_column_11
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_1_1_i_1__4
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[1]),
         .I3(i_data_from_core_IBUF[1]),
         .O(p_1_in[1]));
@@ -29805,7 +29704,7 @@ module data_mem_column_11
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "20" *) 
   (* ram_slice_end = "20" *) 
-  RAM32X1S_HD683 data_mem_reg_0_7_20_20
+  RAM32X1S_HD172 data_mem_reg_0_7_20_20
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -29818,8 +29717,8 @@ module data_mem_column_11
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_20_20_i_1__4
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[20]),
         .I3(i_data_from_core_IBUF[20]),
         .O(p_1_in[20]));
@@ -29834,7 +29733,7 @@ module data_mem_column_11
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "21" *) 
   (* ram_slice_end = "21" *) 
-  RAM32X1S_HD684 data_mem_reg_0_7_21_21
+  RAM32X1S_HD173 data_mem_reg_0_7_21_21
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -29847,8 +29746,8 @@ module data_mem_column_11
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_21_21_i_1__4
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[21]),
         .I3(i_data_from_core_IBUF[21]),
         .O(p_1_in[21]));
@@ -29863,7 +29762,7 @@ module data_mem_column_11
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "22" *) 
   (* ram_slice_end = "22" *) 
-  RAM32X1S_HD685 data_mem_reg_0_7_22_22
+  RAM32X1S_HD174 data_mem_reg_0_7_22_22
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -29876,8 +29775,8 @@ module data_mem_column_11
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_22_22_i_1__4
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[22]),
         .I3(i_data_from_core_IBUF[22]),
         .O(p_1_in[22]));
@@ -29892,7 +29791,7 @@ module data_mem_column_11
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "23" *) 
   (* ram_slice_end = "23" *) 
-  RAM32X1S_HD686 data_mem_reg_0_7_23_23
+  RAM32X1S_HD175 data_mem_reg_0_7_23_23
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -29905,8 +29804,8 @@ module data_mem_column_11
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_23_23_i_1__4
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[23]),
         .I3(i_data_from_core_IBUF[23]),
         .O(p_1_in[23]));
@@ -29921,7 +29820,7 @@ module data_mem_column_11
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "24" *) 
   (* ram_slice_end = "24" *) 
-  RAM32X1S_HD687 data_mem_reg_0_7_24_24
+  RAM32X1S_HD176 data_mem_reg_0_7_24_24
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -29934,8 +29833,8 @@ module data_mem_column_11
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_24_24_i_1__4
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[24]),
         .I3(i_data_from_core_IBUF[24]),
         .O(p_1_in[24]));
@@ -29950,7 +29849,7 @@ module data_mem_column_11
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "25" *) 
   (* ram_slice_end = "25" *) 
-  RAM32X1S_HD688 data_mem_reg_0_7_25_25
+  RAM32X1S_HD177 data_mem_reg_0_7_25_25
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -29963,8 +29862,8 @@ module data_mem_column_11
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_25_25_i_1__4
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[25]),
         .I3(i_data_from_core_IBUF[25]),
         .O(p_1_in[25]));
@@ -29979,7 +29878,7 @@ module data_mem_column_11
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "26" *) 
   (* ram_slice_end = "26" *) 
-  RAM32X1S_HD689 data_mem_reg_0_7_26_26
+  RAM32X1S_HD178 data_mem_reg_0_7_26_26
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -29992,8 +29891,8 @@ module data_mem_column_11
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_26_26_i_1__4
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[26]),
         .I3(i_data_from_core_IBUF[26]),
         .O(p_1_in[26]));
@@ -30008,7 +29907,7 @@ module data_mem_column_11
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "27" *) 
   (* ram_slice_end = "27" *) 
-  RAM32X1S_HD690 data_mem_reg_0_7_27_27
+  RAM32X1S_HD179 data_mem_reg_0_7_27_27
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -30021,8 +29920,8 @@ module data_mem_column_11
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_27_27_i_1__4
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[27]),
         .I3(i_data_from_core_IBUF[27]),
         .O(p_1_in[27]));
@@ -30037,7 +29936,7 @@ module data_mem_column_11
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "28" *) 
   (* ram_slice_end = "28" *) 
-  RAM32X1S_HD691 data_mem_reg_0_7_28_28
+  RAM32X1S_HD180 data_mem_reg_0_7_28_28
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -30050,8 +29949,8 @@ module data_mem_column_11
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_28_28_i_1__4
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[28]),
         .I3(i_data_from_core_IBUF[28]),
         .O(p_1_in[28]));
@@ -30066,7 +29965,7 @@ module data_mem_column_11
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "29" *) 
   (* ram_slice_end = "29" *) 
-  RAM32X1S_HD692 data_mem_reg_0_7_29_29
+  RAM32X1S_HD181 data_mem_reg_0_7_29_29
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -30079,8 +29978,8 @@ module data_mem_column_11
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_29_29_i_1__4
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[29]),
         .I3(i_data_from_core_IBUF[29]),
         .O(p_1_in[29]));
@@ -30095,7 +29994,7 @@ module data_mem_column_11
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "2" *) 
   (* ram_slice_end = "2" *) 
-  RAM32X1S_HD693 data_mem_reg_0_7_2_2
+  RAM32X1S_HD182 data_mem_reg_0_7_2_2
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -30108,8 +30007,8 @@ module data_mem_column_11
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_2_2_i_1__4
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[2]),
         .I3(i_data_from_core_IBUF[2]),
         .O(p_1_in[2]));
@@ -30124,7 +30023,7 @@ module data_mem_column_11
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "30" *) 
   (* ram_slice_end = "30" *) 
-  RAM32X1S_HD694 data_mem_reg_0_7_30_30
+  RAM32X1S_HD183 data_mem_reg_0_7_30_30
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -30137,8 +30036,8 @@ module data_mem_column_11
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_30_30_i_1__4
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[30]),
         .I3(i_data_from_core_IBUF[30]),
         .O(p_1_in[30]));
@@ -30153,7 +30052,7 @@ module data_mem_column_11
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "31" *) 
   (* ram_slice_end = "31" *) 
-  RAM32X1S_HD695 data_mem_reg_0_7_31_31
+  RAM32X1S_HD184 data_mem_reg_0_7_31_31
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -30166,8 +30065,8 @@ module data_mem_column_11
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_31_31_i_1__4
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[31]),
         .I3(i_data_from_core_IBUF[31]),
         .O(p_1_in[31]));
@@ -30182,7 +30081,7 @@ module data_mem_column_11
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "3" *) 
   (* ram_slice_end = "3" *) 
-  RAM32X1S_HD696 data_mem_reg_0_7_3_3
+  RAM32X1S_HD185 data_mem_reg_0_7_3_3
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -30195,8 +30094,8 @@ module data_mem_column_11
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_3_3_i_1__4
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[3]),
         .I3(i_data_from_core_IBUF[3]),
         .O(p_1_in[3]));
@@ -30211,7 +30110,7 @@ module data_mem_column_11
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "4" *) 
   (* ram_slice_end = "4" *) 
-  RAM32X1S_HD697 data_mem_reg_0_7_4_4
+  RAM32X1S_HD186 data_mem_reg_0_7_4_4
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -30224,8 +30123,8 @@ module data_mem_column_11
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_4_4_i_1__4
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[4]),
         .I3(i_data_from_core_IBUF[4]),
         .O(p_1_in[4]));
@@ -30240,7 +30139,7 @@ module data_mem_column_11
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "5" *) 
   (* ram_slice_end = "5" *) 
-  RAM32X1S_HD698 data_mem_reg_0_7_5_5
+  RAM32X1S_HD187 data_mem_reg_0_7_5_5
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -30253,8 +30152,8 @@ module data_mem_column_11
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_5_5_i_1__4
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[5]),
         .I3(i_data_from_core_IBUF[5]),
         .O(p_1_in[5]));
@@ -30269,7 +30168,7 @@ module data_mem_column_11
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "6" *) 
   (* ram_slice_end = "6" *) 
-  RAM32X1S_HD699 data_mem_reg_0_7_6_6
+  RAM32X1S_HD188 data_mem_reg_0_7_6_6
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -30282,8 +30181,8 @@ module data_mem_column_11
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_6_6_i_1__4
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[6]),
         .I3(i_data_from_core_IBUF[6]),
         .O(p_1_in[6]));
@@ -30298,7 +30197,7 @@ module data_mem_column_11
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "7" *) 
   (* ram_slice_end = "7" *) 
-  RAM32X1S_HD700 data_mem_reg_0_7_7_7
+  RAM32X1S_HD189 data_mem_reg_0_7_7_7
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -30311,8 +30210,8 @@ module data_mem_column_11
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_7_7_i_1__4
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[7]),
         .I3(i_data_from_core_IBUF[7]),
         .O(p_1_in[7]));
@@ -30327,7 +30226,7 @@ module data_mem_column_11
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "8" *) 
   (* ram_slice_end = "8" *) 
-  RAM32X1S_HD701 data_mem_reg_0_7_8_8
+  RAM32X1S_HD190 data_mem_reg_0_7_8_8
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -30340,8 +30239,8 @@ module data_mem_column_11
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_8_8_i_1__4
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[8]),
         .I3(i_data_from_core_IBUF[8]),
         .O(p_1_in[8]));
@@ -30356,7 +30255,7 @@ module data_mem_column_11
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "9" *) 
   (* ram_slice_end = "9" *) 
-  RAM32X1S_HD702 data_mem_reg_0_7_9_9
+  RAM32X1S_HD191 data_mem_reg_0_7_9_9
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -30369,8 +30268,8 @@ module data_mem_column_11
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_9_9_i_1__4
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[9]),
         .I3(i_data_from_core_IBUF[9]),
         .O(p_1_in[9]));
@@ -30634,38 +30533,38 @@ endmodule
 
 (* ORIG_REF_NAME = "data_mem_column" *) 
 module data_mem_column_12
-   (\i_way[2] ,
-    \i_way[2]_0 ,
-    \i_way[2]_1 ,
-    \i_way[2]_2 ,
-    \i_way[2]_3 ,
-    \i_way[2]_4 ,
-    \i_way[2]_5 ,
-    \i_way[2]_6 ,
-    \i_way[2]_7 ,
-    \i_way[2]_8 ,
-    \i_way[2]_9 ,
-    \i_way[2]_10 ,
-    \i_way[2]_11 ,
-    \i_way[2]_12 ,
-    \i_way[2]_13 ,
-    \i_way[2]_14 ,
-    \i_way[2]_15 ,
-    \i_way[2]_16 ,
-    \i_way[2]_17 ,
-    \i_way[2]_18 ,
-    \i_way[2]_19 ,
-    \i_way[2]_20 ,
-    \i_way[2]_21 ,
-    \i_way[2]_22 ,
-    \i_way[2]_23 ,
-    \i_way[2]_24 ,
-    \i_way[2]_25 ,
-    \i_way[2]_26 ,
-    \i_way[2]_27 ,
-    \i_way[2]_28 ,
-    \i_way[2]_29 ,
-    \i_way[2]_30 ,
+   (\i_way[0] ,
+    \i_way[0]_0 ,
+    \i_way[0]_1 ,
+    \i_way[0]_2 ,
+    \i_way[0]_3 ,
+    \i_way[0]_4 ,
+    \i_way[0]_5 ,
+    \i_way[0]_6 ,
+    \i_way[0]_7 ,
+    \i_way[0]_8 ,
+    \i_way[0]_9 ,
+    \i_way[0]_10 ,
+    \i_way[0]_11 ,
+    \i_way[0]_12 ,
+    \i_way[0]_13 ,
+    \i_way[0]_14 ,
+    \i_way[0]_15 ,
+    \i_way[0]_16 ,
+    \i_way[0]_17 ,
+    \i_way[0]_18 ,
+    \i_way[0]_19 ,
+    \i_way[0]_20 ,
+    \i_way[0]_21 ,
+    \i_way[0]_22 ,
+    \i_way[0]_23 ,
+    \i_way[0]_24 ,
+    \i_way[0]_25 ,
+    \i_way[0]_26 ,
+    \i_way[0]_27 ,
+    \i_way[0]_28 ,
+    \i_way[0]_29 ,
+    \i_way[0]_30 ,
     \i_LRU[0] ,
     \i_LRU[0]_0 ,
     \i_LRU[0]_1 ,
@@ -30698,52 +30597,53 @@ module data_mem_column_12
     \i_LRU[0]_28 ,
     \i_LRU[0]_29 ,
     \i_LRU[0]_30 ,
-    i_way_IBUF,
-    \data_out_from_way[0] ,
     o_data,
     \o_data_to_core_reg[31]_i_2_0 ,
     i_offset_IBUF,
     \o_data_to_core_reg[31]_i_2_1 ,
+    i_way_IBUF,
+    i_rd_IBUF,
     i_data_from_mem_valid_IBUF,
-    i_LRU_IBUF,
     i_data_from_mem_IBUF,
     i_data_from_core_IBUF,
     i_wr_IBUF,
+    \data_out_from_way[0] ,
+    i_LRU_IBUF,
     \o_block_to_mem_reg[95]_i_1 ,
     clk_IBUF_BUFG,
     i_index_IBUF);
-  output \i_way[2] ;
-  output \i_way[2]_0 ;
-  output \i_way[2]_1 ;
-  output \i_way[2]_2 ;
-  output \i_way[2]_3 ;
-  output \i_way[2]_4 ;
-  output \i_way[2]_5 ;
-  output \i_way[2]_6 ;
-  output \i_way[2]_7 ;
-  output \i_way[2]_8 ;
-  output \i_way[2]_9 ;
-  output \i_way[2]_10 ;
-  output \i_way[2]_11 ;
-  output \i_way[2]_12 ;
-  output \i_way[2]_13 ;
-  output \i_way[2]_14 ;
-  output \i_way[2]_15 ;
-  output \i_way[2]_16 ;
-  output \i_way[2]_17 ;
-  output \i_way[2]_18 ;
-  output \i_way[2]_19 ;
-  output \i_way[2]_20 ;
-  output \i_way[2]_21 ;
-  output \i_way[2]_22 ;
-  output \i_way[2]_23 ;
-  output \i_way[2]_24 ;
-  output \i_way[2]_25 ;
-  output \i_way[2]_26 ;
-  output \i_way[2]_27 ;
-  output \i_way[2]_28 ;
-  output \i_way[2]_29 ;
-  output \i_way[2]_30 ;
+  output \i_way[0] ;
+  output \i_way[0]_0 ;
+  output \i_way[0]_1 ;
+  output \i_way[0]_2 ;
+  output \i_way[0]_3 ;
+  output \i_way[0]_4 ;
+  output \i_way[0]_5 ;
+  output \i_way[0]_6 ;
+  output \i_way[0]_7 ;
+  output \i_way[0]_8 ;
+  output \i_way[0]_9 ;
+  output \i_way[0]_10 ;
+  output \i_way[0]_11 ;
+  output \i_way[0]_12 ;
+  output \i_way[0]_13 ;
+  output \i_way[0]_14 ;
+  output \i_way[0]_15 ;
+  output \i_way[0]_16 ;
+  output \i_way[0]_17 ;
+  output \i_way[0]_18 ;
+  output \i_way[0]_19 ;
+  output \i_way[0]_20 ;
+  output \i_way[0]_21 ;
+  output \i_way[0]_22 ;
+  output \i_way[0]_23 ;
+  output \i_way[0]_24 ;
+  output \i_way[0]_25 ;
+  output \i_way[0]_26 ;
+  output \i_way[0]_27 ;
+  output \i_way[0]_28 ;
+  output \i_way[0]_29 ;
+  output \i_way[0]_30 ;
   output \i_LRU[0] ;
   output \i_LRU[0]_0 ;
   output \i_LRU[0]_1 ;
@@ -30776,17 +30676,18 @@ module data_mem_column_12
   output \i_LRU[0]_28 ;
   output \i_LRU[0]_29 ;
   output \i_LRU[0]_30 ;
-  input [3:0]i_way_IBUF;
-  input [31:0]\data_out_from_way[0] ;
   input [31:0]o_data;
   input [31:0]\o_data_to_core_reg[31]_i_2_0 ;
   input [1:0]i_offset_IBUF;
   input [31:0]\o_data_to_core_reg[31]_i_2_1 ;
+  input [3:0]i_way_IBUF;
+  input i_rd_IBUF;
   input i_data_from_mem_valid_IBUF;
-  input [1:0]i_LRU_IBUF;
   input [31:0]i_data_from_mem_IBUF;
   input [31:0]i_data_from_core_IBUF;
   input i_wr_IBUF;
+  input [31:0]\data_out_from_way[0] ;
+  input [1:0]i_LRU_IBUF;
   input [31:0]\o_block_to_mem_reg[95]_i_1 ;
   input clk_IBUF_BUFG;
   input [2:0]i_index_IBUF;
@@ -30832,44 +30733,46 @@ module data_mem_column_12
   wire i_data_from_mem_valid_IBUF;
   wire [2:0]i_index_IBUF;
   wire [1:0]i_offset_IBUF;
-  wire \i_way[2] ;
-  wire \i_way[2]_0 ;
-  wire \i_way[2]_1 ;
-  wire \i_way[2]_10 ;
-  wire \i_way[2]_11 ;
-  wire \i_way[2]_12 ;
-  wire \i_way[2]_13 ;
-  wire \i_way[2]_14 ;
-  wire \i_way[2]_15 ;
-  wire \i_way[2]_16 ;
-  wire \i_way[2]_17 ;
-  wire \i_way[2]_18 ;
-  wire \i_way[2]_19 ;
-  wire \i_way[2]_2 ;
-  wire \i_way[2]_20 ;
-  wire \i_way[2]_21 ;
-  wire \i_way[2]_22 ;
-  wire \i_way[2]_23 ;
-  wire \i_way[2]_24 ;
-  wire \i_way[2]_25 ;
-  wire \i_way[2]_26 ;
-  wire \i_way[2]_27 ;
-  wire \i_way[2]_28 ;
-  wire \i_way[2]_29 ;
-  wire \i_way[2]_3 ;
-  wire \i_way[2]_30 ;
-  wire \i_way[2]_4 ;
-  wire \i_way[2]_5 ;
-  wire \i_way[2]_6 ;
-  wire \i_way[2]_7 ;
-  wire \i_way[2]_8 ;
-  wire \i_way[2]_9 ;
+  wire i_rd_IBUF;
+  wire \i_way[0] ;
+  wire \i_way[0]_0 ;
+  wire \i_way[0]_1 ;
+  wire \i_way[0]_10 ;
+  wire \i_way[0]_11 ;
+  wire \i_way[0]_12 ;
+  wire \i_way[0]_13 ;
+  wire \i_way[0]_14 ;
+  wire \i_way[0]_15 ;
+  wire \i_way[0]_16 ;
+  wire \i_way[0]_17 ;
+  wire \i_way[0]_18 ;
+  wire \i_way[0]_19 ;
+  wire \i_way[0]_2 ;
+  wire \i_way[0]_20 ;
+  wire \i_way[0]_21 ;
+  wire \i_way[0]_22 ;
+  wire \i_way[0]_23 ;
+  wire \i_way[0]_24 ;
+  wire \i_way[0]_25 ;
+  wire \i_way[0]_26 ;
+  wire \i_way[0]_27 ;
+  wire \i_way[0]_28 ;
+  wire \i_way[0]_29 ;
+  wire \i_way[0]_3 ;
+  wire \i_way[0]_30 ;
+  wire \i_way[0]_4 ;
+  wire \i_way[0]_5 ;
+  wire \i_way[0]_6 ;
+  wire \i_way[0]_7 ;
+  wire \i_way[0]_8 ;
+  wire \i_way[0]_9 ;
   wire [3:0]i_way_IBUF;
   wire i_wr_IBUF;
   wire [31:0]\o_block_to_mem_reg[95]_i_1 ;
   wire [31:0]o_data;
   wire [31:0]\o_data_to_core_reg[31]_i_2_0 ;
   wire [31:0]\o_data_to_core_reg[31]_i_2_1 ;
+  wire \o_data_to_core_reg[31]_i_7_n_2 ;
   wire [31:0]\output_column[2]_2 ;
   wire p_0_in__5;
   wire [31:0]p_1_in;
@@ -30885,7 +30788,7 @@ module data_mem_column_12
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "0" *) 
   (* ram_slice_end = "0" *) 
-  RAM32X1S_HD703 data_mem_reg_0_7_0_0
+  RAM32X1S_HD192 data_mem_reg_0_7_0_0
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -30898,20 +30801,19 @@ module data_mem_column_12
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_0_0_i_1__5
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF[1]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[0]),
         .I3(i_data_from_core_IBUF[0]),
         .O(p_1_in[0]));
-  LUT6 #(
-    .INIT(64'h88F8888888888888)) 
+  LUT5 #(
+    .INIT(32'h8A888888)) 
     data_mem_reg_0_7_0_0_i_2__4
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
-        .I2(i_offset_IBUF[1]),
-        .I3(i_offset_IBUF[0]),
-        .I4(i_way_IBUF[1]),
-        .I5(i_wr_IBUF),
+       (.I0(i_way_IBUF[1]),
+        .I1(i_data_from_mem_valid_IBUF),
+        .I2(i_offset_IBUF[0]),
+        .I3(i_offset_IBUF[1]),
+        .I4(i_wr_IBUF),
         .O(p_0_in__5));
   (* INIT = "32'h00000003" *) 
   (* RTL_RAM_BITS = "256" *) 
@@ -30924,7 +30826,7 @@ module data_mem_column_12
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "10" *) 
   (* ram_slice_end = "10" *) 
-  RAM32X1S_HD704 data_mem_reg_0_7_10_10
+  RAM32X1S_HD193 data_mem_reg_0_7_10_10
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -30937,8 +30839,8 @@ module data_mem_column_12
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_10_10_i_1__5
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF[1]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[10]),
         .I3(i_data_from_core_IBUF[10]),
         .O(p_1_in[10]));
@@ -30953,7 +30855,7 @@ module data_mem_column_12
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "11" *) 
   (* ram_slice_end = "11" *) 
-  RAM32X1S_HD705 data_mem_reg_0_7_11_11
+  RAM32X1S_HD194 data_mem_reg_0_7_11_11
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -30966,8 +30868,8 @@ module data_mem_column_12
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_11_11_i_1__5
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF[1]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[11]),
         .I3(i_data_from_core_IBUF[11]),
         .O(p_1_in[11]));
@@ -30982,7 +30884,7 @@ module data_mem_column_12
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "12" *) 
   (* ram_slice_end = "12" *) 
-  RAM32X1S_HD706 data_mem_reg_0_7_12_12
+  RAM32X1S_HD195 data_mem_reg_0_7_12_12
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -30995,8 +30897,8 @@ module data_mem_column_12
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_12_12_i_1__5
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF[1]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[12]),
         .I3(i_data_from_core_IBUF[12]),
         .O(p_1_in[12]));
@@ -31011,7 +30913,7 @@ module data_mem_column_12
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "13" *) 
   (* ram_slice_end = "13" *) 
-  RAM32X1S_HD707 data_mem_reg_0_7_13_13
+  RAM32X1S_HD196 data_mem_reg_0_7_13_13
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -31024,8 +30926,8 @@ module data_mem_column_12
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_13_13_i_1__5
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF[1]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[13]),
         .I3(i_data_from_core_IBUF[13]),
         .O(p_1_in[13]));
@@ -31040,7 +30942,7 @@ module data_mem_column_12
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "14" *) 
   (* ram_slice_end = "14" *) 
-  RAM32X1S_HD708 data_mem_reg_0_7_14_14
+  RAM32X1S_HD197 data_mem_reg_0_7_14_14
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -31053,8 +30955,8 @@ module data_mem_column_12
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_14_14_i_1__5
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF[1]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[14]),
         .I3(i_data_from_core_IBUF[14]),
         .O(p_1_in[14]));
@@ -31069,7 +30971,7 @@ module data_mem_column_12
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "15" *) 
   (* ram_slice_end = "15" *) 
-  RAM32X1S_HD709 data_mem_reg_0_7_15_15
+  RAM32X1S_HD198 data_mem_reg_0_7_15_15
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -31082,8 +30984,8 @@ module data_mem_column_12
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_15_15_i_1__5
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF[1]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[15]),
         .I3(i_data_from_core_IBUF[15]),
         .O(p_1_in[15]));
@@ -31098,7 +31000,7 @@ module data_mem_column_12
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "16" *) 
   (* ram_slice_end = "16" *) 
-  RAM32X1S_HD710 data_mem_reg_0_7_16_16
+  RAM32X1S_HD199 data_mem_reg_0_7_16_16
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -31111,8 +31013,8 @@ module data_mem_column_12
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_16_16_i_1__5
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF[1]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[16]),
         .I3(i_data_from_core_IBUF[16]),
         .O(p_1_in[16]));
@@ -31127,7 +31029,7 @@ module data_mem_column_12
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "17" *) 
   (* ram_slice_end = "17" *) 
-  RAM32X1S_HD711 data_mem_reg_0_7_17_17
+  RAM32X1S_HD200 data_mem_reg_0_7_17_17
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -31140,8 +31042,8 @@ module data_mem_column_12
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_17_17_i_1__5
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF[1]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[17]),
         .I3(i_data_from_core_IBUF[17]),
         .O(p_1_in[17]));
@@ -31156,7 +31058,7 @@ module data_mem_column_12
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "18" *) 
   (* ram_slice_end = "18" *) 
-  RAM32X1S_HD712 data_mem_reg_0_7_18_18
+  RAM32X1S_HD201 data_mem_reg_0_7_18_18
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -31169,8 +31071,8 @@ module data_mem_column_12
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_18_18_i_1__5
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF[1]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[18]),
         .I3(i_data_from_core_IBUF[18]),
         .O(p_1_in[18]));
@@ -31185,7 +31087,7 @@ module data_mem_column_12
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "19" *) 
   (* ram_slice_end = "19" *) 
-  RAM32X1S_HD713 data_mem_reg_0_7_19_19
+  RAM32X1S_HD202 data_mem_reg_0_7_19_19
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -31198,8 +31100,8 @@ module data_mem_column_12
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_19_19_i_1__5
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF[1]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[19]),
         .I3(i_data_from_core_IBUF[19]),
         .O(p_1_in[19]));
@@ -31214,7 +31116,7 @@ module data_mem_column_12
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "1" *) 
   (* ram_slice_end = "1" *) 
-  RAM32X1S_HD714 data_mem_reg_0_7_1_1
+  RAM32X1S_HD203 data_mem_reg_0_7_1_1
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -31227,8 +31129,8 @@ module data_mem_column_12
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_1_1_i_1__5
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF[1]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[1]),
         .I3(i_data_from_core_IBUF[1]),
         .O(p_1_in[1]));
@@ -31243,7 +31145,7 @@ module data_mem_column_12
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "20" *) 
   (* ram_slice_end = "20" *) 
-  RAM32X1S_HD715 data_mem_reg_0_7_20_20
+  RAM32X1S_HD204 data_mem_reg_0_7_20_20
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -31256,8 +31158,8 @@ module data_mem_column_12
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_20_20_i_1__5
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF[1]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[20]),
         .I3(i_data_from_core_IBUF[20]),
         .O(p_1_in[20]));
@@ -31272,7 +31174,7 @@ module data_mem_column_12
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "21" *) 
   (* ram_slice_end = "21" *) 
-  RAM32X1S_HD716 data_mem_reg_0_7_21_21
+  RAM32X1S_HD205 data_mem_reg_0_7_21_21
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -31285,8 +31187,8 @@ module data_mem_column_12
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_21_21_i_1__5
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF[1]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[21]),
         .I3(i_data_from_core_IBUF[21]),
         .O(p_1_in[21]));
@@ -31301,7 +31203,7 @@ module data_mem_column_12
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "22" *) 
   (* ram_slice_end = "22" *) 
-  RAM32X1S_HD717 data_mem_reg_0_7_22_22
+  RAM32X1S_HD206 data_mem_reg_0_7_22_22
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -31314,8 +31216,8 @@ module data_mem_column_12
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_22_22_i_1__5
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF[1]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[22]),
         .I3(i_data_from_core_IBUF[22]),
         .O(p_1_in[22]));
@@ -31330,7 +31232,7 @@ module data_mem_column_12
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "23" *) 
   (* ram_slice_end = "23" *) 
-  RAM32X1S_HD718 data_mem_reg_0_7_23_23
+  RAM32X1S_HD207 data_mem_reg_0_7_23_23
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -31343,8 +31245,8 @@ module data_mem_column_12
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_23_23_i_1__5
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF[1]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[23]),
         .I3(i_data_from_core_IBUF[23]),
         .O(p_1_in[23]));
@@ -31359,7 +31261,7 @@ module data_mem_column_12
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "24" *) 
   (* ram_slice_end = "24" *) 
-  RAM32X1S_HD719 data_mem_reg_0_7_24_24
+  RAM32X1S_HD208 data_mem_reg_0_7_24_24
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -31372,8 +31274,8 @@ module data_mem_column_12
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_24_24_i_1__5
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF[1]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[24]),
         .I3(i_data_from_core_IBUF[24]),
         .O(p_1_in[24]));
@@ -31388,7 +31290,7 @@ module data_mem_column_12
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "25" *) 
   (* ram_slice_end = "25" *) 
-  RAM32X1S_HD720 data_mem_reg_0_7_25_25
+  RAM32X1S_HD209 data_mem_reg_0_7_25_25
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -31401,8 +31303,8 @@ module data_mem_column_12
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_25_25_i_1__5
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF[1]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[25]),
         .I3(i_data_from_core_IBUF[25]),
         .O(p_1_in[25]));
@@ -31417,7 +31319,7 @@ module data_mem_column_12
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "26" *) 
   (* ram_slice_end = "26" *) 
-  RAM32X1S_HD721 data_mem_reg_0_7_26_26
+  RAM32X1S_HD210 data_mem_reg_0_7_26_26
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -31430,8 +31332,8 @@ module data_mem_column_12
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_26_26_i_1__5
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF[1]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[26]),
         .I3(i_data_from_core_IBUF[26]),
         .O(p_1_in[26]));
@@ -31446,7 +31348,7 @@ module data_mem_column_12
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "27" *) 
   (* ram_slice_end = "27" *) 
-  RAM32X1S_HD722 data_mem_reg_0_7_27_27
+  RAM32X1S_HD211 data_mem_reg_0_7_27_27
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -31459,8 +31361,8 @@ module data_mem_column_12
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_27_27_i_1__5
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF[1]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[27]),
         .I3(i_data_from_core_IBUF[27]),
         .O(p_1_in[27]));
@@ -31475,7 +31377,7 @@ module data_mem_column_12
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "28" *) 
   (* ram_slice_end = "28" *) 
-  RAM32X1S_HD723 data_mem_reg_0_7_28_28
+  RAM32X1S_HD212 data_mem_reg_0_7_28_28
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -31488,8 +31390,8 @@ module data_mem_column_12
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_28_28_i_1__5
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF[1]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[28]),
         .I3(i_data_from_core_IBUF[28]),
         .O(p_1_in[28]));
@@ -31504,7 +31406,7 @@ module data_mem_column_12
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "29" *) 
   (* ram_slice_end = "29" *) 
-  RAM32X1S_HD724 data_mem_reg_0_7_29_29
+  RAM32X1S_HD213 data_mem_reg_0_7_29_29
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -31517,8 +31419,8 @@ module data_mem_column_12
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_29_29_i_1__5
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF[1]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[29]),
         .I3(i_data_from_core_IBUF[29]),
         .O(p_1_in[29]));
@@ -31533,7 +31435,7 @@ module data_mem_column_12
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "2" *) 
   (* ram_slice_end = "2" *) 
-  RAM32X1S_HD725 data_mem_reg_0_7_2_2
+  RAM32X1S_HD214 data_mem_reg_0_7_2_2
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -31546,8 +31448,8 @@ module data_mem_column_12
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_2_2_i_1__5
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF[1]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[2]),
         .I3(i_data_from_core_IBUF[2]),
         .O(p_1_in[2]));
@@ -31562,7 +31464,7 @@ module data_mem_column_12
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "30" *) 
   (* ram_slice_end = "30" *) 
-  RAM32X1S_HD726 data_mem_reg_0_7_30_30
+  RAM32X1S_HD215 data_mem_reg_0_7_30_30
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -31575,8 +31477,8 @@ module data_mem_column_12
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_30_30_i_1__5
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF[1]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[30]),
         .I3(i_data_from_core_IBUF[30]),
         .O(p_1_in[30]));
@@ -31591,7 +31493,7 @@ module data_mem_column_12
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "31" *) 
   (* ram_slice_end = "31" *) 
-  RAM32X1S_HD727 data_mem_reg_0_7_31_31
+  RAM32X1S_HD216 data_mem_reg_0_7_31_31
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -31604,8 +31506,8 @@ module data_mem_column_12
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_31_31_i_1__5
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF[1]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[31]),
         .I3(i_data_from_core_IBUF[31]),
         .O(p_1_in[31]));
@@ -31620,7 +31522,7 @@ module data_mem_column_12
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "3" *) 
   (* ram_slice_end = "3" *) 
-  RAM32X1S_HD728 data_mem_reg_0_7_3_3
+  RAM32X1S_HD217 data_mem_reg_0_7_3_3
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -31633,8 +31535,8 @@ module data_mem_column_12
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_3_3_i_1__5
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF[1]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[3]),
         .I3(i_data_from_core_IBUF[3]),
         .O(p_1_in[3]));
@@ -31649,7 +31551,7 @@ module data_mem_column_12
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "4" *) 
   (* ram_slice_end = "4" *) 
-  RAM32X1S_HD729 data_mem_reg_0_7_4_4
+  RAM32X1S_HD218 data_mem_reg_0_7_4_4
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -31662,8 +31564,8 @@ module data_mem_column_12
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_4_4_i_1__5
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF[1]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[4]),
         .I3(i_data_from_core_IBUF[4]),
         .O(p_1_in[4]));
@@ -31678,7 +31580,7 @@ module data_mem_column_12
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "5" *) 
   (* ram_slice_end = "5" *) 
-  RAM32X1S_HD730 data_mem_reg_0_7_5_5
+  RAM32X1S_HD219 data_mem_reg_0_7_5_5
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -31691,8 +31593,8 @@ module data_mem_column_12
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_5_5_i_1__5
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF[1]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[5]),
         .I3(i_data_from_core_IBUF[5]),
         .O(p_1_in[5]));
@@ -31707,7 +31609,7 @@ module data_mem_column_12
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "6" *) 
   (* ram_slice_end = "6" *) 
-  RAM32X1S_HD731 data_mem_reg_0_7_6_6
+  RAM32X1S_HD220 data_mem_reg_0_7_6_6
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -31720,8 +31622,8 @@ module data_mem_column_12
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_6_6_i_1__5
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF[1]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[6]),
         .I3(i_data_from_core_IBUF[6]),
         .O(p_1_in[6]));
@@ -31736,7 +31638,7 @@ module data_mem_column_12
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "7" *) 
   (* ram_slice_end = "7" *) 
-  RAM32X1S_HD732 data_mem_reg_0_7_7_7
+  RAM32X1S_HD221 data_mem_reg_0_7_7_7
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -31749,8 +31651,8 @@ module data_mem_column_12
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_7_7_i_1__5
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF[1]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[7]),
         .I3(i_data_from_core_IBUF[7]),
         .O(p_1_in[7]));
@@ -31765,7 +31667,7 @@ module data_mem_column_12
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "8" *) 
   (* ram_slice_end = "8" *) 
-  RAM32X1S_HD733 data_mem_reg_0_7_8_8
+  RAM32X1S_HD222 data_mem_reg_0_7_8_8
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -31778,8 +31680,8 @@ module data_mem_column_12
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_8_8_i_1__5
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF[1]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[8]),
         .I3(i_data_from_core_IBUF[8]),
         .O(p_1_in[8]));
@@ -31794,7 +31696,7 @@ module data_mem_column_12
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "9" *) 
   (* ram_slice_end = "9" *) 
-  RAM32X1S_HD734 data_mem_reg_0_7_9_9
+  RAM32X1S_HD223 data_mem_reg_0_7_9_9
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -31807,8 +31709,8 @@ module data_mem_column_12
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_9_9_i_1__5
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF[1]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[9]),
         .I3(i_data_from_core_IBUF[9]),
         .O(p_1_in[9]));
@@ -32069,15 +31971,15 @@ module data_mem_column_12
         .I3(\o_block_to_mem_reg[95]_i_1 [31]),
         .O(\i_LRU[0]_30 ));
   LUT6 #(
-    .INIT(64'hFFAAFF0300AA0000)) 
+    .INIT(64'h4000FFFF40004000)) 
     \o_data_to_core_reg[0]_i_2 
-       (.I0(\data_out_from_way[1] [0]),
-        .I1(i_way_IBUF[2]),
-        .I2(i_way_IBUF[3]),
-        .I3(i_way_IBUF[0]),
-        .I4(i_way_IBUF[1]),
+       (.I0(i_way_IBUF[0]),
+        .I1(i_rd_IBUF),
+        .I2(i_way_IBUF[1]),
+        .I3(\data_out_from_way[1] [0]),
+        .I4(\o_data_to_core_reg[31]_i_7_n_2 ),
         .I5(\data_out_from_way[0] [0]),
-        .O(\i_way[2] ));
+        .O(\i_way[0]_30 ));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
     \o_data_to_core_reg[0]_i_5 
@@ -32089,15 +31991,15 @@ module data_mem_column_12
         .I5(\o_data_to_core_reg[31]_i_2_1 [0]),
         .O(\data_out_from_way[1] [0]));
   LUT6 #(
-    .INIT(64'hFFAAFF0300AA0000)) 
+    .INIT(64'h4000FFFF40004000)) 
     \o_data_to_core_reg[10]_i_2 
-       (.I0(\data_out_from_way[1] [10]),
-        .I1(i_way_IBUF[2]),
-        .I2(i_way_IBUF[3]),
-        .I3(i_way_IBUF[0]),
-        .I4(i_way_IBUF[1]),
+       (.I0(i_way_IBUF[0]),
+        .I1(i_rd_IBUF),
+        .I2(i_way_IBUF[1]),
+        .I3(\data_out_from_way[1] [10]),
+        .I4(\o_data_to_core_reg[31]_i_7_n_2 ),
         .I5(\data_out_from_way[0] [10]),
-        .O(\i_way[2]_9 ));
+        .O(\i_way[0]_20 ));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
     \o_data_to_core_reg[10]_i_5 
@@ -32109,15 +32011,15 @@ module data_mem_column_12
         .I5(\o_data_to_core_reg[31]_i_2_1 [10]),
         .O(\data_out_from_way[1] [10]));
   LUT6 #(
-    .INIT(64'hFFAAFF0300AA0000)) 
+    .INIT(64'h4000FFFF40004000)) 
     \o_data_to_core_reg[11]_i_2 
-       (.I0(\data_out_from_way[1] [11]),
-        .I1(i_way_IBUF[2]),
-        .I2(i_way_IBUF[3]),
-        .I3(i_way_IBUF[0]),
-        .I4(i_way_IBUF[1]),
+       (.I0(i_way_IBUF[0]),
+        .I1(i_rd_IBUF),
+        .I2(i_way_IBUF[1]),
+        .I3(\data_out_from_way[1] [11]),
+        .I4(\o_data_to_core_reg[31]_i_7_n_2 ),
         .I5(\data_out_from_way[0] [11]),
-        .O(\i_way[2]_10 ));
+        .O(\i_way[0]_19 ));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
     \o_data_to_core_reg[11]_i_5 
@@ -32129,15 +32031,15 @@ module data_mem_column_12
         .I5(\o_data_to_core_reg[31]_i_2_1 [11]),
         .O(\data_out_from_way[1] [11]));
   LUT6 #(
-    .INIT(64'hFFAAFF0300AA0000)) 
+    .INIT(64'h4000FFFF40004000)) 
     \o_data_to_core_reg[12]_i_2 
-       (.I0(\data_out_from_way[1] [12]),
-        .I1(i_way_IBUF[2]),
-        .I2(i_way_IBUF[3]),
-        .I3(i_way_IBUF[0]),
-        .I4(i_way_IBUF[1]),
+       (.I0(i_way_IBUF[0]),
+        .I1(i_rd_IBUF),
+        .I2(i_way_IBUF[1]),
+        .I3(\data_out_from_way[1] [12]),
+        .I4(\o_data_to_core_reg[31]_i_7_n_2 ),
         .I5(\data_out_from_way[0] [12]),
-        .O(\i_way[2]_11 ));
+        .O(\i_way[0]_18 ));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
     \o_data_to_core_reg[12]_i_5 
@@ -32149,15 +32051,15 @@ module data_mem_column_12
         .I5(\o_data_to_core_reg[31]_i_2_1 [12]),
         .O(\data_out_from_way[1] [12]));
   LUT6 #(
-    .INIT(64'hFFAAFF0300AA0000)) 
+    .INIT(64'h4000FFFF40004000)) 
     \o_data_to_core_reg[13]_i_2 
-       (.I0(\data_out_from_way[1] [13]),
-        .I1(i_way_IBUF[2]),
-        .I2(i_way_IBUF[3]),
-        .I3(i_way_IBUF[0]),
-        .I4(i_way_IBUF[1]),
+       (.I0(i_way_IBUF[0]),
+        .I1(i_rd_IBUF),
+        .I2(i_way_IBUF[1]),
+        .I3(\data_out_from_way[1] [13]),
+        .I4(\o_data_to_core_reg[31]_i_7_n_2 ),
         .I5(\data_out_from_way[0] [13]),
-        .O(\i_way[2]_12 ));
+        .O(\i_way[0]_17 ));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
     \o_data_to_core_reg[13]_i_5 
@@ -32169,15 +32071,15 @@ module data_mem_column_12
         .I5(\o_data_to_core_reg[31]_i_2_1 [13]),
         .O(\data_out_from_way[1] [13]));
   LUT6 #(
-    .INIT(64'hFFAAFF0300AA0000)) 
+    .INIT(64'h4000FFFF40004000)) 
     \o_data_to_core_reg[14]_i_2 
-       (.I0(\data_out_from_way[1] [14]),
-        .I1(i_way_IBUF[2]),
-        .I2(i_way_IBUF[3]),
-        .I3(i_way_IBUF[0]),
-        .I4(i_way_IBUF[1]),
+       (.I0(i_way_IBUF[0]),
+        .I1(i_rd_IBUF),
+        .I2(i_way_IBUF[1]),
+        .I3(\data_out_from_way[1] [14]),
+        .I4(\o_data_to_core_reg[31]_i_7_n_2 ),
         .I5(\data_out_from_way[0] [14]),
-        .O(\i_way[2]_13 ));
+        .O(\i_way[0]_16 ));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
     \o_data_to_core_reg[14]_i_5 
@@ -32189,15 +32091,15 @@ module data_mem_column_12
         .I5(\o_data_to_core_reg[31]_i_2_1 [14]),
         .O(\data_out_from_way[1] [14]));
   LUT6 #(
-    .INIT(64'hFFAAFF0300AA0000)) 
+    .INIT(64'h4000FFFF40004000)) 
     \o_data_to_core_reg[15]_i_2 
-       (.I0(\data_out_from_way[1] [15]),
-        .I1(i_way_IBUF[2]),
-        .I2(i_way_IBUF[3]),
-        .I3(i_way_IBUF[0]),
-        .I4(i_way_IBUF[1]),
+       (.I0(i_way_IBUF[0]),
+        .I1(i_rd_IBUF),
+        .I2(i_way_IBUF[1]),
+        .I3(\data_out_from_way[1] [15]),
+        .I4(\o_data_to_core_reg[31]_i_7_n_2 ),
         .I5(\data_out_from_way[0] [15]),
-        .O(\i_way[2]_14 ));
+        .O(\i_way[0]_15 ));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
     \o_data_to_core_reg[15]_i_5 
@@ -32209,15 +32111,15 @@ module data_mem_column_12
         .I5(\o_data_to_core_reg[31]_i_2_1 [15]),
         .O(\data_out_from_way[1] [15]));
   LUT6 #(
-    .INIT(64'hFFAAFF0300AA0000)) 
+    .INIT(64'h4000FFFF40004000)) 
     \o_data_to_core_reg[16]_i_2 
-       (.I0(\data_out_from_way[1] [16]),
-        .I1(i_way_IBUF[2]),
-        .I2(i_way_IBUF[3]),
-        .I3(i_way_IBUF[0]),
-        .I4(i_way_IBUF[1]),
+       (.I0(i_way_IBUF[0]),
+        .I1(i_rd_IBUF),
+        .I2(i_way_IBUF[1]),
+        .I3(\data_out_from_way[1] [16]),
+        .I4(\o_data_to_core_reg[31]_i_7_n_2 ),
         .I5(\data_out_from_way[0] [16]),
-        .O(\i_way[2]_15 ));
+        .O(\i_way[0]_14 ));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
     \o_data_to_core_reg[16]_i_5 
@@ -32229,15 +32131,15 @@ module data_mem_column_12
         .I5(\o_data_to_core_reg[31]_i_2_1 [16]),
         .O(\data_out_from_way[1] [16]));
   LUT6 #(
-    .INIT(64'hFFAAFF0300AA0000)) 
+    .INIT(64'h4000FFFF40004000)) 
     \o_data_to_core_reg[17]_i_2 
-       (.I0(\data_out_from_way[1] [17]),
-        .I1(i_way_IBUF[2]),
-        .I2(i_way_IBUF[3]),
-        .I3(i_way_IBUF[0]),
-        .I4(i_way_IBUF[1]),
+       (.I0(i_way_IBUF[0]),
+        .I1(i_rd_IBUF),
+        .I2(i_way_IBUF[1]),
+        .I3(\data_out_from_way[1] [17]),
+        .I4(\o_data_to_core_reg[31]_i_7_n_2 ),
         .I5(\data_out_from_way[0] [17]),
-        .O(\i_way[2]_16 ));
+        .O(\i_way[0]_13 ));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
     \o_data_to_core_reg[17]_i_5 
@@ -32249,15 +32151,15 @@ module data_mem_column_12
         .I5(\o_data_to_core_reg[31]_i_2_1 [17]),
         .O(\data_out_from_way[1] [17]));
   LUT6 #(
-    .INIT(64'hFFAAFF0300AA0000)) 
+    .INIT(64'h4000FFFF40004000)) 
     \o_data_to_core_reg[18]_i_2 
-       (.I0(\data_out_from_way[1] [18]),
-        .I1(i_way_IBUF[2]),
-        .I2(i_way_IBUF[3]),
-        .I3(i_way_IBUF[0]),
-        .I4(i_way_IBUF[1]),
+       (.I0(i_way_IBUF[0]),
+        .I1(i_rd_IBUF),
+        .I2(i_way_IBUF[1]),
+        .I3(\data_out_from_way[1] [18]),
+        .I4(\o_data_to_core_reg[31]_i_7_n_2 ),
         .I5(\data_out_from_way[0] [18]),
-        .O(\i_way[2]_17 ));
+        .O(\i_way[0]_12 ));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
     \o_data_to_core_reg[18]_i_5 
@@ -32269,15 +32171,15 @@ module data_mem_column_12
         .I5(\o_data_to_core_reg[31]_i_2_1 [18]),
         .O(\data_out_from_way[1] [18]));
   LUT6 #(
-    .INIT(64'hFFAAFF0300AA0000)) 
+    .INIT(64'h4000FFFF40004000)) 
     \o_data_to_core_reg[19]_i_2 
-       (.I0(\data_out_from_way[1] [19]),
-        .I1(i_way_IBUF[2]),
-        .I2(i_way_IBUF[3]),
-        .I3(i_way_IBUF[0]),
-        .I4(i_way_IBUF[1]),
+       (.I0(i_way_IBUF[0]),
+        .I1(i_rd_IBUF),
+        .I2(i_way_IBUF[1]),
+        .I3(\data_out_from_way[1] [19]),
+        .I4(\o_data_to_core_reg[31]_i_7_n_2 ),
         .I5(\data_out_from_way[0] [19]),
-        .O(\i_way[2]_18 ));
+        .O(\i_way[0]_11 ));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
     \o_data_to_core_reg[19]_i_5 
@@ -32289,15 +32191,15 @@ module data_mem_column_12
         .I5(\o_data_to_core_reg[31]_i_2_1 [19]),
         .O(\data_out_from_way[1] [19]));
   LUT6 #(
-    .INIT(64'hFFAAFF0300AA0000)) 
+    .INIT(64'h4000FFFF40004000)) 
     \o_data_to_core_reg[1]_i_2 
-       (.I0(\data_out_from_way[1] [1]),
-        .I1(i_way_IBUF[2]),
-        .I2(i_way_IBUF[3]),
-        .I3(i_way_IBUF[0]),
-        .I4(i_way_IBUF[1]),
+       (.I0(i_way_IBUF[0]),
+        .I1(i_rd_IBUF),
+        .I2(i_way_IBUF[1]),
+        .I3(\data_out_from_way[1] [1]),
+        .I4(\o_data_to_core_reg[31]_i_7_n_2 ),
         .I5(\data_out_from_way[0] [1]),
-        .O(\i_way[2]_0 ));
+        .O(\i_way[0]_29 ));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
     \o_data_to_core_reg[1]_i_5 
@@ -32309,15 +32211,15 @@ module data_mem_column_12
         .I5(\o_data_to_core_reg[31]_i_2_1 [1]),
         .O(\data_out_from_way[1] [1]));
   LUT6 #(
-    .INIT(64'hFFAAFF0300AA0000)) 
+    .INIT(64'h4000FFFF40004000)) 
     \o_data_to_core_reg[20]_i_2 
-       (.I0(\data_out_from_way[1] [20]),
-        .I1(i_way_IBUF[2]),
-        .I2(i_way_IBUF[3]),
-        .I3(i_way_IBUF[0]),
-        .I4(i_way_IBUF[1]),
+       (.I0(i_way_IBUF[0]),
+        .I1(i_rd_IBUF),
+        .I2(i_way_IBUF[1]),
+        .I3(\data_out_from_way[1] [20]),
+        .I4(\o_data_to_core_reg[31]_i_7_n_2 ),
         .I5(\data_out_from_way[0] [20]),
-        .O(\i_way[2]_19 ));
+        .O(\i_way[0]_10 ));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
     \o_data_to_core_reg[20]_i_5 
@@ -32329,15 +32231,15 @@ module data_mem_column_12
         .I5(\o_data_to_core_reg[31]_i_2_1 [20]),
         .O(\data_out_from_way[1] [20]));
   LUT6 #(
-    .INIT(64'hFFAAFF0300AA0000)) 
+    .INIT(64'h4000FFFF40004000)) 
     \o_data_to_core_reg[21]_i_2 
-       (.I0(\data_out_from_way[1] [21]),
-        .I1(i_way_IBUF[2]),
-        .I2(i_way_IBUF[3]),
-        .I3(i_way_IBUF[0]),
-        .I4(i_way_IBUF[1]),
+       (.I0(i_way_IBUF[0]),
+        .I1(i_rd_IBUF),
+        .I2(i_way_IBUF[1]),
+        .I3(\data_out_from_way[1] [21]),
+        .I4(\o_data_to_core_reg[31]_i_7_n_2 ),
         .I5(\data_out_from_way[0] [21]),
-        .O(\i_way[2]_20 ));
+        .O(\i_way[0]_9 ));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
     \o_data_to_core_reg[21]_i_5 
@@ -32349,15 +32251,15 @@ module data_mem_column_12
         .I5(\o_data_to_core_reg[31]_i_2_1 [21]),
         .O(\data_out_from_way[1] [21]));
   LUT6 #(
-    .INIT(64'hFFAAFF0300AA0000)) 
+    .INIT(64'h4000FFFF40004000)) 
     \o_data_to_core_reg[22]_i_2 
-       (.I0(\data_out_from_way[1] [22]),
-        .I1(i_way_IBUF[2]),
-        .I2(i_way_IBUF[3]),
-        .I3(i_way_IBUF[0]),
-        .I4(i_way_IBUF[1]),
+       (.I0(i_way_IBUF[0]),
+        .I1(i_rd_IBUF),
+        .I2(i_way_IBUF[1]),
+        .I3(\data_out_from_way[1] [22]),
+        .I4(\o_data_to_core_reg[31]_i_7_n_2 ),
         .I5(\data_out_from_way[0] [22]),
-        .O(\i_way[2]_21 ));
+        .O(\i_way[0]_8 ));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
     \o_data_to_core_reg[22]_i_5 
@@ -32369,15 +32271,15 @@ module data_mem_column_12
         .I5(\o_data_to_core_reg[31]_i_2_1 [22]),
         .O(\data_out_from_way[1] [22]));
   LUT6 #(
-    .INIT(64'hFFAAFF0300AA0000)) 
+    .INIT(64'h4000FFFF40004000)) 
     \o_data_to_core_reg[23]_i_2 
-       (.I0(\data_out_from_way[1] [23]),
-        .I1(i_way_IBUF[2]),
-        .I2(i_way_IBUF[3]),
-        .I3(i_way_IBUF[0]),
-        .I4(i_way_IBUF[1]),
+       (.I0(i_way_IBUF[0]),
+        .I1(i_rd_IBUF),
+        .I2(i_way_IBUF[1]),
+        .I3(\data_out_from_way[1] [23]),
+        .I4(\o_data_to_core_reg[31]_i_7_n_2 ),
         .I5(\data_out_from_way[0] [23]),
-        .O(\i_way[2]_22 ));
+        .O(\i_way[0]_7 ));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
     \o_data_to_core_reg[23]_i_5 
@@ -32389,15 +32291,15 @@ module data_mem_column_12
         .I5(\o_data_to_core_reg[31]_i_2_1 [23]),
         .O(\data_out_from_way[1] [23]));
   LUT6 #(
-    .INIT(64'hFFAAFF0300AA0000)) 
+    .INIT(64'h4000FFFF40004000)) 
     \o_data_to_core_reg[24]_i_2 
-       (.I0(\data_out_from_way[1] [24]),
-        .I1(i_way_IBUF[2]),
-        .I2(i_way_IBUF[3]),
-        .I3(i_way_IBUF[0]),
-        .I4(i_way_IBUF[1]),
+       (.I0(i_way_IBUF[0]),
+        .I1(i_rd_IBUF),
+        .I2(i_way_IBUF[1]),
+        .I3(\data_out_from_way[1] [24]),
+        .I4(\o_data_to_core_reg[31]_i_7_n_2 ),
         .I5(\data_out_from_way[0] [24]),
-        .O(\i_way[2]_23 ));
+        .O(\i_way[0]_6 ));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
     \o_data_to_core_reg[24]_i_5 
@@ -32409,15 +32311,15 @@ module data_mem_column_12
         .I5(\o_data_to_core_reg[31]_i_2_1 [24]),
         .O(\data_out_from_way[1] [24]));
   LUT6 #(
-    .INIT(64'hFFAAFF0300AA0000)) 
+    .INIT(64'h4000FFFF40004000)) 
     \o_data_to_core_reg[25]_i_2 
-       (.I0(\data_out_from_way[1] [25]),
-        .I1(i_way_IBUF[2]),
-        .I2(i_way_IBUF[3]),
-        .I3(i_way_IBUF[0]),
-        .I4(i_way_IBUF[1]),
+       (.I0(i_way_IBUF[0]),
+        .I1(i_rd_IBUF),
+        .I2(i_way_IBUF[1]),
+        .I3(\data_out_from_way[1] [25]),
+        .I4(\o_data_to_core_reg[31]_i_7_n_2 ),
         .I5(\data_out_from_way[0] [25]),
-        .O(\i_way[2]_24 ));
+        .O(\i_way[0]_5 ));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
     \o_data_to_core_reg[25]_i_5 
@@ -32429,15 +32331,15 @@ module data_mem_column_12
         .I5(\o_data_to_core_reg[31]_i_2_1 [25]),
         .O(\data_out_from_way[1] [25]));
   LUT6 #(
-    .INIT(64'hFFAAFF0300AA0000)) 
+    .INIT(64'h4000FFFF40004000)) 
     \o_data_to_core_reg[26]_i_2 
-       (.I0(\data_out_from_way[1] [26]),
-        .I1(i_way_IBUF[2]),
-        .I2(i_way_IBUF[3]),
-        .I3(i_way_IBUF[0]),
-        .I4(i_way_IBUF[1]),
+       (.I0(i_way_IBUF[0]),
+        .I1(i_rd_IBUF),
+        .I2(i_way_IBUF[1]),
+        .I3(\data_out_from_way[1] [26]),
+        .I4(\o_data_to_core_reg[31]_i_7_n_2 ),
         .I5(\data_out_from_way[0] [26]),
-        .O(\i_way[2]_25 ));
+        .O(\i_way[0]_4 ));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
     \o_data_to_core_reg[26]_i_5 
@@ -32449,15 +32351,15 @@ module data_mem_column_12
         .I5(\o_data_to_core_reg[31]_i_2_1 [26]),
         .O(\data_out_from_way[1] [26]));
   LUT6 #(
-    .INIT(64'hFFAAFF0300AA0000)) 
+    .INIT(64'h4000FFFF40004000)) 
     \o_data_to_core_reg[27]_i_2 
-       (.I0(\data_out_from_way[1] [27]),
-        .I1(i_way_IBUF[2]),
-        .I2(i_way_IBUF[3]),
-        .I3(i_way_IBUF[0]),
-        .I4(i_way_IBUF[1]),
+       (.I0(i_way_IBUF[0]),
+        .I1(i_rd_IBUF),
+        .I2(i_way_IBUF[1]),
+        .I3(\data_out_from_way[1] [27]),
+        .I4(\o_data_to_core_reg[31]_i_7_n_2 ),
         .I5(\data_out_from_way[0] [27]),
-        .O(\i_way[2]_26 ));
+        .O(\i_way[0]_3 ));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
     \o_data_to_core_reg[27]_i_5 
@@ -32469,15 +32371,15 @@ module data_mem_column_12
         .I5(\o_data_to_core_reg[31]_i_2_1 [27]),
         .O(\data_out_from_way[1] [27]));
   LUT6 #(
-    .INIT(64'hFFAAFF0300AA0000)) 
+    .INIT(64'h4000FFFF40004000)) 
     \o_data_to_core_reg[28]_i_2 
-       (.I0(\data_out_from_way[1] [28]),
-        .I1(i_way_IBUF[2]),
-        .I2(i_way_IBUF[3]),
-        .I3(i_way_IBUF[0]),
-        .I4(i_way_IBUF[1]),
+       (.I0(i_way_IBUF[0]),
+        .I1(i_rd_IBUF),
+        .I2(i_way_IBUF[1]),
+        .I3(\data_out_from_way[1] [28]),
+        .I4(\o_data_to_core_reg[31]_i_7_n_2 ),
         .I5(\data_out_from_way[0] [28]),
-        .O(\i_way[2]_27 ));
+        .O(\i_way[0]_2 ));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
     \o_data_to_core_reg[28]_i_5 
@@ -32489,15 +32391,15 @@ module data_mem_column_12
         .I5(\o_data_to_core_reg[31]_i_2_1 [28]),
         .O(\data_out_from_way[1] [28]));
   LUT6 #(
-    .INIT(64'hFFAAFF0300AA0000)) 
+    .INIT(64'h4000FFFF40004000)) 
     \o_data_to_core_reg[29]_i_2 
-       (.I0(\data_out_from_way[1] [29]),
-        .I1(i_way_IBUF[2]),
-        .I2(i_way_IBUF[3]),
-        .I3(i_way_IBUF[0]),
-        .I4(i_way_IBUF[1]),
+       (.I0(i_way_IBUF[0]),
+        .I1(i_rd_IBUF),
+        .I2(i_way_IBUF[1]),
+        .I3(\data_out_from_way[1] [29]),
+        .I4(\o_data_to_core_reg[31]_i_7_n_2 ),
         .I5(\data_out_from_way[0] [29]),
-        .O(\i_way[2]_28 ));
+        .O(\i_way[0]_1 ));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
     \o_data_to_core_reg[29]_i_5 
@@ -32509,15 +32411,15 @@ module data_mem_column_12
         .I5(\o_data_to_core_reg[31]_i_2_1 [29]),
         .O(\data_out_from_way[1] [29]));
   LUT6 #(
-    .INIT(64'hFFAAFF0300AA0000)) 
+    .INIT(64'h4000FFFF40004000)) 
     \o_data_to_core_reg[2]_i_2 
-       (.I0(\data_out_from_way[1] [2]),
-        .I1(i_way_IBUF[2]),
-        .I2(i_way_IBUF[3]),
-        .I3(i_way_IBUF[0]),
-        .I4(i_way_IBUF[1]),
+       (.I0(i_way_IBUF[0]),
+        .I1(i_rd_IBUF),
+        .I2(i_way_IBUF[1]),
+        .I3(\data_out_from_way[1] [2]),
+        .I4(\o_data_to_core_reg[31]_i_7_n_2 ),
         .I5(\data_out_from_way[0] [2]),
-        .O(\i_way[2]_1 ));
+        .O(\i_way[0]_28 ));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
     \o_data_to_core_reg[2]_i_5 
@@ -32529,15 +32431,15 @@ module data_mem_column_12
         .I5(\o_data_to_core_reg[31]_i_2_1 [2]),
         .O(\data_out_from_way[1] [2]));
   LUT6 #(
-    .INIT(64'hFFAAFF0300AA0000)) 
+    .INIT(64'h4000FFFF40004000)) 
     \o_data_to_core_reg[30]_i_2 
-       (.I0(\data_out_from_way[1] [30]),
-        .I1(i_way_IBUF[2]),
-        .I2(i_way_IBUF[3]),
-        .I3(i_way_IBUF[0]),
-        .I4(i_way_IBUF[1]),
+       (.I0(i_way_IBUF[0]),
+        .I1(i_rd_IBUF),
+        .I2(i_way_IBUF[1]),
+        .I3(\data_out_from_way[1] [30]),
+        .I4(\o_data_to_core_reg[31]_i_7_n_2 ),
         .I5(\data_out_from_way[0] [30]),
-        .O(\i_way[2]_29 ));
+        .O(\i_way[0]_0 ));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
     \o_data_to_core_reg[30]_i_5 
@@ -32549,18 +32451,18 @@ module data_mem_column_12
         .I5(\o_data_to_core_reg[31]_i_2_1 [30]),
         .O(\data_out_from_way[1] [30]));
   LUT6 #(
-    .INIT(64'hFFAAFF0300AA0000)) 
+    .INIT(64'h4000FFFF40004000)) 
     \o_data_to_core_reg[31]_i_2 
-       (.I0(\data_out_from_way[1] [31]),
-        .I1(i_way_IBUF[2]),
-        .I2(i_way_IBUF[3]),
-        .I3(i_way_IBUF[0]),
-        .I4(i_way_IBUF[1]),
+       (.I0(i_way_IBUF[0]),
+        .I1(i_rd_IBUF),
+        .I2(i_way_IBUF[1]),
+        .I3(\data_out_from_way[1] [31]),
+        .I4(\o_data_to_core_reg[31]_i_7_n_2 ),
         .I5(\data_out_from_way[0] [31]),
-        .O(\i_way[2]_30 ));
+        .O(\i_way[0] ));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
-    \o_data_to_core_reg[31]_i_7 
+    \o_data_to_core_reg[31]_i_6 
        (.I0(\output_column[2]_2 [31]),
         .I1(o_data[31]),
         .I2(\o_data_to_core_reg[31]_i_2_0 [31]),
@@ -32568,16 +32470,25 @@ module data_mem_column_12
         .I4(i_offset_IBUF[0]),
         .I5(\o_data_to_core_reg[31]_i_2_1 [31]),
         .O(\data_out_from_way[1] [31]));
-  LUT6 #(
-    .INIT(64'hFFAAFF0300AA0000)) 
-    \o_data_to_core_reg[3]_i_2 
-       (.I0(\data_out_from_way[1] [3]),
-        .I1(i_way_IBUF[2]),
-        .I2(i_way_IBUF[3]),
-        .I3(i_way_IBUF[0]),
+  LUT5 #(
+    .INIT(32'h0F000E00)) 
+    \o_data_to_core_reg[31]_i_7 
+       (.I0(i_way_IBUF[2]),
+        .I1(i_way_IBUF[3]),
+        .I2(i_way_IBUF[0]),
+        .I3(i_rd_IBUF),
         .I4(i_way_IBUF[1]),
+        .O(\o_data_to_core_reg[31]_i_7_n_2 ));
+  LUT6 #(
+    .INIT(64'h4000FFFF40004000)) 
+    \o_data_to_core_reg[3]_i_2 
+       (.I0(i_way_IBUF[0]),
+        .I1(i_rd_IBUF),
+        .I2(i_way_IBUF[1]),
+        .I3(\data_out_from_way[1] [3]),
+        .I4(\o_data_to_core_reg[31]_i_7_n_2 ),
         .I5(\data_out_from_way[0] [3]),
-        .O(\i_way[2]_2 ));
+        .O(\i_way[0]_27 ));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
     \o_data_to_core_reg[3]_i_5 
@@ -32589,15 +32500,15 @@ module data_mem_column_12
         .I5(\o_data_to_core_reg[31]_i_2_1 [3]),
         .O(\data_out_from_way[1] [3]));
   LUT6 #(
-    .INIT(64'hFFAAFF0300AA0000)) 
+    .INIT(64'h4000FFFF40004000)) 
     \o_data_to_core_reg[4]_i_2 
-       (.I0(\data_out_from_way[1] [4]),
-        .I1(i_way_IBUF[2]),
-        .I2(i_way_IBUF[3]),
-        .I3(i_way_IBUF[0]),
-        .I4(i_way_IBUF[1]),
+       (.I0(i_way_IBUF[0]),
+        .I1(i_rd_IBUF),
+        .I2(i_way_IBUF[1]),
+        .I3(\data_out_from_way[1] [4]),
+        .I4(\o_data_to_core_reg[31]_i_7_n_2 ),
         .I5(\data_out_from_way[0] [4]),
-        .O(\i_way[2]_3 ));
+        .O(\i_way[0]_26 ));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
     \o_data_to_core_reg[4]_i_5 
@@ -32609,15 +32520,15 @@ module data_mem_column_12
         .I5(\o_data_to_core_reg[31]_i_2_1 [4]),
         .O(\data_out_from_way[1] [4]));
   LUT6 #(
-    .INIT(64'hFFAAFF0300AA0000)) 
+    .INIT(64'h4000FFFF40004000)) 
     \o_data_to_core_reg[5]_i_2 
-       (.I0(\data_out_from_way[1] [5]),
-        .I1(i_way_IBUF[2]),
-        .I2(i_way_IBUF[3]),
-        .I3(i_way_IBUF[0]),
-        .I4(i_way_IBUF[1]),
+       (.I0(i_way_IBUF[0]),
+        .I1(i_rd_IBUF),
+        .I2(i_way_IBUF[1]),
+        .I3(\data_out_from_way[1] [5]),
+        .I4(\o_data_to_core_reg[31]_i_7_n_2 ),
         .I5(\data_out_from_way[0] [5]),
-        .O(\i_way[2]_4 ));
+        .O(\i_way[0]_25 ));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
     \o_data_to_core_reg[5]_i_5 
@@ -32629,15 +32540,15 @@ module data_mem_column_12
         .I5(\o_data_to_core_reg[31]_i_2_1 [5]),
         .O(\data_out_from_way[1] [5]));
   LUT6 #(
-    .INIT(64'hFFAAFF0300AA0000)) 
+    .INIT(64'h4000FFFF40004000)) 
     \o_data_to_core_reg[6]_i_2 
-       (.I0(\data_out_from_way[1] [6]),
-        .I1(i_way_IBUF[2]),
-        .I2(i_way_IBUF[3]),
-        .I3(i_way_IBUF[0]),
-        .I4(i_way_IBUF[1]),
+       (.I0(i_way_IBUF[0]),
+        .I1(i_rd_IBUF),
+        .I2(i_way_IBUF[1]),
+        .I3(\data_out_from_way[1] [6]),
+        .I4(\o_data_to_core_reg[31]_i_7_n_2 ),
         .I5(\data_out_from_way[0] [6]),
-        .O(\i_way[2]_5 ));
+        .O(\i_way[0]_24 ));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
     \o_data_to_core_reg[6]_i_5 
@@ -32649,15 +32560,15 @@ module data_mem_column_12
         .I5(\o_data_to_core_reg[31]_i_2_1 [6]),
         .O(\data_out_from_way[1] [6]));
   LUT6 #(
-    .INIT(64'hFFAAFF0300AA0000)) 
+    .INIT(64'h4000FFFF40004000)) 
     \o_data_to_core_reg[7]_i_2 
-       (.I0(\data_out_from_way[1] [7]),
-        .I1(i_way_IBUF[2]),
-        .I2(i_way_IBUF[3]),
-        .I3(i_way_IBUF[0]),
-        .I4(i_way_IBUF[1]),
+       (.I0(i_way_IBUF[0]),
+        .I1(i_rd_IBUF),
+        .I2(i_way_IBUF[1]),
+        .I3(\data_out_from_way[1] [7]),
+        .I4(\o_data_to_core_reg[31]_i_7_n_2 ),
         .I5(\data_out_from_way[0] [7]),
-        .O(\i_way[2]_6 ));
+        .O(\i_way[0]_23 ));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
     \o_data_to_core_reg[7]_i_5 
@@ -32669,15 +32580,15 @@ module data_mem_column_12
         .I5(\o_data_to_core_reg[31]_i_2_1 [7]),
         .O(\data_out_from_way[1] [7]));
   LUT6 #(
-    .INIT(64'hFFAAFF0300AA0000)) 
+    .INIT(64'h4000FFFF40004000)) 
     \o_data_to_core_reg[8]_i_2 
-       (.I0(\data_out_from_way[1] [8]),
-        .I1(i_way_IBUF[2]),
-        .I2(i_way_IBUF[3]),
-        .I3(i_way_IBUF[0]),
-        .I4(i_way_IBUF[1]),
+       (.I0(i_way_IBUF[0]),
+        .I1(i_rd_IBUF),
+        .I2(i_way_IBUF[1]),
+        .I3(\data_out_from_way[1] [8]),
+        .I4(\o_data_to_core_reg[31]_i_7_n_2 ),
         .I5(\data_out_from_way[0] [8]),
-        .O(\i_way[2]_7 ));
+        .O(\i_way[0]_22 ));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
     \o_data_to_core_reg[8]_i_5 
@@ -32689,15 +32600,15 @@ module data_mem_column_12
         .I5(\o_data_to_core_reg[31]_i_2_1 [8]),
         .O(\data_out_from_way[1] [8]));
   LUT6 #(
-    .INIT(64'hFFAAFF0300AA0000)) 
+    .INIT(64'h4000FFFF40004000)) 
     \o_data_to_core_reg[9]_i_2 
-       (.I0(\data_out_from_way[1] [9]),
-        .I1(i_way_IBUF[2]),
-        .I2(i_way_IBUF[3]),
-        .I3(i_way_IBUF[0]),
-        .I4(i_way_IBUF[1]),
+       (.I0(i_way_IBUF[0]),
+        .I1(i_rd_IBUF),
+        .I2(i_way_IBUF[1]),
+        .I3(\data_out_from_way[1] [9]),
+        .I4(\o_data_to_core_reg[31]_i_7_n_2 ),
         .I5(\data_out_from_way[0] [9]),
-        .O(\i_way[2]_8 ));
+        .O(\i_way[0]_21 ));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
     \o_data_to_core_reg[9]_i_5 
@@ -32745,13 +32656,13 @@ module data_mem_column_13
     \i_LRU[0]_28 ,
     \i_LRU[0]_29 ,
     \i_LRU[0]_30 ,
+    i_way_IBUF,
     i_data_from_mem_valid_IBUF,
-    i_LRU_IBUF,
     i_data_from_mem_IBUF,
     i_data_from_core_IBUF,
     i_offset_IBUF,
-    i_way_IBUF,
     i_wr_IBUF,
+    i_LRU_IBUF,
     \o_block_to_mem_reg[127]_i_1 ,
     clk_IBUF_BUFG,
     i_index_IBUF);
@@ -32788,13 +32699,13 @@ module data_mem_column_13
   output \i_LRU[0]_28 ;
   output \i_LRU[0]_29 ;
   output \i_LRU[0]_30 ;
+  input [0:0]i_way_IBUF;
   input i_data_from_mem_valid_IBUF;
-  input [1:0]i_LRU_IBUF;
   input [31:0]i_data_from_mem_IBUF;
   input [31:0]i_data_from_core_IBUF;
   input [1:0]i_offset_IBUF;
-  input [0:0]i_way_IBUF;
   input i_wr_IBUF;
+  input [1:0]i_LRU_IBUF;
   input [31:0]\o_block_to_mem_reg[127]_i_1 ;
   input clk_IBUF_BUFG;
   input [2:0]i_index_IBUF;
@@ -32856,7 +32767,7 @@ module data_mem_column_13
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "0" *) 
   (* ram_slice_end = "0" *) 
-  RAM32X1S_HD735 data_mem_reg_0_7_0_0
+  RAM32X1S_HD224 data_mem_reg_0_7_0_0
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -32869,20 +32780,19 @@ module data_mem_column_13
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_0_0_i_1__6
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[0]),
         .I3(i_data_from_core_IBUF[0]),
         .O(p_1_in[0]));
-  LUT6 #(
-    .INIT(64'hF888888888888888)) 
+  LUT5 #(
+    .INIT(32'hA8888888)) 
     data_mem_reg_0_7_0_0_i_2__3
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
-        .I2(i_offset_IBUF[0]),
-        .I3(i_offset_IBUF[1]),
-        .I4(i_way_IBUF),
-        .I5(i_wr_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
+        .I2(i_offset_IBUF[1]),
+        .I3(i_offset_IBUF[0]),
+        .I4(i_wr_IBUF),
         .O(p_0_in__6));
   (* INIT = "32'h00000003" *) 
   (* RTL_RAM_BITS = "256" *) 
@@ -32895,7 +32805,7 @@ module data_mem_column_13
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "10" *) 
   (* ram_slice_end = "10" *) 
-  RAM32X1S_HD736 data_mem_reg_0_7_10_10
+  RAM32X1S_HD225 data_mem_reg_0_7_10_10
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -32908,8 +32818,8 @@ module data_mem_column_13
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_10_10_i_1__6
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[10]),
         .I3(i_data_from_core_IBUF[10]),
         .O(p_1_in[10]));
@@ -32924,7 +32834,7 @@ module data_mem_column_13
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "11" *) 
   (* ram_slice_end = "11" *) 
-  RAM32X1S_HD737 data_mem_reg_0_7_11_11
+  RAM32X1S_HD226 data_mem_reg_0_7_11_11
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -32937,8 +32847,8 @@ module data_mem_column_13
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_11_11_i_1__6
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[11]),
         .I3(i_data_from_core_IBUF[11]),
         .O(p_1_in[11]));
@@ -32953,7 +32863,7 @@ module data_mem_column_13
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "12" *) 
   (* ram_slice_end = "12" *) 
-  RAM32X1S_HD738 data_mem_reg_0_7_12_12
+  RAM32X1S_HD227 data_mem_reg_0_7_12_12
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -32966,8 +32876,8 @@ module data_mem_column_13
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_12_12_i_1__6
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[12]),
         .I3(i_data_from_core_IBUF[12]),
         .O(p_1_in[12]));
@@ -32982,7 +32892,7 @@ module data_mem_column_13
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "13" *) 
   (* ram_slice_end = "13" *) 
-  RAM32X1S_HD739 data_mem_reg_0_7_13_13
+  RAM32X1S_HD228 data_mem_reg_0_7_13_13
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -32995,8 +32905,8 @@ module data_mem_column_13
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_13_13_i_1__6
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[13]),
         .I3(i_data_from_core_IBUF[13]),
         .O(p_1_in[13]));
@@ -33011,7 +32921,7 @@ module data_mem_column_13
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "14" *) 
   (* ram_slice_end = "14" *) 
-  RAM32X1S_HD740 data_mem_reg_0_7_14_14
+  RAM32X1S_HD229 data_mem_reg_0_7_14_14
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -33024,8 +32934,8 @@ module data_mem_column_13
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_14_14_i_1__6
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[14]),
         .I3(i_data_from_core_IBUF[14]),
         .O(p_1_in[14]));
@@ -33040,7 +32950,7 @@ module data_mem_column_13
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "15" *) 
   (* ram_slice_end = "15" *) 
-  RAM32X1S_HD741 data_mem_reg_0_7_15_15
+  RAM32X1S_HD230 data_mem_reg_0_7_15_15
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -33053,8 +32963,8 @@ module data_mem_column_13
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_15_15_i_1__6
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[15]),
         .I3(i_data_from_core_IBUF[15]),
         .O(p_1_in[15]));
@@ -33069,7 +32979,7 @@ module data_mem_column_13
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "16" *) 
   (* ram_slice_end = "16" *) 
-  RAM32X1S_HD742 data_mem_reg_0_7_16_16
+  RAM32X1S_HD231 data_mem_reg_0_7_16_16
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -33082,8 +32992,8 @@ module data_mem_column_13
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_16_16_i_1__6
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[16]),
         .I3(i_data_from_core_IBUF[16]),
         .O(p_1_in[16]));
@@ -33098,7 +33008,7 @@ module data_mem_column_13
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "17" *) 
   (* ram_slice_end = "17" *) 
-  RAM32X1S_HD743 data_mem_reg_0_7_17_17
+  RAM32X1S_HD232 data_mem_reg_0_7_17_17
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -33111,8 +33021,8 @@ module data_mem_column_13
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_17_17_i_1__6
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[17]),
         .I3(i_data_from_core_IBUF[17]),
         .O(p_1_in[17]));
@@ -33127,7 +33037,7 @@ module data_mem_column_13
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "18" *) 
   (* ram_slice_end = "18" *) 
-  RAM32X1S_HD744 data_mem_reg_0_7_18_18
+  RAM32X1S_HD233 data_mem_reg_0_7_18_18
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -33140,8 +33050,8 @@ module data_mem_column_13
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_18_18_i_1__6
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[18]),
         .I3(i_data_from_core_IBUF[18]),
         .O(p_1_in[18]));
@@ -33156,7 +33066,7 @@ module data_mem_column_13
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "19" *) 
   (* ram_slice_end = "19" *) 
-  RAM32X1S_HD745 data_mem_reg_0_7_19_19
+  RAM32X1S_HD234 data_mem_reg_0_7_19_19
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -33169,8 +33079,8 @@ module data_mem_column_13
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_19_19_i_1__6
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[19]),
         .I3(i_data_from_core_IBUF[19]),
         .O(p_1_in[19]));
@@ -33185,7 +33095,7 @@ module data_mem_column_13
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "1" *) 
   (* ram_slice_end = "1" *) 
-  RAM32X1S_HD746 data_mem_reg_0_7_1_1
+  RAM32X1S_HD235 data_mem_reg_0_7_1_1
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -33198,8 +33108,8 @@ module data_mem_column_13
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_1_1_i_1__6
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[1]),
         .I3(i_data_from_core_IBUF[1]),
         .O(p_1_in[1]));
@@ -33214,7 +33124,7 @@ module data_mem_column_13
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "20" *) 
   (* ram_slice_end = "20" *) 
-  RAM32X1S_HD747 data_mem_reg_0_7_20_20
+  RAM32X1S_HD236 data_mem_reg_0_7_20_20
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -33227,8 +33137,8 @@ module data_mem_column_13
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_20_20_i_1__6
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[20]),
         .I3(i_data_from_core_IBUF[20]),
         .O(p_1_in[20]));
@@ -33243,7 +33153,7 @@ module data_mem_column_13
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "21" *) 
   (* ram_slice_end = "21" *) 
-  RAM32X1S_HD748 data_mem_reg_0_7_21_21
+  RAM32X1S_HD237 data_mem_reg_0_7_21_21
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -33256,8 +33166,8 @@ module data_mem_column_13
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_21_21_i_1__6
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[21]),
         .I3(i_data_from_core_IBUF[21]),
         .O(p_1_in[21]));
@@ -33272,7 +33182,7 @@ module data_mem_column_13
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "22" *) 
   (* ram_slice_end = "22" *) 
-  RAM32X1S_HD749 data_mem_reg_0_7_22_22
+  RAM32X1S_HD238 data_mem_reg_0_7_22_22
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -33285,8 +33195,8 @@ module data_mem_column_13
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_22_22_i_1__6
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[22]),
         .I3(i_data_from_core_IBUF[22]),
         .O(p_1_in[22]));
@@ -33301,7 +33211,7 @@ module data_mem_column_13
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "23" *) 
   (* ram_slice_end = "23" *) 
-  RAM32X1S_HD750 data_mem_reg_0_7_23_23
+  RAM32X1S_HD239 data_mem_reg_0_7_23_23
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -33314,8 +33224,8 @@ module data_mem_column_13
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_23_23_i_1__6
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[23]),
         .I3(i_data_from_core_IBUF[23]),
         .O(p_1_in[23]));
@@ -33330,7 +33240,7 @@ module data_mem_column_13
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "24" *) 
   (* ram_slice_end = "24" *) 
-  RAM32X1S_HD751 data_mem_reg_0_7_24_24
+  RAM32X1S_HD240 data_mem_reg_0_7_24_24
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -33343,8 +33253,8 @@ module data_mem_column_13
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_24_24_i_1__6
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[24]),
         .I3(i_data_from_core_IBUF[24]),
         .O(p_1_in[24]));
@@ -33359,7 +33269,7 @@ module data_mem_column_13
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "25" *) 
   (* ram_slice_end = "25" *) 
-  RAM32X1S_HD752 data_mem_reg_0_7_25_25
+  RAM32X1S_HD241 data_mem_reg_0_7_25_25
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -33372,8 +33282,8 @@ module data_mem_column_13
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_25_25_i_1__6
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[25]),
         .I3(i_data_from_core_IBUF[25]),
         .O(p_1_in[25]));
@@ -33388,7 +33298,7 @@ module data_mem_column_13
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "26" *) 
   (* ram_slice_end = "26" *) 
-  RAM32X1S_HD753 data_mem_reg_0_7_26_26
+  RAM32X1S_HD242 data_mem_reg_0_7_26_26
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -33401,8 +33311,8 @@ module data_mem_column_13
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_26_26_i_1__6
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[26]),
         .I3(i_data_from_core_IBUF[26]),
         .O(p_1_in[26]));
@@ -33417,7 +33327,7 @@ module data_mem_column_13
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "27" *) 
   (* ram_slice_end = "27" *) 
-  RAM32X1S_HD754 data_mem_reg_0_7_27_27
+  RAM32X1S_HD243 data_mem_reg_0_7_27_27
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -33430,8 +33340,8 @@ module data_mem_column_13
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_27_27_i_1__6
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[27]),
         .I3(i_data_from_core_IBUF[27]),
         .O(p_1_in[27]));
@@ -33446,7 +33356,7 @@ module data_mem_column_13
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "28" *) 
   (* ram_slice_end = "28" *) 
-  RAM32X1S_HD755 data_mem_reg_0_7_28_28
+  RAM32X1S_HD244 data_mem_reg_0_7_28_28
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -33459,8 +33369,8 @@ module data_mem_column_13
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_28_28_i_1__6
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[28]),
         .I3(i_data_from_core_IBUF[28]),
         .O(p_1_in[28]));
@@ -33475,7 +33385,7 @@ module data_mem_column_13
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "29" *) 
   (* ram_slice_end = "29" *) 
-  RAM32X1S_HD756 data_mem_reg_0_7_29_29
+  RAM32X1S_HD245 data_mem_reg_0_7_29_29
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -33488,8 +33398,8 @@ module data_mem_column_13
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_29_29_i_1__6
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[29]),
         .I3(i_data_from_core_IBUF[29]),
         .O(p_1_in[29]));
@@ -33504,7 +33414,7 @@ module data_mem_column_13
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "2" *) 
   (* ram_slice_end = "2" *) 
-  RAM32X1S_HD757 data_mem_reg_0_7_2_2
+  RAM32X1S_HD246 data_mem_reg_0_7_2_2
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -33517,8 +33427,8 @@ module data_mem_column_13
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_2_2_i_1__6
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[2]),
         .I3(i_data_from_core_IBUF[2]),
         .O(p_1_in[2]));
@@ -33533,7 +33443,7 @@ module data_mem_column_13
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "30" *) 
   (* ram_slice_end = "30" *) 
-  RAM32X1S_HD758 data_mem_reg_0_7_30_30
+  RAM32X1S_HD247 data_mem_reg_0_7_30_30
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -33546,8 +33456,8 @@ module data_mem_column_13
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_30_30_i_1__6
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[30]),
         .I3(i_data_from_core_IBUF[30]),
         .O(p_1_in[30]));
@@ -33562,7 +33472,7 @@ module data_mem_column_13
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "31" *) 
   (* ram_slice_end = "31" *) 
-  RAM32X1S_HD759 data_mem_reg_0_7_31_31
+  RAM32X1S_HD248 data_mem_reg_0_7_31_31
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -33575,8 +33485,8 @@ module data_mem_column_13
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_31_31_i_1__6
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[31]),
         .I3(i_data_from_core_IBUF[31]),
         .O(p_1_in[31]));
@@ -33591,7 +33501,7 @@ module data_mem_column_13
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "3" *) 
   (* ram_slice_end = "3" *) 
-  RAM32X1S_HD760 data_mem_reg_0_7_3_3
+  RAM32X1S_HD249 data_mem_reg_0_7_3_3
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -33604,8 +33514,8 @@ module data_mem_column_13
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_3_3_i_1__6
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[3]),
         .I3(i_data_from_core_IBUF[3]),
         .O(p_1_in[3]));
@@ -33620,7 +33530,7 @@ module data_mem_column_13
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "4" *) 
   (* ram_slice_end = "4" *) 
-  RAM32X1S_HD761 data_mem_reg_0_7_4_4
+  RAM32X1S_HD250 data_mem_reg_0_7_4_4
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -33633,8 +33543,8 @@ module data_mem_column_13
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_4_4_i_1__6
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[4]),
         .I3(i_data_from_core_IBUF[4]),
         .O(p_1_in[4]));
@@ -33649,7 +33559,7 @@ module data_mem_column_13
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "5" *) 
   (* ram_slice_end = "5" *) 
-  RAM32X1S_HD762 data_mem_reg_0_7_5_5
+  RAM32X1S_HD251 data_mem_reg_0_7_5_5
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -33662,8 +33572,8 @@ module data_mem_column_13
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_5_5_i_1__6
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[5]),
         .I3(i_data_from_core_IBUF[5]),
         .O(p_1_in[5]));
@@ -33678,7 +33588,7 @@ module data_mem_column_13
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "6" *) 
   (* ram_slice_end = "6" *) 
-  RAM32X1S_HD763 data_mem_reg_0_7_6_6
+  RAM32X1S_HD252 data_mem_reg_0_7_6_6
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -33691,8 +33601,8 @@ module data_mem_column_13
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_6_6_i_1__6
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[6]),
         .I3(i_data_from_core_IBUF[6]),
         .O(p_1_in[6]));
@@ -33707,7 +33617,7 @@ module data_mem_column_13
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "7" *) 
   (* ram_slice_end = "7" *) 
-  RAM32X1S_HD764 data_mem_reg_0_7_7_7
+  RAM32X1S_HD253 data_mem_reg_0_7_7_7
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -33720,8 +33630,8 @@ module data_mem_column_13
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_7_7_i_1__6
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[7]),
         .I3(i_data_from_core_IBUF[7]),
         .O(p_1_in[7]));
@@ -33736,7 +33646,7 @@ module data_mem_column_13
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "8" *) 
   (* ram_slice_end = "8" *) 
-  RAM32X1S_HD765 data_mem_reg_0_7_8_8
+  RAM32X1S_HD254 data_mem_reg_0_7_8_8
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -33749,8 +33659,8 @@ module data_mem_column_13
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_8_8_i_1__6
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[8]),
         .I3(i_data_from_core_IBUF[8]),
         .O(p_1_in[8]));
@@ -33765,7 +33675,7 @@ module data_mem_column_13
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "9" *) 
   (* ram_slice_end = "9" *) 
-  RAM32X1S_HD766 data_mem_reg_0_7_9_9
+  RAM32X1S_HD255 data_mem_reg_0_7_9_9
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -33778,8 +33688,8 @@ module data_mem_column_13
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_9_9_i_1__6
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[1]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[9]),
         .I3(i_data_from_core_IBUF[9]),
         .O(p_1_in[9]));
@@ -34044,28 +33954,25 @@ endmodule
 (* ORIG_REF_NAME = "data_mem_column" *) 
 module data_mem_column_14
    (\i_index[0] ,
+    i_way_IBUF,
     i_data_from_mem_valid_IBUF,
-    i_LRU_IBUF,
     i_data_from_mem_IBUF,
     i_data_from_core_IBUF,
     i_offset_IBUF,
-    i_way_IBUF,
     i_wr_IBUF,
     clk_IBUF_BUFG,
     i_index_IBUF);
   output [31:0]\i_index[0] ;
+  input [0:0]i_way_IBUF;
   input i_data_from_mem_valid_IBUF;
-  input [0:0]i_LRU_IBUF;
   input [31:0]i_data_from_mem_IBUF;
   input [31:0]i_data_from_core_IBUF;
   input [1:0]i_offset_IBUF;
-  input [0:0]i_way_IBUF;
   input i_wr_IBUF;
   input clk_IBUF_BUFG;
   input [2:0]i_index_IBUF;
 
   wire clk_IBUF_BUFG;
-  wire [0:0]i_LRU_IBUF;
   wire [31:0]i_data_from_core_IBUF;
   wire [31:0]i_data_from_mem_IBUF;
   wire i_data_from_mem_valid_IBUF;
@@ -34101,20 +34008,19 @@ module data_mem_column_14
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_0_0_i_1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[0]),
         .I3(i_data_from_core_IBUF[0]),
         .O(p_1_in[0]));
-  LUT6 #(
-    .INIT(64'h888F888888888888)) 
+  LUT5 #(
+    .INIT(32'h888A8888)) 
     data_mem_reg_0_7_0_0_i_2__2
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
-        .I2(i_offset_IBUF[0]),
-        .I3(i_offset_IBUF[1]),
-        .I4(i_way_IBUF),
-        .I5(i_wr_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
+        .I2(i_offset_IBUF[1]),
+        .I3(i_offset_IBUF[0]),
+        .I4(i_wr_IBUF),
         .O(p_0_in));
   (* INIT = "32'h00000003" *) 
   (* RTL_RAM_BITS = "256" *) 
@@ -34127,7 +34033,7 @@ module data_mem_column_14
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "10" *) 
   (* ram_slice_end = "10" *) 
-  RAM32X1S_HD512 data_mem_reg_0_7_10_10
+  RAM32X1S_HD1 data_mem_reg_0_7_10_10
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -34140,8 +34046,8 @@ module data_mem_column_14
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_10_10_i_1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[10]),
         .I3(i_data_from_core_IBUF[10]),
         .O(p_1_in[10]));
@@ -34156,7 +34062,7 @@ module data_mem_column_14
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "11" *) 
   (* ram_slice_end = "11" *) 
-  RAM32X1S_HD513 data_mem_reg_0_7_11_11
+  RAM32X1S_HD2 data_mem_reg_0_7_11_11
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -34169,8 +34075,8 @@ module data_mem_column_14
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_11_11_i_1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[11]),
         .I3(i_data_from_core_IBUF[11]),
         .O(p_1_in[11]));
@@ -34185,7 +34091,7 @@ module data_mem_column_14
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "12" *) 
   (* ram_slice_end = "12" *) 
-  RAM32X1S_HD514 data_mem_reg_0_7_12_12
+  RAM32X1S_HD3 data_mem_reg_0_7_12_12
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -34198,8 +34104,8 @@ module data_mem_column_14
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_12_12_i_1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[12]),
         .I3(i_data_from_core_IBUF[12]),
         .O(p_1_in[12]));
@@ -34214,7 +34120,7 @@ module data_mem_column_14
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "13" *) 
   (* ram_slice_end = "13" *) 
-  RAM32X1S_HD515 data_mem_reg_0_7_13_13
+  RAM32X1S_HD4 data_mem_reg_0_7_13_13
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -34227,8 +34133,8 @@ module data_mem_column_14
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_13_13_i_1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[13]),
         .I3(i_data_from_core_IBUF[13]),
         .O(p_1_in[13]));
@@ -34243,7 +34149,7 @@ module data_mem_column_14
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "14" *) 
   (* ram_slice_end = "14" *) 
-  RAM32X1S_HD516 data_mem_reg_0_7_14_14
+  RAM32X1S_HD5 data_mem_reg_0_7_14_14
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -34256,8 +34162,8 @@ module data_mem_column_14
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_14_14_i_1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[14]),
         .I3(i_data_from_core_IBUF[14]),
         .O(p_1_in[14]));
@@ -34272,7 +34178,7 @@ module data_mem_column_14
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "15" *) 
   (* ram_slice_end = "15" *) 
-  RAM32X1S_HD517 data_mem_reg_0_7_15_15
+  RAM32X1S_HD6 data_mem_reg_0_7_15_15
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -34285,8 +34191,8 @@ module data_mem_column_14
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_15_15_i_1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[15]),
         .I3(i_data_from_core_IBUF[15]),
         .O(p_1_in[15]));
@@ -34301,7 +34207,7 @@ module data_mem_column_14
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "16" *) 
   (* ram_slice_end = "16" *) 
-  RAM32X1S_HD518 data_mem_reg_0_7_16_16
+  RAM32X1S_HD7 data_mem_reg_0_7_16_16
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -34314,8 +34220,8 @@ module data_mem_column_14
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_16_16_i_1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[16]),
         .I3(i_data_from_core_IBUF[16]),
         .O(p_1_in[16]));
@@ -34330,7 +34236,7 @@ module data_mem_column_14
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "17" *) 
   (* ram_slice_end = "17" *) 
-  RAM32X1S_HD519 data_mem_reg_0_7_17_17
+  RAM32X1S_HD8 data_mem_reg_0_7_17_17
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -34343,8 +34249,8 @@ module data_mem_column_14
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_17_17_i_1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[17]),
         .I3(i_data_from_core_IBUF[17]),
         .O(p_1_in[17]));
@@ -34359,7 +34265,7 @@ module data_mem_column_14
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "18" *) 
   (* ram_slice_end = "18" *) 
-  RAM32X1S_HD520 data_mem_reg_0_7_18_18
+  RAM32X1S_HD9 data_mem_reg_0_7_18_18
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -34372,8 +34278,8 @@ module data_mem_column_14
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_18_18_i_1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[18]),
         .I3(i_data_from_core_IBUF[18]),
         .O(p_1_in[18]));
@@ -34388,7 +34294,7 @@ module data_mem_column_14
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "19" *) 
   (* ram_slice_end = "19" *) 
-  RAM32X1S_HD521 data_mem_reg_0_7_19_19
+  RAM32X1S_HD10 data_mem_reg_0_7_19_19
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -34401,8 +34307,8 @@ module data_mem_column_14
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_19_19_i_1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[19]),
         .I3(i_data_from_core_IBUF[19]),
         .O(p_1_in[19]));
@@ -34417,7 +34323,7 @@ module data_mem_column_14
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "1" *) 
   (* ram_slice_end = "1" *) 
-  RAM32X1S_HD522 data_mem_reg_0_7_1_1
+  RAM32X1S_HD11 data_mem_reg_0_7_1_1
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -34430,8 +34336,8 @@ module data_mem_column_14
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_1_1_i_1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[1]),
         .I3(i_data_from_core_IBUF[1]),
         .O(p_1_in[1]));
@@ -34446,7 +34352,7 @@ module data_mem_column_14
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "20" *) 
   (* ram_slice_end = "20" *) 
-  RAM32X1S_HD523 data_mem_reg_0_7_20_20
+  RAM32X1S_HD12 data_mem_reg_0_7_20_20
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -34459,8 +34365,8 @@ module data_mem_column_14
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_20_20_i_1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[20]),
         .I3(i_data_from_core_IBUF[20]),
         .O(p_1_in[20]));
@@ -34475,7 +34381,7 @@ module data_mem_column_14
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "21" *) 
   (* ram_slice_end = "21" *) 
-  RAM32X1S_HD524 data_mem_reg_0_7_21_21
+  RAM32X1S_HD13 data_mem_reg_0_7_21_21
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -34488,8 +34394,8 @@ module data_mem_column_14
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_21_21_i_1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[21]),
         .I3(i_data_from_core_IBUF[21]),
         .O(p_1_in[21]));
@@ -34504,7 +34410,7 @@ module data_mem_column_14
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "22" *) 
   (* ram_slice_end = "22" *) 
-  RAM32X1S_HD525 data_mem_reg_0_7_22_22
+  RAM32X1S_HD14 data_mem_reg_0_7_22_22
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -34517,8 +34423,8 @@ module data_mem_column_14
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_22_22_i_1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[22]),
         .I3(i_data_from_core_IBUF[22]),
         .O(p_1_in[22]));
@@ -34533,7 +34439,7 @@ module data_mem_column_14
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "23" *) 
   (* ram_slice_end = "23" *) 
-  RAM32X1S_HD526 data_mem_reg_0_7_23_23
+  RAM32X1S_HD15 data_mem_reg_0_7_23_23
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -34546,8 +34452,8 @@ module data_mem_column_14
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_23_23_i_1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[23]),
         .I3(i_data_from_core_IBUF[23]),
         .O(p_1_in[23]));
@@ -34562,7 +34468,7 @@ module data_mem_column_14
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "24" *) 
   (* ram_slice_end = "24" *) 
-  RAM32X1S_HD527 data_mem_reg_0_7_24_24
+  RAM32X1S_HD16 data_mem_reg_0_7_24_24
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -34575,8 +34481,8 @@ module data_mem_column_14
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_24_24_i_1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[24]),
         .I3(i_data_from_core_IBUF[24]),
         .O(p_1_in[24]));
@@ -34591,7 +34497,7 @@ module data_mem_column_14
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "25" *) 
   (* ram_slice_end = "25" *) 
-  RAM32X1S_HD528 data_mem_reg_0_7_25_25
+  RAM32X1S_HD17 data_mem_reg_0_7_25_25
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -34604,8 +34510,8 @@ module data_mem_column_14
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_25_25_i_1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[25]),
         .I3(i_data_from_core_IBUF[25]),
         .O(p_1_in[25]));
@@ -34620,7 +34526,7 @@ module data_mem_column_14
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "26" *) 
   (* ram_slice_end = "26" *) 
-  RAM32X1S_HD529 data_mem_reg_0_7_26_26
+  RAM32X1S_HD18 data_mem_reg_0_7_26_26
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -34633,8 +34539,8 @@ module data_mem_column_14
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_26_26_i_1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[26]),
         .I3(i_data_from_core_IBUF[26]),
         .O(p_1_in[26]));
@@ -34649,7 +34555,7 @@ module data_mem_column_14
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "27" *) 
   (* ram_slice_end = "27" *) 
-  RAM32X1S_HD530 data_mem_reg_0_7_27_27
+  RAM32X1S_HD19 data_mem_reg_0_7_27_27
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -34662,8 +34568,8 @@ module data_mem_column_14
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_27_27_i_1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[27]),
         .I3(i_data_from_core_IBUF[27]),
         .O(p_1_in[27]));
@@ -34678,7 +34584,7 @@ module data_mem_column_14
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "28" *) 
   (* ram_slice_end = "28" *) 
-  RAM32X1S_HD531 data_mem_reg_0_7_28_28
+  RAM32X1S_HD20 data_mem_reg_0_7_28_28
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -34691,8 +34597,8 @@ module data_mem_column_14
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_28_28_i_1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[28]),
         .I3(i_data_from_core_IBUF[28]),
         .O(p_1_in[28]));
@@ -34707,7 +34613,7 @@ module data_mem_column_14
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "29" *) 
   (* ram_slice_end = "29" *) 
-  RAM32X1S_HD532 data_mem_reg_0_7_29_29
+  RAM32X1S_HD21 data_mem_reg_0_7_29_29
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -34720,8 +34626,8 @@ module data_mem_column_14
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_29_29_i_1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[29]),
         .I3(i_data_from_core_IBUF[29]),
         .O(p_1_in[29]));
@@ -34736,7 +34642,7 @@ module data_mem_column_14
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "2" *) 
   (* ram_slice_end = "2" *) 
-  RAM32X1S_HD533 data_mem_reg_0_7_2_2
+  RAM32X1S_HD22 data_mem_reg_0_7_2_2
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -34749,8 +34655,8 @@ module data_mem_column_14
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_2_2_i_1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[2]),
         .I3(i_data_from_core_IBUF[2]),
         .O(p_1_in[2]));
@@ -34765,7 +34671,7 @@ module data_mem_column_14
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "30" *) 
   (* ram_slice_end = "30" *) 
-  RAM32X1S_HD534 data_mem_reg_0_7_30_30
+  RAM32X1S_HD23 data_mem_reg_0_7_30_30
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -34778,8 +34684,8 @@ module data_mem_column_14
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_30_30_i_1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[30]),
         .I3(i_data_from_core_IBUF[30]),
         .O(p_1_in[30]));
@@ -34794,7 +34700,7 @@ module data_mem_column_14
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "31" *) 
   (* ram_slice_end = "31" *) 
-  RAM32X1S_HD535 data_mem_reg_0_7_31_31
+  RAM32X1S_HD24 data_mem_reg_0_7_31_31
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -34807,8 +34713,8 @@ module data_mem_column_14
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_31_31_i_1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[31]),
         .I3(i_data_from_core_IBUF[31]),
         .O(p_1_in[31]));
@@ -34823,7 +34729,7 @@ module data_mem_column_14
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "3" *) 
   (* ram_slice_end = "3" *) 
-  RAM32X1S_HD536 data_mem_reg_0_7_3_3
+  RAM32X1S_HD25 data_mem_reg_0_7_3_3
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -34836,8 +34742,8 @@ module data_mem_column_14
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_3_3_i_1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[3]),
         .I3(i_data_from_core_IBUF[3]),
         .O(p_1_in[3]));
@@ -34852,7 +34758,7 @@ module data_mem_column_14
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "4" *) 
   (* ram_slice_end = "4" *) 
-  RAM32X1S_HD537 data_mem_reg_0_7_4_4
+  RAM32X1S_HD26 data_mem_reg_0_7_4_4
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -34865,8 +34771,8 @@ module data_mem_column_14
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_4_4_i_1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[4]),
         .I3(i_data_from_core_IBUF[4]),
         .O(p_1_in[4]));
@@ -34881,7 +34787,7 @@ module data_mem_column_14
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "5" *) 
   (* ram_slice_end = "5" *) 
-  RAM32X1S_HD538 data_mem_reg_0_7_5_5
+  RAM32X1S_HD27 data_mem_reg_0_7_5_5
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -34894,8 +34800,8 @@ module data_mem_column_14
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_5_5_i_1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[5]),
         .I3(i_data_from_core_IBUF[5]),
         .O(p_1_in[5]));
@@ -34910,7 +34816,7 @@ module data_mem_column_14
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "6" *) 
   (* ram_slice_end = "6" *) 
-  RAM32X1S_HD539 data_mem_reg_0_7_6_6
+  RAM32X1S_HD28 data_mem_reg_0_7_6_6
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -34923,8 +34829,8 @@ module data_mem_column_14
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_6_6_i_1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[6]),
         .I3(i_data_from_core_IBUF[6]),
         .O(p_1_in[6]));
@@ -34939,7 +34845,7 @@ module data_mem_column_14
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "7" *) 
   (* ram_slice_end = "7" *) 
-  RAM32X1S_HD540 data_mem_reg_0_7_7_7
+  RAM32X1S_HD29 data_mem_reg_0_7_7_7
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -34952,8 +34858,8 @@ module data_mem_column_14
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_7_7_i_1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[7]),
         .I3(i_data_from_core_IBUF[7]),
         .O(p_1_in[7]));
@@ -34968,7 +34874,7 @@ module data_mem_column_14
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "8" *) 
   (* ram_slice_end = "8" *) 
-  RAM32X1S_HD541 data_mem_reg_0_7_8_8
+  RAM32X1S_HD30 data_mem_reg_0_7_8_8
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -34981,8 +34887,8 @@ module data_mem_column_14
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_8_8_i_1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[8]),
         .I3(i_data_from_core_IBUF[8]),
         .O(p_1_in[8]));
@@ -34997,7 +34903,7 @@ module data_mem_column_14
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "9" *) 
   (* ram_slice_end = "9" *) 
-  RAM32X1S_HD542 data_mem_reg_0_7_9_9
+  RAM32X1S_HD31 data_mem_reg_0_7_9_9
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -35010,8 +34916,8 @@ module data_mem_column_14
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_9_9_i_1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[9]),
         .I3(i_data_from_core_IBUF[9]),
         .O(p_1_in[9]));
@@ -35020,28 +34926,25 @@ endmodule
 (* ORIG_REF_NAME = "data_mem_column" *) 
 module data_mem_column_15
    (\i_index[0] ,
+    i_way_IBUF,
     i_data_from_mem_valid_IBUF,
-    i_LRU_IBUF,
     i_data_from_mem_IBUF,
     i_data_from_core_IBUF,
     i_offset_IBUF,
-    i_way_IBUF,
     i_wr_IBUF,
     clk_IBUF_BUFG,
     i_index_IBUF);
   output [31:0]\i_index[0] ;
+  input [0:0]i_way_IBUF;
   input i_data_from_mem_valid_IBUF;
-  input [0:0]i_LRU_IBUF;
   input [31:0]i_data_from_mem_IBUF;
   input [31:0]i_data_from_core_IBUF;
   input [1:0]i_offset_IBUF;
-  input [0:0]i_way_IBUF;
   input i_wr_IBUF;
   input clk_IBUF_BUFG;
   input [2:0]i_index_IBUF;
 
   wire clk_IBUF_BUFG;
-  wire [0:0]i_LRU_IBUF;
   wire [31:0]i_data_from_core_IBUF;
   wire [31:0]i_data_from_mem_IBUF;
   wire i_data_from_mem_valid_IBUF;
@@ -35064,7 +34967,7 @@ module data_mem_column_15
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "0" *) 
   (* ram_slice_end = "0" *) 
-  RAM32X1S_HD543 data_mem_reg_0_7_0_0
+  RAM32X1S_HD32 data_mem_reg_0_7_0_0
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -35077,20 +34980,19 @@ module data_mem_column_15
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_0_0_i_1__0
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[0]),
         .I3(i_data_from_core_IBUF[0]),
         .O(p_1_in[0]));
-  LUT6 #(
-    .INIT(64'h88F8888888888888)) 
+  LUT5 #(
+    .INIT(32'h8A888888)) 
     data_mem_reg_0_7_0_0_i_2__1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
-        .I2(i_offset_IBUF[0]),
-        .I3(i_offset_IBUF[1]),
-        .I4(i_way_IBUF),
-        .I5(i_wr_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
+        .I2(i_offset_IBUF[1]),
+        .I3(i_offset_IBUF[0]),
+        .I4(i_wr_IBUF),
         .O(p_0_in__0));
   (* INIT = "32'h00000003" *) 
   (* RTL_RAM_BITS = "256" *) 
@@ -35103,7 +35005,7 @@ module data_mem_column_15
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "10" *) 
   (* ram_slice_end = "10" *) 
-  RAM32X1S_HD544 data_mem_reg_0_7_10_10
+  RAM32X1S_HD33 data_mem_reg_0_7_10_10
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -35116,8 +35018,8 @@ module data_mem_column_15
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_10_10_i_1__0
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[10]),
         .I3(i_data_from_core_IBUF[10]),
         .O(p_1_in[10]));
@@ -35132,7 +35034,7 @@ module data_mem_column_15
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "11" *) 
   (* ram_slice_end = "11" *) 
-  RAM32X1S_HD545 data_mem_reg_0_7_11_11
+  RAM32X1S_HD34 data_mem_reg_0_7_11_11
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -35145,8 +35047,8 @@ module data_mem_column_15
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_11_11_i_1__0
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[11]),
         .I3(i_data_from_core_IBUF[11]),
         .O(p_1_in[11]));
@@ -35161,7 +35063,7 @@ module data_mem_column_15
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "12" *) 
   (* ram_slice_end = "12" *) 
-  RAM32X1S_HD546 data_mem_reg_0_7_12_12
+  RAM32X1S_HD35 data_mem_reg_0_7_12_12
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -35174,8 +35076,8 @@ module data_mem_column_15
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_12_12_i_1__0
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[12]),
         .I3(i_data_from_core_IBUF[12]),
         .O(p_1_in[12]));
@@ -35190,7 +35092,7 @@ module data_mem_column_15
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "13" *) 
   (* ram_slice_end = "13" *) 
-  RAM32X1S_HD547 data_mem_reg_0_7_13_13
+  RAM32X1S_HD36 data_mem_reg_0_7_13_13
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -35203,8 +35105,8 @@ module data_mem_column_15
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_13_13_i_1__0
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[13]),
         .I3(i_data_from_core_IBUF[13]),
         .O(p_1_in[13]));
@@ -35219,7 +35121,7 @@ module data_mem_column_15
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "14" *) 
   (* ram_slice_end = "14" *) 
-  RAM32X1S_HD548 data_mem_reg_0_7_14_14
+  RAM32X1S_HD37 data_mem_reg_0_7_14_14
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -35232,8 +35134,8 @@ module data_mem_column_15
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_14_14_i_1__0
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[14]),
         .I3(i_data_from_core_IBUF[14]),
         .O(p_1_in[14]));
@@ -35248,7 +35150,7 @@ module data_mem_column_15
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "15" *) 
   (* ram_slice_end = "15" *) 
-  RAM32X1S_HD549 data_mem_reg_0_7_15_15
+  RAM32X1S_HD38 data_mem_reg_0_7_15_15
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -35261,8 +35163,8 @@ module data_mem_column_15
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_15_15_i_1__0
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[15]),
         .I3(i_data_from_core_IBUF[15]),
         .O(p_1_in[15]));
@@ -35277,7 +35179,7 @@ module data_mem_column_15
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "16" *) 
   (* ram_slice_end = "16" *) 
-  RAM32X1S_HD550 data_mem_reg_0_7_16_16
+  RAM32X1S_HD39 data_mem_reg_0_7_16_16
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -35290,8 +35192,8 @@ module data_mem_column_15
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_16_16_i_1__0
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[16]),
         .I3(i_data_from_core_IBUF[16]),
         .O(p_1_in[16]));
@@ -35306,7 +35208,7 @@ module data_mem_column_15
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "17" *) 
   (* ram_slice_end = "17" *) 
-  RAM32X1S_HD551 data_mem_reg_0_7_17_17
+  RAM32X1S_HD40 data_mem_reg_0_7_17_17
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -35319,8 +35221,8 @@ module data_mem_column_15
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_17_17_i_1__0
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[17]),
         .I3(i_data_from_core_IBUF[17]),
         .O(p_1_in[17]));
@@ -35335,7 +35237,7 @@ module data_mem_column_15
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "18" *) 
   (* ram_slice_end = "18" *) 
-  RAM32X1S_HD552 data_mem_reg_0_7_18_18
+  RAM32X1S_HD41 data_mem_reg_0_7_18_18
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -35348,8 +35250,8 @@ module data_mem_column_15
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_18_18_i_1__0
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[18]),
         .I3(i_data_from_core_IBUF[18]),
         .O(p_1_in[18]));
@@ -35364,7 +35266,7 @@ module data_mem_column_15
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "19" *) 
   (* ram_slice_end = "19" *) 
-  RAM32X1S_HD553 data_mem_reg_0_7_19_19
+  RAM32X1S_HD42 data_mem_reg_0_7_19_19
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -35377,8 +35279,8 @@ module data_mem_column_15
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_19_19_i_1__0
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[19]),
         .I3(i_data_from_core_IBUF[19]),
         .O(p_1_in[19]));
@@ -35393,7 +35295,7 @@ module data_mem_column_15
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "1" *) 
   (* ram_slice_end = "1" *) 
-  RAM32X1S_HD554 data_mem_reg_0_7_1_1
+  RAM32X1S_HD43 data_mem_reg_0_7_1_1
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -35406,8 +35308,8 @@ module data_mem_column_15
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_1_1_i_1__0
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[1]),
         .I3(i_data_from_core_IBUF[1]),
         .O(p_1_in[1]));
@@ -35422,7 +35324,7 @@ module data_mem_column_15
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "20" *) 
   (* ram_slice_end = "20" *) 
-  RAM32X1S_HD555 data_mem_reg_0_7_20_20
+  RAM32X1S_HD44 data_mem_reg_0_7_20_20
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -35435,8 +35337,8 @@ module data_mem_column_15
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_20_20_i_1__0
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[20]),
         .I3(i_data_from_core_IBUF[20]),
         .O(p_1_in[20]));
@@ -35451,7 +35353,7 @@ module data_mem_column_15
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "21" *) 
   (* ram_slice_end = "21" *) 
-  RAM32X1S_HD556 data_mem_reg_0_7_21_21
+  RAM32X1S_HD45 data_mem_reg_0_7_21_21
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -35464,8 +35366,8 @@ module data_mem_column_15
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_21_21_i_1__0
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[21]),
         .I3(i_data_from_core_IBUF[21]),
         .O(p_1_in[21]));
@@ -35480,7 +35382,7 @@ module data_mem_column_15
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "22" *) 
   (* ram_slice_end = "22" *) 
-  RAM32X1S_HD557 data_mem_reg_0_7_22_22
+  RAM32X1S_HD46 data_mem_reg_0_7_22_22
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -35493,8 +35395,8 @@ module data_mem_column_15
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_22_22_i_1__0
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[22]),
         .I3(i_data_from_core_IBUF[22]),
         .O(p_1_in[22]));
@@ -35509,7 +35411,7 @@ module data_mem_column_15
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "23" *) 
   (* ram_slice_end = "23" *) 
-  RAM32X1S_HD558 data_mem_reg_0_7_23_23
+  RAM32X1S_HD47 data_mem_reg_0_7_23_23
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -35522,8 +35424,8 @@ module data_mem_column_15
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_23_23_i_1__0
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[23]),
         .I3(i_data_from_core_IBUF[23]),
         .O(p_1_in[23]));
@@ -35538,7 +35440,7 @@ module data_mem_column_15
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "24" *) 
   (* ram_slice_end = "24" *) 
-  RAM32X1S_HD559 data_mem_reg_0_7_24_24
+  RAM32X1S_HD48 data_mem_reg_0_7_24_24
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -35551,8 +35453,8 @@ module data_mem_column_15
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_24_24_i_1__0
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[24]),
         .I3(i_data_from_core_IBUF[24]),
         .O(p_1_in[24]));
@@ -35567,7 +35469,7 @@ module data_mem_column_15
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "25" *) 
   (* ram_slice_end = "25" *) 
-  RAM32X1S_HD560 data_mem_reg_0_7_25_25
+  RAM32X1S_HD49 data_mem_reg_0_7_25_25
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -35580,8 +35482,8 @@ module data_mem_column_15
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_25_25_i_1__0
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[25]),
         .I3(i_data_from_core_IBUF[25]),
         .O(p_1_in[25]));
@@ -35596,7 +35498,7 @@ module data_mem_column_15
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "26" *) 
   (* ram_slice_end = "26" *) 
-  RAM32X1S_HD561 data_mem_reg_0_7_26_26
+  RAM32X1S_HD50 data_mem_reg_0_7_26_26
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -35609,8 +35511,8 @@ module data_mem_column_15
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_26_26_i_1__0
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[26]),
         .I3(i_data_from_core_IBUF[26]),
         .O(p_1_in[26]));
@@ -35625,7 +35527,7 @@ module data_mem_column_15
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "27" *) 
   (* ram_slice_end = "27" *) 
-  RAM32X1S_HD562 data_mem_reg_0_7_27_27
+  RAM32X1S_HD51 data_mem_reg_0_7_27_27
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -35638,8 +35540,8 @@ module data_mem_column_15
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_27_27_i_1__0
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[27]),
         .I3(i_data_from_core_IBUF[27]),
         .O(p_1_in[27]));
@@ -35654,7 +35556,7 @@ module data_mem_column_15
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "28" *) 
   (* ram_slice_end = "28" *) 
-  RAM32X1S_HD563 data_mem_reg_0_7_28_28
+  RAM32X1S_HD52 data_mem_reg_0_7_28_28
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -35667,8 +35569,8 @@ module data_mem_column_15
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_28_28_i_1__0
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[28]),
         .I3(i_data_from_core_IBUF[28]),
         .O(p_1_in[28]));
@@ -35683,7 +35585,7 @@ module data_mem_column_15
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "29" *) 
   (* ram_slice_end = "29" *) 
-  RAM32X1S_HD564 data_mem_reg_0_7_29_29
+  RAM32X1S_HD53 data_mem_reg_0_7_29_29
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -35696,8 +35598,8 @@ module data_mem_column_15
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_29_29_i_1__0
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[29]),
         .I3(i_data_from_core_IBUF[29]),
         .O(p_1_in[29]));
@@ -35712,7 +35614,7 @@ module data_mem_column_15
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "2" *) 
   (* ram_slice_end = "2" *) 
-  RAM32X1S_HD565 data_mem_reg_0_7_2_2
+  RAM32X1S_HD54 data_mem_reg_0_7_2_2
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -35725,8 +35627,8 @@ module data_mem_column_15
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_2_2_i_1__0
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[2]),
         .I3(i_data_from_core_IBUF[2]),
         .O(p_1_in[2]));
@@ -35741,7 +35643,7 @@ module data_mem_column_15
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "30" *) 
   (* ram_slice_end = "30" *) 
-  RAM32X1S_HD566 data_mem_reg_0_7_30_30
+  RAM32X1S_HD55 data_mem_reg_0_7_30_30
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -35754,8 +35656,8 @@ module data_mem_column_15
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_30_30_i_1__0
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[30]),
         .I3(i_data_from_core_IBUF[30]),
         .O(p_1_in[30]));
@@ -35770,7 +35672,7 @@ module data_mem_column_15
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "31" *) 
   (* ram_slice_end = "31" *) 
-  RAM32X1S_HD567 data_mem_reg_0_7_31_31
+  RAM32X1S_HD56 data_mem_reg_0_7_31_31
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -35783,8 +35685,8 @@ module data_mem_column_15
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_31_31_i_1__0
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[31]),
         .I3(i_data_from_core_IBUF[31]),
         .O(p_1_in[31]));
@@ -35799,7 +35701,7 @@ module data_mem_column_15
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "3" *) 
   (* ram_slice_end = "3" *) 
-  RAM32X1S_HD568 data_mem_reg_0_7_3_3
+  RAM32X1S_HD57 data_mem_reg_0_7_3_3
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -35812,8 +35714,8 @@ module data_mem_column_15
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_3_3_i_1__0
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[3]),
         .I3(i_data_from_core_IBUF[3]),
         .O(p_1_in[3]));
@@ -35828,7 +35730,7 @@ module data_mem_column_15
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "4" *) 
   (* ram_slice_end = "4" *) 
-  RAM32X1S_HD569 data_mem_reg_0_7_4_4
+  RAM32X1S_HD58 data_mem_reg_0_7_4_4
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -35841,8 +35743,8 @@ module data_mem_column_15
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_4_4_i_1__0
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[4]),
         .I3(i_data_from_core_IBUF[4]),
         .O(p_1_in[4]));
@@ -35857,7 +35759,7 @@ module data_mem_column_15
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "5" *) 
   (* ram_slice_end = "5" *) 
-  RAM32X1S_HD570 data_mem_reg_0_7_5_5
+  RAM32X1S_HD59 data_mem_reg_0_7_5_5
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -35870,8 +35772,8 @@ module data_mem_column_15
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_5_5_i_1__0
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[5]),
         .I3(i_data_from_core_IBUF[5]),
         .O(p_1_in[5]));
@@ -35886,7 +35788,7 @@ module data_mem_column_15
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "6" *) 
   (* ram_slice_end = "6" *) 
-  RAM32X1S_HD571 data_mem_reg_0_7_6_6
+  RAM32X1S_HD60 data_mem_reg_0_7_6_6
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -35899,8 +35801,8 @@ module data_mem_column_15
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_6_6_i_1__0
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[6]),
         .I3(i_data_from_core_IBUF[6]),
         .O(p_1_in[6]));
@@ -35915,7 +35817,7 @@ module data_mem_column_15
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "7" *) 
   (* ram_slice_end = "7" *) 
-  RAM32X1S_HD572 data_mem_reg_0_7_7_7
+  RAM32X1S_HD61 data_mem_reg_0_7_7_7
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -35928,8 +35830,8 @@ module data_mem_column_15
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_7_7_i_1__0
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[7]),
         .I3(i_data_from_core_IBUF[7]),
         .O(p_1_in[7]));
@@ -35944,7 +35846,7 @@ module data_mem_column_15
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "8" *) 
   (* ram_slice_end = "8" *) 
-  RAM32X1S_HD573 data_mem_reg_0_7_8_8
+  RAM32X1S_HD62 data_mem_reg_0_7_8_8
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -35957,8 +35859,8 @@ module data_mem_column_15
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_8_8_i_1__0
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[8]),
         .I3(i_data_from_core_IBUF[8]),
         .O(p_1_in[8]));
@@ -35973,7 +35875,7 @@ module data_mem_column_15
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "9" *) 
   (* ram_slice_end = "9" *) 
-  RAM32X1S_HD574 data_mem_reg_0_7_9_9
+  RAM32X1S_HD63 data_mem_reg_0_7_9_9
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -35986,8 +35888,8 @@ module data_mem_column_15
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_9_9_i_1__0
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[9]),
         .I3(i_data_from_core_IBUF[9]),
         .O(p_1_in[9]));
@@ -36001,11 +35903,10 @@ module data_mem_column_16
     \o_data_to_core_reg[31]_i_2_0 ,
     i_offset_IBUF,
     \o_data_to_core_reg[31]_i_2_1 ,
+    i_way_IBUF,
     i_data_from_mem_valid_IBUF,
-    i_LRU_IBUF,
     i_data_from_mem_IBUF,
     i_data_from_core_IBUF,
-    i_way_IBUF,
     i_wr_IBUF,
     clk_IBUF_BUFG,
     i_index_IBUF);
@@ -36015,18 +35916,16 @@ module data_mem_column_16
   input [31:0]\o_data_to_core_reg[31]_i_2_0 ;
   input [1:0]i_offset_IBUF;
   input [31:0]\o_data_to_core_reg[31]_i_2_1 ;
+  input [0:0]i_way_IBUF;
   input i_data_from_mem_valid_IBUF;
-  input [0:0]i_LRU_IBUF;
   input [31:0]i_data_from_mem_IBUF;
   input [31:0]i_data_from_core_IBUF;
-  input [0:0]i_way_IBUF;
   input i_wr_IBUF;
   input clk_IBUF_BUFG;
   input [2:0]i_index_IBUF;
 
   wire clk_IBUF_BUFG;
   wire [31:0]\data_out_from_way[0] ;
-  wire [0:0]i_LRU_IBUF;
   wire [31:0]i_data_from_core_IBUF;
   wire [31:0]i_data_from_mem_IBUF;
   wire i_data_from_mem_valid_IBUF;
@@ -36052,7 +35951,7 @@ module data_mem_column_16
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "0" *) 
   (* ram_slice_end = "0" *) 
-  RAM32X1S_HD575 data_mem_reg_0_7_0_0
+  RAM32X1S_HD64 data_mem_reg_0_7_0_0
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -36065,20 +35964,19 @@ module data_mem_column_16
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_0_0_i_1__1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[0]),
         .I3(i_data_from_core_IBUF[0]),
         .O(p_1_in[0]));
-  LUT6 #(
-    .INIT(64'h88F8888888888888)) 
+  LUT5 #(
+    .INIT(32'h8A888888)) 
     data_mem_reg_0_7_0_0_i_2__0
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
-        .I2(i_offset_IBUF[1]),
-        .I3(i_offset_IBUF[0]),
-        .I4(i_way_IBUF),
-        .I5(i_wr_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
+        .I2(i_offset_IBUF[0]),
+        .I3(i_offset_IBUF[1]),
+        .I4(i_wr_IBUF),
         .O(p_0_in__1));
   (* INIT = "32'h00000003" *) 
   (* RTL_RAM_BITS = "256" *) 
@@ -36091,7 +35989,7 @@ module data_mem_column_16
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "10" *) 
   (* ram_slice_end = "10" *) 
-  RAM32X1S_HD576 data_mem_reg_0_7_10_10
+  RAM32X1S_HD65 data_mem_reg_0_7_10_10
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -36104,8 +36002,8 @@ module data_mem_column_16
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_10_10_i_1__1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[10]),
         .I3(i_data_from_core_IBUF[10]),
         .O(p_1_in[10]));
@@ -36120,7 +36018,7 @@ module data_mem_column_16
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "11" *) 
   (* ram_slice_end = "11" *) 
-  RAM32X1S_HD577 data_mem_reg_0_7_11_11
+  RAM32X1S_HD66 data_mem_reg_0_7_11_11
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -36133,8 +36031,8 @@ module data_mem_column_16
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_11_11_i_1__1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[11]),
         .I3(i_data_from_core_IBUF[11]),
         .O(p_1_in[11]));
@@ -36149,7 +36047,7 @@ module data_mem_column_16
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "12" *) 
   (* ram_slice_end = "12" *) 
-  RAM32X1S_HD578 data_mem_reg_0_7_12_12
+  RAM32X1S_HD67 data_mem_reg_0_7_12_12
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -36162,8 +36060,8 @@ module data_mem_column_16
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_12_12_i_1__1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[12]),
         .I3(i_data_from_core_IBUF[12]),
         .O(p_1_in[12]));
@@ -36178,7 +36076,7 @@ module data_mem_column_16
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "13" *) 
   (* ram_slice_end = "13" *) 
-  RAM32X1S_HD579 data_mem_reg_0_7_13_13
+  RAM32X1S_HD68 data_mem_reg_0_7_13_13
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -36191,8 +36089,8 @@ module data_mem_column_16
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_13_13_i_1__1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[13]),
         .I3(i_data_from_core_IBUF[13]),
         .O(p_1_in[13]));
@@ -36207,7 +36105,7 @@ module data_mem_column_16
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "14" *) 
   (* ram_slice_end = "14" *) 
-  RAM32X1S_HD580 data_mem_reg_0_7_14_14
+  RAM32X1S_HD69 data_mem_reg_0_7_14_14
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -36220,8 +36118,8 @@ module data_mem_column_16
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_14_14_i_1__1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[14]),
         .I3(i_data_from_core_IBUF[14]),
         .O(p_1_in[14]));
@@ -36236,7 +36134,7 @@ module data_mem_column_16
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "15" *) 
   (* ram_slice_end = "15" *) 
-  RAM32X1S_HD581 data_mem_reg_0_7_15_15
+  RAM32X1S_HD70 data_mem_reg_0_7_15_15
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -36249,8 +36147,8 @@ module data_mem_column_16
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_15_15_i_1__1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[15]),
         .I3(i_data_from_core_IBUF[15]),
         .O(p_1_in[15]));
@@ -36265,7 +36163,7 @@ module data_mem_column_16
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "16" *) 
   (* ram_slice_end = "16" *) 
-  RAM32X1S_HD582 data_mem_reg_0_7_16_16
+  RAM32X1S_HD71 data_mem_reg_0_7_16_16
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -36278,8 +36176,8 @@ module data_mem_column_16
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_16_16_i_1__1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[16]),
         .I3(i_data_from_core_IBUF[16]),
         .O(p_1_in[16]));
@@ -36294,7 +36192,7 @@ module data_mem_column_16
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "17" *) 
   (* ram_slice_end = "17" *) 
-  RAM32X1S_HD583 data_mem_reg_0_7_17_17
+  RAM32X1S_HD72 data_mem_reg_0_7_17_17
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -36307,8 +36205,8 @@ module data_mem_column_16
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_17_17_i_1__1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[17]),
         .I3(i_data_from_core_IBUF[17]),
         .O(p_1_in[17]));
@@ -36323,7 +36221,7 @@ module data_mem_column_16
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "18" *) 
   (* ram_slice_end = "18" *) 
-  RAM32X1S_HD584 data_mem_reg_0_7_18_18
+  RAM32X1S_HD73 data_mem_reg_0_7_18_18
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -36336,8 +36234,8 @@ module data_mem_column_16
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_18_18_i_1__1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[18]),
         .I3(i_data_from_core_IBUF[18]),
         .O(p_1_in[18]));
@@ -36352,7 +36250,7 @@ module data_mem_column_16
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "19" *) 
   (* ram_slice_end = "19" *) 
-  RAM32X1S_HD585 data_mem_reg_0_7_19_19
+  RAM32X1S_HD74 data_mem_reg_0_7_19_19
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -36365,8 +36263,8 @@ module data_mem_column_16
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_19_19_i_1__1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[19]),
         .I3(i_data_from_core_IBUF[19]),
         .O(p_1_in[19]));
@@ -36381,7 +36279,7 @@ module data_mem_column_16
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "1" *) 
   (* ram_slice_end = "1" *) 
-  RAM32X1S_HD586 data_mem_reg_0_7_1_1
+  RAM32X1S_HD75 data_mem_reg_0_7_1_1
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -36394,8 +36292,8 @@ module data_mem_column_16
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_1_1_i_1__1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[1]),
         .I3(i_data_from_core_IBUF[1]),
         .O(p_1_in[1]));
@@ -36410,7 +36308,7 @@ module data_mem_column_16
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "20" *) 
   (* ram_slice_end = "20" *) 
-  RAM32X1S_HD587 data_mem_reg_0_7_20_20
+  RAM32X1S_HD76 data_mem_reg_0_7_20_20
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -36423,8 +36321,8 @@ module data_mem_column_16
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_20_20_i_1__1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[20]),
         .I3(i_data_from_core_IBUF[20]),
         .O(p_1_in[20]));
@@ -36439,7 +36337,7 @@ module data_mem_column_16
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "21" *) 
   (* ram_slice_end = "21" *) 
-  RAM32X1S_HD588 data_mem_reg_0_7_21_21
+  RAM32X1S_HD77 data_mem_reg_0_7_21_21
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -36452,8 +36350,8 @@ module data_mem_column_16
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_21_21_i_1__1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[21]),
         .I3(i_data_from_core_IBUF[21]),
         .O(p_1_in[21]));
@@ -36468,7 +36366,7 @@ module data_mem_column_16
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "22" *) 
   (* ram_slice_end = "22" *) 
-  RAM32X1S_HD589 data_mem_reg_0_7_22_22
+  RAM32X1S_HD78 data_mem_reg_0_7_22_22
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -36481,8 +36379,8 @@ module data_mem_column_16
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_22_22_i_1__1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[22]),
         .I3(i_data_from_core_IBUF[22]),
         .O(p_1_in[22]));
@@ -36497,7 +36395,7 @@ module data_mem_column_16
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "23" *) 
   (* ram_slice_end = "23" *) 
-  RAM32X1S_HD590 data_mem_reg_0_7_23_23
+  RAM32X1S_HD79 data_mem_reg_0_7_23_23
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -36510,8 +36408,8 @@ module data_mem_column_16
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_23_23_i_1__1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[23]),
         .I3(i_data_from_core_IBUF[23]),
         .O(p_1_in[23]));
@@ -36526,7 +36424,7 @@ module data_mem_column_16
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "24" *) 
   (* ram_slice_end = "24" *) 
-  RAM32X1S_HD591 data_mem_reg_0_7_24_24
+  RAM32X1S_HD80 data_mem_reg_0_7_24_24
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -36539,8 +36437,8 @@ module data_mem_column_16
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_24_24_i_1__1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[24]),
         .I3(i_data_from_core_IBUF[24]),
         .O(p_1_in[24]));
@@ -36555,7 +36453,7 @@ module data_mem_column_16
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "25" *) 
   (* ram_slice_end = "25" *) 
-  RAM32X1S_HD592 data_mem_reg_0_7_25_25
+  RAM32X1S_HD81 data_mem_reg_0_7_25_25
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -36568,8 +36466,8 @@ module data_mem_column_16
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_25_25_i_1__1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[25]),
         .I3(i_data_from_core_IBUF[25]),
         .O(p_1_in[25]));
@@ -36584,7 +36482,7 @@ module data_mem_column_16
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "26" *) 
   (* ram_slice_end = "26" *) 
-  RAM32X1S_HD593 data_mem_reg_0_7_26_26
+  RAM32X1S_HD82 data_mem_reg_0_7_26_26
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -36597,8 +36495,8 @@ module data_mem_column_16
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_26_26_i_1__1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[26]),
         .I3(i_data_from_core_IBUF[26]),
         .O(p_1_in[26]));
@@ -36613,7 +36511,7 @@ module data_mem_column_16
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "27" *) 
   (* ram_slice_end = "27" *) 
-  RAM32X1S_HD594 data_mem_reg_0_7_27_27
+  RAM32X1S_HD83 data_mem_reg_0_7_27_27
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -36626,8 +36524,8 @@ module data_mem_column_16
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_27_27_i_1__1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[27]),
         .I3(i_data_from_core_IBUF[27]),
         .O(p_1_in[27]));
@@ -36642,7 +36540,7 @@ module data_mem_column_16
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "28" *) 
   (* ram_slice_end = "28" *) 
-  RAM32X1S_HD595 data_mem_reg_0_7_28_28
+  RAM32X1S_HD84 data_mem_reg_0_7_28_28
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -36655,8 +36553,8 @@ module data_mem_column_16
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_28_28_i_1__1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[28]),
         .I3(i_data_from_core_IBUF[28]),
         .O(p_1_in[28]));
@@ -36671,7 +36569,7 @@ module data_mem_column_16
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "29" *) 
   (* ram_slice_end = "29" *) 
-  RAM32X1S_HD596 data_mem_reg_0_7_29_29
+  RAM32X1S_HD85 data_mem_reg_0_7_29_29
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -36684,8 +36582,8 @@ module data_mem_column_16
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_29_29_i_1__1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[29]),
         .I3(i_data_from_core_IBUF[29]),
         .O(p_1_in[29]));
@@ -36700,7 +36598,7 @@ module data_mem_column_16
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "2" *) 
   (* ram_slice_end = "2" *) 
-  RAM32X1S_HD597 data_mem_reg_0_7_2_2
+  RAM32X1S_HD86 data_mem_reg_0_7_2_2
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -36713,8 +36611,8 @@ module data_mem_column_16
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_2_2_i_1__1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[2]),
         .I3(i_data_from_core_IBUF[2]),
         .O(p_1_in[2]));
@@ -36729,7 +36627,7 @@ module data_mem_column_16
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "30" *) 
   (* ram_slice_end = "30" *) 
-  RAM32X1S_HD598 data_mem_reg_0_7_30_30
+  RAM32X1S_HD87 data_mem_reg_0_7_30_30
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -36742,8 +36640,8 @@ module data_mem_column_16
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_30_30_i_1__1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[30]),
         .I3(i_data_from_core_IBUF[30]),
         .O(p_1_in[30]));
@@ -36758,7 +36656,7 @@ module data_mem_column_16
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "31" *) 
   (* ram_slice_end = "31" *) 
-  RAM32X1S_HD599 data_mem_reg_0_7_31_31
+  RAM32X1S_HD88 data_mem_reg_0_7_31_31
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -36771,8 +36669,8 @@ module data_mem_column_16
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_31_31_i_1__1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[31]),
         .I3(i_data_from_core_IBUF[31]),
         .O(p_1_in[31]));
@@ -36787,7 +36685,7 @@ module data_mem_column_16
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "3" *) 
   (* ram_slice_end = "3" *) 
-  RAM32X1S_HD600 data_mem_reg_0_7_3_3
+  RAM32X1S_HD89 data_mem_reg_0_7_3_3
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -36800,8 +36698,8 @@ module data_mem_column_16
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_3_3_i_1__1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[3]),
         .I3(i_data_from_core_IBUF[3]),
         .O(p_1_in[3]));
@@ -36816,7 +36714,7 @@ module data_mem_column_16
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "4" *) 
   (* ram_slice_end = "4" *) 
-  RAM32X1S_HD601 data_mem_reg_0_7_4_4
+  RAM32X1S_HD90 data_mem_reg_0_7_4_4
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -36829,8 +36727,8 @@ module data_mem_column_16
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_4_4_i_1__1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[4]),
         .I3(i_data_from_core_IBUF[4]),
         .O(p_1_in[4]));
@@ -36845,7 +36743,7 @@ module data_mem_column_16
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "5" *) 
   (* ram_slice_end = "5" *) 
-  RAM32X1S_HD602 data_mem_reg_0_7_5_5
+  RAM32X1S_HD91 data_mem_reg_0_7_5_5
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -36858,8 +36756,8 @@ module data_mem_column_16
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_5_5_i_1__1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[5]),
         .I3(i_data_from_core_IBUF[5]),
         .O(p_1_in[5]));
@@ -36874,7 +36772,7 @@ module data_mem_column_16
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "6" *) 
   (* ram_slice_end = "6" *) 
-  RAM32X1S_HD603 data_mem_reg_0_7_6_6
+  RAM32X1S_HD92 data_mem_reg_0_7_6_6
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -36887,8 +36785,8 @@ module data_mem_column_16
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_6_6_i_1__1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[6]),
         .I3(i_data_from_core_IBUF[6]),
         .O(p_1_in[6]));
@@ -36903,7 +36801,7 @@ module data_mem_column_16
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "7" *) 
   (* ram_slice_end = "7" *) 
-  RAM32X1S_HD604 data_mem_reg_0_7_7_7
+  RAM32X1S_HD93 data_mem_reg_0_7_7_7
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -36916,8 +36814,8 @@ module data_mem_column_16
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_7_7_i_1__1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[7]),
         .I3(i_data_from_core_IBUF[7]),
         .O(p_1_in[7]));
@@ -36932,7 +36830,7 @@ module data_mem_column_16
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "8" *) 
   (* ram_slice_end = "8" *) 
-  RAM32X1S_HD605 data_mem_reg_0_7_8_8
+  RAM32X1S_HD94 data_mem_reg_0_7_8_8
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -36945,8 +36843,8 @@ module data_mem_column_16
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_8_8_i_1__1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[8]),
         .I3(i_data_from_core_IBUF[8]),
         .O(p_1_in[8]));
@@ -36961,7 +36859,7 @@ module data_mem_column_16
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "9" *) 
   (* ram_slice_end = "9" *) 
-  RAM32X1S_HD606 data_mem_reg_0_7_9_9
+  RAM32X1S_HD95 data_mem_reg_0_7_9_9
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -36974,8 +36872,8 @@ module data_mem_column_16
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_9_9_i_1__1
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[9]),
         .I3(i_data_from_core_IBUF[9]),
         .O(p_1_in[9]));
@@ -37304,28 +37202,25 @@ endmodule
 (* ORIG_REF_NAME = "data_mem_column" *) 
 module data_mem_column_17
    (\i_index[0] ,
+    i_way_IBUF,
     i_data_from_mem_valid_IBUF,
-    i_LRU_IBUF,
     i_data_from_mem_IBUF,
     i_data_from_core_IBUF,
     i_offset_IBUF,
-    i_way_IBUF,
     i_wr_IBUF,
     clk_IBUF_BUFG,
     i_index_IBUF);
   output [31:0]\i_index[0] ;
+  input [0:0]i_way_IBUF;
   input i_data_from_mem_valid_IBUF;
-  input [0:0]i_LRU_IBUF;
   input [31:0]i_data_from_mem_IBUF;
   input [31:0]i_data_from_core_IBUF;
   input [1:0]i_offset_IBUF;
-  input [0:0]i_way_IBUF;
   input i_wr_IBUF;
   input clk_IBUF_BUFG;
   input [2:0]i_index_IBUF;
 
   wire clk_IBUF_BUFG;
-  wire [0:0]i_LRU_IBUF;
   wire [31:0]i_data_from_core_IBUF;
   wire [31:0]i_data_from_mem_IBUF;
   wire i_data_from_mem_valid_IBUF;
@@ -37348,7 +37243,7 @@ module data_mem_column_17
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "0" *) 
   (* ram_slice_end = "0" *) 
-  RAM32X1S_HD607 data_mem_reg_0_7_0_0
+  RAM32X1S_HD96 data_mem_reg_0_7_0_0
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -37361,20 +37256,19 @@ module data_mem_column_17
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_0_0_i_1__2
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[0]),
         .I3(i_data_from_core_IBUF[0]),
         .O(p_1_in[0]));
-  LUT6 #(
-    .INIT(64'hF888888888888888)) 
+  LUT5 #(
+    .INIT(32'hA8888888)) 
     data_mem_reg_0_7_0_0_i_2
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
-        .I2(i_offset_IBUF[0]),
-        .I3(i_offset_IBUF[1]),
-        .I4(i_way_IBUF),
-        .I5(i_wr_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
+        .I2(i_offset_IBUF[1]),
+        .I3(i_offset_IBUF[0]),
+        .I4(i_wr_IBUF),
         .O(p_0_in__2));
   (* INIT = "32'h00000003" *) 
   (* RTL_RAM_BITS = "256" *) 
@@ -37387,7 +37281,7 @@ module data_mem_column_17
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "10" *) 
   (* ram_slice_end = "10" *) 
-  RAM32X1S_HD608 data_mem_reg_0_7_10_10
+  RAM32X1S_HD97 data_mem_reg_0_7_10_10
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -37400,8 +37294,8 @@ module data_mem_column_17
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_10_10_i_1__2
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[10]),
         .I3(i_data_from_core_IBUF[10]),
         .O(p_1_in[10]));
@@ -37416,7 +37310,7 @@ module data_mem_column_17
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "11" *) 
   (* ram_slice_end = "11" *) 
-  RAM32X1S_HD609 data_mem_reg_0_7_11_11
+  RAM32X1S_HD98 data_mem_reg_0_7_11_11
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -37429,8 +37323,8 @@ module data_mem_column_17
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_11_11_i_1__2
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[11]),
         .I3(i_data_from_core_IBUF[11]),
         .O(p_1_in[11]));
@@ -37445,7 +37339,7 @@ module data_mem_column_17
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "12" *) 
   (* ram_slice_end = "12" *) 
-  RAM32X1S_HD610 data_mem_reg_0_7_12_12
+  RAM32X1S_HD99 data_mem_reg_0_7_12_12
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -37458,8 +37352,8 @@ module data_mem_column_17
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_12_12_i_1__2
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[12]),
         .I3(i_data_from_core_IBUF[12]),
         .O(p_1_in[12]));
@@ -37474,7 +37368,7 @@ module data_mem_column_17
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "13" *) 
   (* ram_slice_end = "13" *) 
-  RAM32X1S_HD611 data_mem_reg_0_7_13_13
+  RAM32X1S_HD100 data_mem_reg_0_7_13_13
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -37487,8 +37381,8 @@ module data_mem_column_17
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_13_13_i_1__2
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[13]),
         .I3(i_data_from_core_IBUF[13]),
         .O(p_1_in[13]));
@@ -37503,7 +37397,7 @@ module data_mem_column_17
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "14" *) 
   (* ram_slice_end = "14" *) 
-  RAM32X1S_HD612 data_mem_reg_0_7_14_14
+  RAM32X1S_HD101 data_mem_reg_0_7_14_14
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -37516,8 +37410,8 @@ module data_mem_column_17
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_14_14_i_1__2
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[14]),
         .I3(i_data_from_core_IBUF[14]),
         .O(p_1_in[14]));
@@ -37532,7 +37426,7 @@ module data_mem_column_17
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "15" *) 
   (* ram_slice_end = "15" *) 
-  RAM32X1S_HD613 data_mem_reg_0_7_15_15
+  RAM32X1S_HD102 data_mem_reg_0_7_15_15
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -37545,8 +37439,8 @@ module data_mem_column_17
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_15_15_i_1__2
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[15]),
         .I3(i_data_from_core_IBUF[15]),
         .O(p_1_in[15]));
@@ -37561,7 +37455,7 @@ module data_mem_column_17
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "16" *) 
   (* ram_slice_end = "16" *) 
-  RAM32X1S_HD614 data_mem_reg_0_7_16_16
+  RAM32X1S_HD103 data_mem_reg_0_7_16_16
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -37574,8 +37468,8 @@ module data_mem_column_17
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_16_16_i_1__2
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[16]),
         .I3(i_data_from_core_IBUF[16]),
         .O(p_1_in[16]));
@@ -37590,7 +37484,7 @@ module data_mem_column_17
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "17" *) 
   (* ram_slice_end = "17" *) 
-  RAM32X1S_HD615 data_mem_reg_0_7_17_17
+  RAM32X1S_HD104 data_mem_reg_0_7_17_17
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -37603,8 +37497,8 @@ module data_mem_column_17
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_17_17_i_1__2
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[17]),
         .I3(i_data_from_core_IBUF[17]),
         .O(p_1_in[17]));
@@ -37619,7 +37513,7 @@ module data_mem_column_17
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "18" *) 
   (* ram_slice_end = "18" *) 
-  RAM32X1S_HD616 data_mem_reg_0_7_18_18
+  RAM32X1S_HD105 data_mem_reg_0_7_18_18
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -37632,8 +37526,8 @@ module data_mem_column_17
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_18_18_i_1__2
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[18]),
         .I3(i_data_from_core_IBUF[18]),
         .O(p_1_in[18]));
@@ -37648,7 +37542,7 @@ module data_mem_column_17
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "19" *) 
   (* ram_slice_end = "19" *) 
-  RAM32X1S_HD617 data_mem_reg_0_7_19_19
+  RAM32X1S_HD106 data_mem_reg_0_7_19_19
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -37661,8 +37555,8 @@ module data_mem_column_17
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_19_19_i_1__2
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[19]),
         .I3(i_data_from_core_IBUF[19]),
         .O(p_1_in[19]));
@@ -37677,7 +37571,7 @@ module data_mem_column_17
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "1" *) 
   (* ram_slice_end = "1" *) 
-  RAM32X1S_HD618 data_mem_reg_0_7_1_1
+  RAM32X1S_HD107 data_mem_reg_0_7_1_1
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -37690,8 +37584,8 @@ module data_mem_column_17
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_1_1_i_1__2
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[1]),
         .I3(i_data_from_core_IBUF[1]),
         .O(p_1_in[1]));
@@ -37706,7 +37600,7 @@ module data_mem_column_17
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "20" *) 
   (* ram_slice_end = "20" *) 
-  RAM32X1S_HD619 data_mem_reg_0_7_20_20
+  RAM32X1S_HD108 data_mem_reg_0_7_20_20
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -37719,8 +37613,8 @@ module data_mem_column_17
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_20_20_i_1__2
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[20]),
         .I3(i_data_from_core_IBUF[20]),
         .O(p_1_in[20]));
@@ -37735,7 +37629,7 @@ module data_mem_column_17
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "21" *) 
   (* ram_slice_end = "21" *) 
-  RAM32X1S_HD620 data_mem_reg_0_7_21_21
+  RAM32X1S_HD109 data_mem_reg_0_7_21_21
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -37748,8 +37642,8 @@ module data_mem_column_17
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_21_21_i_1__2
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[21]),
         .I3(i_data_from_core_IBUF[21]),
         .O(p_1_in[21]));
@@ -37764,7 +37658,7 @@ module data_mem_column_17
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "22" *) 
   (* ram_slice_end = "22" *) 
-  RAM32X1S_HD621 data_mem_reg_0_7_22_22
+  RAM32X1S_HD110 data_mem_reg_0_7_22_22
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -37777,8 +37671,8 @@ module data_mem_column_17
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_22_22_i_1__2
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[22]),
         .I3(i_data_from_core_IBUF[22]),
         .O(p_1_in[22]));
@@ -37793,7 +37687,7 @@ module data_mem_column_17
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "23" *) 
   (* ram_slice_end = "23" *) 
-  RAM32X1S_HD622 data_mem_reg_0_7_23_23
+  RAM32X1S_HD111 data_mem_reg_0_7_23_23
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -37806,8 +37700,8 @@ module data_mem_column_17
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_23_23_i_1__2
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[23]),
         .I3(i_data_from_core_IBUF[23]),
         .O(p_1_in[23]));
@@ -37822,7 +37716,7 @@ module data_mem_column_17
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "24" *) 
   (* ram_slice_end = "24" *) 
-  RAM32X1S_HD623 data_mem_reg_0_7_24_24
+  RAM32X1S_HD112 data_mem_reg_0_7_24_24
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -37835,8 +37729,8 @@ module data_mem_column_17
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_24_24_i_1__2
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[24]),
         .I3(i_data_from_core_IBUF[24]),
         .O(p_1_in[24]));
@@ -37851,7 +37745,7 @@ module data_mem_column_17
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "25" *) 
   (* ram_slice_end = "25" *) 
-  RAM32X1S_HD624 data_mem_reg_0_7_25_25
+  RAM32X1S_HD113 data_mem_reg_0_7_25_25
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -37864,8 +37758,8 @@ module data_mem_column_17
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_25_25_i_1__2
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[25]),
         .I3(i_data_from_core_IBUF[25]),
         .O(p_1_in[25]));
@@ -37880,7 +37774,7 @@ module data_mem_column_17
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "26" *) 
   (* ram_slice_end = "26" *) 
-  RAM32X1S_HD625 data_mem_reg_0_7_26_26
+  RAM32X1S_HD114 data_mem_reg_0_7_26_26
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -37893,8 +37787,8 @@ module data_mem_column_17
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_26_26_i_1__2
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[26]),
         .I3(i_data_from_core_IBUF[26]),
         .O(p_1_in[26]));
@@ -37909,7 +37803,7 @@ module data_mem_column_17
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "27" *) 
   (* ram_slice_end = "27" *) 
-  RAM32X1S_HD626 data_mem_reg_0_7_27_27
+  RAM32X1S_HD115 data_mem_reg_0_7_27_27
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -37922,8 +37816,8 @@ module data_mem_column_17
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_27_27_i_1__2
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[27]),
         .I3(i_data_from_core_IBUF[27]),
         .O(p_1_in[27]));
@@ -37938,7 +37832,7 @@ module data_mem_column_17
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "28" *) 
   (* ram_slice_end = "28" *) 
-  RAM32X1S_HD627 data_mem_reg_0_7_28_28
+  RAM32X1S_HD116 data_mem_reg_0_7_28_28
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -37951,8 +37845,8 @@ module data_mem_column_17
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_28_28_i_1__2
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[28]),
         .I3(i_data_from_core_IBUF[28]),
         .O(p_1_in[28]));
@@ -37967,7 +37861,7 @@ module data_mem_column_17
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "29" *) 
   (* ram_slice_end = "29" *) 
-  RAM32X1S_HD628 data_mem_reg_0_7_29_29
+  RAM32X1S_HD117 data_mem_reg_0_7_29_29
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -37980,8 +37874,8 @@ module data_mem_column_17
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_29_29_i_1__2
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[29]),
         .I3(i_data_from_core_IBUF[29]),
         .O(p_1_in[29]));
@@ -37996,7 +37890,7 @@ module data_mem_column_17
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "2" *) 
   (* ram_slice_end = "2" *) 
-  RAM32X1S_HD629 data_mem_reg_0_7_2_2
+  RAM32X1S_HD118 data_mem_reg_0_7_2_2
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -38009,8 +37903,8 @@ module data_mem_column_17
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_2_2_i_1__2
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[2]),
         .I3(i_data_from_core_IBUF[2]),
         .O(p_1_in[2]));
@@ -38025,7 +37919,7 @@ module data_mem_column_17
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "30" *) 
   (* ram_slice_end = "30" *) 
-  RAM32X1S_HD630 data_mem_reg_0_7_30_30
+  RAM32X1S_HD119 data_mem_reg_0_7_30_30
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -38038,8 +37932,8 @@ module data_mem_column_17
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_30_30_i_1__2
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[30]),
         .I3(i_data_from_core_IBUF[30]),
         .O(p_1_in[30]));
@@ -38054,7 +37948,7 @@ module data_mem_column_17
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "31" *) 
   (* ram_slice_end = "31" *) 
-  RAM32X1S_HD631 data_mem_reg_0_7_31_31
+  RAM32X1S_HD120 data_mem_reg_0_7_31_31
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -38067,8 +37961,8 @@ module data_mem_column_17
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_31_31_i_1__2
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[31]),
         .I3(i_data_from_core_IBUF[31]),
         .O(p_1_in[31]));
@@ -38083,7 +37977,7 @@ module data_mem_column_17
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "3" *) 
   (* ram_slice_end = "3" *) 
-  RAM32X1S_HD632 data_mem_reg_0_7_3_3
+  RAM32X1S_HD121 data_mem_reg_0_7_3_3
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -38096,8 +37990,8 @@ module data_mem_column_17
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_3_3_i_1__2
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[3]),
         .I3(i_data_from_core_IBUF[3]),
         .O(p_1_in[3]));
@@ -38112,7 +38006,7 @@ module data_mem_column_17
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "4" *) 
   (* ram_slice_end = "4" *) 
-  RAM32X1S_HD633 data_mem_reg_0_7_4_4
+  RAM32X1S_HD122 data_mem_reg_0_7_4_4
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -38125,8 +38019,8 @@ module data_mem_column_17
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_4_4_i_1__2
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[4]),
         .I3(i_data_from_core_IBUF[4]),
         .O(p_1_in[4]));
@@ -38141,7 +38035,7 @@ module data_mem_column_17
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "5" *) 
   (* ram_slice_end = "5" *) 
-  RAM32X1S_HD634 data_mem_reg_0_7_5_5
+  RAM32X1S_HD123 data_mem_reg_0_7_5_5
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -38154,8 +38048,8 @@ module data_mem_column_17
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_5_5_i_1__2
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[5]),
         .I3(i_data_from_core_IBUF[5]),
         .O(p_1_in[5]));
@@ -38170,7 +38064,7 @@ module data_mem_column_17
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "6" *) 
   (* ram_slice_end = "6" *) 
-  RAM32X1S_HD635 data_mem_reg_0_7_6_6
+  RAM32X1S_HD124 data_mem_reg_0_7_6_6
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -38183,8 +38077,8 @@ module data_mem_column_17
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_6_6_i_1__2
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[6]),
         .I3(i_data_from_core_IBUF[6]),
         .O(p_1_in[6]));
@@ -38199,7 +38093,7 @@ module data_mem_column_17
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "7" *) 
   (* ram_slice_end = "7" *) 
-  RAM32X1S_HD636 data_mem_reg_0_7_7_7
+  RAM32X1S_HD125 data_mem_reg_0_7_7_7
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -38212,8 +38106,8 @@ module data_mem_column_17
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_7_7_i_1__2
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[7]),
         .I3(i_data_from_core_IBUF[7]),
         .O(p_1_in[7]));
@@ -38228,7 +38122,7 @@ module data_mem_column_17
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "8" *) 
   (* ram_slice_end = "8" *) 
-  RAM32X1S_HD637 data_mem_reg_0_7_8_8
+  RAM32X1S_HD126 data_mem_reg_0_7_8_8
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -38241,8 +38135,8 @@ module data_mem_column_17
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_8_8_i_1__2
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[8]),
         .I3(i_data_from_core_IBUF[8]),
         .O(p_1_in[8]));
@@ -38257,7 +38151,7 @@ module data_mem_column_17
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "9" *) 
   (* ram_slice_end = "9" *) 
-  RAM32X1S_HD638 data_mem_reg_0_7_9_9
+  RAM32X1S_HD127 data_mem_reg_0_7_9_9
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -38270,8 +38164,8 @@ module data_mem_column_17
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_9_9_i_1__2
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[9]),
         .I3(i_data_from_core_IBUF[9]),
         .O(p_1_in[9]));
@@ -38279,142 +38173,34 @@ endmodule
 
 (* ORIG_REF_NAME = "data_mem_column" *) 
 module data_mem_column_3
-   (\o_data_to_core_reg[31]_i_11_0 ,
-    \i_index[0] ,
-    \o_data_to_core_reg[31]_i_11_1 ,
-    \o_data_to_core_reg[31]_i_11_2 ,
-    \o_data_to_core_reg[31]_i_11_3 ,
-    \o_data_to_core_reg[31]_i_11_4 ,
-    \o_data_to_core_reg[31]_i_11_5 ,
-    \o_data_to_core_reg[31]_i_11_6 ,
-    \o_data_to_core_reg[31]_i_11_7 ,
-    \o_data_to_core_reg[31]_i_11_8 ,
-    \o_data_to_core_reg[31]_i_11_9 ,
-    \o_data_to_core_reg[31]_i_11_10 ,
-    \o_data_to_core_reg[31]_i_11_11 ,
-    \o_data_to_core_reg[31]_i_11_12 ,
-    \o_data_to_core_reg[31]_i_11_13 ,
-    \o_data_to_core_reg[31]_i_11_14 ,
-    \o_data_to_core_reg[31]_i_11_15 ,
-    \o_data_to_core_reg[31]_i_11_16 ,
-    \o_data_to_core_reg[31]_i_11_17 ,
-    \o_data_to_core_reg[31]_i_11_18 ,
-    \o_data_to_core_reg[31]_i_11_19 ,
-    \o_data_to_core_reg[31]_i_11_20 ,
-    \o_data_to_core_reg[31]_i_11_21 ,
-    \o_data_to_core_reg[31]_i_11_22 ,
-    \o_data_to_core_reg[31]_i_11_23 ,
-    \o_data_to_core_reg[31]_i_11_24 ,
-    \o_data_to_core_reg[31]_i_11_25 ,
-    \o_data_to_core_reg[31]_i_11_26 ,
-    \o_data_to_core_reg[31]_i_11_27 ,
-    \o_data_to_core_reg[31]_i_11_28 ,
-    \o_data_to_core_reg[31]_i_11_29 ,
-    \o_data_to_core_reg[31]_i_11_30 ,
-    \o_data_to_core_reg[31]_i_11_31 ,
-    \o_data_to_core_reg[31]_i_1 ,
-    \o_data_to_core_reg[31]_i_1_0 ,
-    i_offset_IBUF,
+   (\i_index[0] ,
     i_way_IBUF,
     i_data_from_mem_valid_IBUF,
-    i_LRU_IBUF,
     i_data_from_mem_IBUF,
     i_data_from_core_IBUF,
+    i_offset_IBUF,
     i_wr_IBUF,
     clk_IBUF_BUFG,
     i_index_IBUF);
-  output \o_data_to_core_reg[31]_i_11_0 ;
   output [31:0]\i_index[0] ;
-  output \o_data_to_core_reg[31]_i_11_1 ;
-  output \o_data_to_core_reg[31]_i_11_2 ;
-  output \o_data_to_core_reg[31]_i_11_3 ;
-  output \o_data_to_core_reg[31]_i_11_4 ;
-  output \o_data_to_core_reg[31]_i_11_5 ;
-  output \o_data_to_core_reg[31]_i_11_6 ;
-  output \o_data_to_core_reg[31]_i_11_7 ;
-  output \o_data_to_core_reg[31]_i_11_8 ;
-  output \o_data_to_core_reg[31]_i_11_9 ;
-  output \o_data_to_core_reg[31]_i_11_10 ;
-  output \o_data_to_core_reg[31]_i_11_11 ;
-  output \o_data_to_core_reg[31]_i_11_12 ;
-  output \o_data_to_core_reg[31]_i_11_13 ;
-  output \o_data_to_core_reg[31]_i_11_14 ;
-  output \o_data_to_core_reg[31]_i_11_15 ;
-  output \o_data_to_core_reg[31]_i_11_16 ;
-  output \o_data_to_core_reg[31]_i_11_17 ;
-  output \o_data_to_core_reg[31]_i_11_18 ;
-  output \o_data_to_core_reg[31]_i_11_19 ;
-  output \o_data_to_core_reg[31]_i_11_20 ;
-  output \o_data_to_core_reg[31]_i_11_21 ;
-  output \o_data_to_core_reg[31]_i_11_22 ;
-  output \o_data_to_core_reg[31]_i_11_23 ;
-  output \o_data_to_core_reg[31]_i_11_24 ;
-  output \o_data_to_core_reg[31]_i_11_25 ;
-  output \o_data_to_core_reg[31]_i_11_26 ;
-  output \o_data_to_core_reg[31]_i_11_27 ;
-  output \o_data_to_core_reg[31]_i_11_28 ;
-  output \o_data_to_core_reg[31]_i_11_29 ;
-  output \o_data_to_core_reg[31]_i_11_30 ;
-  output \o_data_to_core_reg[31]_i_11_31 ;
-  input [31:0]\o_data_to_core_reg[31]_i_1 ;
-  input [31:0]\o_data_to_core_reg[31]_i_1_0 ;
-  input [1:0]i_offset_IBUF;
-  input [3:0]i_way_IBUF;
+  input [0:0]i_way_IBUF;
   input i_data_from_mem_valid_IBUF;
-  input [0:0]i_LRU_IBUF;
   input [31:0]i_data_from_mem_IBUF;
   input [31:0]i_data_from_core_IBUF;
+  input [1:0]i_offset_IBUF;
   input i_wr_IBUF;
   input clk_IBUF_BUFG;
   input [2:0]i_index_IBUF;
 
   wire clk_IBUF_BUFG;
-  wire [0:0]i_LRU_IBUF;
   wire [31:0]i_data_from_core_IBUF;
   wire [31:0]i_data_from_mem_IBUF;
   wire i_data_from_mem_valid_IBUF;
   wire [31:0]\i_index[0] ;
   wire [2:0]i_index_IBUF;
   wire [1:0]i_offset_IBUF;
-  wire [3:0]i_way_IBUF;
+  wire [0:0]i_way_IBUF;
   wire i_wr_IBUF;
-  wire [31:0]\o_data_to_core_reg[31]_i_1 ;
-  wire \o_data_to_core_reg[31]_i_10_n_2 ;
-  wire \o_data_to_core_reg[31]_i_11_0 ;
-  wire \o_data_to_core_reg[31]_i_11_1 ;
-  wire \o_data_to_core_reg[31]_i_11_10 ;
-  wire \o_data_to_core_reg[31]_i_11_11 ;
-  wire \o_data_to_core_reg[31]_i_11_12 ;
-  wire \o_data_to_core_reg[31]_i_11_13 ;
-  wire \o_data_to_core_reg[31]_i_11_14 ;
-  wire \o_data_to_core_reg[31]_i_11_15 ;
-  wire \o_data_to_core_reg[31]_i_11_16 ;
-  wire \o_data_to_core_reg[31]_i_11_17 ;
-  wire \o_data_to_core_reg[31]_i_11_18 ;
-  wire \o_data_to_core_reg[31]_i_11_19 ;
-  wire \o_data_to_core_reg[31]_i_11_2 ;
-  wire \o_data_to_core_reg[31]_i_11_20 ;
-  wire \o_data_to_core_reg[31]_i_11_21 ;
-  wire \o_data_to_core_reg[31]_i_11_22 ;
-  wire \o_data_to_core_reg[31]_i_11_23 ;
-  wire \o_data_to_core_reg[31]_i_11_24 ;
-  wire \o_data_to_core_reg[31]_i_11_25 ;
-  wire \o_data_to_core_reg[31]_i_11_26 ;
-  wire \o_data_to_core_reg[31]_i_11_27 ;
-  wire \o_data_to_core_reg[31]_i_11_28 ;
-  wire \o_data_to_core_reg[31]_i_11_29 ;
-  wire \o_data_to_core_reg[31]_i_11_3 ;
-  wire \o_data_to_core_reg[31]_i_11_30 ;
-  wire \o_data_to_core_reg[31]_i_11_31 ;
-  wire \o_data_to_core_reg[31]_i_11_4 ;
-  wire \o_data_to_core_reg[31]_i_11_5 ;
-  wire \o_data_to_core_reg[31]_i_11_6 ;
-  wire \o_data_to_core_reg[31]_i_11_7 ;
-  wire \o_data_to_core_reg[31]_i_11_8 ;
-  wire \o_data_to_core_reg[31]_i_11_9 ;
-  wire \o_data_to_core_reg[31]_i_11_n_2 ;
-  wire [31:0]\o_data_to_core_reg[31]_i_1_0 ;
-  wire \o_data_to_core_reg[31]_i_9_n_2 ;
   wire p_0_in__12;
   wire [31:0]p_1_in;
 
@@ -38429,7 +38215,7 @@ module data_mem_column_3
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "0" *) 
   (* ram_slice_end = "0" *) 
-  RAM32X1S_HD927 data_mem_reg_0_7_0_0
+  RAM32X1S_HD416 data_mem_reg_0_7_0_0
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -38442,20 +38228,19 @@ module data_mem_column_3
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_0_0_i_1__12
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[0]),
         .I3(i_data_from_core_IBUF[0]),
         .O(p_1_in[0]));
-  LUT6 #(
-    .INIT(64'h88F8888888888888)) 
+  LUT5 #(
+    .INIT(32'h8A888888)) 
     data_mem_reg_0_7_0_0_i_2__13
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
-        .I2(i_offset_IBUF[0]),
-        .I3(i_offset_IBUF[1]),
-        .I4(i_way_IBUF[3]),
-        .I5(i_wr_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
+        .I2(i_offset_IBUF[1]),
+        .I3(i_offset_IBUF[0]),
+        .I4(i_wr_IBUF),
         .O(p_0_in__12));
   (* INIT = "32'h00000003" *) 
   (* RTL_RAM_BITS = "256" *) 
@@ -38468,7 +38253,7 @@ module data_mem_column_3
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "10" *) 
   (* ram_slice_end = "10" *) 
-  RAM32X1S_HD928 data_mem_reg_0_7_10_10
+  RAM32X1S_HD417 data_mem_reg_0_7_10_10
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -38481,8 +38266,8 @@ module data_mem_column_3
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_10_10_i_1__12
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[10]),
         .I3(i_data_from_core_IBUF[10]),
         .O(p_1_in[10]));
@@ -38497,7 +38282,7 @@ module data_mem_column_3
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "11" *) 
   (* ram_slice_end = "11" *) 
-  RAM32X1S_HD929 data_mem_reg_0_7_11_11
+  RAM32X1S_HD418 data_mem_reg_0_7_11_11
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -38510,8 +38295,8 @@ module data_mem_column_3
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_11_11_i_1__12
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[11]),
         .I3(i_data_from_core_IBUF[11]),
         .O(p_1_in[11]));
@@ -38526,7 +38311,7 @@ module data_mem_column_3
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "12" *) 
   (* ram_slice_end = "12" *) 
-  RAM32X1S_HD930 data_mem_reg_0_7_12_12
+  RAM32X1S_HD419 data_mem_reg_0_7_12_12
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -38539,8 +38324,8 @@ module data_mem_column_3
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_12_12_i_1__12
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[12]),
         .I3(i_data_from_core_IBUF[12]),
         .O(p_1_in[12]));
@@ -38555,7 +38340,7 @@ module data_mem_column_3
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "13" *) 
   (* ram_slice_end = "13" *) 
-  RAM32X1S_HD931 data_mem_reg_0_7_13_13
+  RAM32X1S_HD420 data_mem_reg_0_7_13_13
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -38568,8 +38353,8 @@ module data_mem_column_3
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_13_13_i_1__12
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[13]),
         .I3(i_data_from_core_IBUF[13]),
         .O(p_1_in[13]));
@@ -38584,7 +38369,7 @@ module data_mem_column_3
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "14" *) 
   (* ram_slice_end = "14" *) 
-  RAM32X1S_HD932 data_mem_reg_0_7_14_14
+  RAM32X1S_HD421 data_mem_reg_0_7_14_14
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -38597,8 +38382,8 @@ module data_mem_column_3
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_14_14_i_1__12
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[14]),
         .I3(i_data_from_core_IBUF[14]),
         .O(p_1_in[14]));
@@ -38613,7 +38398,7 @@ module data_mem_column_3
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "15" *) 
   (* ram_slice_end = "15" *) 
-  RAM32X1S_HD933 data_mem_reg_0_7_15_15
+  RAM32X1S_HD422 data_mem_reg_0_7_15_15
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -38626,8 +38411,8 @@ module data_mem_column_3
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_15_15_i_1__12
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[15]),
         .I3(i_data_from_core_IBUF[15]),
         .O(p_1_in[15]));
@@ -38642,7 +38427,7 @@ module data_mem_column_3
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "16" *) 
   (* ram_slice_end = "16" *) 
-  RAM32X1S_HD934 data_mem_reg_0_7_16_16
+  RAM32X1S_HD423 data_mem_reg_0_7_16_16
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -38655,8 +38440,8 @@ module data_mem_column_3
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_16_16_i_1__12
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[16]),
         .I3(i_data_from_core_IBUF[16]),
         .O(p_1_in[16]));
@@ -38671,7 +38456,7 @@ module data_mem_column_3
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "17" *) 
   (* ram_slice_end = "17" *) 
-  RAM32X1S_HD935 data_mem_reg_0_7_17_17
+  RAM32X1S_HD424 data_mem_reg_0_7_17_17
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -38684,8 +38469,8 @@ module data_mem_column_3
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_17_17_i_1__12
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[17]),
         .I3(i_data_from_core_IBUF[17]),
         .O(p_1_in[17]));
@@ -38700,7 +38485,7 @@ module data_mem_column_3
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "18" *) 
   (* ram_slice_end = "18" *) 
-  RAM32X1S_HD936 data_mem_reg_0_7_18_18
+  RAM32X1S_HD425 data_mem_reg_0_7_18_18
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -38713,8 +38498,8 @@ module data_mem_column_3
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_18_18_i_1__12
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[18]),
         .I3(i_data_from_core_IBUF[18]),
         .O(p_1_in[18]));
@@ -38729,7 +38514,7 @@ module data_mem_column_3
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "19" *) 
   (* ram_slice_end = "19" *) 
-  RAM32X1S_HD937 data_mem_reg_0_7_19_19
+  RAM32X1S_HD426 data_mem_reg_0_7_19_19
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -38742,8 +38527,8 @@ module data_mem_column_3
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_19_19_i_1__12
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[19]),
         .I3(i_data_from_core_IBUF[19]),
         .O(p_1_in[19]));
@@ -38758,7 +38543,7 @@ module data_mem_column_3
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "1" *) 
   (* ram_slice_end = "1" *) 
-  RAM32X1S_HD938 data_mem_reg_0_7_1_1
+  RAM32X1S_HD427 data_mem_reg_0_7_1_1
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -38771,8 +38556,8 @@ module data_mem_column_3
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_1_1_i_1__12
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[1]),
         .I3(i_data_from_core_IBUF[1]),
         .O(p_1_in[1]));
@@ -38787,7 +38572,7 @@ module data_mem_column_3
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "20" *) 
   (* ram_slice_end = "20" *) 
-  RAM32X1S_HD939 data_mem_reg_0_7_20_20
+  RAM32X1S_HD428 data_mem_reg_0_7_20_20
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -38800,8 +38585,8 @@ module data_mem_column_3
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_20_20_i_1__12
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[20]),
         .I3(i_data_from_core_IBUF[20]),
         .O(p_1_in[20]));
@@ -38816,7 +38601,7 @@ module data_mem_column_3
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "21" *) 
   (* ram_slice_end = "21" *) 
-  RAM32X1S_HD940 data_mem_reg_0_7_21_21
+  RAM32X1S_HD429 data_mem_reg_0_7_21_21
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -38829,8 +38614,8 @@ module data_mem_column_3
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_21_21_i_1__12
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[21]),
         .I3(i_data_from_core_IBUF[21]),
         .O(p_1_in[21]));
@@ -38845,7 +38630,7 @@ module data_mem_column_3
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "22" *) 
   (* ram_slice_end = "22" *) 
-  RAM32X1S_HD941 data_mem_reg_0_7_22_22
+  RAM32X1S_HD430 data_mem_reg_0_7_22_22
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -38858,8 +38643,8 @@ module data_mem_column_3
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_22_22_i_1__12
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[22]),
         .I3(i_data_from_core_IBUF[22]),
         .O(p_1_in[22]));
@@ -38874,7 +38659,7 @@ module data_mem_column_3
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "23" *) 
   (* ram_slice_end = "23" *) 
-  RAM32X1S_HD942 data_mem_reg_0_7_23_23
+  RAM32X1S_HD431 data_mem_reg_0_7_23_23
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -38887,8 +38672,8 @@ module data_mem_column_3
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_23_23_i_1__12
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[23]),
         .I3(i_data_from_core_IBUF[23]),
         .O(p_1_in[23]));
@@ -38903,7 +38688,7 @@ module data_mem_column_3
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "24" *) 
   (* ram_slice_end = "24" *) 
-  RAM32X1S_HD943 data_mem_reg_0_7_24_24
+  RAM32X1S_HD432 data_mem_reg_0_7_24_24
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -38916,8 +38701,8 @@ module data_mem_column_3
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_24_24_i_1__12
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[24]),
         .I3(i_data_from_core_IBUF[24]),
         .O(p_1_in[24]));
@@ -38932,7 +38717,7 @@ module data_mem_column_3
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "25" *) 
   (* ram_slice_end = "25" *) 
-  RAM32X1S_HD944 data_mem_reg_0_7_25_25
+  RAM32X1S_HD433 data_mem_reg_0_7_25_25
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -38945,8 +38730,8 @@ module data_mem_column_3
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_25_25_i_1__12
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[25]),
         .I3(i_data_from_core_IBUF[25]),
         .O(p_1_in[25]));
@@ -38961,7 +38746,7 @@ module data_mem_column_3
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "26" *) 
   (* ram_slice_end = "26" *) 
-  RAM32X1S_HD945 data_mem_reg_0_7_26_26
+  RAM32X1S_HD434 data_mem_reg_0_7_26_26
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -38974,8 +38759,8 @@ module data_mem_column_3
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_26_26_i_1__12
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[26]),
         .I3(i_data_from_core_IBUF[26]),
         .O(p_1_in[26]));
@@ -38990,7 +38775,7 @@ module data_mem_column_3
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "27" *) 
   (* ram_slice_end = "27" *) 
-  RAM32X1S_HD946 data_mem_reg_0_7_27_27
+  RAM32X1S_HD435 data_mem_reg_0_7_27_27
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -39003,8 +38788,8 @@ module data_mem_column_3
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_27_27_i_1__12
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[27]),
         .I3(i_data_from_core_IBUF[27]),
         .O(p_1_in[27]));
@@ -39019,7 +38804,7 @@ module data_mem_column_3
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "28" *) 
   (* ram_slice_end = "28" *) 
-  RAM32X1S_HD947 data_mem_reg_0_7_28_28
+  RAM32X1S_HD436 data_mem_reg_0_7_28_28
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -39032,8 +38817,8 @@ module data_mem_column_3
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_28_28_i_1__12
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[28]),
         .I3(i_data_from_core_IBUF[28]),
         .O(p_1_in[28]));
@@ -39048,7 +38833,7 @@ module data_mem_column_3
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "29" *) 
   (* ram_slice_end = "29" *) 
-  RAM32X1S_HD948 data_mem_reg_0_7_29_29
+  RAM32X1S_HD437 data_mem_reg_0_7_29_29
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -39061,8 +38846,8 @@ module data_mem_column_3
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_29_29_i_1__12
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[29]),
         .I3(i_data_from_core_IBUF[29]),
         .O(p_1_in[29]));
@@ -39077,7 +38862,7 @@ module data_mem_column_3
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "2" *) 
   (* ram_slice_end = "2" *) 
-  RAM32X1S_HD949 data_mem_reg_0_7_2_2
+  RAM32X1S_HD438 data_mem_reg_0_7_2_2
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -39090,8 +38875,8 @@ module data_mem_column_3
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_2_2_i_1__12
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[2]),
         .I3(i_data_from_core_IBUF[2]),
         .O(p_1_in[2]));
@@ -39106,7 +38891,7 @@ module data_mem_column_3
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "30" *) 
   (* ram_slice_end = "30" *) 
-  RAM32X1S_HD950 data_mem_reg_0_7_30_30
+  RAM32X1S_HD439 data_mem_reg_0_7_30_30
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -39119,8 +38904,8 @@ module data_mem_column_3
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_30_30_i_1__12
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[30]),
         .I3(i_data_from_core_IBUF[30]),
         .O(p_1_in[30]));
@@ -39135,7 +38920,7 @@ module data_mem_column_3
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "31" *) 
   (* ram_slice_end = "31" *) 
-  RAM32X1S_HD951 data_mem_reg_0_7_31_31
+  RAM32X1S_HD440 data_mem_reg_0_7_31_31
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -39148,8 +38933,8 @@ module data_mem_column_3
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_31_31_i_1__12
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[31]),
         .I3(i_data_from_core_IBUF[31]),
         .O(p_1_in[31]));
@@ -39164,7 +38949,7 @@ module data_mem_column_3
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "3" *) 
   (* ram_slice_end = "3" *) 
-  RAM32X1S_HD952 data_mem_reg_0_7_3_3
+  RAM32X1S_HD441 data_mem_reg_0_7_3_3
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -39177,8 +38962,8 @@ module data_mem_column_3
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_3_3_i_1__12
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[3]),
         .I3(i_data_from_core_IBUF[3]),
         .O(p_1_in[3]));
@@ -39193,7 +38978,7 @@ module data_mem_column_3
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "4" *) 
   (* ram_slice_end = "4" *) 
-  RAM32X1S_HD953 data_mem_reg_0_7_4_4
+  RAM32X1S_HD442 data_mem_reg_0_7_4_4
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -39206,8 +38991,8 @@ module data_mem_column_3
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_4_4_i_1__12
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[4]),
         .I3(i_data_from_core_IBUF[4]),
         .O(p_1_in[4]));
@@ -39222,7 +39007,7 @@ module data_mem_column_3
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "5" *) 
   (* ram_slice_end = "5" *) 
-  RAM32X1S_HD954 data_mem_reg_0_7_5_5
+  RAM32X1S_HD443 data_mem_reg_0_7_5_5
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -39235,8 +39020,8 @@ module data_mem_column_3
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_5_5_i_1__12
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[5]),
         .I3(i_data_from_core_IBUF[5]),
         .O(p_1_in[5]));
@@ -39251,7 +39036,7 @@ module data_mem_column_3
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "6" *) 
   (* ram_slice_end = "6" *) 
-  RAM32X1S_HD955 data_mem_reg_0_7_6_6
+  RAM32X1S_HD444 data_mem_reg_0_7_6_6
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -39264,8 +39049,8 @@ module data_mem_column_3
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_6_6_i_1__12
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[6]),
         .I3(i_data_from_core_IBUF[6]),
         .O(p_1_in[6]));
@@ -39280,7 +39065,7 @@ module data_mem_column_3
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "7" *) 
   (* ram_slice_end = "7" *) 
-  RAM32X1S_HD956 data_mem_reg_0_7_7_7
+  RAM32X1S_HD445 data_mem_reg_0_7_7_7
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -39293,8 +39078,8 @@ module data_mem_column_3
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_7_7_i_1__12
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[7]),
         .I3(i_data_from_core_IBUF[7]),
         .O(p_1_in[7]));
@@ -39309,7 +39094,7 @@ module data_mem_column_3
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "8" *) 
   (* ram_slice_end = "8" *) 
-  RAM32X1S_HD957 data_mem_reg_0_7_8_8
+  RAM32X1S_HD446 data_mem_reg_0_7_8_8
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -39322,8 +39107,8 @@ module data_mem_column_3
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_8_8_i_1__12
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[8]),
         .I3(i_data_from_core_IBUF[8]),
         .O(p_1_in[8]));
@@ -39338,7 +39123,7 @@ module data_mem_column_3
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "9" *) 
   (* ram_slice_end = "9" *) 
-  RAM32X1S_HD958 data_mem_reg_0_7_9_9
+  RAM32X1S_HD447 data_mem_reg_0_7_9_9
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -39351,396 +39136,284 @@ module data_mem_column_3
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_9_9_i_1__12
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[9]),
         .I3(i_data_from_core_IBUF[9]),
         .O(p_1_in[9]));
-  LUT6 #(
-    .INIT(64'hFFFFF888F888F888)) 
-    \o_data_to_core_reg[0]_i_4 
-       (.I0(\o_data_to_core_reg[31]_i_9_n_2 ),
-        .I1(\i_index[0] [0]),
-        .I2(\o_data_to_core_reg[31]_i_10_n_2 ),
-        .I3(\o_data_to_core_reg[31]_i_1 [0]),
-        .I4(\o_data_to_core_reg[31]_i_1_0 [0]),
-        .I5(\o_data_to_core_reg[31]_i_11_n_2 ),
-        .O(\o_data_to_core_reg[31]_i_11_0 ));
-  LUT6 #(
-    .INIT(64'hFFFFF888F888F888)) 
-    \o_data_to_core_reg[10]_i_4 
-       (.I0(\o_data_to_core_reg[31]_i_9_n_2 ),
-        .I1(\i_index[0] [10]),
-        .I2(\o_data_to_core_reg[31]_i_10_n_2 ),
-        .I3(\o_data_to_core_reg[31]_i_1 [10]),
-        .I4(\o_data_to_core_reg[31]_i_1_0 [10]),
-        .I5(\o_data_to_core_reg[31]_i_11_n_2 ),
-        .O(\o_data_to_core_reg[31]_i_11_10 ));
-  LUT6 #(
-    .INIT(64'hFFFFF888F888F888)) 
-    \o_data_to_core_reg[11]_i_4 
-       (.I0(\o_data_to_core_reg[31]_i_9_n_2 ),
-        .I1(\i_index[0] [11]),
-        .I2(\o_data_to_core_reg[31]_i_10_n_2 ),
-        .I3(\o_data_to_core_reg[31]_i_1 [11]),
-        .I4(\o_data_to_core_reg[31]_i_1_0 [11]),
-        .I5(\o_data_to_core_reg[31]_i_11_n_2 ),
-        .O(\o_data_to_core_reg[31]_i_11_11 ));
-  LUT6 #(
-    .INIT(64'hFFFFF888F888F888)) 
-    \o_data_to_core_reg[12]_i_4 
-       (.I0(\o_data_to_core_reg[31]_i_9_n_2 ),
-        .I1(\i_index[0] [12]),
-        .I2(\o_data_to_core_reg[31]_i_10_n_2 ),
-        .I3(\o_data_to_core_reg[31]_i_1 [12]),
-        .I4(\o_data_to_core_reg[31]_i_1_0 [12]),
-        .I5(\o_data_to_core_reg[31]_i_11_n_2 ),
-        .O(\o_data_to_core_reg[31]_i_11_12 ));
-  LUT6 #(
-    .INIT(64'hFFFFF888F888F888)) 
-    \o_data_to_core_reg[13]_i_4 
-       (.I0(\o_data_to_core_reg[31]_i_9_n_2 ),
-        .I1(\i_index[0] [13]),
-        .I2(\o_data_to_core_reg[31]_i_10_n_2 ),
-        .I3(\o_data_to_core_reg[31]_i_1 [13]),
-        .I4(\o_data_to_core_reg[31]_i_1_0 [13]),
-        .I5(\o_data_to_core_reg[31]_i_11_n_2 ),
-        .O(\o_data_to_core_reg[31]_i_11_13 ));
-  LUT6 #(
-    .INIT(64'hFFFFF888F888F888)) 
-    \o_data_to_core_reg[14]_i_4 
-       (.I0(\o_data_to_core_reg[31]_i_9_n_2 ),
-        .I1(\i_index[0] [14]),
-        .I2(\o_data_to_core_reg[31]_i_10_n_2 ),
-        .I3(\o_data_to_core_reg[31]_i_1 [14]),
-        .I4(\o_data_to_core_reg[31]_i_1_0 [14]),
-        .I5(\o_data_to_core_reg[31]_i_11_n_2 ),
-        .O(\o_data_to_core_reg[31]_i_11_14 ));
-  LUT6 #(
-    .INIT(64'hFFFFF888F888F888)) 
-    \o_data_to_core_reg[15]_i_4 
-       (.I0(\o_data_to_core_reg[31]_i_9_n_2 ),
-        .I1(\i_index[0] [15]),
-        .I2(\o_data_to_core_reg[31]_i_10_n_2 ),
-        .I3(\o_data_to_core_reg[31]_i_1 [15]),
-        .I4(\o_data_to_core_reg[31]_i_1_0 [15]),
-        .I5(\o_data_to_core_reg[31]_i_11_n_2 ),
-        .O(\o_data_to_core_reg[31]_i_11_15 ));
-  LUT6 #(
-    .INIT(64'hFFFFF888F888F888)) 
-    \o_data_to_core_reg[16]_i_4 
-       (.I0(\o_data_to_core_reg[31]_i_9_n_2 ),
-        .I1(\i_index[0] [16]),
-        .I2(\o_data_to_core_reg[31]_i_10_n_2 ),
-        .I3(\o_data_to_core_reg[31]_i_1 [16]),
-        .I4(\o_data_to_core_reg[31]_i_1_0 [16]),
-        .I5(\o_data_to_core_reg[31]_i_11_n_2 ),
-        .O(\o_data_to_core_reg[31]_i_11_16 ));
-  LUT6 #(
-    .INIT(64'hFFFFF888F888F888)) 
-    \o_data_to_core_reg[17]_i_4 
-       (.I0(\o_data_to_core_reg[31]_i_9_n_2 ),
-        .I1(\i_index[0] [17]),
-        .I2(\o_data_to_core_reg[31]_i_10_n_2 ),
-        .I3(\o_data_to_core_reg[31]_i_1 [17]),
-        .I4(\o_data_to_core_reg[31]_i_1_0 [17]),
-        .I5(\o_data_to_core_reg[31]_i_11_n_2 ),
-        .O(\o_data_to_core_reg[31]_i_11_17 ));
-  LUT6 #(
-    .INIT(64'hFFFFF888F888F888)) 
-    \o_data_to_core_reg[18]_i_4 
-       (.I0(\o_data_to_core_reg[31]_i_9_n_2 ),
-        .I1(\i_index[0] [18]),
-        .I2(\o_data_to_core_reg[31]_i_10_n_2 ),
-        .I3(\o_data_to_core_reg[31]_i_1 [18]),
-        .I4(\o_data_to_core_reg[31]_i_1_0 [18]),
-        .I5(\o_data_to_core_reg[31]_i_11_n_2 ),
-        .O(\o_data_to_core_reg[31]_i_11_18 ));
-  LUT6 #(
-    .INIT(64'hFFFFF888F888F888)) 
-    \o_data_to_core_reg[19]_i_4 
-       (.I0(\o_data_to_core_reg[31]_i_9_n_2 ),
-        .I1(\i_index[0] [19]),
-        .I2(\o_data_to_core_reg[31]_i_10_n_2 ),
-        .I3(\o_data_to_core_reg[31]_i_1 [19]),
-        .I4(\o_data_to_core_reg[31]_i_1_0 [19]),
-        .I5(\o_data_to_core_reg[31]_i_11_n_2 ),
-        .O(\o_data_to_core_reg[31]_i_11_19 ));
-  LUT6 #(
-    .INIT(64'hFFFFF888F888F888)) 
-    \o_data_to_core_reg[1]_i_4 
-       (.I0(\o_data_to_core_reg[31]_i_9_n_2 ),
-        .I1(\i_index[0] [1]),
-        .I2(\o_data_to_core_reg[31]_i_10_n_2 ),
-        .I3(\o_data_to_core_reg[31]_i_1 [1]),
-        .I4(\o_data_to_core_reg[31]_i_1_0 [1]),
-        .I5(\o_data_to_core_reg[31]_i_11_n_2 ),
-        .O(\o_data_to_core_reg[31]_i_11_1 ));
-  LUT6 #(
-    .INIT(64'hFFFFF888F888F888)) 
-    \o_data_to_core_reg[20]_i_4 
-       (.I0(\o_data_to_core_reg[31]_i_9_n_2 ),
-        .I1(\i_index[0] [20]),
-        .I2(\o_data_to_core_reg[31]_i_10_n_2 ),
-        .I3(\o_data_to_core_reg[31]_i_1 [20]),
-        .I4(\o_data_to_core_reg[31]_i_1_0 [20]),
-        .I5(\o_data_to_core_reg[31]_i_11_n_2 ),
-        .O(\o_data_to_core_reg[31]_i_11_20 ));
-  LUT6 #(
-    .INIT(64'hFFFFF888F888F888)) 
-    \o_data_to_core_reg[21]_i_4 
-       (.I0(\o_data_to_core_reg[31]_i_9_n_2 ),
-        .I1(\i_index[0] [21]),
-        .I2(\o_data_to_core_reg[31]_i_10_n_2 ),
-        .I3(\o_data_to_core_reg[31]_i_1 [21]),
-        .I4(\o_data_to_core_reg[31]_i_1_0 [21]),
-        .I5(\o_data_to_core_reg[31]_i_11_n_2 ),
-        .O(\o_data_to_core_reg[31]_i_11_21 ));
-  LUT6 #(
-    .INIT(64'hFFFFF888F888F888)) 
-    \o_data_to_core_reg[22]_i_4 
-       (.I0(\o_data_to_core_reg[31]_i_9_n_2 ),
-        .I1(\i_index[0] [22]),
-        .I2(\o_data_to_core_reg[31]_i_10_n_2 ),
-        .I3(\o_data_to_core_reg[31]_i_1 [22]),
-        .I4(\o_data_to_core_reg[31]_i_1_0 [22]),
-        .I5(\o_data_to_core_reg[31]_i_11_n_2 ),
-        .O(\o_data_to_core_reg[31]_i_11_22 ));
-  LUT6 #(
-    .INIT(64'hFFFFF888F888F888)) 
-    \o_data_to_core_reg[23]_i_4 
-       (.I0(\o_data_to_core_reg[31]_i_9_n_2 ),
-        .I1(\i_index[0] [23]),
-        .I2(\o_data_to_core_reg[31]_i_10_n_2 ),
-        .I3(\o_data_to_core_reg[31]_i_1 [23]),
-        .I4(\o_data_to_core_reg[31]_i_1_0 [23]),
-        .I5(\o_data_to_core_reg[31]_i_11_n_2 ),
-        .O(\o_data_to_core_reg[31]_i_11_23 ));
-  LUT6 #(
-    .INIT(64'hFFFFF888F888F888)) 
-    \o_data_to_core_reg[24]_i_4 
-       (.I0(\o_data_to_core_reg[31]_i_9_n_2 ),
-        .I1(\i_index[0] [24]),
-        .I2(\o_data_to_core_reg[31]_i_10_n_2 ),
-        .I3(\o_data_to_core_reg[31]_i_1 [24]),
-        .I4(\o_data_to_core_reg[31]_i_1_0 [24]),
-        .I5(\o_data_to_core_reg[31]_i_11_n_2 ),
-        .O(\o_data_to_core_reg[31]_i_11_24 ));
-  LUT6 #(
-    .INIT(64'hFFFFF888F888F888)) 
-    \o_data_to_core_reg[25]_i_4 
-       (.I0(\o_data_to_core_reg[31]_i_9_n_2 ),
-        .I1(\i_index[0] [25]),
-        .I2(\o_data_to_core_reg[31]_i_10_n_2 ),
-        .I3(\o_data_to_core_reg[31]_i_1 [25]),
-        .I4(\o_data_to_core_reg[31]_i_1_0 [25]),
-        .I5(\o_data_to_core_reg[31]_i_11_n_2 ),
-        .O(\o_data_to_core_reg[31]_i_11_25 ));
-  LUT6 #(
-    .INIT(64'hFFFFF888F888F888)) 
-    \o_data_to_core_reg[26]_i_4 
-       (.I0(\o_data_to_core_reg[31]_i_9_n_2 ),
-        .I1(\i_index[0] [26]),
-        .I2(\o_data_to_core_reg[31]_i_10_n_2 ),
-        .I3(\o_data_to_core_reg[31]_i_1 [26]),
-        .I4(\o_data_to_core_reg[31]_i_1_0 [26]),
-        .I5(\o_data_to_core_reg[31]_i_11_n_2 ),
-        .O(\o_data_to_core_reg[31]_i_11_26 ));
-  LUT6 #(
-    .INIT(64'hFFFFF888F888F888)) 
-    \o_data_to_core_reg[27]_i_4 
-       (.I0(\o_data_to_core_reg[31]_i_9_n_2 ),
-        .I1(\i_index[0] [27]),
-        .I2(\o_data_to_core_reg[31]_i_10_n_2 ),
-        .I3(\o_data_to_core_reg[31]_i_1 [27]),
-        .I4(\o_data_to_core_reg[31]_i_1_0 [27]),
-        .I5(\o_data_to_core_reg[31]_i_11_n_2 ),
-        .O(\o_data_to_core_reg[31]_i_11_27 ));
-  LUT6 #(
-    .INIT(64'hFFFFF888F888F888)) 
-    \o_data_to_core_reg[28]_i_4 
-       (.I0(\o_data_to_core_reg[31]_i_9_n_2 ),
-        .I1(\i_index[0] [28]),
-        .I2(\o_data_to_core_reg[31]_i_10_n_2 ),
-        .I3(\o_data_to_core_reg[31]_i_1 [28]),
-        .I4(\o_data_to_core_reg[31]_i_1_0 [28]),
-        .I5(\o_data_to_core_reg[31]_i_11_n_2 ),
-        .O(\o_data_to_core_reg[31]_i_11_28 ));
-  LUT6 #(
-    .INIT(64'hFFFFF888F888F888)) 
-    \o_data_to_core_reg[29]_i_4 
-       (.I0(\o_data_to_core_reg[31]_i_9_n_2 ),
-        .I1(\i_index[0] [29]),
-        .I2(\o_data_to_core_reg[31]_i_10_n_2 ),
-        .I3(\o_data_to_core_reg[31]_i_1 [29]),
-        .I4(\o_data_to_core_reg[31]_i_1_0 [29]),
-        .I5(\o_data_to_core_reg[31]_i_11_n_2 ),
-        .O(\o_data_to_core_reg[31]_i_11_29 ));
-  LUT6 #(
-    .INIT(64'hFFFFF888F888F888)) 
-    \o_data_to_core_reg[2]_i_4 
-       (.I0(\o_data_to_core_reg[31]_i_9_n_2 ),
-        .I1(\i_index[0] [2]),
-        .I2(\o_data_to_core_reg[31]_i_10_n_2 ),
-        .I3(\o_data_to_core_reg[31]_i_1 [2]),
-        .I4(\o_data_to_core_reg[31]_i_1_0 [2]),
-        .I5(\o_data_to_core_reg[31]_i_11_n_2 ),
-        .O(\o_data_to_core_reg[31]_i_11_2 ));
-  LUT6 #(
-    .INIT(64'hFFFFF888F888F888)) 
-    \o_data_to_core_reg[30]_i_4 
-       (.I0(\o_data_to_core_reg[31]_i_9_n_2 ),
-        .I1(\i_index[0] [30]),
-        .I2(\o_data_to_core_reg[31]_i_10_n_2 ),
-        .I3(\o_data_to_core_reg[31]_i_1 [30]),
-        .I4(\o_data_to_core_reg[31]_i_1_0 [30]),
-        .I5(\o_data_to_core_reg[31]_i_11_n_2 ),
-        .O(\o_data_to_core_reg[31]_i_11_30 ));
-  LUT6 #(
-    .INIT(64'h0000010000000000)) 
-    \o_data_to_core_reg[31]_i_10 
-       (.I0(i_way_IBUF[2]),
-        .I1(i_way_IBUF[0]),
-        .I2(i_way_IBUF[1]),
-        .I3(i_way_IBUF[3]),
-        .I4(i_offset_IBUF[0]),
-        .I5(i_offset_IBUF[1]),
-        .O(\o_data_to_core_reg[31]_i_10_n_2 ));
-  LUT6 #(
-    .INIT(64'h0000000800000000)) 
-    \o_data_to_core_reg[31]_i_11 
-       (.I0(i_offset_IBUF[1]),
-        .I1(i_offset_IBUF[0]),
-        .I2(i_way_IBUF[2]),
-        .I3(i_way_IBUF[0]),
-        .I4(i_way_IBUF[1]),
-        .I5(i_way_IBUF[3]),
-        .O(\o_data_to_core_reg[31]_i_11_n_2 ));
-  LUT6 #(
-    .INIT(64'hFFFFF888F888F888)) 
-    \o_data_to_core_reg[31]_i_6 
-       (.I0(\o_data_to_core_reg[31]_i_9_n_2 ),
-        .I1(\i_index[0] [31]),
-        .I2(\o_data_to_core_reg[31]_i_10_n_2 ),
-        .I3(\o_data_to_core_reg[31]_i_1 [31]),
-        .I4(\o_data_to_core_reg[31]_i_1_0 [31]),
-        .I5(\o_data_to_core_reg[31]_i_11_n_2 ),
-        .O(\o_data_to_core_reg[31]_i_11_31 ));
-  LUT6 #(
-    .INIT(64'h0000010000000000)) 
-    \o_data_to_core_reg[31]_i_9 
-       (.I0(i_way_IBUF[2]),
-        .I1(i_way_IBUF[0]),
-        .I2(i_way_IBUF[1]),
-        .I3(i_way_IBUF[3]),
-        .I4(i_offset_IBUF[1]),
-        .I5(i_offset_IBUF[0]),
-        .O(\o_data_to_core_reg[31]_i_9_n_2 ));
-  LUT6 #(
-    .INIT(64'hFFFFF888F888F888)) 
-    \o_data_to_core_reg[3]_i_4 
-       (.I0(\o_data_to_core_reg[31]_i_9_n_2 ),
-        .I1(\i_index[0] [3]),
-        .I2(\o_data_to_core_reg[31]_i_10_n_2 ),
-        .I3(\o_data_to_core_reg[31]_i_1 [3]),
-        .I4(\o_data_to_core_reg[31]_i_1_0 [3]),
-        .I5(\o_data_to_core_reg[31]_i_11_n_2 ),
-        .O(\o_data_to_core_reg[31]_i_11_3 ));
-  LUT6 #(
-    .INIT(64'hFFFFF888F888F888)) 
-    \o_data_to_core_reg[4]_i_4 
-       (.I0(\o_data_to_core_reg[31]_i_9_n_2 ),
-        .I1(\i_index[0] [4]),
-        .I2(\o_data_to_core_reg[31]_i_10_n_2 ),
-        .I3(\o_data_to_core_reg[31]_i_1 [4]),
-        .I4(\o_data_to_core_reg[31]_i_1_0 [4]),
-        .I5(\o_data_to_core_reg[31]_i_11_n_2 ),
-        .O(\o_data_to_core_reg[31]_i_11_4 ));
-  LUT6 #(
-    .INIT(64'hFFFFF888F888F888)) 
-    \o_data_to_core_reg[5]_i_4 
-       (.I0(\o_data_to_core_reg[31]_i_9_n_2 ),
-        .I1(\i_index[0] [5]),
-        .I2(\o_data_to_core_reg[31]_i_10_n_2 ),
-        .I3(\o_data_to_core_reg[31]_i_1 [5]),
-        .I4(\o_data_to_core_reg[31]_i_1_0 [5]),
-        .I5(\o_data_to_core_reg[31]_i_11_n_2 ),
-        .O(\o_data_to_core_reg[31]_i_11_5 ));
-  LUT6 #(
-    .INIT(64'hFFFFF888F888F888)) 
-    \o_data_to_core_reg[6]_i_4 
-       (.I0(\o_data_to_core_reg[31]_i_9_n_2 ),
-        .I1(\i_index[0] [6]),
-        .I2(\o_data_to_core_reg[31]_i_10_n_2 ),
-        .I3(\o_data_to_core_reg[31]_i_1 [6]),
-        .I4(\o_data_to_core_reg[31]_i_1_0 [6]),
-        .I5(\o_data_to_core_reg[31]_i_11_n_2 ),
-        .O(\o_data_to_core_reg[31]_i_11_6 ));
-  LUT6 #(
-    .INIT(64'hFFFFF888F888F888)) 
-    \o_data_to_core_reg[7]_i_4 
-       (.I0(\o_data_to_core_reg[31]_i_9_n_2 ),
-        .I1(\i_index[0] [7]),
-        .I2(\o_data_to_core_reg[31]_i_10_n_2 ),
-        .I3(\o_data_to_core_reg[31]_i_1 [7]),
-        .I4(\o_data_to_core_reg[31]_i_1_0 [7]),
-        .I5(\o_data_to_core_reg[31]_i_11_n_2 ),
-        .O(\o_data_to_core_reg[31]_i_11_7 ));
-  LUT6 #(
-    .INIT(64'hFFFFF888F888F888)) 
-    \o_data_to_core_reg[8]_i_4 
-       (.I0(\o_data_to_core_reg[31]_i_9_n_2 ),
-        .I1(\i_index[0] [8]),
-        .I2(\o_data_to_core_reg[31]_i_10_n_2 ),
-        .I3(\o_data_to_core_reg[31]_i_1 [8]),
-        .I4(\o_data_to_core_reg[31]_i_1_0 [8]),
-        .I5(\o_data_to_core_reg[31]_i_11_n_2 ),
-        .O(\o_data_to_core_reg[31]_i_11_8 ));
-  LUT6 #(
-    .INIT(64'hFFFFF888F888F888)) 
-    \o_data_to_core_reg[9]_i_4 
-       (.I0(\o_data_to_core_reg[31]_i_9_n_2 ),
-        .I1(\i_index[0] [9]),
-        .I2(\o_data_to_core_reg[31]_i_10_n_2 ),
-        .I3(\o_data_to_core_reg[31]_i_1 [9]),
-        .I4(\o_data_to_core_reg[31]_i_1_0 [9]),
-        .I5(\o_data_to_core_reg[31]_i_11_n_2 ),
-        .O(\o_data_to_core_reg[31]_i_11_9 ));
 endmodule
 
 (* ORIG_REF_NAME = "data_mem_column" *) 
 module data_mem_column_4
-   (\i_index[0] ,
+   (D,
+    \i_index[0] ,
+    o_data_to_core1,
+    \o_data_to_core_reg[0] ,
+    o_data,
+    \o_data_to_core_reg[0]_0 ,
+    \o_data_to_core_reg[1] ,
+    \o_data_to_core_reg[1]_0 ,
+    \o_data_to_core_reg[2] ,
+    \o_data_to_core_reg[2]_0 ,
+    \o_data_to_core_reg[3] ,
+    \o_data_to_core_reg[3]_0 ,
+    \o_data_to_core_reg[4] ,
+    \o_data_to_core_reg[4]_0 ,
+    \o_data_to_core_reg[5] ,
+    \o_data_to_core_reg[5]_0 ,
+    \o_data_to_core_reg[6] ,
+    \o_data_to_core_reg[6]_0 ,
+    \o_data_to_core_reg[7] ,
+    \o_data_to_core_reg[7]_0 ,
+    \o_data_to_core_reg[8] ,
+    \o_data_to_core_reg[8]_0 ,
+    \o_data_to_core_reg[9] ,
+    \o_data_to_core_reg[9]_0 ,
+    \o_data_to_core_reg[10] ,
+    \o_data_to_core_reg[10]_0 ,
+    \o_data_to_core_reg[11] ,
+    \o_data_to_core_reg[11]_0 ,
+    \o_data_to_core_reg[12] ,
+    \o_data_to_core_reg[12]_0 ,
+    \o_data_to_core_reg[13] ,
+    \o_data_to_core_reg[13]_0 ,
+    \o_data_to_core_reg[14] ,
+    \o_data_to_core_reg[14]_0 ,
+    \o_data_to_core_reg[15] ,
+    \o_data_to_core_reg[15]_0 ,
+    \o_data_to_core_reg[16] ,
+    \o_data_to_core_reg[16]_0 ,
+    \o_data_to_core_reg[17] ,
+    \o_data_to_core_reg[17]_0 ,
+    \o_data_to_core_reg[18] ,
+    \o_data_to_core_reg[18]_0 ,
+    \o_data_to_core_reg[19] ,
+    \o_data_to_core_reg[19]_0 ,
+    \o_data_to_core_reg[20] ,
+    \o_data_to_core_reg[20]_0 ,
+    \o_data_to_core_reg[21] ,
+    \o_data_to_core_reg[21]_0 ,
+    \o_data_to_core_reg[22] ,
+    \o_data_to_core_reg[22]_0 ,
+    \o_data_to_core_reg[23] ,
+    \o_data_to_core_reg[23]_0 ,
+    \o_data_to_core_reg[24] ,
+    \o_data_to_core_reg[24]_0 ,
+    \o_data_to_core_reg[25] ,
+    \o_data_to_core_reg[25]_0 ,
+    \o_data_to_core_reg[26] ,
+    \o_data_to_core_reg[26]_0 ,
+    \o_data_to_core_reg[27] ,
+    \o_data_to_core_reg[27]_0 ,
+    \o_data_to_core_reg[28] ,
+    \o_data_to_core_reg[28]_0 ,
+    \o_data_to_core_reg[29] ,
+    \o_data_to_core_reg[29]_0 ,
+    \o_data_to_core_reg[30] ,
+    \o_data_to_core_reg[30]_0 ,
+    \o_data_to_core_reg[31] ,
+    \o_data_to_core_reg[31]_0 ,
+    i_way_IBUF,
+    i_rd_IBUF,
+    i_offset_IBUF,
+    \o_data_to_core_reg[31]_i_1_0 ,
     i_data_from_mem_valid_IBUF,
-    i_LRU_IBUF,
     i_data_from_mem_IBUF,
     i_data_from_core_IBUF,
-    i_offset_IBUF,
-    i_way_IBUF,
     i_wr_IBUF,
     clk_IBUF_BUFG,
     i_index_IBUF);
+  output [31:0]D;
   output [31:0]\i_index[0] ;
+  output o_data_to_core1;
+  input \o_data_to_core_reg[0] ;
+  input [31:0]o_data;
+  input \o_data_to_core_reg[0]_0 ;
+  input \o_data_to_core_reg[1] ;
+  input \o_data_to_core_reg[1]_0 ;
+  input \o_data_to_core_reg[2] ;
+  input \o_data_to_core_reg[2]_0 ;
+  input \o_data_to_core_reg[3] ;
+  input \o_data_to_core_reg[3]_0 ;
+  input \o_data_to_core_reg[4] ;
+  input \o_data_to_core_reg[4]_0 ;
+  input \o_data_to_core_reg[5] ;
+  input \o_data_to_core_reg[5]_0 ;
+  input \o_data_to_core_reg[6] ;
+  input \o_data_to_core_reg[6]_0 ;
+  input \o_data_to_core_reg[7] ;
+  input \o_data_to_core_reg[7]_0 ;
+  input \o_data_to_core_reg[8] ;
+  input \o_data_to_core_reg[8]_0 ;
+  input \o_data_to_core_reg[9] ;
+  input \o_data_to_core_reg[9]_0 ;
+  input \o_data_to_core_reg[10] ;
+  input \o_data_to_core_reg[10]_0 ;
+  input \o_data_to_core_reg[11] ;
+  input \o_data_to_core_reg[11]_0 ;
+  input \o_data_to_core_reg[12] ;
+  input \o_data_to_core_reg[12]_0 ;
+  input \o_data_to_core_reg[13] ;
+  input \o_data_to_core_reg[13]_0 ;
+  input \o_data_to_core_reg[14] ;
+  input \o_data_to_core_reg[14]_0 ;
+  input \o_data_to_core_reg[15] ;
+  input \o_data_to_core_reg[15]_0 ;
+  input \o_data_to_core_reg[16] ;
+  input \o_data_to_core_reg[16]_0 ;
+  input \o_data_to_core_reg[17] ;
+  input \o_data_to_core_reg[17]_0 ;
+  input \o_data_to_core_reg[18] ;
+  input \o_data_to_core_reg[18]_0 ;
+  input \o_data_to_core_reg[19] ;
+  input \o_data_to_core_reg[19]_0 ;
+  input \o_data_to_core_reg[20] ;
+  input \o_data_to_core_reg[20]_0 ;
+  input \o_data_to_core_reg[21] ;
+  input \o_data_to_core_reg[21]_0 ;
+  input \o_data_to_core_reg[22] ;
+  input \o_data_to_core_reg[22]_0 ;
+  input \o_data_to_core_reg[23] ;
+  input \o_data_to_core_reg[23]_0 ;
+  input \o_data_to_core_reg[24] ;
+  input \o_data_to_core_reg[24]_0 ;
+  input \o_data_to_core_reg[25] ;
+  input \o_data_to_core_reg[25]_0 ;
+  input \o_data_to_core_reg[26] ;
+  input \o_data_to_core_reg[26]_0 ;
+  input \o_data_to_core_reg[27] ;
+  input \o_data_to_core_reg[27]_0 ;
+  input \o_data_to_core_reg[28] ;
+  input \o_data_to_core_reg[28]_0 ;
+  input \o_data_to_core_reg[29] ;
+  input \o_data_to_core_reg[29]_0 ;
+  input \o_data_to_core_reg[30] ;
+  input \o_data_to_core_reg[30]_0 ;
+  input \o_data_to_core_reg[31] ;
+  input \o_data_to_core_reg[31]_0 ;
+  input [3:0]i_way_IBUF;
+  input i_rd_IBUF;
+  input [1:0]i_offset_IBUF;
+  input [31:0]\o_data_to_core_reg[31]_i_1_0 ;
   input i_data_from_mem_valid_IBUF;
-  input [0:0]i_LRU_IBUF;
   input [31:0]i_data_from_mem_IBUF;
   input [31:0]i_data_from_core_IBUF;
-  input [1:0]i_offset_IBUF;
-  input [0:0]i_way_IBUF;
   input i_wr_IBUF;
   input clk_IBUF_BUFG;
   input [2:0]i_index_IBUF;
 
+  wire [31:0]D;
   wire clk_IBUF_BUFG;
-  wire [0:0]i_LRU_IBUF;
   wire [31:0]i_data_from_core_IBUF;
   wire [31:0]i_data_from_mem_IBUF;
   wire i_data_from_mem_valid_IBUF;
   wire [31:0]\i_index[0] ;
   wire [2:0]i_index_IBUF;
   wire [1:0]i_offset_IBUF;
-  wire [0:0]i_way_IBUF;
+  wire i_rd_IBUF;
+  wire [3:0]i_way_IBUF;
   wire i_wr_IBUF;
+  wire [31:0]o_data;
+  wire o_data_to_core1;
+  wire \o_data_to_core_reg[0] ;
+  wire \o_data_to_core_reg[0]_0 ;
+  wire \o_data_to_core_reg[0]_i_3_n_2 ;
+  wire \o_data_to_core_reg[10] ;
+  wire \o_data_to_core_reg[10]_0 ;
+  wire \o_data_to_core_reg[10]_i_3_n_2 ;
+  wire \o_data_to_core_reg[11] ;
+  wire \o_data_to_core_reg[11]_0 ;
+  wire \o_data_to_core_reg[11]_i_3_n_2 ;
+  wire \o_data_to_core_reg[12] ;
+  wire \o_data_to_core_reg[12]_0 ;
+  wire \o_data_to_core_reg[12]_i_3_n_2 ;
+  wire \o_data_to_core_reg[13] ;
+  wire \o_data_to_core_reg[13]_0 ;
+  wire \o_data_to_core_reg[13]_i_3_n_2 ;
+  wire \o_data_to_core_reg[14] ;
+  wire \o_data_to_core_reg[14]_0 ;
+  wire \o_data_to_core_reg[14]_i_3_n_2 ;
+  wire \o_data_to_core_reg[15] ;
+  wire \o_data_to_core_reg[15]_0 ;
+  wire \o_data_to_core_reg[15]_i_3_n_2 ;
+  wire \o_data_to_core_reg[16] ;
+  wire \o_data_to_core_reg[16]_0 ;
+  wire \o_data_to_core_reg[16]_i_3_n_2 ;
+  wire \o_data_to_core_reg[17] ;
+  wire \o_data_to_core_reg[17]_0 ;
+  wire \o_data_to_core_reg[17]_i_3_n_2 ;
+  wire \o_data_to_core_reg[18] ;
+  wire \o_data_to_core_reg[18]_0 ;
+  wire \o_data_to_core_reg[18]_i_3_n_2 ;
+  wire \o_data_to_core_reg[19] ;
+  wire \o_data_to_core_reg[19]_0 ;
+  wire \o_data_to_core_reg[19]_i_3_n_2 ;
+  wire \o_data_to_core_reg[1] ;
+  wire \o_data_to_core_reg[1]_0 ;
+  wire \o_data_to_core_reg[1]_i_3_n_2 ;
+  wire \o_data_to_core_reg[20] ;
+  wire \o_data_to_core_reg[20]_0 ;
+  wire \o_data_to_core_reg[20]_i_3_n_2 ;
+  wire \o_data_to_core_reg[21] ;
+  wire \o_data_to_core_reg[21]_0 ;
+  wire \o_data_to_core_reg[21]_i_3_n_2 ;
+  wire \o_data_to_core_reg[22] ;
+  wire \o_data_to_core_reg[22]_0 ;
+  wire \o_data_to_core_reg[22]_i_3_n_2 ;
+  wire \o_data_to_core_reg[23] ;
+  wire \o_data_to_core_reg[23]_0 ;
+  wire \o_data_to_core_reg[23]_i_3_n_2 ;
+  wire \o_data_to_core_reg[24] ;
+  wire \o_data_to_core_reg[24]_0 ;
+  wire \o_data_to_core_reg[24]_i_3_n_2 ;
+  wire \o_data_to_core_reg[25] ;
+  wire \o_data_to_core_reg[25]_0 ;
+  wire \o_data_to_core_reg[25]_i_3_n_2 ;
+  wire \o_data_to_core_reg[26] ;
+  wire \o_data_to_core_reg[26]_0 ;
+  wire \o_data_to_core_reg[26]_i_3_n_2 ;
+  wire \o_data_to_core_reg[27] ;
+  wire \o_data_to_core_reg[27]_0 ;
+  wire \o_data_to_core_reg[27]_i_3_n_2 ;
+  wire \o_data_to_core_reg[28] ;
+  wire \o_data_to_core_reg[28]_0 ;
+  wire \o_data_to_core_reg[28]_i_3_n_2 ;
+  wire \o_data_to_core_reg[29] ;
+  wire \o_data_to_core_reg[29]_0 ;
+  wire \o_data_to_core_reg[29]_i_3_n_2 ;
+  wire \o_data_to_core_reg[2] ;
+  wire \o_data_to_core_reg[2]_0 ;
+  wire \o_data_to_core_reg[2]_i_3_n_2 ;
+  wire \o_data_to_core_reg[30] ;
+  wire \o_data_to_core_reg[30]_0 ;
+  wire \o_data_to_core_reg[30]_i_3_n_2 ;
+  wire \o_data_to_core_reg[31] ;
+  wire \o_data_to_core_reg[31]_0 ;
+  wire \o_data_to_core_reg[31]_i_10_n_2 ;
+  wire [31:0]\o_data_to_core_reg[31]_i_1_0 ;
+  wire \o_data_to_core_reg[31]_i_3_n_2 ;
+  wire \o_data_to_core_reg[31]_i_4_n_2 ;
+  wire \o_data_to_core_reg[3] ;
+  wire \o_data_to_core_reg[3]_0 ;
+  wire \o_data_to_core_reg[3]_i_3_n_2 ;
+  wire \o_data_to_core_reg[4] ;
+  wire \o_data_to_core_reg[4]_0 ;
+  wire \o_data_to_core_reg[4]_i_3_n_2 ;
+  wire \o_data_to_core_reg[5] ;
+  wire \o_data_to_core_reg[5]_0 ;
+  wire \o_data_to_core_reg[5]_i_3_n_2 ;
+  wire \o_data_to_core_reg[6] ;
+  wire \o_data_to_core_reg[6]_0 ;
+  wire \o_data_to_core_reg[6]_i_3_n_2 ;
+  wire \o_data_to_core_reg[7] ;
+  wire \o_data_to_core_reg[7]_0 ;
+  wire \o_data_to_core_reg[7]_i_3_n_2 ;
+  wire \o_data_to_core_reg[8] ;
+  wire \o_data_to_core_reg[8]_0 ;
+  wire \o_data_to_core_reg[8]_i_3_n_2 ;
+  wire \o_data_to_core_reg[9] ;
+  wire \o_data_to_core_reg[9]_0 ;
+  wire \o_data_to_core_reg[9]_i_3_n_2 ;
   wire p_0_in__13;
   wire [31:0]p_1_in;
 
@@ -39755,7 +39428,7 @@ module data_mem_column_4
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "0" *) 
   (* ram_slice_end = "0" *) 
-  RAM32X1S_HD959 data_mem_reg_0_7_0_0
+  RAM32X1S_HD448 data_mem_reg_0_7_0_0
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -39768,20 +39441,19 @@ module data_mem_column_4
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_0_0_i_1__13
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[0]),
         .I3(i_data_from_core_IBUF[0]),
         .O(p_1_in[0]));
-  LUT6 #(
-    .INIT(64'h88F8888888888888)) 
+  LUT5 #(
+    .INIT(32'h8A888888)) 
     data_mem_reg_0_7_0_0_i_2__12
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
-        .I2(i_offset_IBUF[1]),
-        .I3(i_offset_IBUF[0]),
-        .I4(i_way_IBUF),
-        .I5(i_wr_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
+        .I2(i_offset_IBUF[0]),
+        .I3(i_offset_IBUF[1]),
+        .I4(i_wr_IBUF),
         .O(p_0_in__13));
   (* INIT = "32'h00000003" *) 
   (* RTL_RAM_BITS = "256" *) 
@@ -39794,7 +39466,7 @@ module data_mem_column_4
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "10" *) 
   (* ram_slice_end = "10" *) 
-  RAM32X1S_HD960 data_mem_reg_0_7_10_10
+  RAM32X1S_HD449 data_mem_reg_0_7_10_10
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -39807,8 +39479,8 @@ module data_mem_column_4
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_10_10_i_1__13
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[10]),
         .I3(i_data_from_core_IBUF[10]),
         .O(p_1_in[10]));
@@ -39823,7 +39495,7 @@ module data_mem_column_4
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "11" *) 
   (* ram_slice_end = "11" *) 
-  RAM32X1S_HD961 data_mem_reg_0_7_11_11
+  RAM32X1S_HD450 data_mem_reg_0_7_11_11
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -39836,8 +39508,8 @@ module data_mem_column_4
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_11_11_i_1__13
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[11]),
         .I3(i_data_from_core_IBUF[11]),
         .O(p_1_in[11]));
@@ -39852,7 +39524,7 @@ module data_mem_column_4
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "12" *) 
   (* ram_slice_end = "12" *) 
-  RAM32X1S_HD962 data_mem_reg_0_7_12_12
+  RAM32X1S_HD451 data_mem_reg_0_7_12_12
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -39865,8 +39537,8 @@ module data_mem_column_4
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_12_12_i_1__13
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[12]),
         .I3(i_data_from_core_IBUF[12]),
         .O(p_1_in[12]));
@@ -39881,7 +39553,7 @@ module data_mem_column_4
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "13" *) 
   (* ram_slice_end = "13" *) 
-  RAM32X1S_HD963 data_mem_reg_0_7_13_13
+  RAM32X1S_HD452 data_mem_reg_0_7_13_13
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -39894,8 +39566,8 @@ module data_mem_column_4
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_13_13_i_1__13
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[13]),
         .I3(i_data_from_core_IBUF[13]),
         .O(p_1_in[13]));
@@ -39910,7 +39582,7 @@ module data_mem_column_4
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "14" *) 
   (* ram_slice_end = "14" *) 
-  RAM32X1S_HD964 data_mem_reg_0_7_14_14
+  RAM32X1S_HD453 data_mem_reg_0_7_14_14
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -39923,8 +39595,8 @@ module data_mem_column_4
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_14_14_i_1__13
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[14]),
         .I3(i_data_from_core_IBUF[14]),
         .O(p_1_in[14]));
@@ -39939,7 +39611,7 @@ module data_mem_column_4
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "15" *) 
   (* ram_slice_end = "15" *) 
-  RAM32X1S_HD965 data_mem_reg_0_7_15_15
+  RAM32X1S_HD454 data_mem_reg_0_7_15_15
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -39952,8 +39624,8 @@ module data_mem_column_4
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_15_15_i_1__13
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[15]),
         .I3(i_data_from_core_IBUF[15]),
         .O(p_1_in[15]));
@@ -39968,7 +39640,7 @@ module data_mem_column_4
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "16" *) 
   (* ram_slice_end = "16" *) 
-  RAM32X1S_HD966 data_mem_reg_0_7_16_16
+  RAM32X1S_HD455 data_mem_reg_0_7_16_16
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -39981,8 +39653,8 @@ module data_mem_column_4
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_16_16_i_1__13
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[16]),
         .I3(i_data_from_core_IBUF[16]),
         .O(p_1_in[16]));
@@ -39997,7 +39669,7 @@ module data_mem_column_4
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "17" *) 
   (* ram_slice_end = "17" *) 
-  RAM32X1S_HD967 data_mem_reg_0_7_17_17
+  RAM32X1S_HD456 data_mem_reg_0_7_17_17
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -40010,8 +39682,8 @@ module data_mem_column_4
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_17_17_i_1__13
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[17]),
         .I3(i_data_from_core_IBUF[17]),
         .O(p_1_in[17]));
@@ -40026,7 +39698,7 @@ module data_mem_column_4
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "18" *) 
   (* ram_slice_end = "18" *) 
-  RAM32X1S_HD968 data_mem_reg_0_7_18_18
+  RAM32X1S_HD457 data_mem_reg_0_7_18_18
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -40039,8 +39711,8 @@ module data_mem_column_4
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_18_18_i_1__13
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[18]),
         .I3(i_data_from_core_IBUF[18]),
         .O(p_1_in[18]));
@@ -40055,7 +39727,7 @@ module data_mem_column_4
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "19" *) 
   (* ram_slice_end = "19" *) 
-  RAM32X1S_HD969 data_mem_reg_0_7_19_19
+  RAM32X1S_HD458 data_mem_reg_0_7_19_19
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -40068,8 +39740,8 @@ module data_mem_column_4
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_19_19_i_1__13
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[19]),
         .I3(i_data_from_core_IBUF[19]),
         .O(p_1_in[19]));
@@ -40084,7 +39756,7 @@ module data_mem_column_4
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "1" *) 
   (* ram_slice_end = "1" *) 
-  RAM32X1S_HD970 data_mem_reg_0_7_1_1
+  RAM32X1S_HD459 data_mem_reg_0_7_1_1
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -40097,8 +39769,8 @@ module data_mem_column_4
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_1_1_i_1__13
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[1]),
         .I3(i_data_from_core_IBUF[1]),
         .O(p_1_in[1]));
@@ -40113,7 +39785,7 @@ module data_mem_column_4
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "20" *) 
   (* ram_slice_end = "20" *) 
-  RAM32X1S_HD971 data_mem_reg_0_7_20_20
+  RAM32X1S_HD460 data_mem_reg_0_7_20_20
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -40126,8 +39798,8 @@ module data_mem_column_4
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_20_20_i_1__13
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[20]),
         .I3(i_data_from_core_IBUF[20]),
         .O(p_1_in[20]));
@@ -40142,7 +39814,7 @@ module data_mem_column_4
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "21" *) 
   (* ram_slice_end = "21" *) 
-  RAM32X1S_HD972 data_mem_reg_0_7_21_21
+  RAM32X1S_HD461 data_mem_reg_0_7_21_21
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -40155,8 +39827,8 @@ module data_mem_column_4
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_21_21_i_1__13
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[21]),
         .I3(i_data_from_core_IBUF[21]),
         .O(p_1_in[21]));
@@ -40171,7 +39843,7 @@ module data_mem_column_4
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "22" *) 
   (* ram_slice_end = "22" *) 
-  RAM32X1S_HD973 data_mem_reg_0_7_22_22
+  RAM32X1S_HD462 data_mem_reg_0_7_22_22
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -40184,8 +39856,8 @@ module data_mem_column_4
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_22_22_i_1__13
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[22]),
         .I3(i_data_from_core_IBUF[22]),
         .O(p_1_in[22]));
@@ -40200,7 +39872,7 @@ module data_mem_column_4
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "23" *) 
   (* ram_slice_end = "23" *) 
-  RAM32X1S_HD974 data_mem_reg_0_7_23_23
+  RAM32X1S_HD463 data_mem_reg_0_7_23_23
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -40213,8 +39885,8 @@ module data_mem_column_4
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_23_23_i_1__13
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[23]),
         .I3(i_data_from_core_IBUF[23]),
         .O(p_1_in[23]));
@@ -40229,7 +39901,7 @@ module data_mem_column_4
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "24" *) 
   (* ram_slice_end = "24" *) 
-  RAM32X1S_HD975 data_mem_reg_0_7_24_24
+  RAM32X1S_HD464 data_mem_reg_0_7_24_24
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -40242,8 +39914,8 @@ module data_mem_column_4
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_24_24_i_1__13
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[24]),
         .I3(i_data_from_core_IBUF[24]),
         .O(p_1_in[24]));
@@ -40258,7 +39930,7 @@ module data_mem_column_4
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "25" *) 
   (* ram_slice_end = "25" *) 
-  RAM32X1S_HD976 data_mem_reg_0_7_25_25
+  RAM32X1S_HD465 data_mem_reg_0_7_25_25
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -40271,8 +39943,8 @@ module data_mem_column_4
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_25_25_i_1__13
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[25]),
         .I3(i_data_from_core_IBUF[25]),
         .O(p_1_in[25]));
@@ -40287,7 +39959,7 @@ module data_mem_column_4
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "26" *) 
   (* ram_slice_end = "26" *) 
-  RAM32X1S_HD977 data_mem_reg_0_7_26_26
+  RAM32X1S_HD466 data_mem_reg_0_7_26_26
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -40300,8 +39972,8 @@ module data_mem_column_4
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_26_26_i_1__13
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[26]),
         .I3(i_data_from_core_IBUF[26]),
         .O(p_1_in[26]));
@@ -40316,7 +39988,7 @@ module data_mem_column_4
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "27" *) 
   (* ram_slice_end = "27" *) 
-  RAM32X1S_HD978 data_mem_reg_0_7_27_27
+  RAM32X1S_HD467 data_mem_reg_0_7_27_27
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -40329,8 +40001,8 @@ module data_mem_column_4
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_27_27_i_1__13
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[27]),
         .I3(i_data_from_core_IBUF[27]),
         .O(p_1_in[27]));
@@ -40345,7 +40017,7 @@ module data_mem_column_4
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "28" *) 
   (* ram_slice_end = "28" *) 
-  RAM32X1S_HD979 data_mem_reg_0_7_28_28
+  RAM32X1S_HD468 data_mem_reg_0_7_28_28
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -40358,8 +40030,8 @@ module data_mem_column_4
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_28_28_i_1__13
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[28]),
         .I3(i_data_from_core_IBUF[28]),
         .O(p_1_in[28]));
@@ -40374,7 +40046,7 @@ module data_mem_column_4
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "29" *) 
   (* ram_slice_end = "29" *) 
-  RAM32X1S_HD980 data_mem_reg_0_7_29_29
+  RAM32X1S_HD469 data_mem_reg_0_7_29_29
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -40387,8 +40059,8 @@ module data_mem_column_4
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_29_29_i_1__13
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[29]),
         .I3(i_data_from_core_IBUF[29]),
         .O(p_1_in[29]));
@@ -40403,7 +40075,7 @@ module data_mem_column_4
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "2" *) 
   (* ram_slice_end = "2" *) 
-  RAM32X1S_HD981 data_mem_reg_0_7_2_2
+  RAM32X1S_HD470 data_mem_reg_0_7_2_2
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -40416,8 +40088,8 @@ module data_mem_column_4
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_2_2_i_1__13
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[2]),
         .I3(i_data_from_core_IBUF[2]),
         .O(p_1_in[2]));
@@ -40432,7 +40104,7 @@ module data_mem_column_4
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "30" *) 
   (* ram_slice_end = "30" *) 
-  RAM32X1S_HD982 data_mem_reg_0_7_30_30
+  RAM32X1S_HD471 data_mem_reg_0_7_30_30
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -40445,8 +40117,8 @@ module data_mem_column_4
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_30_30_i_1__13
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[30]),
         .I3(i_data_from_core_IBUF[30]),
         .O(p_1_in[30]));
@@ -40461,7 +40133,7 @@ module data_mem_column_4
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "31" *) 
   (* ram_slice_end = "31" *) 
-  RAM32X1S_HD983 data_mem_reg_0_7_31_31
+  RAM32X1S_HD472 data_mem_reg_0_7_31_31
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -40474,8 +40146,8 @@ module data_mem_column_4
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_31_31_i_1__13
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[31]),
         .I3(i_data_from_core_IBUF[31]),
         .O(p_1_in[31]));
@@ -40490,7 +40162,7 @@ module data_mem_column_4
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "3" *) 
   (* ram_slice_end = "3" *) 
-  RAM32X1S_HD984 data_mem_reg_0_7_3_3
+  RAM32X1S_HD473 data_mem_reg_0_7_3_3
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -40503,8 +40175,8 @@ module data_mem_column_4
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_3_3_i_1__13
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[3]),
         .I3(i_data_from_core_IBUF[3]),
         .O(p_1_in[3]));
@@ -40519,7 +40191,7 @@ module data_mem_column_4
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "4" *) 
   (* ram_slice_end = "4" *) 
-  RAM32X1S_HD985 data_mem_reg_0_7_4_4
+  RAM32X1S_HD474 data_mem_reg_0_7_4_4
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -40532,8 +40204,8 @@ module data_mem_column_4
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_4_4_i_1__13
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[4]),
         .I3(i_data_from_core_IBUF[4]),
         .O(p_1_in[4]));
@@ -40548,7 +40220,7 @@ module data_mem_column_4
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "5" *) 
   (* ram_slice_end = "5" *) 
-  RAM32X1S_HD986 data_mem_reg_0_7_5_5
+  RAM32X1S_HD475 data_mem_reg_0_7_5_5
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -40561,8 +40233,8 @@ module data_mem_column_4
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_5_5_i_1__13
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[5]),
         .I3(i_data_from_core_IBUF[5]),
         .O(p_1_in[5]));
@@ -40577,7 +40249,7 @@ module data_mem_column_4
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "6" *) 
   (* ram_slice_end = "6" *) 
-  RAM32X1S_HD987 data_mem_reg_0_7_6_6
+  RAM32X1S_HD476 data_mem_reg_0_7_6_6
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -40590,8 +40262,8 @@ module data_mem_column_4
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_6_6_i_1__13
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[6]),
         .I3(i_data_from_core_IBUF[6]),
         .O(p_1_in[6]));
@@ -40606,7 +40278,7 @@ module data_mem_column_4
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "7" *) 
   (* ram_slice_end = "7" *) 
-  RAM32X1S_HD988 data_mem_reg_0_7_7_7
+  RAM32X1S_HD477 data_mem_reg_0_7_7_7
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -40619,8 +40291,8 @@ module data_mem_column_4
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_7_7_i_1__13
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[7]),
         .I3(i_data_from_core_IBUF[7]),
         .O(p_1_in[7]));
@@ -40635,7 +40307,7 @@ module data_mem_column_4
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "8" *) 
   (* ram_slice_end = "8" *) 
-  RAM32X1S_HD989 data_mem_reg_0_7_8_8
+  RAM32X1S_HD478 data_mem_reg_0_7_8_8
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -40648,8 +40320,8 @@ module data_mem_column_4
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_8_8_i_1__13
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[8]),
         .I3(i_data_from_core_IBUF[8]),
         .O(p_1_in[8]));
@@ -40664,7 +40336,7 @@ module data_mem_column_4
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "9" *) 
   (* ram_slice_end = "9" *) 
-  RAM32X1S_HD990 data_mem_reg_0_7_9_9
+  RAM32X1S_HD479 data_mem_reg_0_7_9_9
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -40677,46 +40349,646 @@ module data_mem_column_4
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_9_9_i_1__13
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF[3]),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[9]),
         .I3(i_data_from_core_IBUF[9]),
         .O(p_1_in[9]));
+  LUT5 #(
+    .INIT(32'hFFFFFEEE)) 
+    \o_data_to_core_reg[0]_i_1 
+       (.I0(\o_data_to_core_reg[0] ),
+        .I1(\o_data_to_core_reg[0]_i_3_n_2 ),
+        .I2(\o_data_to_core_reg[31]_i_4_n_2 ),
+        .I3(o_data[0]),
+        .I4(\o_data_to_core_reg[0]_0 ),
+        .O(D[0]));
+  (* SOFT_HLUTNM = "soft_lutpair0" *) 
+  LUT5 #(
+    .INIT(32'h00C0A000)) 
+    \o_data_to_core_reg[0]_i_3 
+       (.I0(\i_index[0] [0]),
+        .I1(\o_data_to_core_reg[31]_i_1_0 [0]),
+        .I2(o_data_to_core1),
+        .I3(i_offset_IBUF[1]),
+        .I4(i_offset_IBUF[0]),
+        .O(\o_data_to_core_reg[0]_i_3_n_2 ));
+  LUT5 #(
+    .INIT(32'hFFFFFEEE)) 
+    \o_data_to_core_reg[10]_i_1 
+       (.I0(\o_data_to_core_reg[10] ),
+        .I1(\o_data_to_core_reg[10]_i_3_n_2 ),
+        .I2(\o_data_to_core_reg[31]_i_4_n_2 ),
+        .I3(o_data[10]),
+        .I4(\o_data_to_core_reg[10]_0 ),
+        .O(D[10]));
+  LUT5 #(
+    .INIT(32'h00C0A000)) 
+    \o_data_to_core_reg[10]_i_3 
+       (.I0(\i_index[0] [10]),
+        .I1(\o_data_to_core_reg[31]_i_1_0 [10]),
+        .I2(o_data_to_core1),
+        .I3(i_offset_IBUF[1]),
+        .I4(i_offset_IBUF[0]),
+        .O(\o_data_to_core_reg[10]_i_3_n_2 ));
+  LUT5 #(
+    .INIT(32'hFFFFFEEE)) 
+    \o_data_to_core_reg[11]_i_1 
+       (.I0(\o_data_to_core_reg[11] ),
+        .I1(\o_data_to_core_reg[11]_i_3_n_2 ),
+        .I2(\o_data_to_core_reg[31]_i_4_n_2 ),
+        .I3(o_data[11]),
+        .I4(\o_data_to_core_reg[11]_0 ),
+        .O(D[11]));
+  LUT5 #(
+    .INIT(32'h00C0A000)) 
+    \o_data_to_core_reg[11]_i_3 
+       (.I0(\i_index[0] [11]),
+        .I1(\o_data_to_core_reg[31]_i_1_0 [11]),
+        .I2(o_data_to_core1),
+        .I3(i_offset_IBUF[1]),
+        .I4(i_offset_IBUF[0]),
+        .O(\o_data_to_core_reg[11]_i_3_n_2 ));
+  LUT5 #(
+    .INIT(32'hFFFFFEEE)) 
+    \o_data_to_core_reg[12]_i_1 
+       (.I0(\o_data_to_core_reg[12] ),
+        .I1(\o_data_to_core_reg[12]_i_3_n_2 ),
+        .I2(\o_data_to_core_reg[31]_i_4_n_2 ),
+        .I3(o_data[12]),
+        .I4(\o_data_to_core_reg[12]_0 ),
+        .O(D[12]));
+  LUT5 #(
+    .INIT(32'h00C0A000)) 
+    \o_data_to_core_reg[12]_i_3 
+       (.I0(\i_index[0] [12]),
+        .I1(\o_data_to_core_reg[31]_i_1_0 [12]),
+        .I2(o_data_to_core1),
+        .I3(i_offset_IBUF[1]),
+        .I4(i_offset_IBUF[0]),
+        .O(\o_data_to_core_reg[12]_i_3_n_2 ));
+  LUT5 #(
+    .INIT(32'hFFFFFEEE)) 
+    \o_data_to_core_reg[13]_i_1 
+       (.I0(\o_data_to_core_reg[13] ),
+        .I1(\o_data_to_core_reg[13]_i_3_n_2 ),
+        .I2(\o_data_to_core_reg[31]_i_4_n_2 ),
+        .I3(o_data[13]),
+        .I4(\o_data_to_core_reg[13]_0 ),
+        .O(D[13]));
+  LUT5 #(
+    .INIT(32'h00C0A000)) 
+    \o_data_to_core_reg[13]_i_3 
+       (.I0(\i_index[0] [13]),
+        .I1(\o_data_to_core_reg[31]_i_1_0 [13]),
+        .I2(o_data_to_core1),
+        .I3(i_offset_IBUF[1]),
+        .I4(i_offset_IBUF[0]),
+        .O(\o_data_to_core_reg[13]_i_3_n_2 ));
+  LUT5 #(
+    .INIT(32'hFFFFFEEE)) 
+    \o_data_to_core_reg[14]_i_1 
+       (.I0(\o_data_to_core_reg[14] ),
+        .I1(\o_data_to_core_reg[14]_i_3_n_2 ),
+        .I2(\o_data_to_core_reg[31]_i_4_n_2 ),
+        .I3(o_data[14]),
+        .I4(\o_data_to_core_reg[14]_0 ),
+        .O(D[14]));
+  LUT5 #(
+    .INIT(32'h00C0A000)) 
+    \o_data_to_core_reg[14]_i_3 
+       (.I0(\i_index[0] [14]),
+        .I1(\o_data_to_core_reg[31]_i_1_0 [14]),
+        .I2(o_data_to_core1),
+        .I3(i_offset_IBUF[1]),
+        .I4(i_offset_IBUF[0]),
+        .O(\o_data_to_core_reg[14]_i_3_n_2 ));
+  LUT5 #(
+    .INIT(32'hFFFFFEEE)) 
+    \o_data_to_core_reg[15]_i_1 
+       (.I0(\o_data_to_core_reg[15] ),
+        .I1(\o_data_to_core_reg[15]_i_3_n_2 ),
+        .I2(\o_data_to_core_reg[31]_i_4_n_2 ),
+        .I3(o_data[15]),
+        .I4(\o_data_to_core_reg[15]_0 ),
+        .O(D[15]));
+  LUT5 #(
+    .INIT(32'h00C0A000)) 
+    \o_data_to_core_reg[15]_i_3 
+       (.I0(\i_index[0] [15]),
+        .I1(\o_data_to_core_reg[31]_i_1_0 [15]),
+        .I2(o_data_to_core1),
+        .I3(i_offset_IBUF[1]),
+        .I4(i_offset_IBUF[0]),
+        .O(\o_data_to_core_reg[15]_i_3_n_2 ));
+  LUT5 #(
+    .INIT(32'hFFFFFEEE)) 
+    \o_data_to_core_reg[16]_i_1 
+       (.I0(\o_data_to_core_reg[16] ),
+        .I1(\o_data_to_core_reg[16]_i_3_n_2 ),
+        .I2(\o_data_to_core_reg[31]_i_4_n_2 ),
+        .I3(o_data[16]),
+        .I4(\o_data_to_core_reg[16]_0 ),
+        .O(D[16]));
+  LUT5 #(
+    .INIT(32'h00C0A000)) 
+    \o_data_to_core_reg[16]_i_3 
+       (.I0(\i_index[0] [16]),
+        .I1(\o_data_to_core_reg[31]_i_1_0 [16]),
+        .I2(o_data_to_core1),
+        .I3(i_offset_IBUF[1]),
+        .I4(i_offset_IBUF[0]),
+        .O(\o_data_to_core_reg[16]_i_3_n_2 ));
+  LUT5 #(
+    .INIT(32'hFFFFFEEE)) 
+    \o_data_to_core_reg[17]_i_1 
+       (.I0(\o_data_to_core_reg[17] ),
+        .I1(\o_data_to_core_reg[17]_i_3_n_2 ),
+        .I2(\o_data_to_core_reg[31]_i_4_n_2 ),
+        .I3(o_data[17]),
+        .I4(\o_data_to_core_reg[17]_0 ),
+        .O(D[17]));
+  LUT5 #(
+    .INIT(32'h00C0A000)) 
+    \o_data_to_core_reg[17]_i_3 
+       (.I0(\i_index[0] [17]),
+        .I1(\o_data_to_core_reg[31]_i_1_0 [17]),
+        .I2(o_data_to_core1),
+        .I3(i_offset_IBUF[1]),
+        .I4(i_offset_IBUF[0]),
+        .O(\o_data_to_core_reg[17]_i_3_n_2 ));
+  LUT5 #(
+    .INIT(32'hFFFFFEEE)) 
+    \o_data_to_core_reg[18]_i_1 
+       (.I0(\o_data_to_core_reg[18] ),
+        .I1(\o_data_to_core_reg[18]_i_3_n_2 ),
+        .I2(\o_data_to_core_reg[31]_i_4_n_2 ),
+        .I3(o_data[18]),
+        .I4(\o_data_to_core_reg[18]_0 ),
+        .O(D[18]));
+  LUT5 #(
+    .INIT(32'h00C0A000)) 
+    \o_data_to_core_reg[18]_i_3 
+       (.I0(\i_index[0] [18]),
+        .I1(\o_data_to_core_reg[31]_i_1_0 [18]),
+        .I2(o_data_to_core1),
+        .I3(i_offset_IBUF[1]),
+        .I4(i_offset_IBUF[0]),
+        .O(\o_data_to_core_reg[18]_i_3_n_2 ));
+  LUT5 #(
+    .INIT(32'hFFFFFEEE)) 
+    \o_data_to_core_reg[19]_i_1 
+       (.I0(\o_data_to_core_reg[19] ),
+        .I1(\o_data_to_core_reg[19]_i_3_n_2 ),
+        .I2(\o_data_to_core_reg[31]_i_4_n_2 ),
+        .I3(o_data[19]),
+        .I4(\o_data_to_core_reg[19]_0 ),
+        .O(D[19]));
+  LUT5 #(
+    .INIT(32'h00C0A000)) 
+    \o_data_to_core_reg[19]_i_3 
+       (.I0(\i_index[0] [19]),
+        .I1(\o_data_to_core_reg[31]_i_1_0 [19]),
+        .I2(o_data_to_core1),
+        .I3(i_offset_IBUF[1]),
+        .I4(i_offset_IBUF[0]),
+        .O(\o_data_to_core_reg[19]_i_3_n_2 ));
+  LUT5 #(
+    .INIT(32'hFFFFFEEE)) 
+    \o_data_to_core_reg[1]_i_1 
+       (.I0(\o_data_to_core_reg[1] ),
+        .I1(\o_data_to_core_reg[1]_i_3_n_2 ),
+        .I2(\o_data_to_core_reg[31]_i_4_n_2 ),
+        .I3(o_data[1]),
+        .I4(\o_data_to_core_reg[1]_0 ),
+        .O(D[1]));
+  LUT5 #(
+    .INIT(32'h00C0A000)) 
+    \o_data_to_core_reg[1]_i_3 
+       (.I0(\i_index[0] [1]),
+        .I1(\o_data_to_core_reg[31]_i_1_0 [1]),
+        .I2(o_data_to_core1),
+        .I3(i_offset_IBUF[1]),
+        .I4(i_offset_IBUF[0]),
+        .O(\o_data_to_core_reg[1]_i_3_n_2 ));
+  LUT5 #(
+    .INIT(32'hFFFFFEEE)) 
+    \o_data_to_core_reg[20]_i_1 
+       (.I0(\o_data_to_core_reg[20] ),
+        .I1(\o_data_to_core_reg[20]_i_3_n_2 ),
+        .I2(\o_data_to_core_reg[31]_i_4_n_2 ),
+        .I3(o_data[20]),
+        .I4(\o_data_to_core_reg[20]_0 ),
+        .O(D[20]));
+  LUT5 #(
+    .INIT(32'h00C0A000)) 
+    \o_data_to_core_reg[20]_i_3 
+       (.I0(\i_index[0] [20]),
+        .I1(\o_data_to_core_reg[31]_i_1_0 [20]),
+        .I2(o_data_to_core1),
+        .I3(i_offset_IBUF[1]),
+        .I4(i_offset_IBUF[0]),
+        .O(\o_data_to_core_reg[20]_i_3_n_2 ));
+  LUT5 #(
+    .INIT(32'hFFFFFEEE)) 
+    \o_data_to_core_reg[21]_i_1 
+       (.I0(\o_data_to_core_reg[21] ),
+        .I1(\o_data_to_core_reg[21]_i_3_n_2 ),
+        .I2(\o_data_to_core_reg[31]_i_4_n_2 ),
+        .I3(o_data[21]),
+        .I4(\o_data_to_core_reg[21]_0 ),
+        .O(D[21]));
+  LUT5 #(
+    .INIT(32'h00C0A000)) 
+    \o_data_to_core_reg[21]_i_3 
+       (.I0(\i_index[0] [21]),
+        .I1(\o_data_to_core_reg[31]_i_1_0 [21]),
+        .I2(o_data_to_core1),
+        .I3(i_offset_IBUF[1]),
+        .I4(i_offset_IBUF[0]),
+        .O(\o_data_to_core_reg[21]_i_3_n_2 ));
+  LUT5 #(
+    .INIT(32'hFFFFFEEE)) 
+    \o_data_to_core_reg[22]_i_1 
+       (.I0(\o_data_to_core_reg[22] ),
+        .I1(\o_data_to_core_reg[22]_i_3_n_2 ),
+        .I2(\o_data_to_core_reg[31]_i_4_n_2 ),
+        .I3(o_data[22]),
+        .I4(\o_data_to_core_reg[22]_0 ),
+        .O(D[22]));
+  LUT5 #(
+    .INIT(32'h00C0A000)) 
+    \o_data_to_core_reg[22]_i_3 
+       (.I0(\i_index[0] [22]),
+        .I1(\o_data_to_core_reg[31]_i_1_0 [22]),
+        .I2(o_data_to_core1),
+        .I3(i_offset_IBUF[1]),
+        .I4(i_offset_IBUF[0]),
+        .O(\o_data_to_core_reg[22]_i_3_n_2 ));
+  LUT5 #(
+    .INIT(32'hFFFFFEEE)) 
+    \o_data_to_core_reg[23]_i_1 
+       (.I0(\o_data_to_core_reg[23] ),
+        .I1(\o_data_to_core_reg[23]_i_3_n_2 ),
+        .I2(\o_data_to_core_reg[31]_i_4_n_2 ),
+        .I3(o_data[23]),
+        .I4(\o_data_to_core_reg[23]_0 ),
+        .O(D[23]));
+  LUT5 #(
+    .INIT(32'h00C0A000)) 
+    \o_data_to_core_reg[23]_i_3 
+       (.I0(\i_index[0] [23]),
+        .I1(\o_data_to_core_reg[31]_i_1_0 [23]),
+        .I2(o_data_to_core1),
+        .I3(i_offset_IBUF[1]),
+        .I4(i_offset_IBUF[0]),
+        .O(\o_data_to_core_reg[23]_i_3_n_2 ));
+  LUT5 #(
+    .INIT(32'hFFFFFEEE)) 
+    \o_data_to_core_reg[24]_i_1 
+       (.I0(\o_data_to_core_reg[24] ),
+        .I1(\o_data_to_core_reg[24]_i_3_n_2 ),
+        .I2(\o_data_to_core_reg[31]_i_4_n_2 ),
+        .I3(o_data[24]),
+        .I4(\o_data_to_core_reg[24]_0 ),
+        .O(D[24]));
+  LUT5 #(
+    .INIT(32'h00C0A000)) 
+    \o_data_to_core_reg[24]_i_3 
+       (.I0(\i_index[0] [24]),
+        .I1(\o_data_to_core_reg[31]_i_1_0 [24]),
+        .I2(o_data_to_core1),
+        .I3(i_offset_IBUF[1]),
+        .I4(i_offset_IBUF[0]),
+        .O(\o_data_to_core_reg[24]_i_3_n_2 ));
+  LUT5 #(
+    .INIT(32'hFFFFFEEE)) 
+    \o_data_to_core_reg[25]_i_1 
+       (.I0(\o_data_to_core_reg[25] ),
+        .I1(\o_data_to_core_reg[25]_i_3_n_2 ),
+        .I2(\o_data_to_core_reg[31]_i_4_n_2 ),
+        .I3(o_data[25]),
+        .I4(\o_data_to_core_reg[25]_0 ),
+        .O(D[25]));
+  LUT5 #(
+    .INIT(32'h00C0A000)) 
+    \o_data_to_core_reg[25]_i_3 
+       (.I0(\i_index[0] [25]),
+        .I1(\o_data_to_core_reg[31]_i_1_0 [25]),
+        .I2(o_data_to_core1),
+        .I3(i_offset_IBUF[1]),
+        .I4(i_offset_IBUF[0]),
+        .O(\o_data_to_core_reg[25]_i_3_n_2 ));
+  LUT5 #(
+    .INIT(32'hFFFFFEEE)) 
+    \o_data_to_core_reg[26]_i_1 
+       (.I0(\o_data_to_core_reg[26] ),
+        .I1(\o_data_to_core_reg[26]_i_3_n_2 ),
+        .I2(\o_data_to_core_reg[31]_i_4_n_2 ),
+        .I3(o_data[26]),
+        .I4(\o_data_to_core_reg[26]_0 ),
+        .O(D[26]));
+  LUT5 #(
+    .INIT(32'h00C0A000)) 
+    \o_data_to_core_reg[26]_i_3 
+       (.I0(\i_index[0] [26]),
+        .I1(\o_data_to_core_reg[31]_i_1_0 [26]),
+        .I2(o_data_to_core1),
+        .I3(i_offset_IBUF[1]),
+        .I4(i_offset_IBUF[0]),
+        .O(\o_data_to_core_reg[26]_i_3_n_2 ));
+  LUT5 #(
+    .INIT(32'hFFFFFEEE)) 
+    \o_data_to_core_reg[27]_i_1 
+       (.I0(\o_data_to_core_reg[27] ),
+        .I1(\o_data_to_core_reg[27]_i_3_n_2 ),
+        .I2(\o_data_to_core_reg[31]_i_4_n_2 ),
+        .I3(o_data[27]),
+        .I4(\o_data_to_core_reg[27]_0 ),
+        .O(D[27]));
+  LUT5 #(
+    .INIT(32'h00C0A000)) 
+    \o_data_to_core_reg[27]_i_3 
+       (.I0(\i_index[0] [27]),
+        .I1(\o_data_to_core_reg[31]_i_1_0 [27]),
+        .I2(o_data_to_core1),
+        .I3(i_offset_IBUF[1]),
+        .I4(i_offset_IBUF[0]),
+        .O(\o_data_to_core_reg[27]_i_3_n_2 ));
+  LUT5 #(
+    .INIT(32'hFFFFFEEE)) 
+    \o_data_to_core_reg[28]_i_1 
+       (.I0(\o_data_to_core_reg[28] ),
+        .I1(\o_data_to_core_reg[28]_i_3_n_2 ),
+        .I2(\o_data_to_core_reg[31]_i_4_n_2 ),
+        .I3(o_data[28]),
+        .I4(\o_data_to_core_reg[28]_0 ),
+        .O(D[28]));
+  LUT5 #(
+    .INIT(32'h00C0A000)) 
+    \o_data_to_core_reg[28]_i_3 
+       (.I0(\i_index[0] [28]),
+        .I1(\o_data_to_core_reg[31]_i_1_0 [28]),
+        .I2(o_data_to_core1),
+        .I3(i_offset_IBUF[1]),
+        .I4(i_offset_IBUF[0]),
+        .O(\o_data_to_core_reg[28]_i_3_n_2 ));
+  LUT5 #(
+    .INIT(32'hFFFFFEEE)) 
+    \o_data_to_core_reg[29]_i_1 
+       (.I0(\o_data_to_core_reg[29] ),
+        .I1(\o_data_to_core_reg[29]_i_3_n_2 ),
+        .I2(\o_data_to_core_reg[31]_i_4_n_2 ),
+        .I3(o_data[29]),
+        .I4(\o_data_to_core_reg[29]_0 ),
+        .O(D[29]));
+  LUT5 #(
+    .INIT(32'h00C0A000)) 
+    \o_data_to_core_reg[29]_i_3 
+       (.I0(\i_index[0] [29]),
+        .I1(\o_data_to_core_reg[31]_i_1_0 [29]),
+        .I2(o_data_to_core1),
+        .I3(i_offset_IBUF[1]),
+        .I4(i_offset_IBUF[0]),
+        .O(\o_data_to_core_reg[29]_i_3_n_2 ));
+  LUT5 #(
+    .INIT(32'hFFFFFEEE)) 
+    \o_data_to_core_reg[2]_i_1 
+       (.I0(\o_data_to_core_reg[2] ),
+        .I1(\o_data_to_core_reg[2]_i_3_n_2 ),
+        .I2(\o_data_to_core_reg[31]_i_4_n_2 ),
+        .I3(o_data[2]),
+        .I4(\o_data_to_core_reg[2]_0 ),
+        .O(D[2]));
+  LUT5 #(
+    .INIT(32'h00C0A000)) 
+    \o_data_to_core_reg[2]_i_3 
+       (.I0(\i_index[0] [2]),
+        .I1(\o_data_to_core_reg[31]_i_1_0 [2]),
+        .I2(o_data_to_core1),
+        .I3(i_offset_IBUF[1]),
+        .I4(i_offset_IBUF[0]),
+        .O(\o_data_to_core_reg[2]_i_3_n_2 ));
+  LUT5 #(
+    .INIT(32'hFFFFFEEE)) 
+    \o_data_to_core_reg[30]_i_1 
+       (.I0(\o_data_to_core_reg[30] ),
+        .I1(\o_data_to_core_reg[30]_i_3_n_2 ),
+        .I2(\o_data_to_core_reg[31]_i_4_n_2 ),
+        .I3(o_data[30]),
+        .I4(\o_data_to_core_reg[30]_0 ),
+        .O(D[30]));
+  LUT5 #(
+    .INIT(32'h00C0A000)) 
+    \o_data_to_core_reg[30]_i_3 
+       (.I0(\i_index[0] [30]),
+        .I1(\o_data_to_core_reg[31]_i_1_0 [30]),
+        .I2(o_data_to_core1),
+        .I3(i_offset_IBUF[1]),
+        .I4(i_offset_IBUF[0]),
+        .O(\o_data_to_core_reg[30]_i_3_n_2 ));
+  LUT5 #(
+    .INIT(32'hFFFFFEEE)) 
+    \o_data_to_core_reg[31]_i_1 
+       (.I0(\o_data_to_core_reg[31] ),
+        .I1(\o_data_to_core_reg[31]_i_3_n_2 ),
+        .I2(\o_data_to_core_reg[31]_i_4_n_2 ),
+        .I3(o_data[31]),
+        .I4(\o_data_to_core_reg[31]_0 ),
+        .O(D[31]));
+  (* SOFT_HLUTNM = "soft_lutpair0" *) 
+  LUT2 #(
+    .INIT(4'h8)) 
+    \o_data_to_core_reg[31]_i_10 
+       (.I0(i_offset_IBUF[0]),
+        .I1(i_offset_IBUF[1]),
+        .O(\o_data_to_core_reg[31]_i_10_n_2 ));
+  LUT5 #(
+    .INIT(32'h00C0A000)) 
+    \o_data_to_core_reg[31]_i_3 
+       (.I0(\i_index[0] [31]),
+        .I1(\o_data_to_core_reg[31]_i_1_0 [31]),
+        .I2(o_data_to_core1),
+        .I3(i_offset_IBUF[1]),
+        .I4(i_offset_IBUF[0]),
+        .O(\o_data_to_core_reg[31]_i_3_n_2 ));
+  LUT6 #(
+    .INIT(64'h0000020000000000)) 
+    \o_data_to_core_reg[31]_i_4 
+       (.I0(\o_data_to_core_reg[31]_i_10_n_2 ),
+        .I1(i_way_IBUF[2]),
+        .I2(i_way_IBUF[0]),
+        .I3(i_rd_IBUF),
+        .I4(i_way_IBUF[1]),
+        .I5(i_way_IBUF[3]),
+        .O(\o_data_to_core_reg[31]_i_4_n_2 ));
+  LUT5 #(
+    .INIT(32'h00000020)) 
+    \o_data_to_core_reg[31]_i_9 
+       (.I0(i_way_IBUF[3]),
+        .I1(i_way_IBUF[1]),
+        .I2(i_rd_IBUF),
+        .I3(i_way_IBUF[0]),
+        .I4(i_way_IBUF[2]),
+        .O(o_data_to_core1));
+  LUT5 #(
+    .INIT(32'hFFFFFEEE)) 
+    \o_data_to_core_reg[3]_i_1 
+       (.I0(\o_data_to_core_reg[3] ),
+        .I1(\o_data_to_core_reg[3]_i_3_n_2 ),
+        .I2(\o_data_to_core_reg[31]_i_4_n_2 ),
+        .I3(o_data[3]),
+        .I4(\o_data_to_core_reg[3]_0 ),
+        .O(D[3]));
+  LUT5 #(
+    .INIT(32'h00C0A000)) 
+    \o_data_to_core_reg[3]_i_3 
+       (.I0(\i_index[0] [3]),
+        .I1(\o_data_to_core_reg[31]_i_1_0 [3]),
+        .I2(o_data_to_core1),
+        .I3(i_offset_IBUF[1]),
+        .I4(i_offset_IBUF[0]),
+        .O(\o_data_to_core_reg[3]_i_3_n_2 ));
+  LUT5 #(
+    .INIT(32'hFFFFFEEE)) 
+    \o_data_to_core_reg[4]_i_1 
+       (.I0(\o_data_to_core_reg[4] ),
+        .I1(\o_data_to_core_reg[4]_i_3_n_2 ),
+        .I2(\o_data_to_core_reg[31]_i_4_n_2 ),
+        .I3(o_data[4]),
+        .I4(\o_data_to_core_reg[4]_0 ),
+        .O(D[4]));
+  LUT5 #(
+    .INIT(32'h00C0A000)) 
+    \o_data_to_core_reg[4]_i_3 
+       (.I0(\i_index[0] [4]),
+        .I1(\o_data_to_core_reg[31]_i_1_0 [4]),
+        .I2(o_data_to_core1),
+        .I3(i_offset_IBUF[1]),
+        .I4(i_offset_IBUF[0]),
+        .O(\o_data_to_core_reg[4]_i_3_n_2 ));
+  LUT5 #(
+    .INIT(32'hFFFFFEEE)) 
+    \o_data_to_core_reg[5]_i_1 
+       (.I0(\o_data_to_core_reg[5] ),
+        .I1(\o_data_to_core_reg[5]_i_3_n_2 ),
+        .I2(\o_data_to_core_reg[31]_i_4_n_2 ),
+        .I3(o_data[5]),
+        .I4(\o_data_to_core_reg[5]_0 ),
+        .O(D[5]));
+  LUT5 #(
+    .INIT(32'h00C0A000)) 
+    \o_data_to_core_reg[5]_i_3 
+       (.I0(\i_index[0] [5]),
+        .I1(\o_data_to_core_reg[31]_i_1_0 [5]),
+        .I2(o_data_to_core1),
+        .I3(i_offset_IBUF[1]),
+        .I4(i_offset_IBUF[0]),
+        .O(\o_data_to_core_reg[5]_i_3_n_2 ));
+  LUT5 #(
+    .INIT(32'hFFFFFEEE)) 
+    \o_data_to_core_reg[6]_i_1 
+       (.I0(\o_data_to_core_reg[6] ),
+        .I1(\o_data_to_core_reg[6]_i_3_n_2 ),
+        .I2(\o_data_to_core_reg[31]_i_4_n_2 ),
+        .I3(o_data[6]),
+        .I4(\o_data_to_core_reg[6]_0 ),
+        .O(D[6]));
+  LUT5 #(
+    .INIT(32'h00C0A000)) 
+    \o_data_to_core_reg[6]_i_3 
+       (.I0(\i_index[0] [6]),
+        .I1(\o_data_to_core_reg[31]_i_1_0 [6]),
+        .I2(o_data_to_core1),
+        .I3(i_offset_IBUF[1]),
+        .I4(i_offset_IBUF[0]),
+        .O(\o_data_to_core_reg[6]_i_3_n_2 ));
+  LUT5 #(
+    .INIT(32'hFFFFFEEE)) 
+    \o_data_to_core_reg[7]_i_1 
+       (.I0(\o_data_to_core_reg[7] ),
+        .I1(\o_data_to_core_reg[7]_i_3_n_2 ),
+        .I2(\o_data_to_core_reg[31]_i_4_n_2 ),
+        .I3(o_data[7]),
+        .I4(\o_data_to_core_reg[7]_0 ),
+        .O(D[7]));
+  LUT5 #(
+    .INIT(32'h00C0A000)) 
+    \o_data_to_core_reg[7]_i_3 
+       (.I0(\i_index[0] [7]),
+        .I1(\o_data_to_core_reg[31]_i_1_0 [7]),
+        .I2(o_data_to_core1),
+        .I3(i_offset_IBUF[1]),
+        .I4(i_offset_IBUF[0]),
+        .O(\o_data_to_core_reg[7]_i_3_n_2 ));
+  LUT5 #(
+    .INIT(32'hFFFFFEEE)) 
+    \o_data_to_core_reg[8]_i_1 
+       (.I0(\o_data_to_core_reg[8] ),
+        .I1(\o_data_to_core_reg[8]_i_3_n_2 ),
+        .I2(\o_data_to_core_reg[31]_i_4_n_2 ),
+        .I3(o_data[8]),
+        .I4(\o_data_to_core_reg[8]_0 ),
+        .O(D[8]));
+  LUT5 #(
+    .INIT(32'h00C0A000)) 
+    \o_data_to_core_reg[8]_i_3 
+       (.I0(\i_index[0] [8]),
+        .I1(\o_data_to_core_reg[31]_i_1_0 [8]),
+        .I2(o_data_to_core1),
+        .I3(i_offset_IBUF[1]),
+        .I4(i_offset_IBUF[0]),
+        .O(\o_data_to_core_reg[8]_i_3_n_2 ));
+  LUT5 #(
+    .INIT(32'hFFFFFEEE)) 
+    \o_data_to_core_reg[9]_i_1 
+       (.I0(\o_data_to_core_reg[9] ),
+        .I1(\o_data_to_core_reg[9]_i_3_n_2 ),
+        .I2(\o_data_to_core_reg[31]_i_4_n_2 ),
+        .I3(o_data[9]),
+        .I4(\o_data_to_core_reg[9]_0 ),
+        .O(D[9]));
+  LUT5 #(
+    .INIT(32'h00C0A000)) 
+    \o_data_to_core_reg[9]_i_3 
+       (.I0(\i_index[0] [9]),
+        .I1(\o_data_to_core_reg[31]_i_1_0 [9]),
+        .I2(o_data_to_core1),
+        .I3(i_offset_IBUF[1]),
+        .I4(i_offset_IBUF[0]),
+        .O(\o_data_to_core_reg[9]_i_3_n_2 ));
 endmodule
 
 (* ORIG_REF_NAME = "data_mem_column" *) 
 module data_mem_column_5
-   (\i_index[0] ,
+   (o_data,
+    i_way_IBUF,
     i_data_from_mem_valid_IBUF,
-    i_LRU_IBUF,
     i_data_from_mem_IBUF,
     i_data_from_core_IBUF,
     i_offset_IBUF,
-    i_way_IBUF,
     i_wr_IBUF,
     clk_IBUF_BUFG,
     i_index_IBUF);
-  output [31:0]\i_index[0] ;
+  output [31:0]o_data;
+  input [0:0]i_way_IBUF;
   input i_data_from_mem_valid_IBUF;
-  input [0:0]i_LRU_IBUF;
   input [31:0]i_data_from_mem_IBUF;
   input [31:0]i_data_from_core_IBUF;
   input [1:0]i_offset_IBUF;
-  input [0:0]i_way_IBUF;
   input i_wr_IBUF;
   input clk_IBUF_BUFG;
   input [2:0]i_index_IBUF;
 
   wire clk_IBUF_BUFG;
-  wire [0:0]i_LRU_IBUF;
   wire [31:0]i_data_from_core_IBUF;
   wire [31:0]i_data_from_mem_IBUF;
   wire i_data_from_mem_valid_IBUF;
-  wire [31:0]\i_index[0] ;
   wire [2:0]i_index_IBUF;
   wire [1:0]i_offset_IBUF;
   wire [0:0]i_way_IBUF;
   wire i_wr_IBUF;
+  wire [31:0]o_data;
   wire p_0_in__14;
   wire [31:0]p_1_in;
 
@@ -40731,33 +41003,32 @@ module data_mem_column_5
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "0" *) 
   (* ram_slice_end = "0" *) 
-  RAM32X1S_HD991 data_mem_reg_0_7_0_0
+  RAM32X1S_HD480 data_mem_reg_0_7_0_0
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[0]),
-        .O(\i_index[0] [0]),
+        .O(o_data[0]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__14));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_0_0_i_1__14
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[0]),
         .I3(i_data_from_core_IBUF[0]),
         .O(p_1_in[0]));
-  LUT6 #(
-    .INIT(64'hF888888888888888)) 
+  LUT5 #(
+    .INIT(32'hA8888888)) 
     data_mem_reg_0_7_0_0_i_2__11
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
-        .I2(i_offset_IBUF[0]),
-        .I3(i_offset_IBUF[1]),
-        .I4(i_way_IBUF),
-        .I5(i_wr_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
+        .I2(i_offset_IBUF[1]),
+        .I3(i_offset_IBUF[0]),
+        .I4(i_wr_IBUF),
         .O(p_0_in__14));
   (* INIT = "32'h00000003" *) 
   (* RTL_RAM_BITS = "256" *) 
@@ -40770,21 +41041,21 @@ module data_mem_column_5
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "10" *) 
   (* ram_slice_end = "10" *) 
-  RAM32X1S_HD992 data_mem_reg_0_7_10_10
+  RAM32X1S_HD481 data_mem_reg_0_7_10_10
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[10]),
-        .O(\i_index[0] [10]),
+        .O(o_data[10]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__14));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_10_10_i_1__14
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[10]),
         .I3(i_data_from_core_IBUF[10]),
         .O(p_1_in[10]));
@@ -40799,21 +41070,21 @@ module data_mem_column_5
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "11" *) 
   (* ram_slice_end = "11" *) 
-  RAM32X1S_HD993 data_mem_reg_0_7_11_11
+  RAM32X1S_HD482 data_mem_reg_0_7_11_11
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[11]),
-        .O(\i_index[0] [11]),
+        .O(o_data[11]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__14));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_11_11_i_1__14
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[11]),
         .I3(i_data_from_core_IBUF[11]),
         .O(p_1_in[11]));
@@ -40828,21 +41099,21 @@ module data_mem_column_5
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "12" *) 
   (* ram_slice_end = "12" *) 
-  RAM32X1S_HD994 data_mem_reg_0_7_12_12
+  RAM32X1S_HD483 data_mem_reg_0_7_12_12
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[12]),
-        .O(\i_index[0] [12]),
+        .O(o_data[12]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__14));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_12_12_i_1__14
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[12]),
         .I3(i_data_from_core_IBUF[12]),
         .O(p_1_in[12]));
@@ -40857,21 +41128,21 @@ module data_mem_column_5
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "13" *) 
   (* ram_slice_end = "13" *) 
-  RAM32X1S_HD995 data_mem_reg_0_7_13_13
+  RAM32X1S_HD484 data_mem_reg_0_7_13_13
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[13]),
-        .O(\i_index[0] [13]),
+        .O(o_data[13]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__14));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_13_13_i_1__14
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[13]),
         .I3(i_data_from_core_IBUF[13]),
         .O(p_1_in[13]));
@@ -40886,21 +41157,21 @@ module data_mem_column_5
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "14" *) 
   (* ram_slice_end = "14" *) 
-  RAM32X1S_HD996 data_mem_reg_0_7_14_14
+  RAM32X1S_HD485 data_mem_reg_0_7_14_14
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[14]),
-        .O(\i_index[0] [14]),
+        .O(o_data[14]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__14));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_14_14_i_1__14
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[14]),
         .I3(i_data_from_core_IBUF[14]),
         .O(p_1_in[14]));
@@ -40915,21 +41186,21 @@ module data_mem_column_5
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "15" *) 
   (* ram_slice_end = "15" *) 
-  RAM32X1S_HD997 data_mem_reg_0_7_15_15
+  RAM32X1S_HD486 data_mem_reg_0_7_15_15
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[15]),
-        .O(\i_index[0] [15]),
+        .O(o_data[15]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__14));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_15_15_i_1__14
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[15]),
         .I3(i_data_from_core_IBUF[15]),
         .O(p_1_in[15]));
@@ -40944,21 +41215,21 @@ module data_mem_column_5
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "16" *) 
   (* ram_slice_end = "16" *) 
-  RAM32X1S_HD998 data_mem_reg_0_7_16_16
+  RAM32X1S_HD487 data_mem_reg_0_7_16_16
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[16]),
-        .O(\i_index[0] [16]),
+        .O(o_data[16]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__14));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_16_16_i_1__14
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[16]),
         .I3(i_data_from_core_IBUF[16]),
         .O(p_1_in[16]));
@@ -40973,21 +41244,21 @@ module data_mem_column_5
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "17" *) 
   (* ram_slice_end = "17" *) 
-  RAM32X1S_HD999 data_mem_reg_0_7_17_17
+  RAM32X1S_HD488 data_mem_reg_0_7_17_17
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[17]),
-        .O(\i_index[0] [17]),
+        .O(o_data[17]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__14));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_17_17_i_1__14
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[17]),
         .I3(i_data_from_core_IBUF[17]),
         .O(p_1_in[17]));
@@ -41002,21 +41273,21 @@ module data_mem_column_5
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "18" *) 
   (* ram_slice_end = "18" *) 
-  RAM32X1S_HD1000 data_mem_reg_0_7_18_18
+  RAM32X1S_HD489 data_mem_reg_0_7_18_18
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[18]),
-        .O(\i_index[0] [18]),
+        .O(o_data[18]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__14));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_18_18_i_1__14
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[18]),
         .I3(i_data_from_core_IBUF[18]),
         .O(p_1_in[18]));
@@ -41031,21 +41302,21 @@ module data_mem_column_5
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "19" *) 
   (* ram_slice_end = "19" *) 
-  RAM32X1S_HD1001 data_mem_reg_0_7_19_19
+  RAM32X1S_HD490 data_mem_reg_0_7_19_19
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[19]),
-        .O(\i_index[0] [19]),
+        .O(o_data[19]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__14));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_19_19_i_1__14
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[19]),
         .I3(i_data_from_core_IBUF[19]),
         .O(p_1_in[19]));
@@ -41060,21 +41331,21 @@ module data_mem_column_5
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "1" *) 
   (* ram_slice_end = "1" *) 
-  RAM32X1S_HD1002 data_mem_reg_0_7_1_1
+  RAM32X1S_HD491 data_mem_reg_0_7_1_1
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[1]),
-        .O(\i_index[0] [1]),
+        .O(o_data[1]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__14));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_1_1_i_1__14
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[1]),
         .I3(i_data_from_core_IBUF[1]),
         .O(p_1_in[1]));
@@ -41089,21 +41360,21 @@ module data_mem_column_5
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "20" *) 
   (* ram_slice_end = "20" *) 
-  RAM32X1S_HD1003 data_mem_reg_0_7_20_20
+  RAM32X1S_HD492 data_mem_reg_0_7_20_20
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[20]),
-        .O(\i_index[0] [20]),
+        .O(o_data[20]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__14));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_20_20_i_1__14
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[20]),
         .I3(i_data_from_core_IBUF[20]),
         .O(p_1_in[20]));
@@ -41118,21 +41389,21 @@ module data_mem_column_5
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "21" *) 
   (* ram_slice_end = "21" *) 
-  RAM32X1S_HD1004 data_mem_reg_0_7_21_21
+  RAM32X1S_HD493 data_mem_reg_0_7_21_21
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[21]),
-        .O(\i_index[0] [21]),
+        .O(o_data[21]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__14));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_21_21_i_1__14
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[21]),
         .I3(i_data_from_core_IBUF[21]),
         .O(p_1_in[21]));
@@ -41147,21 +41418,21 @@ module data_mem_column_5
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "22" *) 
   (* ram_slice_end = "22" *) 
-  RAM32X1S_HD1005 data_mem_reg_0_7_22_22
+  RAM32X1S_HD494 data_mem_reg_0_7_22_22
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[22]),
-        .O(\i_index[0] [22]),
+        .O(o_data[22]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__14));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_22_22_i_1__14
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[22]),
         .I3(i_data_from_core_IBUF[22]),
         .O(p_1_in[22]));
@@ -41176,21 +41447,21 @@ module data_mem_column_5
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "23" *) 
   (* ram_slice_end = "23" *) 
-  RAM32X1S_HD1006 data_mem_reg_0_7_23_23
+  RAM32X1S_HD495 data_mem_reg_0_7_23_23
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[23]),
-        .O(\i_index[0] [23]),
+        .O(o_data[23]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__14));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_23_23_i_1__14
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[23]),
         .I3(i_data_from_core_IBUF[23]),
         .O(p_1_in[23]));
@@ -41205,21 +41476,21 @@ module data_mem_column_5
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "24" *) 
   (* ram_slice_end = "24" *) 
-  RAM32X1S_HD1007 data_mem_reg_0_7_24_24
+  RAM32X1S_HD496 data_mem_reg_0_7_24_24
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[24]),
-        .O(\i_index[0] [24]),
+        .O(o_data[24]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__14));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_24_24_i_1__14
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[24]),
         .I3(i_data_from_core_IBUF[24]),
         .O(p_1_in[24]));
@@ -41234,21 +41505,21 @@ module data_mem_column_5
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "25" *) 
   (* ram_slice_end = "25" *) 
-  RAM32X1S_HD1008 data_mem_reg_0_7_25_25
+  RAM32X1S_HD497 data_mem_reg_0_7_25_25
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[25]),
-        .O(\i_index[0] [25]),
+        .O(o_data[25]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__14));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_25_25_i_1__14
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[25]),
         .I3(i_data_from_core_IBUF[25]),
         .O(p_1_in[25]));
@@ -41263,21 +41534,21 @@ module data_mem_column_5
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "26" *) 
   (* ram_slice_end = "26" *) 
-  RAM32X1S_HD1009 data_mem_reg_0_7_26_26
+  RAM32X1S_HD498 data_mem_reg_0_7_26_26
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[26]),
-        .O(\i_index[0] [26]),
+        .O(o_data[26]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__14));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_26_26_i_1__14
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[26]),
         .I3(i_data_from_core_IBUF[26]),
         .O(p_1_in[26]));
@@ -41292,21 +41563,21 @@ module data_mem_column_5
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "27" *) 
   (* ram_slice_end = "27" *) 
-  RAM32X1S_HD1010 data_mem_reg_0_7_27_27
+  RAM32X1S_HD499 data_mem_reg_0_7_27_27
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[27]),
-        .O(\i_index[0] [27]),
+        .O(o_data[27]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__14));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_27_27_i_1__14
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[27]),
         .I3(i_data_from_core_IBUF[27]),
         .O(p_1_in[27]));
@@ -41321,21 +41592,21 @@ module data_mem_column_5
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "28" *) 
   (* ram_slice_end = "28" *) 
-  RAM32X1S_HD1011 data_mem_reg_0_7_28_28
+  RAM32X1S_HD500 data_mem_reg_0_7_28_28
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[28]),
-        .O(\i_index[0] [28]),
+        .O(o_data[28]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__14));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_28_28_i_1__14
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[28]),
         .I3(i_data_from_core_IBUF[28]),
         .O(p_1_in[28]));
@@ -41350,21 +41621,21 @@ module data_mem_column_5
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "29" *) 
   (* ram_slice_end = "29" *) 
-  RAM32X1S_HD1012 data_mem_reg_0_7_29_29
+  RAM32X1S_HD501 data_mem_reg_0_7_29_29
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[29]),
-        .O(\i_index[0] [29]),
+        .O(o_data[29]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__14));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_29_29_i_1__14
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[29]),
         .I3(i_data_from_core_IBUF[29]),
         .O(p_1_in[29]));
@@ -41379,21 +41650,21 @@ module data_mem_column_5
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "2" *) 
   (* ram_slice_end = "2" *) 
-  RAM32X1S_HD1013 data_mem_reg_0_7_2_2
+  RAM32X1S_HD502 data_mem_reg_0_7_2_2
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[2]),
-        .O(\i_index[0] [2]),
+        .O(o_data[2]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__14));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_2_2_i_1__14
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[2]),
         .I3(i_data_from_core_IBUF[2]),
         .O(p_1_in[2]));
@@ -41408,21 +41679,21 @@ module data_mem_column_5
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "30" *) 
   (* ram_slice_end = "30" *) 
-  RAM32X1S_HD1014 data_mem_reg_0_7_30_30
+  RAM32X1S_HD503 data_mem_reg_0_7_30_30
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[30]),
-        .O(\i_index[0] [30]),
+        .O(o_data[30]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__14));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_30_30_i_1__14
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[30]),
         .I3(i_data_from_core_IBUF[30]),
         .O(p_1_in[30]));
@@ -41437,21 +41708,21 @@ module data_mem_column_5
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "31" *) 
   (* ram_slice_end = "31" *) 
-  RAM32X1S_HD1015 data_mem_reg_0_7_31_31
+  RAM32X1S_HD504 data_mem_reg_0_7_31_31
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[31]),
-        .O(\i_index[0] [31]),
+        .O(o_data[31]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__14));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_31_31_i_1__14
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[31]),
         .I3(i_data_from_core_IBUF[31]),
         .O(p_1_in[31]));
@@ -41466,21 +41737,21 @@ module data_mem_column_5
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "3" *) 
   (* ram_slice_end = "3" *) 
-  RAM32X1S_HD1016 data_mem_reg_0_7_3_3
+  RAM32X1S_HD505 data_mem_reg_0_7_3_3
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[3]),
-        .O(\i_index[0] [3]),
+        .O(o_data[3]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__14));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_3_3_i_1__14
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[3]),
         .I3(i_data_from_core_IBUF[3]),
         .O(p_1_in[3]));
@@ -41495,21 +41766,21 @@ module data_mem_column_5
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "4" *) 
   (* ram_slice_end = "4" *) 
-  RAM32X1S_HD1017 data_mem_reg_0_7_4_4
+  RAM32X1S_HD506 data_mem_reg_0_7_4_4
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[4]),
-        .O(\i_index[0] [4]),
+        .O(o_data[4]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__14));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_4_4_i_1__14
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[4]),
         .I3(i_data_from_core_IBUF[4]),
         .O(p_1_in[4]));
@@ -41524,21 +41795,21 @@ module data_mem_column_5
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "5" *) 
   (* ram_slice_end = "5" *) 
-  RAM32X1S_HD1018 data_mem_reg_0_7_5_5
+  RAM32X1S_HD507 data_mem_reg_0_7_5_5
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[5]),
-        .O(\i_index[0] [5]),
+        .O(o_data[5]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__14));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_5_5_i_1__14
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[5]),
         .I3(i_data_from_core_IBUF[5]),
         .O(p_1_in[5]));
@@ -41553,21 +41824,21 @@ module data_mem_column_5
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "6" *) 
   (* ram_slice_end = "6" *) 
-  RAM32X1S_HD1019 data_mem_reg_0_7_6_6
+  RAM32X1S_HD508 data_mem_reg_0_7_6_6
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[6]),
-        .O(\i_index[0] [6]),
+        .O(o_data[6]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__14));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_6_6_i_1__14
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[6]),
         .I3(i_data_from_core_IBUF[6]),
         .O(p_1_in[6]));
@@ -41582,21 +41853,21 @@ module data_mem_column_5
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "7" *) 
   (* ram_slice_end = "7" *) 
-  RAM32X1S_HD1020 data_mem_reg_0_7_7_7
+  RAM32X1S_HD509 data_mem_reg_0_7_7_7
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[7]),
-        .O(\i_index[0] [7]),
+        .O(o_data[7]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__14));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_7_7_i_1__14
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[7]),
         .I3(i_data_from_core_IBUF[7]),
         .O(p_1_in[7]));
@@ -41611,21 +41882,21 @@ module data_mem_column_5
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "8" *) 
   (* ram_slice_end = "8" *) 
-  RAM32X1S_HD1021 data_mem_reg_0_7_8_8
+  RAM32X1S_HD510 data_mem_reg_0_7_8_8
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[8]),
-        .O(\i_index[0] [8]),
+        .O(o_data[8]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__14));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_8_8_i_1__14
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[8]),
         .I3(i_data_from_core_IBUF[8]),
         .O(p_1_in[8]));
@@ -41640,21 +41911,21 @@ module data_mem_column_5
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "9" *) 
   (* ram_slice_end = "9" *) 
-  RAM32X1S_HD1022 data_mem_reg_0_7_9_9
+  RAM32X1S_HD511 data_mem_reg_0_7_9_9
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
         .A3(1'b0),
         .A4(1'b0),
         .D(p_1_in[9]),
-        .O(\i_index[0] [9]),
+        .O(o_data[9]),
         .WCLK(clk_IBUF_BUFG),
         .WE(p_0_in__14));
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_9_9_i_1__14
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[9]),
         .I3(i_data_from_core_IBUF[9]),
         .O(p_1_in[9]));
@@ -41699,12 +41970,11 @@ module data_mem_column_6
     \o_block_to_mem_reg[29] ,
     \o_block_to_mem_reg[30] ,
     \o_block_to_mem_reg[31]_2 ,
+    i_way_IBUF,
     i_data_from_mem_valid_IBUF,
-    i_LRU_IBUF,
     i_data_from_mem_IBUF,
     i_data_from_core_IBUF,
     i_offset_IBUF,
-    i_way_IBUF,
     i_wr_IBUF,
     clk_IBUF_BUFG,
     i_index_IBUF);
@@ -41745,19 +42015,17 @@ module data_mem_column_6
   input \o_block_to_mem_reg[29] ;
   input \o_block_to_mem_reg[30] ;
   input \o_block_to_mem_reg[31]_2 ;
+  input [0:0]i_way_IBUF;
   input i_data_from_mem_valid_IBUF;
-  input [0:0]i_LRU_IBUF;
   input [31:0]i_data_from_mem_IBUF;
   input [31:0]i_data_from_core_IBUF;
   input [1:0]i_offset_IBUF;
-  input [0:0]i_way_IBUF;
   input i_wr_IBUF;
   input clk_IBUF_BUFG;
   input [2:0]i_index_IBUF;
 
   wire [31:0]D;
   wire clk_IBUF_BUFG;
-  wire [0:0]i_LRU_IBUF;
   wire [31:0]i_data_from_core_IBUF;
   wire [31:0]i_data_from_mem_IBUF;
   wire i_data_from_mem_valid_IBUF;
@@ -41815,7 +42083,7 @@ module data_mem_column_6
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "0" *) 
   (* ram_slice_end = "0" *) 
-  RAM32X1S_HD767 data_mem_reg_0_7_0_0
+  RAM32X1S_HD256 data_mem_reg_0_7_0_0
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -41828,20 +42096,19 @@ module data_mem_column_6
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_0_0_i_1__7
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[0]),
         .I3(i_data_from_core_IBUF[0]),
         .O(p_1_in[0]));
-  LUT6 #(
-    .INIT(64'h888F888888888888)) 
+  LUT5 #(
+    .INIT(32'h888A8888)) 
     data_mem_reg_0_7_0_0_i_2__10
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
-        .I2(i_offset_IBUF[0]),
-        .I3(i_offset_IBUF[1]),
-        .I4(i_way_IBUF),
-        .I5(i_wr_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
+        .I2(i_offset_IBUF[1]),
+        .I3(i_offset_IBUF[0]),
+        .I4(i_wr_IBUF),
         .O(p_0_in__7));
   (* INIT = "32'h00000003" *) 
   (* RTL_RAM_BITS = "256" *) 
@@ -41854,7 +42121,7 @@ module data_mem_column_6
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "10" *) 
   (* ram_slice_end = "10" *) 
-  RAM32X1S_HD768 data_mem_reg_0_7_10_10
+  RAM32X1S_HD257 data_mem_reg_0_7_10_10
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -41867,8 +42134,8 @@ module data_mem_column_6
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_10_10_i_1__7
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[10]),
         .I3(i_data_from_core_IBUF[10]),
         .O(p_1_in[10]));
@@ -41883,7 +42150,7 @@ module data_mem_column_6
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "11" *) 
   (* ram_slice_end = "11" *) 
-  RAM32X1S_HD769 data_mem_reg_0_7_11_11
+  RAM32X1S_HD258 data_mem_reg_0_7_11_11
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -41896,8 +42163,8 @@ module data_mem_column_6
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_11_11_i_1__7
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[11]),
         .I3(i_data_from_core_IBUF[11]),
         .O(p_1_in[11]));
@@ -41912,7 +42179,7 @@ module data_mem_column_6
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "12" *) 
   (* ram_slice_end = "12" *) 
-  RAM32X1S_HD770 data_mem_reg_0_7_12_12
+  RAM32X1S_HD259 data_mem_reg_0_7_12_12
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -41925,8 +42192,8 @@ module data_mem_column_6
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_12_12_i_1__7
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[12]),
         .I3(i_data_from_core_IBUF[12]),
         .O(p_1_in[12]));
@@ -41941,7 +42208,7 @@ module data_mem_column_6
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "13" *) 
   (* ram_slice_end = "13" *) 
-  RAM32X1S_HD771 data_mem_reg_0_7_13_13
+  RAM32X1S_HD260 data_mem_reg_0_7_13_13
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -41954,8 +42221,8 @@ module data_mem_column_6
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_13_13_i_1__7
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[13]),
         .I3(i_data_from_core_IBUF[13]),
         .O(p_1_in[13]));
@@ -41970,7 +42237,7 @@ module data_mem_column_6
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "14" *) 
   (* ram_slice_end = "14" *) 
-  RAM32X1S_HD772 data_mem_reg_0_7_14_14
+  RAM32X1S_HD261 data_mem_reg_0_7_14_14
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -41983,8 +42250,8 @@ module data_mem_column_6
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_14_14_i_1__7
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[14]),
         .I3(i_data_from_core_IBUF[14]),
         .O(p_1_in[14]));
@@ -41999,7 +42266,7 @@ module data_mem_column_6
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "15" *) 
   (* ram_slice_end = "15" *) 
-  RAM32X1S_HD773 data_mem_reg_0_7_15_15
+  RAM32X1S_HD262 data_mem_reg_0_7_15_15
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -42012,8 +42279,8 @@ module data_mem_column_6
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_15_15_i_1__7
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[15]),
         .I3(i_data_from_core_IBUF[15]),
         .O(p_1_in[15]));
@@ -42028,7 +42295,7 @@ module data_mem_column_6
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "16" *) 
   (* ram_slice_end = "16" *) 
-  RAM32X1S_HD774 data_mem_reg_0_7_16_16
+  RAM32X1S_HD263 data_mem_reg_0_7_16_16
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -42041,8 +42308,8 @@ module data_mem_column_6
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_16_16_i_1__7
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[16]),
         .I3(i_data_from_core_IBUF[16]),
         .O(p_1_in[16]));
@@ -42057,7 +42324,7 @@ module data_mem_column_6
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "17" *) 
   (* ram_slice_end = "17" *) 
-  RAM32X1S_HD775 data_mem_reg_0_7_17_17
+  RAM32X1S_HD264 data_mem_reg_0_7_17_17
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -42070,8 +42337,8 @@ module data_mem_column_6
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_17_17_i_1__7
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[17]),
         .I3(i_data_from_core_IBUF[17]),
         .O(p_1_in[17]));
@@ -42086,7 +42353,7 @@ module data_mem_column_6
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "18" *) 
   (* ram_slice_end = "18" *) 
-  RAM32X1S_HD776 data_mem_reg_0_7_18_18
+  RAM32X1S_HD265 data_mem_reg_0_7_18_18
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -42099,8 +42366,8 @@ module data_mem_column_6
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_18_18_i_1__7
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[18]),
         .I3(i_data_from_core_IBUF[18]),
         .O(p_1_in[18]));
@@ -42115,7 +42382,7 @@ module data_mem_column_6
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "19" *) 
   (* ram_slice_end = "19" *) 
-  RAM32X1S_HD777 data_mem_reg_0_7_19_19
+  RAM32X1S_HD266 data_mem_reg_0_7_19_19
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -42128,8 +42395,8 @@ module data_mem_column_6
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_19_19_i_1__7
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[19]),
         .I3(i_data_from_core_IBUF[19]),
         .O(p_1_in[19]));
@@ -42144,7 +42411,7 @@ module data_mem_column_6
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "1" *) 
   (* ram_slice_end = "1" *) 
-  RAM32X1S_HD778 data_mem_reg_0_7_1_1
+  RAM32X1S_HD267 data_mem_reg_0_7_1_1
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -42157,8 +42424,8 @@ module data_mem_column_6
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_1_1_i_1__7
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[1]),
         .I3(i_data_from_core_IBUF[1]),
         .O(p_1_in[1]));
@@ -42173,7 +42440,7 @@ module data_mem_column_6
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "20" *) 
   (* ram_slice_end = "20" *) 
-  RAM32X1S_HD779 data_mem_reg_0_7_20_20
+  RAM32X1S_HD268 data_mem_reg_0_7_20_20
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -42186,8 +42453,8 @@ module data_mem_column_6
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_20_20_i_1__7
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[20]),
         .I3(i_data_from_core_IBUF[20]),
         .O(p_1_in[20]));
@@ -42202,7 +42469,7 @@ module data_mem_column_6
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "21" *) 
   (* ram_slice_end = "21" *) 
-  RAM32X1S_HD780 data_mem_reg_0_7_21_21
+  RAM32X1S_HD269 data_mem_reg_0_7_21_21
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -42215,8 +42482,8 @@ module data_mem_column_6
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_21_21_i_1__7
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[21]),
         .I3(i_data_from_core_IBUF[21]),
         .O(p_1_in[21]));
@@ -42231,7 +42498,7 @@ module data_mem_column_6
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "22" *) 
   (* ram_slice_end = "22" *) 
-  RAM32X1S_HD781 data_mem_reg_0_7_22_22
+  RAM32X1S_HD270 data_mem_reg_0_7_22_22
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -42244,8 +42511,8 @@ module data_mem_column_6
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_22_22_i_1__7
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[22]),
         .I3(i_data_from_core_IBUF[22]),
         .O(p_1_in[22]));
@@ -42260,7 +42527,7 @@ module data_mem_column_6
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "23" *) 
   (* ram_slice_end = "23" *) 
-  RAM32X1S_HD782 data_mem_reg_0_7_23_23
+  RAM32X1S_HD271 data_mem_reg_0_7_23_23
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -42273,8 +42540,8 @@ module data_mem_column_6
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_23_23_i_1__7
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[23]),
         .I3(i_data_from_core_IBUF[23]),
         .O(p_1_in[23]));
@@ -42289,7 +42556,7 @@ module data_mem_column_6
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "24" *) 
   (* ram_slice_end = "24" *) 
-  RAM32X1S_HD783 data_mem_reg_0_7_24_24
+  RAM32X1S_HD272 data_mem_reg_0_7_24_24
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -42302,8 +42569,8 @@ module data_mem_column_6
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_24_24_i_1__7
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[24]),
         .I3(i_data_from_core_IBUF[24]),
         .O(p_1_in[24]));
@@ -42318,7 +42585,7 @@ module data_mem_column_6
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "25" *) 
   (* ram_slice_end = "25" *) 
-  RAM32X1S_HD784 data_mem_reg_0_7_25_25
+  RAM32X1S_HD273 data_mem_reg_0_7_25_25
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -42331,8 +42598,8 @@ module data_mem_column_6
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_25_25_i_1__7
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[25]),
         .I3(i_data_from_core_IBUF[25]),
         .O(p_1_in[25]));
@@ -42347,7 +42614,7 @@ module data_mem_column_6
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "26" *) 
   (* ram_slice_end = "26" *) 
-  RAM32X1S_HD785 data_mem_reg_0_7_26_26
+  RAM32X1S_HD274 data_mem_reg_0_7_26_26
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -42360,8 +42627,8 @@ module data_mem_column_6
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_26_26_i_1__7
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[26]),
         .I3(i_data_from_core_IBUF[26]),
         .O(p_1_in[26]));
@@ -42376,7 +42643,7 @@ module data_mem_column_6
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "27" *) 
   (* ram_slice_end = "27" *) 
-  RAM32X1S_HD786 data_mem_reg_0_7_27_27
+  RAM32X1S_HD275 data_mem_reg_0_7_27_27
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -42389,8 +42656,8 @@ module data_mem_column_6
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_27_27_i_1__7
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[27]),
         .I3(i_data_from_core_IBUF[27]),
         .O(p_1_in[27]));
@@ -42405,7 +42672,7 @@ module data_mem_column_6
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "28" *) 
   (* ram_slice_end = "28" *) 
-  RAM32X1S_HD787 data_mem_reg_0_7_28_28
+  RAM32X1S_HD276 data_mem_reg_0_7_28_28
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -42418,8 +42685,8 @@ module data_mem_column_6
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_28_28_i_1__7
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[28]),
         .I3(i_data_from_core_IBUF[28]),
         .O(p_1_in[28]));
@@ -42434,7 +42701,7 @@ module data_mem_column_6
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "29" *) 
   (* ram_slice_end = "29" *) 
-  RAM32X1S_HD788 data_mem_reg_0_7_29_29
+  RAM32X1S_HD277 data_mem_reg_0_7_29_29
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -42447,8 +42714,8 @@ module data_mem_column_6
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_29_29_i_1__7
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[29]),
         .I3(i_data_from_core_IBUF[29]),
         .O(p_1_in[29]));
@@ -42463,7 +42730,7 @@ module data_mem_column_6
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "2" *) 
   (* ram_slice_end = "2" *) 
-  RAM32X1S_HD789 data_mem_reg_0_7_2_2
+  RAM32X1S_HD278 data_mem_reg_0_7_2_2
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -42476,8 +42743,8 @@ module data_mem_column_6
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_2_2_i_1__7
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[2]),
         .I3(i_data_from_core_IBUF[2]),
         .O(p_1_in[2]));
@@ -42492,7 +42759,7 @@ module data_mem_column_6
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "30" *) 
   (* ram_slice_end = "30" *) 
-  RAM32X1S_HD790 data_mem_reg_0_7_30_30
+  RAM32X1S_HD279 data_mem_reg_0_7_30_30
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -42505,8 +42772,8 @@ module data_mem_column_6
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_30_30_i_1__7
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[30]),
         .I3(i_data_from_core_IBUF[30]),
         .O(p_1_in[30]));
@@ -42521,7 +42788,7 @@ module data_mem_column_6
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "31" *) 
   (* ram_slice_end = "31" *) 
-  RAM32X1S_HD791 data_mem_reg_0_7_31_31
+  RAM32X1S_HD280 data_mem_reg_0_7_31_31
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -42534,8 +42801,8 @@ module data_mem_column_6
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_31_31_i_1__7
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[31]),
         .I3(i_data_from_core_IBUF[31]),
         .O(p_1_in[31]));
@@ -42550,7 +42817,7 @@ module data_mem_column_6
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "3" *) 
   (* ram_slice_end = "3" *) 
-  RAM32X1S_HD792 data_mem_reg_0_7_3_3
+  RAM32X1S_HD281 data_mem_reg_0_7_3_3
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -42563,8 +42830,8 @@ module data_mem_column_6
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_3_3_i_1__7
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[3]),
         .I3(i_data_from_core_IBUF[3]),
         .O(p_1_in[3]));
@@ -42579,7 +42846,7 @@ module data_mem_column_6
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "4" *) 
   (* ram_slice_end = "4" *) 
-  RAM32X1S_HD793 data_mem_reg_0_7_4_4
+  RAM32X1S_HD282 data_mem_reg_0_7_4_4
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -42592,8 +42859,8 @@ module data_mem_column_6
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_4_4_i_1__7
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[4]),
         .I3(i_data_from_core_IBUF[4]),
         .O(p_1_in[4]));
@@ -42608,7 +42875,7 @@ module data_mem_column_6
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "5" *) 
   (* ram_slice_end = "5" *) 
-  RAM32X1S_HD794 data_mem_reg_0_7_5_5
+  RAM32X1S_HD283 data_mem_reg_0_7_5_5
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -42621,8 +42888,8 @@ module data_mem_column_6
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_5_5_i_1__7
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[5]),
         .I3(i_data_from_core_IBUF[5]),
         .O(p_1_in[5]));
@@ -42637,7 +42904,7 @@ module data_mem_column_6
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "6" *) 
   (* ram_slice_end = "6" *) 
-  RAM32X1S_HD795 data_mem_reg_0_7_6_6
+  RAM32X1S_HD284 data_mem_reg_0_7_6_6
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -42650,8 +42917,8 @@ module data_mem_column_6
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_6_6_i_1__7
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[6]),
         .I3(i_data_from_core_IBUF[6]),
         .O(p_1_in[6]));
@@ -42666,7 +42933,7 @@ module data_mem_column_6
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "7" *) 
   (* ram_slice_end = "7" *) 
-  RAM32X1S_HD796 data_mem_reg_0_7_7_7
+  RAM32X1S_HD285 data_mem_reg_0_7_7_7
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -42679,8 +42946,8 @@ module data_mem_column_6
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_7_7_i_1__7
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[7]),
         .I3(i_data_from_core_IBUF[7]),
         .O(p_1_in[7]));
@@ -42695,7 +42962,7 @@ module data_mem_column_6
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "8" *) 
   (* ram_slice_end = "8" *) 
-  RAM32X1S_HD797 data_mem_reg_0_7_8_8
+  RAM32X1S_HD286 data_mem_reg_0_7_8_8
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -42708,8 +42975,8 @@ module data_mem_column_6
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_8_8_i_1__7
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[8]),
         .I3(i_data_from_core_IBUF[8]),
         .O(p_1_in[8]));
@@ -42724,7 +42991,7 @@ module data_mem_column_6
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "9" *) 
   (* ram_slice_end = "9" *) 
-  RAM32X1S_HD798 data_mem_reg_0_7_9_9
+  RAM32X1S_HD287 data_mem_reg_0_7_9_9
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -42737,8 +43004,8 @@ module data_mem_column_6
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_9_9_i_1__7
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[9]),
         .I3(i_data_from_core_IBUF[9]),
         .O(p_1_in[9]));
@@ -43071,12 +43338,11 @@ module data_mem_column_7
     \o_block_to_mem_reg[61] ,
     \o_block_to_mem_reg[62] ,
     \o_block_to_mem_reg[63]_2 ,
+    i_way_IBUF,
     i_data_from_mem_valid_IBUF,
-    i_LRU_IBUF,
     i_data_from_mem_IBUF,
     i_data_from_core_IBUF,
     i_offset_IBUF,
-    i_way_IBUF,
     i_wr_IBUF,
     clk_IBUF_BUFG,
     i_index_IBUF);
@@ -43117,19 +43383,17 @@ module data_mem_column_7
   input \o_block_to_mem_reg[61] ;
   input \o_block_to_mem_reg[62] ;
   input \o_block_to_mem_reg[63]_2 ;
+  input [0:0]i_way_IBUF;
   input i_data_from_mem_valid_IBUF;
-  input [0:0]i_LRU_IBUF;
   input [31:0]i_data_from_mem_IBUF;
   input [31:0]i_data_from_core_IBUF;
   input [1:0]i_offset_IBUF;
-  input [0:0]i_way_IBUF;
   input i_wr_IBUF;
   input clk_IBUF_BUFG;
   input [2:0]i_index_IBUF;
 
   wire [31:0]D;
   wire clk_IBUF_BUFG;
-  wire [0:0]i_LRU_IBUF;
   wire [31:0]i_data_from_core_IBUF;
   wire [31:0]i_data_from_mem_IBUF;
   wire i_data_from_mem_valid_IBUF;
@@ -43187,7 +43451,7 @@ module data_mem_column_7
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "0" *) 
   (* ram_slice_end = "0" *) 
-  RAM32X1S_HD799 data_mem_reg_0_7_0_0
+  RAM32X1S_HD288 data_mem_reg_0_7_0_0
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -43200,20 +43464,19 @@ module data_mem_column_7
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_0_0_i_1__8
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[0]),
         .I3(i_data_from_core_IBUF[0]),
         .O(p_1_in[0]));
-  LUT6 #(
-    .INIT(64'h88F8888888888888)) 
+  LUT5 #(
+    .INIT(32'h8A888888)) 
     data_mem_reg_0_7_0_0_i_2__9
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
-        .I2(i_offset_IBUF[0]),
-        .I3(i_offset_IBUF[1]),
-        .I4(i_way_IBUF),
-        .I5(i_wr_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
+        .I2(i_offset_IBUF[1]),
+        .I3(i_offset_IBUF[0]),
+        .I4(i_wr_IBUF),
         .O(p_0_in__8));
   (* INIT = "32'h00000003" *) 
   (* RTL_RAM_BITS = "256" *) 
@@ -43226,7 +43489,7 @@ module data_mem_column_7
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "10" *) 
   (* ram_slice_end = "10" *) 
-  RAM32X1S_HD800 data_mem_reg_0_7_10_10
+  RAM32X1S_HD289 data_mem_reg_0_7_10_10
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -43239,8 +43502,8 @@ module data_mem_column_7
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_10_10_i_1__8
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[10]),
         .I3(i_data_from_core_IBUF[10]),
         .O(p_1_in[10]));
@@ -43255,7 +43518,7 @@ module data_mem_column_7
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "11" *) 
   (* ram_slice_end = "11" *) 
-  RAM32X1S_HD801 data_mem_reg_0_7_11_11
+  RAM32X1S_HD290 data_mem_reg_0_7_11_11
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -43268,8 +43531,8 @@ module data_mem_column_7
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_11_11_i_1__8
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[11]),
         .I3(i_data_from_core_IBUF[11]),
         .O(p_1_in[11]));
@@ -43284,7 +43547,7 @@ module data_mem_column_7
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "12" *) 
   (* ram_slice_end = "12" *) 
-  RAM32X1S_HD802 data_mem_reg_0_7_12_12
+  RAM32X1S_HD291 data_mem_reg_0_7_12_12
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -43297,8 +43560,8 @@ module data_mem_column_7
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_12_12_i_1__8
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[12]),
         .I3(i_data_from_core_IBUF[12]),
         .O(p_1_in[12]));
@@ -43313,7 +43576,7 @@ module data_mem_column_7
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "13" *) 
   (* ram_slice_end = "13" *) 
-  RAM32X1S_HD803 data_mem_reg_0_7_13_13
+  RAM32X1S_HD292 data_mem_reg_0_7_13_13
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -43326,8 +43589,8 @@ module data_mem_column_7
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_13_13_i_1__8
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[13]),
         .I3(i_data_from_core_IBUF[13]),
         .O(p_1_in[13]));
@@ -43342,7 +43605,7 @@ module data_mem_column_7
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "14" *) 
   (* ram_slice_end = "14" *) 
-  RAM32X1S_HD804 data_mem_reg_0_7_14_14
+  RAM32X1S_HD293 data_mem_reg_0_7_14_14
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -43355,8 +43618,8 @@ module data_mem_column_7
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_14_14_i_1__8
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[14]),
         .I3(i_data_from_core_IBUF[14]),
         .O(p_1_in[14]));
@@ -43371,7 +43634,7 @@ module data_mem_column_7
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "15" *) 
   (* ram_slice_end = "15" *) 
-  RAM32X1S_HD805 data_mem_reg_0_7_15_15
+  RAM32X1S_HD294 data_mem_reg_0_7_15_15
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -43384,8 +43647,8 @@ module data_mem_column_7
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_15_15_i_1__8
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[15]),
         .I3(i_data_from_core_IBUF[15]),
         .O(p_1_in[15]));
@@ -43400,7 +43663,7 @@ module data_mem_column_7
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "16" *) 
   (* ram_slice_end = "16" *) 
-  RAM32X1S_HD806 data_mem_reg_0_7_16_16
+  RAM32X1S_HD295 data_mem_reg_0_7_16_16
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -43413,8 +43676,8 @@ module data_mem_column_7
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_16_16_i_1__8
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[16]),
         .I3(i_data_from_core_IBUF[16]),
         .O(p_1_in[16]));
@@ -43429,7 +43692,7 @@ module data_mem_column_7
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "17" *) 
   (* ram_slice_end = "17" *) 
-  RAM32X1S_HD807 data_mem_reg_0_7_17_17
+  RAM32X1S_HD296 data_mem_reg_0_7_17_17
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -43442,8 +43705,8 @@ module data_mem_column_7
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_17_17_i_1__8
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[17]),
         .I3(i_data_from_core_IBUF[17]),
         .O(p_1_in[17]));
@@ -43458,7 +43721,7 @@ module data_mem_column_7
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "18" *) 
   (* ram_slice_end = "18" *) 
-  RAM32X1S_HD808 data_mem_reg_0_7_18_18
+  RAM32X1S_HD297 data_mem_reg_0_7_18_18
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -43471,8 +43734,8 @@ module data_mem_column_7
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_18_18_i_1__8
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[18]),
         .I3(i_data_from_core_IBUF[18]),
         .O(p_1_in[18]));
@@ -43487,7 +43750,7 @@ module data_mem_column_7
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "19" *) 
   (* ram_slice_end = "19" *) 
-  RAM32X1S_HD809 data_mem_reg_0_7_19_19
+  RAM32X1S_HD298 data_mem_reg_0_7_19_19
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -43500,8 +43763,8 @@ module data_mem_column_7
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_19_19_i_1__8
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[19]),
         .I3(i_data_from_core_IBUF[19]),
         .O(p_1_in[19]));
@@ -43516,7 +43779,7 @@ module data_mem_column_7
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "1" *) 
   (* ram_slice_end = "1" *) 
-  RAM32X1S_HD810 data_mem_reg_0_7_1_1
+  RAM32X1S_HD299 data_mem_reg_0_7_1_1
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -43529,8 +43792,8 @@ module data_mem_column_7
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_1_1_i_1__8
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[1]),
         .I3(i_data_from_core_IBUF[1]),
         .O(p_1_in[1]));
@@ -43545,7 +43808,7 @@ module data_mem_column_7
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "20" *) 
   (* ram_slice_end = "20" *) 
-  RAM32X1S_HD811 data_mem_reg_0_7_20_20
+  RAM32X1S_HD300 data_mem_reg_0_7_20_20
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -43558,8 +43821,8 @@ module data_mem_column_7
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_20_20_i_1__8
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[20]),
         .I3(i_data_from_core_IBUF[20]),
         .O(p_1_in[20]));
@@ -43574,7 +43837,7 @@ module data_mem_column_7
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "21" *) 
   (* ram_slice_end = "21" *) 
-  RAM32X1S_HD812 data_mem_reg_0_7_21_21
+  RAM32X1S_HD301 data_mem_reg_0_7_21_21
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -43587,8 +43850,8 @@ module data_mem_column_7
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_21_21_i_1__8
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[21]),
         .I3(i_data_from_core_IBUF[21]),
         .O(p_1_in[21]));
@@ -43603,7 +43866,7 @@ module data_mem_column_7
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "22" *) 
   (* ram_slice_end = "22" *) 
-  RAM32X1S_HD813 data_mem_reg_0_7_22_22
+  RAM32X1S_HD302 data_mem_reg_0_7_22_22
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -43616,8 +43879,8 @@ module data_mem_column_7
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_22_22_i_1__8
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[22]),
         .I3(i_data_from_core_IBUF[22]),
         .O(p_1_in[22]));
@@ -43632,7 +43895,7 @@ module data_mem_column_7
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "23" *) 
   (* ram_slice_end = "23" *) 
-  RAM32X1S_HD814 data_mem_reg_0_7_23_23
+  RAM32X1S_HD303 data_mem_reg_0_7_23_23
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -43645,8 +43908,8 @@ module data_mem_column_7
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_23_23_i_1__8
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[23]),
         .I3(i_data_from_core_IBUF[23]),
         .O(p_1_in[23]));
@@ -43661,7 +43924,7 @@ module data_mem_column_7
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "24" *) 
   (* ram_slice_end = "24" *) 
-  RAM32X1S_HD815 data_mem_reg_0_7_24_24
+  RAM32X1S_HD304 data_mem_reg_0_7_24_24
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -43674,8 +43937,8 @@ module data_mem_column_7
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_24_24_i_1__8
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[24]),
         .I3(i_data_from_core_IBUF[24]),
         .O(p_1_in[24]));
@@ -43690,7 +43953,7 @@ module data_mem_column_7
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "25" *) 
   (* ram_slice_end = "25" *) 
-  RAM32X1S_HD816 data_mem_reg_0_7_25_25
+  RAM32X1S_HD305 data_mem_reg_0_7_25_25
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -43703,8 +43966,8 @@ module data_mem_column_7
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_25_25_i_1__8
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[25]),
         .I3(i_data_from_core_IBUF[25]),
         .O(p_1_in[25]));
@@ -43719,7 +43982,7 @@ module data_mem_column_7
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "26" *) 
   (* ram_slice_end = "26" *) 
-  RAM32X1S_HD817 data_mem_reg_0_7_26_26
+  RAM32X1S_HD306 data_mem_reg_0_7_26_26
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -43732,8 +43995,8 @@ module data_mem_column_7
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_26_26_i_1__8
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[26]),
         .I3(i_data_from_core_IBUF[26]),
         .O(p_1_in[26]));
@@ -43748,7 +44011,7 @@ module data_mem_column_7
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "27" *) 
   (* ram_slice_end = "27" *) 
-  RAM32X1S_HD818 data_mem_reg_0_7_27_27
+  RAM32X1S_HD307 data_mem_reg_0_7_27_27
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -43761,8 +44024,8 @@ module data_mem_column_7
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_27_27_i_1__8
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[27]),
         .I3(i_data_from_core_IBUF[27]),
         .O(p_1_in[27]));
@@ -43777,7 +44040,7 @@ module data_mem_column_7
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "28" *) 
   (* ram_slice_end = "28" *) 
-  RAM32X1S_HD819 data_mem_reg_0_7_28_28
+  RAM32X1S_HD308 data_mem_reg_0_7_28_28
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -43790,8 +44053,8 @@ module data_mem_column_7
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_28_28_i_1__8
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[28]),
         .I3(i_data_from_core_IBUF[28]),
         .O(p_1_in[28]));
@@ -43806,7 +44069,7 @@ module data_mem_column_7
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "29" *) 
   (* ram_slice_end = "29" *) 
-  RAM32X1S_HD820 data_mem_reg_0_7_29_29
+  RAM32X1S_HD309 data_mem_reg_0_7_29_29
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -43819,8 +44082,8 @@ module data_mem_column_7
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_29_29_i_1__8
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[29]),
         .I3(i_data_from_core_IBUF[29]),
         .O(p_1_in[29]));
@@ -43835,7 +44098,7 @@ module data_mem_column_7
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "2" *) 
   (* ram_slice_end = "2" *) 
-  RAM32X1S_HD821 data_mem_reg_0_7_2_2
+  RAM32X1S_HD310 data_mem_reg_0_7_2_2
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -43848,8 +44111,8 @@ module data_mem_column_7
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_2_2_i_1__8
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[2]),
         .I3(i_data_from_core_IBUF[2]),
         .O(p_1_in[2]));
@@ -43864,7 +44127,7 @@ module data_mem_column_7
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "30" *) 
   (* ram_slice_end = "30" *) 
-  RAM32X1S_HD822 data_mem_reg_0_7_30_30
+  RAM32X1S_HD311 data_mem_reg_0_7_30_30
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -43877,8 +44140,8 @@ module data_mem_column_7
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_30_30_i_1__8
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[30]),
         .I3(i_data_from_core_IBUF[30]),
         .O(p_1_in[30]));
@@ -43893,7 +44156,7 @@ module data_mem_column_7
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "31" *) 
   (* ram_slice_end = "31" *) 
-  RAM32X1S_HD823 data_mem_reg_0_7_31_31
+  RAM32X1S_HD312 data_mem_reg_0_7_31_31
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -43906,8 +44169,8 @@ module data_mem_column_7
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_31_31_i_1__8
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[31]),
         .I3(i_data_from_core_IBUF[31]),
         .O(p_1_in[31]));
@@ -43922,7 +44185,7 @@ module data_mem_column_7
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "3" *) 
   (* ram_slice_end = "3" *) 
-  RAM32X1S_HD824 data_mem_reg_0_7_3_3
+  RAM32X1S_HD313 data_mem_reg_0_7_3_3
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -43935,8 +44198,8 @@ module data_mem_column_7
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_3_3_i_1__8
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[3]),
         .I3(i_data_from_core_IBUF[3]),
         .O(p_1_in[3]));
@@ -43951,7 +44214,7 @@ module data_mem_column_7
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "4" *) 
   (* ram_slice_end = "4" *) 
-  RAM32X1S_HD825 data_mem_reg_0_7_4_4
+  RAM32X1S_HD314 data_mem_reg_0_7_4_4
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -43964,8 +44227,8 @@ module data_mem_column_7
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_4_4_i_1__8
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[4]),
         .I3(i_data_from_core_IBUF[4]),
         .O(p_1_in[4]));
@@ -43980,7 +44243,7 @@ module data_mem_column_7
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "5" *) 
   (* ram_slice_end = "5" *) 
-  RAM32X1S_HD826 data_mem_reg_0_7_5_5
+  RAM32X1S_HD315 data_mem_reg_0_7_5_5
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -43993,8 +44256,8 @@ module data_mem_column_7
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_5_5_i_1__8
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[5]),
         .I3(i_data_from_core_IBUF[5]),
         .O(p_1_in[5]));
@@ -44009,7 +44272,7 @@ module data_mem_column_7
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "6" *) 
   (* ram_slice_end = "6" *) 
-  RAM32X1S_HD827 data_mem_reg_0_7_6_6
+  RAM32X1S_HD316 data_mem_reg_0_7_6_6
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -44022,8 +44285,8 @@ module data_mem_column_7
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_6_6_i_1__8
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[6]),
         .I3(i_data_from_core_IBUF[6]),
         .O(p_1_in[6]));
@@ -44038,7 +44301,7 @@ module data_mem_column_7
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "7" *) 
   (* ram_slice_end = "7" *) 
-  RAM32X1S_HD828 data_mem_reg_0_7_7_7
+  RAM32X1S_HD317 data_mem_reg_0_7_7_7
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -44051,8 +44314,8 @@ module data_mem_column_7
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_7_7_i_1__8
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[7]),
         .I3(i_data_from_core_IBUF[7]),
         .O(p_1_in[7]));
@@ -44067,7 +44330,7 @@ module data_mem_column_7
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "8" *) 
   (* ram_slice_end = "8" *) 
-  RAM32X1S_HD829 data_mem_reg_0_7_8_8
+  RAM32X1S_HD318 data_mem_reg_0_7_8_8
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -44080,8 +44343,8 @@ module data_mem_column_7
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_8_8_i_1__8
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[8]),
         .I3(i_data_from_core_IBUF[8]),
         .O(p_1_in[8]));
@@ -44096,7 +44359,7 @@ module data_mem_column_7
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "9" *) 
   (* ram_slice_end = "9" *) 
-  RAM32X1S_HD830 data_mem_reg_0_7_9_9
+  RAM32X1S_HD319 data_mem_reg_0_7_9_9
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -44109,8 +44372,8 @@ module data_mem_column_7
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_9_9_i_1__8
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[9]),
         .I3(i_data_from_core_IBUF[9]),
         .O(p_1_in[9]));
@@ -44409,9 +44672,9 @@ module data_mem_column_8
    (\data_out_from_way[2] ,
     D,
     o_data,
-    \o_data_to_core_reg[31]_i_1 ,
+    \o_data_to_core_reg[31]_i_5 ,
     i_offset_IBUF,
-    \o_data_to_core_reg[31]_i_1_0 ,
+    \o_data_to_core_reg[31]_i_5_0 ,
     \o_block_to_mem_reg[95] ,
     \o_block_to_mem_reg[95]_0 ,
     \o_block_to_mem_reg[95]_1 ,
@@ -44447,20 +44710,19 @@ module data_mem_column_8
     \o_block_to_mem_reg[93] ,
     \o_block_to_mem_reg[94] ,
     \o_block_to_mem_reg[95]_2 ,
+    i_way_IBUF,
     i_data_from_mem_valid_IBUF,
-    i_LRU_IBUF,
     i_data_from_mem_IBUF,
     i_data_from_core_IBUF,
-    i_way_IBUF,
     i_wr_IBUF,
     clk_IBUF_BUFG,
     i_index_IBUF);
   output [31:0]\data_out_from_way[2] ;
   output [31:0]D;
   input [31:0]o_data;
-  input [31:0]\o_data_to_core_reg[31]_i_1 ;
+  input [31:0]\o_data_to_core_reg[31]_i_5 ;
   input [1:0]i_offset_IBUF;
-  input [31:0]\o_data_to_core_reg[31]_i_1_0 ;
+  input [31:0]\o_data_to_core_reg[31]_i_5_0 ;
   input \o_block_to_mem_reg[95] ;
   input \o_block_to_mem_reg[95]_0 ;
   input [31:0]\o_block_to_mem_reg[95]_1 ;
@@ -44496,11 +44758,10 @@ module data_mem_column_8
   input \o_block_to_mem_reg[93] ;
   input \o_block_to_mem_reg[94] ;
   input \o_block_to_mem_reg[95]_2 ;
+  input [0:0]i_way_IBUF;
   input i_data_from_mem_valid_IBUF;
-  input [0:0]i_LRU_IBUF;
   input [31:0]i_data_from_mem_IBUF;
   input [31:0]i_data_from_core_IBUF;
-  input [0:0]i_way_IBUF;
   input i_wr_IBUF;
   input clk_IBUF_BUFG;
   input [2:0]i_index_IBUF;
@@ -44508,7 +44769,6 @@ module data_mem_column_8
   wire [31:0]D;
   wire clk_IBUF_BUFG;
   wire [31:0]\data_out_from_way[2] ;
-  wire [0:0]i_LRU_IBUF;
   wire [31:0]i_data_from_core_IBUF;
   wire [31:0]i_data_from_mem_IBUF;
   wire i_data_from_mem_valid_IBUF;
@@ -44552,8 +44812,8 @@ module data_mem_column_8
   wire [31:0]\o_block_to_mem_reg[95]_1 ;
   wire \o_block_to_mem_reg[95]_2 ;
   wire [31:0]o_data;
-  wire [31:0]\o_data_to_core_reg[31]_i_1 ;
-  wire [31:0]\o_data_to_core_reg[31]_i_1_0 ;
+  wire [31:0]\o_data_to_core_reg[31]_i_5 ;
+  wire [31:0]\o_data_to_core_reg[31]_i_5_0 ;
   wire [31:0]\output_column[2]_2 ;
   wire p_0_in__9;
   wire [31:0]p_1_in;
@@ -44569,7 +44829,7 @@ module data_mem_column_8
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "0" *) 
   (* ram_slice_end = "0" *) 
-  RAM32X1S_HD831 data_mem_reg_0_7_0_0
+  RAM32X1S_HD320 data_mem_reg_0_7_0_0
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -44582,20 +44842,19 @@ module data_mem_column_8
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_0_0_i_1__9
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[0]),
         .I3(i_data_from_core_IBUF[0]),
         .O(p_1_in[0]));
-  LUT6 #(
-    .INIT(64'h88F8888888888888)) 
+  LUT5 #(
+    .INIT(32'h8A888888)) 
     data_mem_reg_0_7_0_0_i_2__8
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
-        .I2(i_offset_IBUF[1]),
-        .I3(i_offset_IBUF[0]),
-        .I4(i_way_IBUF),
-        .I5(i_wr_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
+        .I2(i_offset_IBUF[0]),
+        .I3(i_offset_IBUF[1]),
+        .I4(i_wr_IBUF),
         .O(p_0_in__9));
   (* INIT = "32'h00000003" *) 
   (* RTL_RAM_BITS = "256" *) 
@@ -44608,7 +44867,7 @@ module data_mem_column_8
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "10" *) 
   (* ram_slice_end = "10" *) 
-  RAM32X1S_HD832 data_mem_reg_0_7_10_10
+  RAM32X1S_HD321 data_mem_reg_0_7_10_10
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -44621,8 +44880,8 @@ module data_mem_column_8
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_10_10_i_1__9
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[10]),
         .I3(i_data_from_core_IBUF[10]),
         .O(p_1_in[10]));
@@ -44637,7 +44896,7 @@ module data_mem_column_8
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "11" *) 
   (* ram_slice_end = "11" *) 
-  RAM32X1S_HD833 data_mem_reg_0_7_11_11
+  RAM32X1S_HD322 data_mem_reg_0_7_11_11
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -44650,8 +44909,8 @@ module data_mem_column_8
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_11_11_i_1__9
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[11]),
         .I3(i_data_from_core_IBUF[11]),
         .O(p_1_in[11]));
@@ -44666,7 +44925,7 @@ module data_mem_column_8
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "12" *) 
   (* ram_slice_end = "12" *) 
-  RAM32X1S_HD834 data_mem_reg_0_7_12_12
+  RAM32X1S_HD323 data_mem_reg_0_7_12_12
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -44679,8 +44938,8 @@ module data_mem_column_8
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_12_12_i_1__9
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[12]),
         .I3(i_data_from_core_IBUF[12]),
         .O(p_1_in[12]));
@@ -44695,7 +44954,7 @@ module data_mem_column_8
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "13" *) 
   (* ram_slice_end = "13" *) 
-  RAM32X1S_HD835 data_mem_reg_0_7_13_13
+  RAM32X1S_HD324 data_mem_reg_0_7_13_13
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -44708,8 +44967,8 @@ module data_mem_column_8
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_13_13_i_1__9
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[13]),
         .I3(i_data_from_core_IBUF[13]),
         .O(p_1_in[13]));
@@ -44724,7 +44983,7 @@ module data_mem_column_8
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "14" *) 
   (* ram_slice_end = "14" *) 
-  RAM32X1S_HD836 data_mem_reg_0_7_14_14
+  RAM32X1S_HD325 data_mem_reg_0_7_14_14
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -44737,8 +44996,8 @@ module data_mem_column_8
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_14_14_i_1__9
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[14]),
         .I3(i_data_from_core_IBUF[14]),
         .O(p_1_in[14]));
@@ -44753,7 +45012,7 @@ module data_mem_column_8
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "15" *) 
   (* ram_slice_end = "15" *) 
-  RAM32X1S_HD837 data_mem_reg_0_7_15_15
+  RAM32X1S_HD326 data_mem_reg_0_7_15_15
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -44766,8 +45025,8 @@ module data_mem_column_8
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_15_15_i_1__9
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[15]),
         .I3(i_data_from_core_IBUF[15]),
         .O(p_1_in[15]));
@@ -44782,7 +45041,7 @@ module data_mem_column_8
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "16" *) 
   (* ram_slice_end = "16" *) 
-  RAM32X1S_HD838 data_mem_reg_0_7_16_16
+  RAM32X1S_HD327 data_mem_reg_0_7_16_16
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -44795,8 +45054,8 @@ module data_mem_column_8
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_16_16_i_1__9
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[16]),
         .I3(i_data_from_core_IBUF[16]),
         .O(p_1_in[16]));
@@ -44811,7 +45070,7 @@ module data_mem_column_8
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "17" *) 
   (* ram_slice_end = "17" *) 
-  RAM32X1S_HD839 data_mem_reg_0_7_17_17
+  RAM32X1S_HD328 data_mem_reg_0_7_17_17
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -44824,8 +45083,8 @@ module data_mem_column_8
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_17_17_i_1__9
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[17]),
         .I3(i_data_from_core_IBUF[17]),
         .O(p_1_in[17]));
@@ -44840,7 +45099,7 @@ module data_mem_column_8
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "18" *) 
   (* ram_slice_end = "18" *) 
-  RAM32X1S_HD840 data_mem_reg_0_7_18_18
+  RAM32X1S_HD329 data_mem_reg_0_7_18_18
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -44853,8 +45112,8 @@ module data_mem_column_8
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_18_18_i_1__9
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[18]),
         .I3(i_data_from_core_IBUF[18]),
         .O(p_1_in[18]));
@@ -44869,7 +45128,7 @@ module data_mem_column_8
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "19" *) 
   (* ram_slice_end = "19" *) 
-  RAM32X1S_HD841 data_mem_reg_0_7_19_19
+  RAM32X1S_HD330 data_mem_reg_0_7_19_19
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -44882,8 +45141,8 @@ module data_mem_column_8
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_19_19_i_1__9
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[19]),
         .I3(i_data_from_core_IBUF[19]),
         .O(p_1_in[19]));
@@ -44898,7 +45157,7 @@ module data_mem_column_8
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "1" *) 
   (* ram_slice_end = "1" *) 
-  RAM32X1S_HD842 data_mem_reg_0_7_1_1
+  RAM32X1S_HD331 data_mem_reg_0_7_1_1
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -44911,8 +45170,8 @@ module data_mem_column_8
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_1_1_i_1__9
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[1]),
         .I3(i_data_from_core_IBUF[1]),
         .O(p_1_in[1]));
@@ -44927,7 +45186,7 @@ module data_mem_column_8
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "20" *) 
   (* ram_slice_end = "20" *) 
-  RAM32X1S_HD843 data_mem_reg_0_7_20_20
+  RAM32X1S_HD332 data_mem_reg_0_7_20_20
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -44940,8 +45199,8 @@ module data_mem_column_8
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_20_20_i_1__9
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[20]),
         .I3(i_data_from_core_IBUF[20]),
         .O(p_1_in[20]));
@@ -44956,7 +45215,7 @@ module data_mem_column_8
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "21" *) 
   (* ram_slice_end = "21" *) 
-  RAM32X1S_HD844 data_mem_reg_0_7_21_21
+  RAM32X1S_HD333 data_mem_reg_0_7_21_21
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -44969,8 +45228,8 @@ module data_mem_column_8
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_21_21_i_1__9
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[21]),
         .I3(i_data_from_core_IBUF[21]),
         .O(p_1_in[21]));
@@ -44985,7 +45244,7 @@ module data_mem_column_8
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "22" *) 
   (* ram_slice_end = "22" *) 
-  RAM32X1S_HD845 data_mem_reg_0_7_22_22
+  RAM32X1S_HD334 data_mem_reg_0_7_22_22
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -44998,8 +45257,8 @@ module data_mem_column_8
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_22_22_i_1__9
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[22]),
         .I3(i_data_from_core_IBUF[22]),
         .O(p_1_in[22]));
@@ -45014,7 +45273,7 @@ module data_mem_column_8
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "23" *) 
   (* ram_slice_end = "23" *) 
-  RAM32X1S_HD846 data_mem_reg_0_7_23_23
+  RAM32X1S_HD335 data_mem_reg_0_7_23_23
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -45027,8 +45286,8 @@ module data_mem_column_8
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_23_23_i_1__9
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[23]),
         .I3(i_data_from_core_IBUF[23]),
         .O(p_1_in[23]));
@@ -45043,7 +45302,7 @@ module data_mem_column_8
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "24" *) 
   (* ram_slice_end = "24" *) 
-  RAM32X1S_HD847 data_mem_reg_0_7_24_24
+  RAM32X1S_HD336 data_mem_reg_0_7_24_24
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -45056,8 +45315,8 @@ module data_mem_column_8
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_24_24_i_1__9
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[24]),
         .I3(i_data_from_core_IBUF[24]),
         .O(p_1_in[24]));
@@ -45072,7 +45331,7 @@ module data_mem_column_8
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "25" *) 
   (* ram_slice_end = "25" *) 
-  RAM32X1S_HD848 data_mem_reg_0_7_25_25
+  RAM32X1S_HD337 data_mem_reg_0_7_25_25
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -45085,8 +45344,8 @@ module data_mem_column_8
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_25_25_i_1__9
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[25]),
         .I3(i_data_from_core_IBUF[25]),
         .O(p_1_in[25]));
@@ -45101,7 +45360,7 @@ module data_mem_column_8
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "26" *) 
   (* ram_slice_end = "26" *) 
-  RAM32X1S_HD849 data_mem_reg_0_7_26_26
+  RAM32X1S_HD338 data_mem_reg_0_7_26_26
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -45114,8 +45373,8 @@ module data_mem_column_8
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_26_26_i_1__9
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[26]),
         .I3(i_data_from_core_IBUF[26]),
         .O(p_1_in[26]));
@@ -45130,7 +45389,7 @@ module data_mem_column_8
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "27" *) 
   (* ram_slice_end = "27" *) 
-  RAM32X1S_HD850 data_mem_reg_0_7_27_27
+  RAM32X1S_HD339 data_mem_reg_0_7_27_27
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -45143,8 +45402,8 @@ module data_mem_column_8
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_27_27_i_1__9
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[27]),
         .I3(i_data_from_core_IBUF[27]),
         .O(p_1_in[27]));
@@ -45159,7 +45418,7 @@ module data_mem_column_8
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "28" *) 
   (* ram_slice_end = "28" *) 
-  RAM32X1S_HD851 data_mem_reg_0_7_28_28
+  RAM32X1S_HD340 data_mem_reg_0_7_28_28
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -45172,8 +45431,8 @@ module data_mem_column_8
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_28_28_i_1__9
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[28]),
         .I3(i_data_from_core_IBUF[28]),
         .O(p_1_in[28]));
@@ -45188,7 +45447,7 @@ module data_mem_column_8
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "29" *) 
   (* ram_slice_end = "29" *) 
-  RAM32X1S_HD852 data_mem_reg_0_7_29_29
+  RAM32X1S_HD341 data_mem_reg_0_7_29_29
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -45201,8 +45460,8 @@ module data_mem_column_8
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_29_29_i_1__9
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[29]),
         .I3(i_data_from_core_IBUF[29]),
         .O(p_1_in[29]));
@@ -45217,7 +45476,7 @@ module data_mem_column_8
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "2" *) 
   (* ram_slice_end = "2" *) 
-  RAM32X1S_HD853 data_mem_reg_0_7_2_2
+  RAM32X1S_HD342 data_mem_reg_0_7_2_2
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -45230,8 +45489,8 @@ module data_mem_column_8
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_2_2_i_1__9
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[2]),
         .I3(i_data_from_core_IBUF[2]),
         .O(p_1_in[2]));
@@ -45246,7 +45505,7 @@ module data_mem_column_8
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "30" *) 
   (* ram_slice_end = "30" *) 
-  RAM32X1S_HD854 data_mem_reg_0_7_30_30
+  RAM32X1S_HD343 data_mem_reg_0_7_30_30
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -45259,8 +45518,8 @@ module data_mem_column_8
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_30_30_i_1__9
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[30]),
         .I3(i_data_from_core_IBUF[30]),
         .O(p_1_in[30]));
@@ -45275,7 +45534,7 @@ module data_mem_column_8
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "31" *) 
   (* ram_slice_end = "31" *) 
-  RAM32X1S_HD855 data_mem_reg_0_7_31_31
+  RAM32X1S_HD344 data_mem_reg_0_7_31_31
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -45288,8 +45547,8 @@ module data_mem_column_8
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_31_31_i_1__9
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[31]),
         .I3(i_data_from_core_IBUF[31]),
         .O(p_1_in[31]));
@@ -45304,7 +45563,7 @@ module data_mem_column_8
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "3" *) 
   (* ram_slice_end = "3" *) 
-  RAM32X1S_HD856 data_mem_reg_0_7_3_3
+  RAM32X1S_HD345 data_mem_reg_0_7_3_3
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -45317,8 +45576,8 @@ module data_mem_column_8
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_3_3_i_1__9
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[3]),
         .I3(i_data_from_core_IBUF[3]),
         .O(p_1_in[3]));
@@ -45333,7 +45592,7 @@ module data_mem_column_8
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "4" *) 
   (* ram_slice_end = "4" *) 
-  RAM32X1S_HD857 data_mem_reg_0_7_4_4
+  RAM32X1S_HD346 data_mem_reg_0_7_4_4
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -45346,8 +45605,8 @@ module data_mem_column_8
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_4_4_i_1__9
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[4]),
         .I3(i_data_from_core_IBUF[4]),
         .O(p_1_in[4]));
@@ -45362,7 +45621,7 @@ module data_mem_column_8
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "5" *) 
   (* ram_slice_end = "5" *) 
-  RAM32X1S_HD858 data_mem_reg_0_7_5_5
+  RAM32X1S_HD347 data_mem_reg_0_7_5_5
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -45375,8 +45634,8 @@ module data_mem_column_8
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_5_5_i_1__9
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[5]),
         .I3(i_data_from_core_IBUF[5]),
         .O(p_1_in[5]));
@@ -45391,7 +45650,7 @@ module data_mem_column_8
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "6" *) 
   (* ram_slice_end = "6" *) 
-  RAM32X1S_HD859 data_mem_reg_0_7_6_6
+  RAM32X1S_HD348 data_mem_reg_0_7_6_6
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -45404,8 +45663,8 @@ module data_mem_column_8
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_6_6_i_1__9
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[6]),
         .I3(i_data_from_core_IBUF[6]),
         .O(p_1_in[6]));
@@ -45420,7 +45679,7 @@ module data_mem_column_8
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "7" *) 
   (* ram_slice_end = "7" *) 
-  RAM32X1S_HD860 data_mem_reg_0_7_7_7
+  RAM32X1S_HD349 data_mem_reg_0_7_7_7
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -45433,8 +45692,8 @@ module data_mem_column_8
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_7_7_i_1__9
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[7]),
         .I3(i_data_from_core_IBUF[7]),
         .O(p_1_in[7]));
@@ -45449,7 +45708,7 @@ module data_mem_column_8
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "8" *) 
   (* ram_slice_end = "8" *) 
-  RAM32X1S_HD861 data_mem_reg_0_7_8_8
+  RAM32X1S_HD350 data_mem_reg_0_7_8_8
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -45462,8 +45721,8 @@ module data_mem_column_8
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_8_8_i_1__9
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[8]),
         .I3(i_data_from_core_IBUF[8]),
         .O(p_1_in[8]));
@@ -45478,7 +45737,7 @@ module data_mem_column_8
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "9" *) 
   (* ram_slice_end = "9" *) 
-  RAM32X1S_HD862 data_mem_reg_0_7_9_9
+  RAM32X1S_HD351 data_mem_reg_0_7_9_9
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -45491,8 +45750,8 @@ module data_mem_column_8
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_9_9_i_1__9
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[9]),
         .I3(i_data_from_core_IBUF[9]),
         .O(p_1_in[9]));
@@ -45786,323 +46045,323 @@ module data_mem_column_8
         .O(D[31]));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
-    \o_data_to_core_reg[0]_i_3 
+    \o_data_to_core_reg[0]_i_7 
        (.I0(\output_column[2]_2 [0]),
         .I1(o_data[0]),
-        .I2(\o_data_to_core_reg[31]_i_1 [0]),
+        .I2(\o_data_to_core_reg[31]_i_5 [0]),
         .I3(i_offset_IBUF[1]),
         .I4(i_offset_IBUF[0]),
-        .I5(\o_data_to_core_reg[31]_i_1_0 [0]),
+        .I5(\o_data_to_core_reg[31]_i_5_0 [0]),
         .O(\data_out_from_way[2] [0]));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
-    \o_data_to_core_reg[10]_i_3 
+    \o_data_to_core_reg[10]_i_7 
        (.I0(\output_column[2]_2 [10]),
         .I1(o_data[10]),
-        .I2(\o_data_to_core_reg[31]_i_1 [10]),
+        .I2(\o_data_to_core_reg[31]_i_5 [10]),
         .I3(i_offset_IBUF[1]),
         .I4(i_offset_IBUF[0]),
-        .I5(\o_data_to_core_reg[31]_i_1_0 [10]),
+        .I5(\o_data_to_core_reg[31]_i_5_0 [10]),
         .O(\data_out_from_way[2] [10]));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
-    \o_data_to_core_reg[11]_i_3 
+    \o_data_to_core_reg[11]_i_7 
        (.I0(\output_column[2]_2 [11]),
         .I1(o_data[11]),
-        .I2(\o_data_to_core_reg[31]_i_1 [11]),
+        .I2(\o_data_to_core_reg[31]_i_5 [11]),
         .I3(i_offset_IBUF[1]),
         .I4(i_offset_IBUF[0]),
-        .I5(\o_data_to_core_reg[31]_i_1_0 [11]),
+        .I5(\o_data_to_core_reg[31]_i_5_0 [11]),
         .O(\data_out_from_way[2] [11]));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
-    \o_data_to_core_reg[12]_i_3 
+    \o_data_to_core_reg[12]_i_7 
        (.I0(\output_column[2]_2 [12]),
         .I1(o_data[12]),
-        .I2(\o_data_to_core_reg[31]_i_1 [12]),
+        .I2(\o_data_to_core_reg[31]_i_5 [12]),
         .I3(i_offset_IBUF[1]),
         .I4(i_offset_IBUF[0]),
-        .I5(\o_data_to_core_reg[31]_i_1_0 [12]),
+        .I5(\o_data_to_core_reg[31]_i_5_0 [12]),
         .O(\data_out_from_way[2] [12]));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
-    \o_data_to_core_reg[13]_i_3 
+    \o_data_to_core_reg[13]_i_7 
        (.I0(\output_column[2]_2 [13]),
         .I1(o_data[13]),
-        .I2(\o_data_to_core_reg[31]_i_1 [13]),
+        .I2(\o_data_to_core_reg[31]_i_5 [13]),
         .I3(i_offset_IBUF[1]),
         .I4(i_offset_IBUF[0]),
-        .I5(\o_data_to_core_reg[31]_i_1_0 [13]),
+        .I5(\o_data_to_core_reg[31]_i_5_0 [13]),
         .O(\data_out_from_way[2] [13]));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
-    \o_data_to_core_reg[14]_i_3 
+    \o_data_to_core_reg[14]_i_7 
        (.I0(\output_column[2]_2 [14]),
         .I1(o_data[14]),
-        .I2(\o_data_to_core_reg[31]_i_1 [14]),
+        .I2(\o_data_to_core_reg[31]_i_5 [14]),
         .I3(i_offset_IBUF[1]),
         .I4(i_offset_IBUF[0]),
-        .I5(\o_data_to_core_reg[31]_i_1_0 [14]),
+        .I5(\o_data_to_core_reg[31]_i_5_0 [14]),
         .O(\data_out_from_way[2] [14]));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
-    \o_data_to_core_reg[15]_i_3 
+    \o_data_to_core_reg[15]_i_7 
        (.I0(\output_column[2]_2 [15]),
         .I1(o_data[15]),
-        .I2(\o_data_to_core_reg[31]_i_1 [15]),
+        .I2(\o_data_to_core_reg[31]_i_5 [15]),
         .I3(i_offset_IBUF[1]),
         .I4(i_offset_IBUF[0]),
-        .I5(\o_data_to_core_reg[31]_i_1_0 [15]),
+        .I5(\o_data_to_core_reg[31]_i_5_0 [15]),
         .O(\data_out_from_way[2] [15]));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
-    \o_data_to_core_reg[16]_i_3 
+    \o_data_to_core_reg[16]_i_7 
        (.I0(\output_column[2]_2 [16]),
         .I1(o_data[16]),
-        .I2(\o_data_to_core_reg[31]_i_1 [16]),
+        .I2(\o_data_to_core_reg[31]_i_5 [16]),
         .I3(i_offset_IBUF[1]),
         .I4(i_offset_IBUF[0]),
-        .I5(\o_data_to_core_reg[31]_i_1_0 [16]),
+        .I5(\o_data_to_core_reg[31]_i_5_0 [16]),
         .O(\data_out_from_way[2] [16]));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
-    \o_data_to_core_reg[17]_i_3 
+    \o_data_to_core_reg[17]_i_7 
        (.I0(\output_column[2]_2 [17]),
         .I1(o_data[17]),
-        .I2(\o_data_to_core_reg[31]_i_1 [17]),
+        .I2(\o_data_to_core_reg[31]_i_5 [17]),
         .I3(i_offset_IBUF[1]),
         .I4(i_offset_IBUF[0]),
-        .I5(\o_data_to_core_reg[31]_i_1_0 [17]),
+        .I5(\o_data_to_core_reg[31]_i_5_0 [17]),
         .O(\data_out_from_way[2] [17]));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
-    \o_data_to_core_reg[18]_i_3 
+    \o_data_to_core_reg[18]_i_7 
        (.I0(\output_column[2]_2 [18]),
         .I1(o_data[18]),
-        .I2(\o_data_to_core_reg[31]_i_1 [18]),
+        .I2(\o_data_to_core_reg[31]_i_5 [18]),
         .I3(i_offset_IBUF[1]),
         .I4(i_offset_IBUF[0]),
-        .I5(\o_data_to_core_reg[31]_i_1_0 [18]),
+        .I5(\o_data_to_core_reg[31]_i_5_0 [18]),
         .O(\data_out_from_way[2] [18]));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
-    \o_data_to_core_reg[19]_i_3 
+    \o_data_to_core_reg[19]_i_7 
        (.I0(\output_column[2]_2 [19]),
         .I1(o_data[19]),
-        .I2(\o_data_to_core_reg[31]_i_1 [19]),
+        .I2(\o_data_to_core_reg[31]_i_5 [19]),
         .I3(i_offset_IBUF[1]),
         .I4(i_offset_IBUF[0]),
-        .I5(\o_data_to_core_reg[31]_i_1_0 [19]),
+        .I5(\o_data_to_core_reg[31]_i_5_0 [19]),
         .O(\data_out_from_way[2] [19]));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
-    \o_data_to_core_reg[1]_i_3 
+    \o_data_to_core_reg[1]_i_7 
        (.I0(\output_column[2]_2 [1]),
         .I1(o_data[1]),
-        .I2(\o_data_to_core_reg[31]_i_1 [1]),
+        .I2(\o_data_to_core_reg[31]_i_5 [1]),
         .I3(i_offset_IBUF[1]),
         .I4(i_offset_IBUF[0]),
-        .I5(\o_data_to_core_reg[31]_i_1_0 [1]),
+        .I5(\o_data_to_core_reg[31]_i_5_0 [1]),
         .O(\data_out_from_way[2] [1]));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
-    \o_data_to_core_reg[20]_i_3 
+    \o_data_to_core_reg[20]_i_7 
        (.I0(\output_column[2]_2 [20]),
         .I1(o_data[20]),
-        .I2(\o_data_to_core_reg[31]_i_1 [20]),
+        .I2(\o_data_to_core_reg[31]_i_5 [20]),
         .I3(i_offset_IBUF[1]),
         .I4(i_offset_IBUF[0]),
-        .I5(\o_data_to_core_reg[31]_i_1_0 [20]),
+        .I5(\o_data_to_core_reg[31]_i_5_0 [20]),
         .O(\data_out_from_way[2] [20]));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
-    \o_data_to_core_reg[21]_i_3 
+    \o_data_to_core_reg[21]_i_7 
        (.I0(\output_column[2]_2 [21]),
         .I1(o_data[21]),
-        .I2(\o_data_to_core_reg[31]_i_1 [21]),
+        .I2(\o_data_to_core_reg[31]_i_5 [21]),
         .I3(i_offset_IBUF[1]),
         .I4(i_offset_IBUF[0]),
-        .I5(\o_data_to_core_reg[31]_i_1_0 [21]),
+        .I5(\o_data_to_core_reg[31]_i_5_0 [21]),
         .O(\data_out_from_way[2] [21]));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
-    \o_data_to_core_reg[22]_i_3 
+    \o_data_to_core_reg[22]_i_7 
        (.I0(\output_column[2]_2 [22]),
         .I1(o_data[22]),
-        .I2(\o_data_to_core_reg[31]_i_1 [22]),
+        .I2(\o_data_to_core_reg[31]_i_5 [22]),
         .I3(i_offset_IBUF[1]),
         .I4(i_offset_IBUF[0]),
-        .I5(\o_data_to_core_reg[31]_i_1_0 [22]),
+        .I5(\o_data_to_core_reg[31]_i_5_0 [22]),
         .O(\data_out_from_way[2] [22]));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
-    \o_data_to_core_reg[23]_i_3 
+    \o_data_to_core_reg[23]_i_7 
        (.I0(\output_column[2]_2 [23]),
         .I1(o_data[23]),
-        .I2(\o_data_to_core_reg[31]_i_1 [23]),
+        .I2(\o_data_to_core_reg[31]_i_5 [23]),
         .I3(i_offset_IBUF[1]),
         .I4(i_offset_IBUF[0]),
-        .I5(\o_data_to_core_reg[31]_i_1_0 [23]),
+        .I5(\o_data_to_core_reg[31]_i_5_0 [23]),
         .O(\data_out_from_way[2] [23]));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
-    \o_data_to_core_reg[24]_i_3 
+    \o_data_to_core_reg[24]_i_7 
        (.I0(\output_column[2]_2 [24]),
         .I1(o_data[24]),
-        .I2(\o_data_to_core_reg[31]_i_1 [24]),
+        .I2(\o_data_to_core_reg[31]_i_5 [24]),
         .I3(i_offset_IBUF[1]),
         .I4(i_offset_IBUF[0]),
-        .I5(\o_data_to_core_reg[31]_i_1_0 [24]),
+        .I5(\o_data_to_core_reg[31]_i_5_0 [24]),
         .O(\data_out_from_way[2] [24]));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
-    \o_data_to_core_reg[25]_i_3 
+    \o_data_to_core_reg[25]_i_7 
        (.I0(\output_column[2]_2 [25]),
         .I1(o_data[25]),
-        .I2(\o_data_to_core_reg[31]_i_1 [25]),
+        .I2(\o_data_to_core_reg[31]_i_5 [25]),
         .I3(i_offset_IBUF[1]),
         .I4(i_offset_IBUF[0]),
-        .I5(\o_data_to_core_reg[31]_i_1_0 [25]),
+        .I5(\o_data_to_core_reg[31]_i_5_0 [25]),
         .O(\data_out_from_way[2] [25]));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
-    \o_data_to_core_reg[26]_i_3 
+    \o_data_to_core_reg[26]_i_7 
        (.I0(\output_column[2]_2 [26]),
         .I1(o_data[26]),
-        .I2(\o_data_to_core_reg[31]_i_1 [26]),
+        .I2(\o_data_to_core_reg[31]_i_5 [26]),
         .I3(i_offset_IBUF[1]),
         .I4(i_offset_IBUF[0]),
-        .I5(\o_data_to_core_reg[31]_i_1_0 [26]),
+        .I5(\o_data_to_core_reg[31]_i_5_0 [26]),
         .O(\data_out_from_way[2] [26]));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
-    \o_data_to_core_reg[27]_i_3 
+    \o_data_to_core_reg[27]_i_7 
        (.I0(\output_column[2]_2 [27]),
         .I1(o_data[27]),
-        .I2(\o_data_to_core_reg[31]_i_1 [27]),
+        .I2(\o_data_to_core_reg[31]_i_5 [27]),
         .I3(i_offset_IBUF[1]),
         .I4(i_offset_IBUF[0]),
-        .I5(\o_data_to_core_reg[31]_i_1_0 [27]),
+        .I5(\o_data_to_core_reg[31]_i_5_0 [27]),
         .O(\data_out_from_way[2] [27]));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
-    \o_data_to_core_reg[28]_i_3 
+    \o_data_to_core_reg[28]_i_7 
        (.I0(\output_column[2]_2 [28]),
         .I1(o_data[28]),
-        .I2(\o_data_to_core_reg[31]_i_1 [28]),
+        .I2(\o_data_to_core_reg[31]_i_5 [28]),
         .I3(i_offset_IBUF[1]),
         .I4(i_offset_IBUF[0]),
-        .I5(\o_data_to_core_reg[31]_i_1_0 [28]),
+        .I5(\o_data_to_core_reg[31]_i_5_0 [28]),
         .O(\data_out_from_way[2] [28]));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
-    \o_data_to_core_reg[29]_i_3 
+    \o_data_to_core_reg[29]_i_7 
        (.I0(\output_column[2]_2 [29]),
         .I1(o_data[29]),
-        .I2(\o_data_to_core_reg[31]_i_1 [29]),
+        .I2(\o_data_to_core_reg[31]_i_5 [29]),
         .I3(i_offset_IBUF[1]),
         .I4(i_offset_IBUF[0]),
-        .I5(\o_data_to_core_reg[31]_i_1_0 [29]),
+        .I5(\o_data_to_core_reg[31]_i_5_0 [29]),
         .O(\data_out_from_way[2] [29]));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
-    \o_data_to_core_reg[2]_i_3 
+    \o_data_to_core_reg[2]_i_7 
        (.I0(\output_column[2]_2 [2]),
         .I1(o_data[2]),
-        .I2(\o_data_to_core_reg[31]_i_1 [2]),
+        .I2(\o_data_to_core_reg[31]_i_5 [2]),
         .I3(i_offset_IBUF[1]),
         .I4(i_offset_IBUF[0]),
-        .I5(\o_data_to_core_reg[31]_i_1_0 [2]),
+        .I5(\o_data_to_core_reg[31]_i_5_0 [2]),
         .O(\data_out_from_way[2] [2]));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
-    \o_data_to_core_reg[30]_i_3 
+    \o_data_to_core_reg[30]_i_7 
        (.I0(\output_column[2]_2 [30]),
         .I1(o_data[30]),
-        .I2(\o_data_to_core_reg[31]_i_1 [30]),
+        .I2(\o_data_to_core_reg[31]_i_5 [30]),
         .I3(i_offset_IBUF[1]),
         .I4(i_offset_IBUF[0]),
-        .I5(\o_data_to_core_reg[31]_i_1_0 [30]),
+        .I5(\o_data_to_core_reg[31]_i_5_0 [30]),
         .O(\data_out_from_way[2] [30]));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
-    \o_data_to_core_reg[31]_i_4 
+    \o_data_to_core_reg[31]_i_11 
        (.I0(\output_column[2]_2 [31]),
         .I1(o_data[31]),
-        .I2(\o_data_to_core_reg[31]_i_1 [31]),
+        .I2(\o_data_to_core_reg[31]_i_5 [31]),
         .I3(i_offset_IBUF[1]),
         .I4(i_offset_IBUF[0]),
-        .I5(\o_data_to_core_reg[31]_i_1_0 [31]),
+        .I5(\o_data_to_core_reg[31]_i_5_0 [31]),
         .O(\data_out_from_way[2] [31]));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
-    \o_data_to_core_reg[3]_i_3 
+    \o_data_to_core_reg[3]_i_7 
        (.I0(\output_column[2]_2 [3]),
         .I1(o_data[3]),
-        .I2(\o_data_to_core_reg[31]_i_1 [3]),
+        .I2(\o_data_to_core_reg[31]_i_5 [3]),
         .I3(i_offset_IBUF[1]),
         .I4(i_offset_IBUF[0]),
-        .I5(\o_data_to_core_reg[31]_i_1_0 [3]),
+        .I5(\o_data_to_core_reg[31]_i_5_0 [3]),
         .O(\data_out_from_way[2] [3]));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
-    \o_data_to_core_reg[4]_i_3 
+    \o_data_to_core_reg[4]_i_7 
        (.I0(\output_column[2]_2 [4]),
         .I1(o_data[4]),
-        .I2(\o_data_to_core_reg[31]_i_1 [4]),
+        .I2(\o_data_to_core_reg[31]_i_5 [4]),
         .I3(i_offset_IBUF[1]),
         .I4(i_offset_IBUF[0]),
-        .I5(\o_data_to_core_reg[31]_i_1_0 [4]),
+        .I5(\o_data_to_core_reg[31]_i_5_0 [4]),
         .O(\data_out_from_way[2] [4]));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
-    \o_data_to_core_reg[5]_i_3 
+    \o_data_to_core_reg[5]_i_7 
        (.I0(\output_column[2]_2 [5]),
         .I1(o_data[5]),
-        .I2(\o_data_to_core_reg[31]_i_1 [5]),
+        .I2(\o_data_to_core_reg[31]_i_5 [5]),
         .I3(i_offset_IBUF[1]),
         .I4(i_offset_IBUF[0]),
-        .I5(\o_data_to_core_reg[31]_i_1_0 [5]),
+        .I5(\o_data_to_core_reg[31]_i_5_0 [5]),
         .O(\data_out_from_way[2] [5]));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
-    \o_data_to_core_reg[6]_i_3 
+    \o_data_to_core_reg[6]_i_7 
        (.I0(\output_column[2]_2 [6]),
         .I1(o_data[6]),
-        .I2(\o_data_to_core_reg[31]_i_1 [6]),
+        .I2(\o_data_to_core_reg[31]_i_5 [6]),
         .I3(i_offset_IBUF[1]),
         .I4(i_offset_IBUF[0]),
-        .I5(\o_data_to_core_reg[31]_i_1_0 [6]),
+        .I5(\o_data_to_core_reg[31]_i_5_0 [6]),
         .O(\data_out_from_way[2] [6]));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
-    \o_data_to_core_reg[7]_i_3 
+    \o_data_to_core_reg[7]_i_7 
        (.I0(\output_column[2]_2 [7]),
         .I1(o_data[7]),
-        .I2(\o_data_to_core_reg[31]_i_1 [7]),
+        .I2(\o_data_to_core_reg[31]_i_5 [7]),
         .I3(i_offset_IBUF[1]),
         .I4(i_offset_IBUF[0]),
-        .I5(\o_data_to_core_reg[31]_i_1_0 [7]),
+        .I5(\o_data_to_core_reg[31]_i_5_0 [7]),
         .O(\data_out_from_way[2] [7]));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
-    \o_data_to_core_reg[8]_i_3 
+    \o_data_to_core_reg[8]_i_7 
        (.I0(\output_column[2]_2 [8]),
         .I1(o_data[8]),
-        .I2(\o_data_to_core_reg[31]_i_1 [8]),
+        .I2(\o_data_to_core_reg[31]_i_5 [8]),
         .I3(i_offset_IBUF[1]),
         .I4(i_offset_IBUF[0]),
-        .I5(\o_data_to_core_reg[31]_i_1_0 [8]),
+        .I5(\o_data_to_core_reg[31]_i_5_0 [8]),
         .O(\data_out_from_way[2] [8]));
   LUT6 #(
     .INIT(64'hCCFFAAF0CC00AAF0)) 
-    \o_data_to_core_reg[9]_i_3 
+    \o_data_to_core_reg[9]_i_7 
        (.I0(\output_column[2]_2 [9]),
         .I1(o_data[9]),
-        .I2(\o_data_to_core_reg[31]_i_1 [9]),
+        .I2(\o_data_to_core_reg[31]_i_5 [9]),
         .I3(i_offset_IBUF[1]),
         .I4(i_offset_IBUF[0]),
-        .I5(\o_data_to_core_reg[31]_i_1_0 [9]),
+        .I5(\o_data_to_core_reg[31]_i_5_0 [9]),
         .O(\data_out_from_way[2] [9]));
 endmodule
 
@@ -46146,11 +46405,11 @@ module data_mem_column_9
     \o_block_to_mem_reg[126] ,
     \o_block_to_mem_reg[127]_0 ,
     i_LRU_IBUF,
+    i_way_IBUF,
     i_data_from_mem_valid_IBUF,
     i_data_from_mem_IBUF,
     i_data_from_core_IBUF,
     i_offset_IBUF,
-    i_way_IBUF,
     i_wr_IBUF,
     clk_IBUF_BUFG,
     i_index_IBUF);
@@ -46192,11 +46451,11 @@ module data_mem_column_9
   input \o_block_to_mem_reg[126] ;
   input \o_block_to_mem_reg[127]_0 ;
   input [3:0]i_LRU_IBUF;
+  input [0:0]i_way_IBUF;
   input i_data_from_mem_valid_IBUF;
   input [31:0]i_data_from_mem_IBUF;
   input [31:0]i_data_from_core_IBUF;
   input [1:0]i_offset_IBUF;
-  input [0:0]i_way_IBUF;
   input i_wr_IBUF;
   input clk_IBUF_BUFG;
   input [2:0]i_index_IBUF;
@@ -46261,7 +46520,7 @@ module data_mem_column_9
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "0" *) 
   (* ram_slice_end = "0" *) 
-  RAM32X1S_HD863 data_mem_reg_0_7_0_0
+  RAM32X1S_HD352 data_mem_reg_0_7_0_0
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -46274,20 +46533,19 @@ module data_mem_column_9
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_0_0_i_1__10
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[2]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[0]),
         .I3(i_data_from_core_IBUF[0]),
         .O(p_1_in[0]));
-  LUT6 #(
-    .INIT(64'hF888888888888888)) 
+  LUT5 #(
+    .INIT(32'hA8888888)) 
     data_mem_reg_0_7_0_0_i_2__7
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[2]),
-        .I2(i_offset_IBUF[0]),
-        .I3(i_offset_IBUF[1]),
-        .I4(i_way_IBUF),
-        .I5(i_wr_IBUF),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
+        .I2(i_offset_IBUF[1]),
+        .I3(i_offset_IBUF[0]),
+        .I4(i_wr_IBUF),
         .O(p_0_in__10));
   (* INIT = "32'h00000003" *) 
   (* RTL_RAM_BITS = "256" *) 
@@ -46300,7 +46558,7 @@ module data_mem_column_9
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "10" *) 
   (* ram_slice_end = "10" *) 
-  RAM32X1S_HD864 data_mem_reg_0_7_10_10
+  RAM32X1S_HD353 data_mem_reg_0_7_10_10
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -46313,8 +46571,8 @@ module data_mem_column_9
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_10_10_i_1__10
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[2]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[10]),
         .I3(i_data_from_core_IBUF[10]),
         .O(p_1_in[10]));
@@ -46329,7 +46587,7 @@ module data_mem_column_9
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "11" *) 
   (* ram_slice_end = "11" *) 
-  RAM32X1S_HD865 data_mem_reg_0_7_11_11
+  RAM32X1S_HD354 data_mem_reg_0_7_11_11
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -46342,8 +46600,8 @@ module data_mem_column_9
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_11_11_i_1__10
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[2]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[11]),
         .I3(i_data_from_core_IBUF[11]),
         .O(p_1_in[11]));
@@ -46358,7 +46616,7 @@ module data_mem_column_9
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "12" *) 
   (* ram_slice_end = "12" *) 
-  RAM32X1S_HD866 data_mem_reg_0_7_12_12
+  RAM32X1S_HD355 data_mem_reg_0_7_12_12
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -46371,8 +46629,8 @@ module data_mem_column_9
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_12_12_i_1__10
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[2]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[12]),
         .I3(i_data_from_core_IBUF[12]),
         .O(p_1_in[12]));
@@ -46387,7 +46645,7 @@ module data_mem_column_9
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "13" *) 
   (* ram_slice_end = "13" *) 
-  RAM32X1S_HD867 data_mem_reg_0_7_13_13
+  RAM32X1S_HD356 data_mem_reg_0_7_13_13
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -46400,8 +46658,8 @@ module data_mem_column_9
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_13_13_i_1__10
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[2]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[13]),
         .I3(i_data_from_core_IBUF[13]),
         .O(p_1_in[13]));
@@ -46416,7 +46674,7 @@ module data_mem_column_9
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "14" *) 
   (* ram_slice_end = "14" *) 
-  RAM32X1S_HD868 data_mem_reg_0_7_14_14
+  RAM32X1S_HD357 data_mem_reg_0_7_14_14
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -46429,8 +46687,8 @@ module data_mem_column_9
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_14_14_i_1__10
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[2]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[14]),
         .I3(i_data_from_core_IBUF[14]),
         .O(p_1_in[14]));
@@ -46445,7 +46703,7 @@ module data_mem_column_9
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "15" *) 
   (* ram_slice_end = "15" *) 
-  RAM32X1S_HD869 data_mem_reg_0_7_15_15
+  RAM32X1S_HD358 data_mem_reg_0_7_15_15
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -46458,8 +46716,8 @@ module data_mem_column_9
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_15_15_i_1__10
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[2]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[15]),
         .I3(i_data_from_core_IBUF[15]),
         .O(p_1_in[15]));
@@ -46474,7 +46732,7 @@ module data_mem_column_9
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "16" *) 
   (* ram_slice_end = "16" *) 
-  RAM32X1S_HD870 data_mem_reg_0_7_16_16
+  RAM32X1S_HD359 data_mem_reg_0_7_16_16
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -46487,8 +46745,8 @@ module data_mem_column_9
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_16_16_i_1__10
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[2]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[16]),
         .I3(i_data_from_core_IBUF[16]),
         .O(p_1_in[16]));
@@ -46503,7 +46761,7 @@ module data_mem_column_9
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "17" *) 
   (* ram_slice_end = "17" *) 
-  RAM32X1S_HD871 data_mem_reg_0_7_17_17
+  RAM32X1S_HD360 data_mem_reg_0_7_17_17
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -46516,8 +46774,8 @@ module data_mem_column_9
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_17_17_i_1__10
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[2]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[17]),
         .I3(i_data_from_core_IBUF[17]),
         .O(p_1_in[17]));
@@ -46532,7 +46790,7 @@ module data_mem_column_9
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "18" *) 
   (* ram_slice_end = "18" *) 
-  RAM32X1S_HD872 data_mem_reg_0_7_18_18
+  RAM32X1S_HD361 data_mem_reg_0_7_18_18
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -46545,8 +46803,8 @@ module data_mem_column_9
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_18_18_i_1__10
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[2]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[18]),
         .I3(i_data_from_core_IBUF[18]),
         .O(p_1_in[18]));
@@ -46561,7 +46819,7 @@ module data_mem_column_9
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "19" *) 
   (* ram_slice_end = "19" *) 
-  RAM32X1S_HD873 data_mem_reg_0_7_19_19
+  RAM32X1S_HD362 data_mem_reg_0_7_19_19
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -46574,8 +46832,8 @@ module data_mem_column_9
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_19_19_i_1__10
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[2]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[19]),
         .I3(i_data_from_core_IBUF[19]),
         .O(p_1_in[19]));
@@ -46590,7 +46848,7 @@ module data_mem_column_9
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "1" *) 
   (* ram_slice_end = "1" *) 
-  RAM32X1S_HD874 data_mem_reg_0_7_1_1
+  RAM32X1S_HD363 data_mem_reg_0_7_1_1
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -46603,8 +46861,8 @@ module data_mem_column_9
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_1_1_i_1__10
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[2]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[1]),
         .I3(i_data_from_core_IBUF[1]),
         .O(p_1_in[1]));
@@ -46619,7 +46877,7 @@ module data_mem_column_9
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "20" *) 
   (* ram_slice_end = "20" *) 
-  RAM32X1S_HD875 data_mem_reg_0_7_20_20
+  RAM32X1S_HD364 data_mem_reg_0_7_20_20
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -46632,8 +46890,8 @@ module data_mem_column_9
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_20_20_i_1__10
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[2]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[20]),
         .I3(i_data_from_core_IBUF[20]),
         .O(p_1_in[20]));
@@ -46648,7 +46906,7 @@ module data_mem_column_9
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "21" *) 
   (* ram_slice_end = "21" *) 
-  RAM32X1S_HD876 data_mem_reg_0_7_21_21
+  RAM32X1S_HD365 data_mem_reg_0_7_21_21
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -46661,8 +46919,8 @@ module data_mem_column_9
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_21_21_i_1__10
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[2]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[21]),
         .I3(i_data_from_core_IBUF[21]),
         .O(p_1_in[21]));
@@ -46677,7 +46935,7 @@ module data_mem_column_9
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "22" *) 
   (* ram_slice_end = "22" *) 
-  RAM32X1S_HD877 data_mem_reg_0_7_22_22
+  RAM32X1S_HD366 data_mem_reg_0_7_22_22
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -46690,8 +46948,8 @@ module data_mem_column_9
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_22_22_i_1__10
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[2]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[22]),
         .I3(i_data_from_core_IBUF[22]),
         .O(p_1_in[22]));
@@ -46706,7 +46964,7 @@ module data_mem_column_9
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "23" *) 
   (* ram_slice_end = "23" *) 
-  RAM32X1S_HD878 data_mem_reg_0_7_23_23
+  RAM32X1S_HD367 data_mem_reg_0_7_23_23
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -46719,8 +46977,8 @@ module data_mem_column_9
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_23_23_i_1__10
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[2]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[23]),
         .I3(i_data_from_core_IBUF[23]),
         .O(p_1_in[23]));
@@ -46735,7 +46993,7 @@ module data_mem_column_9
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "24" *) 
   (* ram_slice_end = "24" *) 
-  RAM32X1S_HD879 data_mem_reg_0_7_24_24
+  RAM32X1S_HD368 data_mem_reg_0_7_24_24
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -46748,8 +47006,8 @@ module data_mem_column_9
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_24_24_i_1__10
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[2]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[24]),
         .I3(i_data_from_core_IBUF[24]),
         .O(p_1_in[24]));
@@ -46764,7 +47022,7 @@ module data_mem_column_9
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "25" *) 
   (* ram_slice_end = "25" *) 
-  RAM32X1S_HD880 data_mem_reg_0_7_25_25
+  RAM32X1S_HD369 data_mem_reg_0_7_25_25
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -46777,8 +47035,8 @@ module data_mem_column_9
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_25_25_i_1__10
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[2]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[25]),
         .I3(i_data_from_core_IBUF[25]),
         .O(p_1_in[25]));
@@ -46793,7 +47051,7 @@ module data_mem_column_9
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "26" *) 
   (* ram_slice_end = "26" *) 
-  RAM32X1S_HD881 data_mem_reg_0_7_26_26
+  RAM32X1S_HD370 data_mem_reg_0_7_26_26
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -46806,8 +47064,8 @@ module data_mem_column_9
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_26_26_i_1__10
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[2]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[26]),
         .I3(i_data_from_core_IBUF[26]),
         .O(p_1_in[26]));
@@ -46822,7 +47080,7 @@ module data_mem_column_9
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "27" *) 
   (* ram_slice_end = "27" *) 
-  RAM32X1S_HD882 data_mem_reg_0_7_27_27
+  RAM32X1S_HD371 data_mem_reg_0_7_27_27
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -46835,8 +47093,8 @@ module data_mem_column_9
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_27_27_i_1__10
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[2]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[27]),
         .I3(i_data_from_core_IBUF[27]),
         .O(p_1_in[27]));
@@ -46851,7 +47109,7 @@ module data_mem_column_9
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "28" *) 
   (* ram_slice_end = "28" *) 
-  RAM32X1S_HD883 data_mem_reg_0_7_28_28
+  RAM32X1S_HD372 data_mem_reg_0_7_28_28
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -46864,8 +47122,8 @@ module data_mem_column_9
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_28_28_i_1__10
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[2]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[28]),
         .I3(i_data_from_core_IBUF[28]),
         .O(p_1_in[28]));
@@ -46880,7 +47138,7 @@ module data_mem_column_9
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "29" *) 
   (* ram_slice_end = "29" *) 
-  RAM32X1S_HD884 data_mem_reg_0_7_29_29
+  RAM32X1S_HD373 data_mem_reg_0_7_29_29
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -46893,8 +47151,8 @@ module data_mem_column_9
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_29_29_i_1__10
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[2]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[29]),
         .I3(i_data_from_core_IBUF[29]),
         .O(p_1_in[29]));
@@ -46909,7 +47167,7 @@ module data_mem_column_9
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "2" *) 
   (* ram_slice_end = "2" *) 
-  RAM32X1S_HD885 data_mem_reg_0_7_2_2
+  RAM32X1S_HD374 data_mem_reg_0_7_2_2
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -46922,8 +47180,8 @@ module data_mem_column_9
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_2_2_i_1__10
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[2]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[2]),
         .I3(i_data_from_core_IBUF[2]),
         .O(p_1_in[2]));
@@ -46938,7 +47196,7 @@ module data_mem_column_9
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "30" *) 
   (* ram_slice_end = "30" *) 
-  RAM32X1S_HD886 data_mem_reg_0_7_30_30
+  RAM32X1S_HD375 data_mem_reg_0_7_30_30
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -46951,8 +47209,8 @@ module data_mem_column_9
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_30_30_i_1__10
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[2]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[30]),
         .I3(i_data_from_core_IBUF[30]),
         .O(p_1_in[30]));
@@ -46967,7 +47225,7 @@ module data_mem_column_9
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "31" *) 
   (* ram_slice_end = "31" *) 
-  RAM32X1S_HD887 data_mem_reg_0_7_31_31
+  RAM32X1S_HD376 data_mem_reg_0_7_31_31
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -46980,8 +47238,8 @@ module data_mem_column_9
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_31_31_i_1__10
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[2]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[31]),
         .I3(i_data_from_core_IBUF[31]),
         .O(p_1_in[31]));
@@ -46996,7 +47254,7 @@ module data_mem_column_9
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "3" *) 
   (* ram_slice_end = "3" *) 
-  RAM32X1S_HD888 data_mem_reg_0_7_3_3
+  RAM32X1S_HD377 data_mem_reg_0_7_3_3
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -47009,8 +47267,8 @@ module data_mem_column_9
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_3_3_i_1__10
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[2]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[3]),
         .I3(i_data_from_core_IBUF[3]),
         .O(p_1_in[3]));
@@ -47025,7 +47283,7 @@ module data_mem_column_9
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "4" *) 
   (* ram_slice_end = "4" *) 
-  RAM32X1S_HD889 data_mem_reg_0_7_4_4
+  RAM32X1S_HD378 data_mem_reg_0_7_4_4
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -47038,8 +47296,8 @@ module data_mem_column_9
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_4_4_i_1__10
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[2]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[4]),
         .I3(i_data_from_core_IBUF[4]),
         .O(p_1_in[4]));
@@ -47054,7 +47312,7 @@ module data_mem_column_9
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "5" *) 
   (* ram_slice_end = "5" *) 
-  RAM32X1S_HD890 data_mem_reg_0_7_5_5
+  RAM32X1S_HD379 data_mem_reg_0_7_5_5
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -47067,8 +47325,8 @@ module data_mem_column_9
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_5_5_i_1__10
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[2]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[5]),
         .I3(i_data_from_core_IBUF[5]),
         .O(p_1_in[5]));
@@ -47083,7 +47341,7 @@ module data_mem_column_9
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "6" *) 
   (* ram_slice_end = "6" *) 
-  RAM32X1S_HD891 data_mem_reg_0_7_6_6
+  RAM32X1S_HD380 data_mem_reg_0_7_6_6
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -47096,8 +47354,8 @@ module data_mem_column_9
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_6_6_i_1__10
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[2]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[6]),
         .I3(i_data_from_core_IBUF[6]),
         .O(p_1_in[6]));
@@ -47112,7 +47370,7 @@ module data_mem_column_9
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "7" *) 
   (* ram_slice_end = "7" *) 
-  RAM32X1S_HD892 data_mem_reg_0_7_7_7
+  RAM32X1S_HD381 data_mem_reg_0_7_7_7
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -47125,8 +47383,8 @@ module data_mem_column_9
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_7_7_i_1__10
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[2]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[7]),
         .I3(i_data_from_core_IBUF[7]),
         .O(p_1_in[7]));
@@ -47141,7 +47399,7 @@ module data_mem_column_9
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "8" *) 
   (* ram_slice_end = "8" *) 
-  RAM32X1S_HD893 data_mem_reg_0_7_8_8
+  RAM32X1S_HD382 data_mem_reg_0_7_8_8
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -47154,8 +47412,8 @@ module data_mem_column_9
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_8_8_i_1__10
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[2]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[8]),
         .I3(i_data_from_core_IBUF[8]),
         .O(p_1_in[8]));
@@ -47170,7 +47428,7 @@ module data_mem_column_9
   (* ram_offset = "0" *) 
   (* ram_slice_begin = "9" *) 
   (* ram_slice_end = "9" *) 
-  RAM32X1S_HD894 data_mem_reg_0_7_9_9
+  RAM32X1S_HD383 data_mem_reg_0_7_9_9
        (.A0(i_index_IBUF[0]),
         .A1(i_index_IBUF[1]),
         .A2(i_index_IBUF[2]),
@@ -47183,8 +47441,8 @@ module data_mem_column_9
   LUT4 #(
     .INIT(16'hF780)) 
     data_mem_reg_0_7_9_9_i_1__10
-       (.I0(i_data_from_mem_valid_IBUF),
-        .I1(i_LRU_IBUF[2]),
+       (.I0(i_way_IBUF),
+        .I1(i_data_from_mem_valid_IBUF),
         .I2(i_data_from_mem_IBUF[9]),
         .I3(i_data_from_core_IBUF[9]),
         .O(p_1_in[9]));
@@ -47500,11 +47758,10 @@ module data_mem_way
     \i_index[0]_0 ,
     \i_index[0]_1 ,
     i_offset_IBUF,
+    i_way_IBUF,
     i_data_from_mem_valid_IBUF,
-    i_LRU_IBUF,
     i_data_from_mem_IBUF,
     i_data_from_core_IBUF,
-    i_way_IBUF,
     i_wr_IBUF,
     clk_IBUF_BUFG,
     i_index_IBUF);
@@ -47514,18 +47771,16 @@ module data_mem_way
   output [31:0]\i_index[0]_0 ;
   output [31:0]\i_index[0]_1 ;
   input [1:0]i_offset_IBUF;
+  input [0:0]i_way_IBUF;
   input i_data_from_mem_valid_IBUF;
-  input [0:0]i_LRU_IBUF;
   input [127:0]i_data_from_mem_IBUF;
   input [31:0]i_data_from_core_IBUF;
-  input [0:0]i_way_IBUF;
   input i_wr_IBUF;
   input clk_IBUF_BUFG;
   input [2:0]i_index_IBUF;
 
   wire clk_IBUF_BUFG;
   wire [31:0]\data_out_from_way[0] ;
-  wire [0:0]i_LRU_IBUF;
   wire [31:0]i_data_from_core_IBUF;
   wire [127:0]i_data_from_mem_IBUF;
   wire i_data_from_mem_valid_IBUF;
@@ -47540,9 +47795,8 @@ module data_mem_way
 
   data_mem_column_14 \genblk1[0].data_column 
        (.clk_IBUF_BUFG(clk_IBUF_BUFG),
-        .i_LRU_IBUF(i_LRU_IBUF),
         .i_data_from_core_IBUF(i_data_from_core_IBUF),
-        .i_data_from_mem_IBUF(i_data_from_mem_IBUF[31:0]),
+        .i_data_from_mem_IBUF(i_data_from_mem_IBUF[127:96]),
         .i_data_from_mem_valid_IBUF(i_data_from_mem_valid_IBUF),
         .\i_index[0] (\i_index[0]_0 ),
         .i_index_IBUF(i_index_IBUF),
@@ -47551,9 +47805,8 @@ module data_mem_way
         .i_wr_IBUF(i_wr_IBUF));
   data_mem_column_15 \genblk1[1].data_column 
        (.clk_IBUF_BUFG(clk_IBUF_BUFG),
-        .i_LRU_IBUF(i_LRU_IBUF),
         .i_data_from_core_IBUF(i_data_from_core_IBUF),
-        .i_data_from_mem_IBUF(i_data_from_mem_IBUF[63:32]),
+        .i_data_from_mem_IBUF(i_data_from_mem_IBUF[95:64]),
         .i_data_from_mem_valid_IBUF(i_data_from_mem_valid_IBUF),
         .\i_index[0] (\i_index[0]_1 ),
         .i_index_IBUF(i_index_IBUF),
@@ -47563,9 +47816,8 @@ module data_mem_way
   data_mem_column_16 \genblk1[2].data_column 
        (.clk_IBUF_BUFG(clk_IBUF_BUFG),
         .\data_out_from_way[0] (\data_out_from_way[0] ),
-        .i_LRU_IBUF(i_LRU_IBUF),
         .i_data_from_core_IBUF(i_data_from_core_IBUF),
-        .i_data_from_mem_IBUF(i_data_from_mem_IBUF[95:64]),
+        .i_data_from_mem_IBUF(i_data_from_mem_IBUF[63:32]),
         .i_data_from_mem_valid_IBUF(i_data_from_mem_valid_IBUF),
         .i_index_IBUF(i_index_IBUF),
         .i_offset_IBUF(i_offset_IBUF),
@@ -47577,9 +47829,8 @@ module data_mem_way
         .\o_data_to_core_reg[31]_i_2_1 (\i_index[0]_1 ));
   data_mem_column_17 \genblk1[3].data_column 
        (.clk_IBUF_BUFG(clk_IBUF_BUFG),
-        .i_LRU_IBUF(i_LRU_IBUF),
         .i_data_from_core_IBUF(i_data_from_core_IBUF),
-        .i_data_from_mem_IBUF(i_data_from_mem_IBUF[127:96]),
+        .i_data_from_mem_IBUF(i_data_from_mem_IBUF[31:0]),
         .i_data_from_mem_valid_IBUF(i_data_from_mem_valid_IBUF),
         .\i_index[0] (\i_index[0] ),
         .i_index_IBUF(i_index_IBUF),
@@ -47590,38 +47841,38 @@ endmodule
 
 (* ORIG_REF_NAME = "data_mem_way" *) 
 module data_mem_way_0
-   (\i_way[2] ,
-    \i_way[2]_0 ,
-    \i_way[2]_1 ,
-    \i_way[2]_2 ,
-    \i_way[2]_3 ,
-    \i_way[2]_4 ,
-    \i_way[2]_5 ,
-    \i_way[2]_6 ,
-    \i_way[2]_7 ,
-    \i_way[2]_8 ,
-    \i_way[2]_9 ,
-    \i_way[2]_10 ,
-    \i_way[2]_11 ,
-    \i_way[2]_12 ,
-    \i_way[2]_13 ,
-    \i_way[2]_14 ,
-    \i_way[2]_15 ,
-    \i_way[2]_16 ,
-    \i_way[2]_17 ,
-    \i_way[2]_18 ,
-    \i_way[2]_19 ,
-    \i_way[2]_20 ,
-    \i_way[2]_21 ,
-    \i_way[2]_22 ,
-    \i_way[2]_23 ,
-    \i_way[2]_24 ,
-    \i_way[2]_25 ,
-    \i_way[2]_26 ,
-    \i_way[2]_27 ,
-    \i_way[2]_28 ,
-    \i_way[2]_29 ,
-    \i_way[2]_30 ,
+   (\i_way[0] ,
+    \i_way[0]_0 ,
+    \i_way[0]_1 ,
+    \i_way[0]_2 ,
+    \i_way[0]_3 ,
+    \i_way[0]_4 ,
+    \i_way[0]_5 ,
+    \i_way[0]_6 ,
+    \i_way[0]_7 ,
+    \i_way[0]_8 ,
+    \i_way[0]_9 ,
+    \i_way[0]_10 ,
+    \i_way[0]_11 ,
+    \i_way[0]_12 ,
+    \i_way[0]_13 ,
+    \i_way[0]_14 ,
+    \i_way[0]_15 ,
+    \i_way[0]_16 ,
+    \i_way[0]_17 ,
+    \i_way[0]_18 ,
+    \i_way[0]_19 ,
+    \i_way[0]_20 ,
+    \i_way[0]_21 ,
+    \i_way[0]_22 ,
+    \i_way[0]_23 ,
+    \i_way[0]_24 ,
+    \i_way[0]_25 ,
+    \i_way[0]_26 ,
+    \i_way[0]_27 ,
+    \i_way[0]_28 ,
+    \i_way[0]_29 ,
+    \i_way[0]_30 ,
     \i_LRU[0] ,
     \i_LRU[0]_0 ,
     \i_LRU[0]_1 ,
@@ -47750,52 +48001,53 @@ module data_mem_way_0
     \i_LRU[0]_124 ,
     \i_LRU[0]_125 ,
     \i_LRU[0]_126 ,
-    i_way_IBUF,
-    \data_out_from_way[0] ,
     i_offset_IBUF,
+    i_way_IBUF,
+    i_rd_IBUF,
     i_data_from_mem_valid_IBUF,
-    i_LRU_IBUF,
     i_data_from_mem_IBUF,
     i_data_from_core_IBUF,
     i_wr_IBUF,
+    \data_out_from_way[0] ,
+    i_LRU_IBUF,
     \o_block_to_mem_reg[31]_i_1 ,
     \o_block_to_mem_reg[63]_i_1 ,
     o_data,
     \o_block_to_mem_reg[127]_i_1 ,
     clk_IBUF_BUFG,
     i_index_IBUF);
-  output \i_way[2] ;
-  output \i_way[2]_0 ;
-  output \i_way[2]_1 ;
-  output \i_way[2]_2 ;
-  output \i_way[2]_3 ;
-  output \i_way[2]_4 ;
-  output \i_way[2]_5 ;
-  output \i_way[2]_6 ;
-  output \i_way[2]_7 ;
-  output \i_way[2]_8 ;
-  output \i_way[2]_9 ;
-  output \i_way[2]_10 ;
-  output \i_way[2]_11 ;
-  output \i_way[2]_12 ;
-  output \i_way[2]_13 ;
-  output \i_way[2]_14 ;
-  output \i_way[2]_15 ;
-  output \i_way[2]_16 ;
-  output \i_way[2]_17 ;
-  output \i_way[2]_18 ;
-  output \i_way[2]_19 ;
-  output \i_way[2]_20 ;
-  output \i_way[2]_21 ;
-  output \i_way[2]_22 ;
-  output \i_way[2]_23 ;
-  output \i_way[2]_24 ;
-  output \i_way[2]_25 ;
-  output \i_way[2]_26 ;
-  output \i_way[2]_27 ;
-  output \i_way[2]_28 ;
-  output \i_way[2]_29 ;
-  output \i_way[2]_30 ;
+  output \i_way[0] ;
+  output \i_way[0]_0 ;
+  output \i_way[0]_1 ;
+  output \i_way[0]_2 ;
+  output \i_way[0]_3 ;
+  output \i_way[0]_4 ;
+  output \i_way[0]_5 ;
+  output \i_way[0]_6 ;
+  output \i_way[0]_7 ;
+  output \i_way[0]_8 ;
+  output \i_way[0]_9 ;
+  output \i_way[0]_10 ;
+  output \i_way[0]_11 ;
+  output \i_way[0]_12 ;
+  output \i_way[0]_13 ;
+  output \i_way[0]_14 ;
+  output \i_way[0]_15 ;
+  output \i_way[0]_16 ;
+  output \i_way[0]_17 ;
+  output \i_way[0]_18 ;
+  output \i_way[0]_19 ;
+  output \i_way[0]_20 ;
+  output \i_way[0]_21 ;
+  output \i_way[0]_22 ;
+  output \i_way[0]_23 ;
+  output \i_way[0]_24 ;
+  output \i_way[0]_25 ;
+  output \i_way[0]_26 ;
+  output \i_way[0]_27 ;
+  output \i_way[0]_28 ;
+  output \i_way[0]_29 ;
+  output \i_way[0]_30 ;
   output \i_LRU[0] ;
   output \i_LRU[0]_0 ;
   output \i_LRU[0]_1 ;
@@ -47924,14 +48176,15 @@ module data_mem_way_0
   output \i_LRU[0]_124 ;
   output \i_LRU[0]_125 ;
   output \i_LRU[0]_126 ;
-  input [3:0]i_way_IBUF;
-  input [31:0]\data_out_from_way[0] ;
   input [1:0]i_offset_IBUF;
+  input [3:0]i_way_IBUF;
+  input i_rd_IBUF;
   input i_data_from_mem_valid_IBUF;
-  input [1:0]i_LRU_IBUF;
   input [127:0]i_data_from_mem_IBUF;
   input [31:0]i_data_from_core_IBUF;
   input i_wr_IBUF;
+  input [31:0]\data_out_from_way[0] ;
+  input [1:0]i_LRU_IBUF;
   input [31:0]\o_block_to_mem_reg[31]_i_1 ;
   input [31:0]\o_block_to_mem_reg[63]_i_1 ;
   input [31:0]o_data;
@@ -48075,38 +48328,39 @@ module data_mem_way_0
   wire i_data_from_mem_valid_IBUF;
   wire [2:0]i_index_IBUF;
   wire [1:0]i_offset_IBUF;
-  wire \i_way[2] ;
-  wire \i_way[2]_0 ;
-  wire \i_way[2]_1 ;
-  wire \i_way[2]_10 ;
-  wire \i_way[2]_11 ;
-  wire \i_way[2]_12 ;
-  wire \i_way[2]_13 ;
-  wire \i_way[2]_14 ;
-  wire \i_way[2]_15 ;
-  wire \i_way[2]_16 ;
-  wire \i_way[2]_17 ;
-  wire \i_way[2]_18 ;
-  wire \i_way[2]_19 ;
-  wire \i_way[2]_2 ;
-  wire \i_way[2]_20 ;
-  wire \i_way[2]_21 ;
-  wire \i_way[2]_22 ;
-  wire \i_way[2]_23 ;
-  wire \i_way[2]_24 ;
-  wire \i_way[2]_25 ;
-  wire \i_way[2]_26 ;
-  wire \i_way[2]_27 ;
-  wire \i_way[2]_28 ;
-  wire \i_way[2]_29 ;
-  wire \i_way[2]_3 ;
-  wire \i_way[2]_30 ;
-  wire \i_way[2]_4 ;
-  wire \i_way[2]_5 ;
-  wire \i_way[2]_6 ;
-  wire \i_way[2]_7 ;
-  wire \i_way[2]_8 ;
-  wire \i_way[2]_9 ;
+  wire i_rd_IBUF;
+  wire \i_way[0] ;
+  wire \i_way[0]_0 ;
+  wire \i_way[0]_1 ;
+  wire \i_way[0]_10 ;
+  wire \i_way[0]_11 ;
+  wire \i_way[0]_12 ;
+  wire \i_way[0]_13 ;
+  wire \i_way[0]_14 ;
+  wire \i_way[0]_15 ;
+  wire \i_way[0]_16 ;
+  wire \i_way[0]_17 ;
+  wire \i_way[0]_18 ;
+  wire \i_way[0]_19 ;
+  wire \i_way[0]_2 ;
+  wire \i_way[0]_20 ;
+  wire \i_way[0]_21 ;
+  wire \i_way[0]_22 ;
+  wire \i_way[0]_23 ;
+  wire \i_way[0]_24 ;
+  wire \i_way[0]_25 ;
+  wire \i_way[0]_26 ;
+  wire \i_way[0]_27 ;
+  wire \i_way[0]_28 ;
+  wire \i_way[0]_29 ;
+  wire \i_way[0]_3 ;
+  wire \i_way[0]_30 ;
+  wire \i_way[0]_4 ;
+  wire \i_way[0]_5 ;
+  wire \i_way[0]_6 ;
+  wire \i_way[0]_7 ;
+  wire \i_way[0]_8 ;
+  wire \i_way[0]_9 ;
   wire [3:0]i_way_IBUF;
   wire i_wr_IBUF;
   wire [31:0]\o_block_to_mem_reg[127]_i_1 ;
@@ -48153,7 +48407,7 @@ module data_mem_way_0
         .\i_LRU[0]_9 (\i_LRU[0]_9 ),
         .i_LRU_IBUF(i_LRU_IBUF),
         .i_data_from_core_IBUF(i_data_from_core_IBUF),
-        .i_data_from_mem_IBUF(i_data_from_mem_IBUF[31:0]),
+        .i_data_from_mem_IBUF(i_data_from_mem_IBUF[127:96]),
         .i_data_from_mem_valid_IBUF(i_data_from_mem_valid_IBUF),
         .i_index_IBUF(i_index_IBUF),
         .i_offset_IBUF(i_offset_IBUF),
@@ -48197,7 +48451,7 @@ module data_mem_way_0
         .\i_LRU[0]_9 (\i_LRU[0]_41 ),
         .i_LRU_IBUF(i_LRU_IBUF),
         .i_data_from_core_IBUF(i_data_from_core_IBUF),
-        .i_data_from_mem_IBUF(i_data_from_mem_IBUF[63:32]),
+        .i_data_from_mem_IBUF(i_data_from_mem_IBUF[95:64]),
         .i_data_from_mem_valid_IBUF(i_data_from_mem_valid_IBUF),
         .i_index_IBUF(i_index_IBUF),
         .i_offset_IBUF(i_offset_IBUF),
@@ -48242,42 +48496,43 @@ module data_mem_way_0
         .\i_LRU[0]_9 (\i_LRU[0]_73 ),
         .i_LRU_IBUF(i_LRU_IBUF),
         .i_data_from_core_IBUF(i_data_from_core_IBUF),
-        .i_data_from_mem_IBUF(i_data_from_mem_IBUF[95:64]),
+        .i_data_from_mem_IBUF(i_data_from_mem_IBUF[63:32]),
         .i_data_from_mem_valid_IBUF(i_data_from_mem_valid_IBUF),
         .i_index_IBUF(i_index_IBUF),
         .i_offset_IBUF(i_offset_IBUF),
-        .\i_way[2] (\i_way[2] ),
-        .\i_way[2]_0 (\i_way[2]_0 ),
-        .\i_way[2]_1 (\i_way[2]_1 ),
-        .\i_way[2]_10 (\i_way[2]_10 ),
-        .\i_way[2]_11 (\i_way[2]_11 ),
-        .\i_way[2]_12 (\i_way[2]_12 ),
-        .\i_way[2]_13 (\i_way[2]_13 ),
-        .\i_way[2]_14 (\i_way[2]_14 ),
-        .\i_way[2]_15 (\i_way[2]_15 ),
-        .\i_way[2]_16 (\i_way[2]_16 ),
-        .\i_way[2]_17 (\i_way[2]_17 ),
-        .\i_way[2]_18 (\i_way[2]_18 ),
-        .\i_way[2]_19 (\i_way[2]_19 ),
-        .\i_way[2]_2 (\i_way[2]_2 ),
-        .\i_way[2]_20 (\i_way[2]_20 ),
-        .\i_way[2]_21 (\i_way[2]_21 ),
-        .\i_way[2]_22 (\i_way[2]_22 ),
-        .\i_way[2]_23 (\i_way[2]_23 ),
-        .\i_way[2]_24 (\i_way[2]_24 ),
-        .\i_way[2]_25 (\i_way[2]_25 ),
-        .\i_way[2]_26 (\i_way[2]_26 ),
-        .\i_way[2]_27 (\i_way[2]_27 ),
-        .\i_way[2]_28 (\i_way[2]_28 ),
-        .\i_way[2]_29 (\i_way[2]_29 ),
-        .\i_way[2]_3 (\i_way[2]_3 ),
-        .\i_way[2]_30 (\i_way[2]_30 ),
-        .\i_way[2]_4 (\i_way[2]_4 ),
-        .\i_way[2]_5 (\i_way[2]_5 ),
-        .\i_way[2]_6 (\i_way[2]_6 ),
-        .\i_way[2]_7 (\i_way[2]_7 ),
-        .\i_way[2]_8 (\i_way[2]_8 ),
-        .\i_way[2]_9 (\i_way[2]_9 ),
+        .i_rd_IBUF(i_rd_IBUF),
+        .\i_way[0] (\i_way[0] ),
+        .\i_way[0]_0 (\i_way[0]_0 ),
+        .\i_way[0]_1 (\i_way[0]_1 ),
+        .\i_way[0]_10 (\i_way[0]_10 ),
+        .\i_way[0]_11 (\i_way[0]_11 ),
+        .\i_way[0]_12 (\i_way[0]_12 ),
+        .\i_way[0]_13 (\i_way[0]_13 ),
+        .\i_way[0]_14 (\i_way[0]_14 ),
+        .\i_way[0]_15 (\i_way[0]_15 ),
+        .\i_way[0]_16 (\i_way[0]_16 ),
+        .\i_way[0]_17 (\i_way[0]_17 ),
+        .\i_way[0]_18 (\i_way[0]_18 ),
+        .\i_way[0]_19 (\i_way[0]_19 ),
+        .\i_way[0]_2 (\i_way[0]_2 ),
+        .\i_way[0]_20 (\i_way[0]_20 ),
+        .\i_way[0]_21 (\i_way[0]_21 ),
+        .\i_way[0]_22 (\i_way[0]_22 ),
+        .\i_way[0]_23 (\i_way[0]_23 ),
+        .\i_way[0]_24 (\i_way[0]_24 ),
+        .\i_way[0]_25 (\i_way[0]_25 ),
+        .\i_way[0]_26 (\i_way[0]_26 ),
+        .\i_way[0]_27 (\i_way[0]_27 ),
+        .\i_way[0]_28 (\i_way[0]_28 ),
+        .\i_way[0]_29 (\i_way[0]_29 ),
+        .\i_way[0]_3 (\i_way[0]_3 ),
+        .\i_way[0]_30 (\i_way[0]_30 ),
+        .\i_way[0]_4 (\i_way[0]_4 ),
+        .\i_way[0]_5 (\i_way[0]_5 ),
+        .\i_way[0]_6 (\i_way[0]_6 ),
+        .\i_way[0]_7 (\i_way[0]_7 ),
+        .\i_way[0]_8 (\i_way[0]_8 ),
+        .\i_way[0]_9 (\i_way[0]_9 ),
         .i_way_IBUF(i_way_IBUF),
         .i_wr_IBUF(i_wr_IBUF),
         .\o_block_to_mem_reg[95]_i_1 (o_data),
@@ -48320,7 +48575,7 @@ module data_mem_way_0
         .\i_LRU[0]_9 (\i_LRU[0]_105 ),
         .i_LRU_IBUF(i_LRU_IBUF),
         .i_data_from_core_IBUF(i_data_from_core_IBUF),
-        .i_data_from_mem_IBUF(i_data_from_mem_IBUF[127:96]),
+        .i_data_from_mem_IBUF(i_data_from_mem_IBUF[31:0]),
         .i_data_from_mem_valid_IBUF(i_data_from_mem_valid_IBUF),
         .i_index_IBUF(i_index_IBUF),
         .i_offset_IBUF(i_offset_IBUF),
@@ -48468,10 +48723,10 @@ module data_mem_way_1
     \o_block_to_mem_reg[126] ,
     \o_block_to_mem_reg[127]_0 ,
     i_LRU_IBUF,
+    i_way_IBUF,
     i_data_from_mem_valid_IBUF,
     i_data_from_mem_IBUF,
     i_data_from_core_IBUF,
-    i_way_IBUF,
     i_wr_IBUF,
     clk_IBUF_BUFG,
     i_index_IBUF);
@@ -48611,10 +48866,10 @@ module data_mem_way_1
   input \o_block_to_mem_reg[126] ;
   input \o_block_to_mem_reg[127]_0 ;
   input [3:0]i_LRU_IBUF;
+  input [0:0]i_way_IBUF;
   input i_data_from_mem_valid_IBUF;
   input [127:0]i_data_from_mem_IBUF;
   input [31:0]i_data_from_core_IBUF;
-  input [0:0]i_way_IBUF;
   input i_wr_IBUF;
   input clk_IBUF_BUFG;
   input [2:0]i_index_IBUF;
@@ -48771,9 +49026,8 @@ module data_mem_way_1
   data_mem_column_6 \genblk1[0].data_column 
        (.D(D[31:0]),
         .clk_IBUF_BUFG(clk_IBUF_BUFG),
-        .i_LRU_IBUF(i_LRU_IBUF[2]),
         .i_data_from_core_IBUF(i_data_from_core_IBUF),
-        .i_data_from_mem_IBUF(i_data_from_mem_IBUF[31:0]),
+        .i_data_from_mem_IBUF(i_data_from_mem_IBUF[127:96]),
         .i_data_from_mem_valid_IBUF(i_data_from_mem_valid_IBUF),
         .i_index_IBUF(i_index_IBUF),
         .i_offset_IBUF(i_offset_IBUF),
@@ -48818,9 +49072,8 @@ module data_mem_way_1
   data_mem_column_7 \genblk1[1].data_column 
        (.D(D[63:32]),
         .clk_IBUF_BUFG(clk_IBUF_BUFG),
-        .i_LRU_IBUF(i_LRU_IBUF[2]),
         .i_data_from_core_IBUF(i_data_from_core_IBUF),
-        .i_data_from_mem_IBUF(i_data_from_mem_IBUF[63:32]),
+        .i_data_from_mem_IBUF(i_data_from_mem_IBUF[95:64]),
         .i_data_from_mem_valid_IBUF(i_data_from_mem_valid_IBUF),
         .i_index_IBUF(i_index_IBUF),
         .i_offset_IBUF(i_offset_IBUF),
@@ -48866,9 +49119,8 @@ module data_mem_way_1
        (.D(D[95:64]),
         .clk_IBUF_BUFG(clk_IBUF_BUFG),
         .\data_out_from_way[2] (\data_out_from_way[2] ),
-        .i_LRU_IBUF(i_LRU_IBUF[2]),
         .i_data_from_core_IBUF(i_data_from_core_IBUF),
-        .i_data_from_mem_IBUF(i_data_from_mem_IBUF[95:64]),
+        .i_data_from_mem_IBUF(i_data_from_mem_IBUF[63:32]),
         .i_data_from_mem_valid_IBUF(i_data_from_mem_valid_IBUF),
         .i_index_IBUF(i_index_IBUF),
         .i_offset_IBUF(i_offset_IBUF),
@@ -48910,8 +49162,8 @@ module data_mem_way_1
         .\o_block_to_mem_reg[95]_1 (\o_block_to_mem_reg[95] ),
         .\o_block_to_mem_reg[95]_2 (\o_block_to_mem_reg[95]_0 ),
         .o_data(\output_column[3]_3 ),
-        .\o_data_to_core_reg[31]_i_1 (\output_column[0]_0 ),
-        .\o_data_to_core_reg[31]_i_1_0 (\output_column[1]_1 ));
+        .\o_data_to_core_reg[31]_i_5 (\output_column[0]_0 ),
+        .\o_data_to_core_reg[31]_i_5_0 (\output_column[1]_1 ));
   data_mem_column_9 \genblk1[3].data_column 
        (.D(D[127:96]),
         .clk_IBUF_BUFG(clk_IBUF_BUFG),
@@ -48919,7 +49171,7 @@ module data_mem_way_1
         .\i_LRU[2] (\genblk1[3].data_column_n_67 ),
         .i_LRU_IBUF(i_LRU_IBUF),
         .i_data_from_core_IBUF(i_data_from_core_IBUF),
-        .i_data_from_mem_IBUF(i_data_from_mem_IBUF[127:96]),
+        .i_data_from_mem_IBUF(i_data_from_mem_IBUF[31:0]),
         .i_data_from_mem_valid_IBUF(i_data_from_mem_valid_IBUF),
         .i_index_IBUF(i_index_IBUF),
         .i_offset_IBUF(i_offset_IBUF),
@@ -48969,6 +49221,7 @@ module data_mem_way_2
     \i_index[0]_0 ,
     \i_index[0]_1 ,
     \o_data_to_core_reg[0] ,
+    i_offset_IBUF,
     \data_out_from_way[2] ,
     \o_data_to_core_reg[1] ,
     \o_data_to_core_reg[2] ,
@@ -49001,10 +49254,9 @@ module data_mem_way_2
     \o_data_to_core_reg[29] ,
     \o_data_to_core_reg[30] ,
     \o_data_to_core_reg[31] ,
-    i_offset_IBUF,
     i_way_IBUF,
+    i_rd_IBUF,
     i_data_from_mem_valid_IBUF,
-    i_LRU_IBUF,
     i_data_from_mem_IBUF,
     i_data_from_core_IBUF,
     i_wr_IBUF,
@@ -49016,6 +49268,7 @@ module data_mem_way_2
   output [31:0]\i_index[0]_0 ;
   output [31:0]\i_index[0]_1 ;
   input \o_data_to_core_reg[0] ;
+  input [1:0]i_offset_IBUF;
   input [31:0]\data_out_from_way[2] ;
   input \o_data_to_core_reg[1] ;
   input \o_data_to_core_reg[2] ;
@@ -49048,10 +49301,9 @@ module data_mem_way_2
   input \o_data_to_core_reg[29] ;
   input \o_data_to_core_reg[30] ;
   input \o_data_to_core_reg[31] ;
-  input [1:0]i_offset_IBUF;
   input [3:0]i_way_IBUF;
+  input i_rd_IBUF;
   input i_data_from_mem_valid_IBUF;
-  input [0:0]i_LRU_IBUF;
   input [127:0]i_data_from_mem_IBUF;
   input [31:0]i_data_from_core_IBUF;
   input i_wr_IBUF;
@@ -49061,39 +49313,38 @@ module data_mem_way_2
   wire [31:0]D;
   wire clk_IBUF_BUFG;
   wire [31:0]\data_out_from_way[2] ;
-  wire \genblk1[1].data_column_n_2 ;
-  wire \genblk1[1].data_column_n_35 ;
-  wire \genblk1[1].data_column_n_36 ;
-  wire \genblk1[1].data_column_n_37 ;
-  wire \genblk1[1].data_column_n_38 ;
-  wire \genblk1[1].data_column_n_39 ;
-  wire \genblk1[1].data_column_n_40 ;
-  wire \genblk1[1].data_column_n_41 ;
-  wire \genblk1[1].data_column_n_42 ;
-  wire \genblk1[1].data_column_n_43 ;
-  wire \genblk1[1].data_column_n_44 ;
-  wire \genblk1[1].data_column_n_45 ;
-  wire \genblk1[1].data_column_n_46 ;
-  wire \genblk1[1].data_column_n_47 ;
-  wire \genblk1[1].data_column_n_48 ;
-  wire \genblk1[1].data_column_n_49 ;
-  wire \genblk1[1].data_column_n_50 ;
-  wire \genblk1[1].data_column_n_51 ;
-  wire \genblk1[1].data_column_n_52 ;
-  wire \genblk1[1].data_column_n_53 ;
-  wire \genblk1[1].data_column_n_54 ;
-  wire \genblk1[1].data_column_n_55 ;
-  wire \genblk1[1].data_column_n_56 ;
-  wire \genblk1[1].data_column_n_57 ;
-  wire \genblk1[1].data_column_n_58 ;
-  wire \genblk1[1].data_column_n_59 ;
-  wire \genblk1[1].data_column_n_60 ;
-  wire \genblk1[1].data_column_n_61 ;
-  wire \genblk1[1].data_column_n_62 ;
-  wire \genblk1[1].data_column_n_63 ;
-  wire \genblk1[1].data_column_n_64 ;
-  wire \genblk1[1].data_column_n_65 ;
-  wire [0:0]i_LRU_IBUF;
+  wire \genblk1[0].data_column_n_2 ;
+  wire \genblk1[0].data_column_n_35 ;
+  wire \genblk1[0].data_column_n_36 ;
+  wire \genblk1[0].data_column_n_37 ;
+  wire \genblk1[0].data_column_n_38 ;
+  wire \genblk1[0].data_column_n_39 ;
+  wire \genblk1[0].data_column_n_40 ;
+  wire \genblk1[0].data_column_n_41 ;
+  wire \genblk1[0].data_column_n_42 ;
+  wire \genblk1[0].data_column_n_43 ;
+  wire \genblk1[0].data_column_n_44 ;
+  wire \genblk1[0].data_column_n_45 ;
+  wire \genblk1[0].data_column_n_46 ;
+  wire \genblk1[0].data_column_n_47 ;
+  wire \genblk1[0].data_column_n_48 ;
+  wire \genblk1[0].data_column_n_49 ;
+  wire \genblk1[0].data_column_n_50 ;
+  wire \genblk1[0].data_column_n_51 ;
+  wire \genblk1[0].data_column_n_52 ;
+  wire \genblk1[0].data_column_n_53 ;
+  wire \genblk1[0].data_column_n_54 ;
+  wire \genblk1[0].data_column_n_55 ;
+  wire \genblk1[0].data_column_n_56 ;
+  wire \genblk1[0].data_column_n_57 ;
+  wire \genblk1[0].data_column_n_58 ;
+  wire \genblk1[0].data_column_n_59 ;
+  wire \genblk1[0].data_column_n_60 ;
+  wire \genblk1[0].data_column_n_61 ;
+  wire \genblk1[0].data_column_n_62 ;
+  wire \genblk1[0].data_column_n_63 ;
+  wire \genblk1[0].data_column_n_64 ;
+  wire \genblk1[0].data_column_n_65 ;
   wire [31:0]i_data_from_core_IBUF;
   wire [127:0]i_data_from_mem_IBUF;
   wire i_data_from_mem_valid_IBUF;
@@ -49102,9 +49353,11 @@ module data_mem_way_2
   wire [31:0]\i_index[0]_1 ;
   wire [2:0]i_index_IBUF;
   wire [1:0]i_offset_IBUF;
+  wire i_rd_IBUF;
   wire [3:0]i_way_IBUF;
   wire i_wr_IBUF;
   wire [31:0]o_data;
+  wire o_data_to_core1;
   wire \o_data_to_core_reg[0] ;
   wire \o_data_to_core_reg[10] ;
   wire \o_data_to_core_reg[11] ;
@@ -49139,149 +49392,149 @@ module data_mem_way_2
   wire \o_data_to_core_reg[9] ;
 
   data_mem_column \genblk1[0].data_column 
-       (.D(D),
-        .clk_IBUF_BUFG(clk_IBUF_BUFG),
-        .\data_out_from_way[2] (\data_out_from_way[2] ),
-        .i_LRU_IBUF(i_LRU_IBUF),
-        .i_data_from_core_IBUF(i_data_from_core_IBUF),
-        .i_data_from_mem_IBUF(i_data_from_mem_IBUF[31:0]),
-        .i_data_from_mem_valid_IBUF(i_data_from_mem_valid_IBUF),
-        .i_index_IBUF(i_index_IBUF),
-        .i_offset_IBUF(i_offset_IBUF),
-        .i_way_IBUF(i_way_IBUF),
-        .i_wr_IBUF(i_wr_IBUF),
-        .o_data(o_data),
-        .\o_data_to_core_reg[0] (\o_data_to_core_reg[0] ),
-        .\o_data_to_core_reg[0]_0 (\genblk1[1].data_column_n_2 ),
-        .\o_data_to_core_reg[10] (\o_data_to_core_reg[10] ),
-        .\o_data_to_core_reg[10]_0 (\genblk1[1].data_column_n_44 ),
-        .\o_data_to_core_reg[11] (\o_data_to_core_reg[11] ),
-        .\o_data_to_core_reg[11]_0 (\genblk1[1].data_column_n_45 ),
-        .\o_data_to_core_reg[12] (\o_data_to_core_reg[12] ),
-        .\o_data_to_core_reg[12]_0 (\genblk1[1].data_column_n_46 ),
-        .\o_data_to_core_reg[13] (\o_data_to_core_reg[13] ),
-        .\o_data_to_core_reg[13]_0 (\genblk1[1].data_column_n_47 ),
-        .\o_data_to_core_reg[14] (\o_data_to_core_reg[14] ),
-        .\o_data_to_core_reg[14]_0 (\genblk1[1].data_column_n_48 ),
-        .\o_data_to_core_reg[15] (\o_data_to_core_reg[15] ),
-        .\o_data_to_core_reg[15]_0 (\genblk1[1].data_column_n_49 ),
-        .\o_data_to_core_reg[16] (\o_data_to_core_reg[16] ),
-        .\o_data_to_core_reg[16]_0 (\genblk1[1].data_column_n_50 ),
-        .\o_data_to_core_reg[17] (\o_data_to_core_reg[17] ),
-        .\o_data_to_core_reg[17]_0 (\genblk1[1].data_column_n_51 ),
-        .\o_data_to_core_reg[18] (\o_data_to_core_reg[18] ),
-        .\o_data_to_core_reg[18]_0 (\genblk1[1].data_column_n_52 ),
-        .\o_data_to_core_reg[19] (\o_data_to_core_reg[19] ),
-        .\o_data_to_core_reg[19]_0 (\genblk1[1].data_column_n_53 ),
-        .\o_data_to_core_reg[1] (\o_data_to_core_reg[1] ),
-        .\o_data_to_core_reg[1]_0 (\genblk1[1].data_column_n_35 ),
-        .\o_data_to_core_reg[20] (\o_data_to_core_reg[20] ),
-        .\o_data_to_core_reg[20]_0 (\genblk1[1].data_column_n_54 ),
-        .\o_data_to_core_reg[21] (\o_data_to_core_reg[21] ),
-        .\o_data_to_core_reg[21]_0 (\genblk1[1].data_column_n_55 ),
-        .\o_data_to_core_reg[22] (\o_data_to_core_reg[22] ),
-        .\o_data_to_core_reg[22]_0 (\genblk1[1].data_column_n_56 ),
-        .\o_data_to_core_reg[23] (\o_data_to_core_reg[23] ),
-        .\o_data_to_core_reg[23]_0 (\genblk1[1].data_column_n_57 ),
-        .\o_data_to_core_reg[24] (\o_data_to_core_reg[24] ),
-        .\o_data_to_core_reg[24]_0 (\genblk1[1].data_column_n_58 ),
-        .\o_data_to_core_reg[25] (\o_data_to_core_reg[25] ),
-        .\o_data_to_core_reg[25]_0 (\genblk1[1].data_column_n_59 ),
-        .\o_data_to_core_reg[26] (\o_data_to_core_reg[26] ),
-        .\o_data_to_core_reg[26]_0 (\genblk1[1].data_column_n_60 ),
-        .\o_data_to_core_reg[27] (\o_data_to_core_reg[27] ),
-        .\o_data_to_core_reg[27]_0 (\genblk1[1].data_column_n_61 ),
-        .\o_data_to_core_reg[28] (\o_data_to_core_reg[28] ),
-        .\o_data_to_core_reg[28]_0 (\genblk1[1].data_column_n_62 ),
-        .\o_data_to_core_reg[29] (\o_data_to_core_reg[29] ),
-        .\o_data_to_core_reg[29]_0 (\genblk1[1].data_column_n_63 ),
-        .\o_data_to_core_reg[2] (\o_data_to_core_reg[2] ),
-        .\o_data_to_core_reg[2]_0 (\genblk1[1].data_column_n_36 ),
-        .\o_data_to_core_reg[30] (\o_data_to_core_reg[30] ),
-        .\o_data_to_core_reg[30]_0 (\genblk1[1].data_column_n_64 ),
-        .\o_data_to_core_reg[31] (\o_data_to_core_reg[31] ),
-        .\o_data_to_core_reg[31]_0 (\genblk1[1].data_column_n_65 ),
-        .\o_data_to_core_reg[3] (\o_data_to_core_reg[3] ),
-        .\o_data_to_core_reg[3]_0 (\genblk1[1].data_column_n_37 ),
-        .\o_data_to_core_reg[4] (\o_data_to_core_reg[4] ),
-        .\o_data_to_core_reg[4]_0 (\genblk1[1].data_column_n_38 ),
-        .\o_data_to_core_reg[5] (\o_data_to_core_reg[5] ),
-        .\o_data_to_core_reg[5]_0 (\genblk1[1].data_column_n_39 ),
-        .\o_data_to_core_reg[6] (\o_data_to_core_reg[6] ),
-        .\o_data_to_core_reg[6]_0 (\genblk1[1].data_column_n_40 ),
-        .\o_data_to_core_reg[7] (\o_data_to_core_reg[7] ),
-        .\o_data_to_core_reg[7]_0 (\genblk1[1].data_column_n_41 ),
-        .\o_data_to_core_reg[8] (\o_data_to_core_reg[8] ),
-        .\o_data_to_core_reg[8]_0 (\genblk1[1].data_column_n_42 ),
-        .\o_data_to_core_reg[9] (\o_data_to_core_reg[9] ),
-        .\o_data_to_core_reg[9]_0 (\genblk1[1].data_column_n_43 ));
-  data_mem_column_3 \genblk1[1].data_column 
        (.clk_IBUF_BUFG(clk_IBUF_BUFG),
-        .i_LRU_IBUF(i_LRU_IBUF),
+        .\data_out_from_way[2] (\data_out_from_way[2] ),
         .i_data_from_core_IBUF(i_data_from_core_IBUF),
-        .i_data_from_mem_IBUF(i_data_from_mem_IBUF[63:32]),
+        .i_data_from_mem_IBUF(i_data_from_mem_IBUF[127:96]),
         .i_data_from_mem_valid_IBUF(i_data_from_mem_valid_IBUF),
         .\i_index[0] (\i_index[0] ),
         .i_index_IBUF(i_index_IBUF),
+        .\i_offset[1] (\genblk1[0].data_column_n_2 ),
+        .\i_offset[1]_0 (\genblk1[0].data_column_n_35 ),
+        .\i_offset[1]_1 (\genblk1[0].data_column_n_36 ),
+        .\i_offset[1]_10 (\genblk1[0].data_column_n_45 ),
+        .\i_offset[1]_11 (\genblk1[0].data_column_n_46 ),
+        .\i_offset[1]_12 (\genblk1[0].data_column_n_47 ),
+        .\i_offset[1]_13 (\genblk1[0].data_column_n_48 ),
+        .\i_offset[1]_14 (\genblk1[0].data_column_n_49 ),
+        .\i_offset[1]_15 (\genblk1[0].data_column_n_50 ),
+        .\i_offset[1]_16 (\genblk1[0].data_column_n_51 ),
+        .\i_offset[1]_17 (\genblk1[0].data_column_n_52 ),
+        .\i_offset[1]_18 (\genblk1[0].data_column_n_53 ),
+        .\i_offset[1]_19 (\genblk1[0].data_column_n_54 ),
+        .\i_offset[1]_2 (\genblk1[0].data_column_n_37 ),
+        .\i_offset[1]_20 (\genblk1[0].data_column_n_55 ),
+        .\i_offset[1]_21 (\genblk1[0].data_column_n_56 ),
+        .\i_offset[1]_22 (\genblk1[0].data_column_n_57 ),
+        .\i_offset[1]_23 (\genblk1[0].data_column_n_58 ),
+        .\i_offset[1]_24 (\genblk1[0].data_column_n_59 ),
+        .\i_offset[1]_25 (\genblk1[0].data_column_n_60 ),
+        .\i_offset[1]_26 (\genblk1[0].data_column_n_61 ),
+        .\i_offset[1]_27 (\genblk1[0].data_column_n_62 ),
+        .\i_offset[1]_28 (\genblk1[0].data_column_n_63 ),
+        .\i_offset[1]_29 (\genblk1[0].data_column_n_64 ),
+        .\i_offset[1]_3 (\genblk1[0].data_column_n_38 ),
+        .\i_offset[1]_30 (\genblk1[0].data_column_n_65 ),
+        .\i_offset[1]_4 (\genblk1[0].data_column_n_39 ),
+        .\i_offset[1]_5 (\genblk1[0].data_column_n_40 ),
+        .\i_offset[1]_6 (\genblk1[0].data_column_n_41 ),
+        .\i_offset[1]_7 (\genblk1[0].data_column_n_42 ),
+        .\i_offset[1]_8 (\genblk1[0].data_column_n_43 ),
+        .\i_offset[1]_9 (\genblk1[0].data_column_n_44 ),
         .i_offset_IBUF(i_offset_IBUF),
+        .i_rd_IBUF(i_rd_IBUF),
         .i_way_IBUF(i_way_IBUF),
         .i_wr_IBUF(i_wr_IBUF),
-        .\o_data_to_core_reg[31]_i_1 (\i_index[0]_0 ),
-        .\o_data_to_core_reg[31]_i_11_0 (\genblk1[1].data_column_n_2 ),
-        .\o_data_to_core_reg[31]_i_11_1 (\genblk1[1].data_column_n_35 ),
-        .\o_data_to_core_reg[31]_i_11_10 (\genblk1[1].data_column_n_44 ),
-        .\o_data_to_core_reg[31]_i_11_11 (\genblk1[1].data_column_n_45 ),
-        .\o_data_to_core_reg[31]_i_11_12 (\genblk1[1].data_column_n_46 ),
-        .\o_data_to_core_reg[31]_i_11_13 (\genblk1[1].data_column_n_47 ),
-        .\o_data_to_core_reg[31]_i_11_14 (\genblk1[1].data_column_n_48 ),
-        .\o_data_to_core_reg[31]_i_11_15 (\genblk1[1].data_column_n_49 ),
-        .\o_data_to_core_reg[31]_i_11_16 (\genblk1[1].data_column_n_50 ),
-        .\o_data_to_core_reg[31]_i_11_17 (\genblk1[1].data_column_n_51 ),
-        .\o_data_to_core_reg[31]_i_11_18 (\genblk1[1].data_column_n_52 ),
-        .\o_data_to_core_reg[31]_i_11_19 (\genblk1[1].data_column_n_53 ),
-        .\o_data_to_core_reg[31]_i_11_2 (\genblk1[1].data_column_n_36 ),
-        .\o_data_to_core_reg[31]_i_11_20 (\genblk1[1].data_column_n_54 ),
-        .\o_data_to_core_reg[31]_i_11_21 (\genblk1[1].data_column_n_55 ),
-        .\o_data_to_core_reg[31]_i_11_22 (\genblk1[1].data_column_n_56 ),
-        .\o_data_to_core_reg[31]_i_11_23 (\genblk1[1].data_column_n_57 ),
-        .\o_data_to_core_reg[31]_i_11_24 (\genblk1[1].data_column_n_58 ),
-        .\o_data_to_core_reg[31]_i_11_25 (\genblk1[1].data_column_n_59 ),
-        .\o_data_to_core_reg[31]_i_11_26 (\genblk1[1].data_column_n_60 ),
-        .\o_data_to_core_reg[31]_i_11_27 (\genblk1[1].data_column_n_61 ),
-        .\o_data_to_core_reg[31]_i_11_28 (\genblk1[1].data_column_n_62 ),
-        .\o_data_to_core_reg[31]_i_11_29 (\genblk1[1].data_column_n_63 ),
-        .\o_data_to_core_reg[31]_i_11_3 (\genblk1[1].data_column_n_37 ),
-        .\o_data_to_core_reg[31]_i_11_30 (\genblk1[1].data_column_n_64 ),
-        .\o_data_to_core_reg[31]_i_11_31 (\genblk1[1].data_column_n_65 ),
-        .\o_data_to_core_reg[31]_i_11_4 (\genblk1[1].data_column_n_38 ),
-        .\o_data_to_core_reg[31]_i_11_5 (\genblk1[1].data_column_n_39 ),
-        .\o_data_to_core_reg[31]_i_11_6 (\genblk1[1].data_column_n_40 ),
-        .\o_data_to_core_reg[31]_i_11_7 (\genblk1[1].data_column_n_41 ),
-        .\o_data_to_core_reg[31]_i_11_8 (\genblk1[1].data_column_n_42 ),
-        .\o_data_to_core_reg[31]_i_11_9 (\genblk1[1].data_column_n_43 ),
-        .\o_data_to_core_reg[31]_i_1_0 (\i_index[0]_1 ));
-  data_mem_column_4 \genblk1[2].data_column 
+        .o_data_to_core1(o_data_to_core1));
+  data_mem_column_3 \genblk1[1].data_column 
        (.clk_IBUF_BUFG(clk_IBUF_BUFG),
-        .i_LRU_IBUF(i_LRU_IBUF),
         .i_data_from_core_IBUF(i_data_from_core_IBUF),
         .i_data_from_mem_IBUF(i_data_from_mem_IBUF[95:64]),
-        .i_data_from_mem_valid_IBUF(i_data_from_mem_valid_IBUF),
-        .\i_index[0] (\i_index[0]_0 ),
-        .i_index_IBUF(i_index_IBUF),
-        .i_offset_IBUF(i_offset_IBUF),
-        .i_way_IBUF(i_way_IBUF[3]),
-        .i_wr_IBUF(i_wr_IBUF));
-  data_mem_column_5 \genblk1[3].data_column 
-       (.clk_IBUF_BUFG(clk_IBUF_BUFG),
-        .i_LRU_IBUF(i_LRU_IBUF),
-        .i_data_from_core_IBUF(i_data_from_core_IBUF),
-        .i_data_from_mem_IBUF(i_data_from_mem_IBUF[127:96]),
         .i_data_from_mem_valid_IBUF(i_data_from_mem_valid_IBUF),
         .\i_index[0] (\i_index[0]_1 ),
         .i_index_IBUF(i_index_IBUF),
         .i_offset_IBUF(i_offset_IBUF),
         .i_way_IBUF(i_way_IBUF[3]),
         .i_wr_IBUF(i_wr_IBUF));
+  data_mem_column_4 \genblk1[2].data_column 
+       (.D(D),
+        .clk_IBUF_BUFG(clk_IBUF_BUFG),
+        .i_data_from_core_IBUF(i_data_from_core_IBUF),
+        .i_data_from_mem_IBUF(i_data_from_mem_IBUF[63:32]),
+        .i_data_from_mem_valid_IBUF(i_data_from_mem_valid_IBUF),
+        .\i_index[0] (\i_index[0]_0 ),
+        .i_index_IBUF(i_index_IBUF),
+        .i_offset_IBUF(i_offset_IBUF),
+        .i_rd_IBUF(i_rd_IBUF),
+        .i_way_IBUF(i_way_IBUF),
+        .i_wr_IBUF(i_wr_IBUF),
+        .o_data(o_data),
+        .o_data_to_core1(o_data_to_core1),
+        .\o_data_to_core_reg[0] (\o_data_to_core_reg[0] ),
+        .\o_data_to_core_reg[0]_0 (\genblk1[0].data_column_n_2 ),
+        .\o_data_to_core_reg[10] (\o_data_to_core_reg[10] ),
+        .\o_data_to_core_reg[10]_0 (\genblk1[0].data_column_n_44 ),
+        .\o_data_to_core_reg[11] (\o_data_to_core_reg[11] ),
+        .\o_data_to_core_reg[11]_0 (\genblk1[0].data_column_n_45 ),
+        .\o_data_to_core_reg[12] (\o_data_to_core_reg[12] ),
+        .\o_data_to_core_reg[12]_0 (\genblk1[0].data_column_n_46 ),
+        .\o_data_to_core_reg[13] (\o_data_to_core_reg[13] ),
+        .\o_data_to_core_reg[13]_0 (\genblk1[0].data_column_n_47 ),
+        .\o_data_to_core_reg[14] (\o_data_to_core_reg[14] ),
+        .\o_data_to_core_reg[14]_0 (\genblk1[0].data_column_n_48 ),
+        .\o_data_to_core_reg[15] (\o_data_to_core_reg[15] ),
+        .\o_data_to_core_reg[15]_0 (\genblk1[0].data_column_n_49 ),
+        .\o_data_to_core_reg[16] (\o_data_to_core_reg[16] ),
+        .\o_data_to_core_reg[16]_0 (\genblk1[0].data_column_n_50 ),
+        .\o_data_to_core_reg[17] (\o_data_to_core_reg[17] ),
+        .\o_data_to_core_reg[17]_0 (\genblk1[0].data_column_n_51 ),
+        .\o_data_to_core_reg[18] (\o_data_to_core_reg[18] ),
+        .\o_data_to_core_reg[18]_0 (\genblk1[0].data_column_n_52 ),
+        .\o_data_to_core_reg[19] (\o_data_to_core_reg[19] ),
+        .\o_data_to_core_reg[19]_0 (\genblk1[0].data_column_n_53 ),
+        .\o_data_to_core_reg[1] (\o_data_to_core_reg[1] ),
+        .\o_data_to_core_reg[1]_0 (\genblk1[0].data_column_n_35 ),
+        .\o_data_to_core_reg[20] (\o_data_to_core_reg[20] ),
+        .\o_data_to_core_reg[20]_0 (\genblk1[0].data_column_n_54 ),
+        .\o_data_to_core_reg[21] (\o_data_to_core_reg[21] ),
+        .\o_data_to_core_reg[21]_0 (\genblk1[0].data_column_n_55 ),
+        .\o_data_to_core_reg[22] (\o_data_to_core_reg[22] ),
+        .\o_data_to_core_reg[22]_0 (\genblk1[0].data_column_n_56 ),
+        .\o_data_to_core_reg[23] (\o_data_to_core_reg[23] ),
+        .\o_data_to_core_reg[23]_0 (\genblk1[0].data_column_n_57 ),
+        .\o_data_to_core_reg[24] (\o_data_to_core_reg[24] ),
+        .\o_data_to_core_reg[24]_0 (\genblk1[0].data_column_n_58 ),
+        .\o_data_to_core_reg[25] (\o_data_to_core_reg[25] ),
+        .\o_data_to_core_reg[25]_0 (\genblk1[0].data_column_n_59 ),
+        .\o_data_to_core_reg[26] (\o_data_to_core_reg[26] ),
+        .\o_data_to_core_reg[26]_0 (\genblk1[0].data_column_n_60 ),
+        .\o_data_to_core_reg[27] (\o_data_to_core_reg[27] ),
+        .\o_data_to_core_reg[27]_0 (\genblk1[0].data_column_n_61 ),
+        .\o_data_to_core_reg[28] (\o_data_to_core_reg[28] ),
+        .\o_data_to_core_reg[28]_0 (\genblk1[0].data_column_n_62 ),
+        .\o_data_to_core_reg[29] (\o_data_to_core_reg[29] ),
+        .\o_data_to_core_reg[29]_0 (\genblk1[0].data_column_n_63 ),
+        .\o_data_to_core_reg[2] (\o_data_to_core_reg[2] ),
+        .\o_data_to_core_reg[2]_0 (\genblk1[0].data_column_n_36 ),
+        .\o_data_to_core_reg[30] (\o_data_to_core_reg[30] ),
+        .\o_data_to_core_reg[30]_0 (\genblk1[0].data_column_n_64 ),
+        .\o_data_to_core_reg[31] (\o_data_to_core_reg[31] ),
+        .\o_data_to_core_reg[31]_0 (\genblk1[0].data_column_n_65 ),
+        .\o_data_to_core_reg[31]_i_1_0 (\i_index[0]_1 ),
+        .\o_data_to_core_reg[3] (\o_data_to_core_reg[3] ),
+        .\o_data_to_core_reg[3]_0 (\genblk1[0].data_column_n_37 ),
+        .\o_data_to_core_reg[4] (\o_data_to_core_reg[4] ),
+        .\o_data_to_core_reg[4]_0 (\genblk1[0].data_column_n_38 ),
+        .\o_data_to_core_reg[5] (\o_data_to_core_reg[5] ),
+        .\o_data_to_core_reg[5]_0 (\genblk1[0].data_column_n_39 ),
+        .\o_data_to_core_reg[6] (\o_data_to_core_reg[6] ),
+        .\o_data_to_core_reg[6]_0 (\genblk1[0].data_column_n_40 ),
+        .\o_data_to_core_reg[7] (\o_data_to_core_reg[7] ),
+        .\o_data_to_core_reg[7]_0 (\genblk1[0].data_column_n_41 ),
+        .\o_data_to_core_reg[8] (\o_data_to_core_reg[8] ),
+        .\o_data_to_core_reg[8]_0 (\genblk1[0].data_column_n_42 ),
+        .\o_data_to_core_reg[9] (\o_data_to_core_reg[9] ),
+        .\o_data_to_core_reg[9]_0 (\genblk1[0].data_column_n_43 ));
+  data_mem_column_5 \genblk1[3].data_column 
+       (.clk_IBUF_BUFG(clk_IBUF_BUFG),
+        .i_data_from_core_IBUF(i_data_from_core_IBUF),
+        .i_data_from_mem_IBUF(i_data_from_mem_IBUF[31:0]),
+        .i_data_from_mem_valid_IBUF(i_data_from_mem_valid_IBUF),
+        .i_index_IBUF(i_index_IBUF),
+        .i_offset_IBUF(i_offset_IBUF),
+        .i_way_IBUF(i_way_IBUF[3]),
+        .i_wr_IBUF(i_wr_IBUF),
+        .o_data(o_data));
 endmodule
 `ifndef GLBL
 `define GLBL

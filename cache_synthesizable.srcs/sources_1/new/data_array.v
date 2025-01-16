@@ -42,7 +42,6 @@ module data_array
     
     );
     
-    reg [31:0] o_data_to_core_reg;
     
     wire [127:0] out_blocks[CACHE_WAY-1:0]; // lots of wires 
     wire [31:0] data_out_from_way[CACHE_WAY-1:0];
@@ -71,7 +70,7 @@ module data_array
     always@(*) begin
         found_hit = 0;
         for (j = 0; j < CACHE_WAY; j = j + 1) begin
-            if (i_way[j] && !found_hit && i_rd) begin
+            if (i_way[j] && !found_hit) begin
                 found_hit = 1;
                 o_data_to_core <= data_out_from_way[j];
             end

@@ -43,7 +43,6 @@ module data_mem_column
     
     // Core memory
     reg [31:0] data_mem[NUM_SETS-1:0];
-    
     assign o_data = data_mem[i_index];
     
     // testbench
@@ -58,14 +57,11 @@ module data_mem_column
             if (i_weA) begin
                 data_mem[i_index] <= i_data_from_core;
             end
-    end
-    
-    always @ (posedge clk) begin
+            
             if (i_weB) begin
                 data_mem[i_index] <= i_data_from_mem;
             end
     end
-    
     
     
 endmodule

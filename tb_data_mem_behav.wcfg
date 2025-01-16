@@ -11,15 +11,15 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="217.340 ns"></ZoomStartTime>
-      <ZoomEndTime time="431.742 ns"></ZoomEndTime>
-      <Cursor1Time time="330.000 ns"></Cursor1Time>
+      <ZoomStartTime time="211.420 ns"></ZoomStartTime>
+      <ZoomEndTime time="496.821 ns"></ZoomEndTime>
+      <Cursor1Time time="270.000 ns"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="100"></NameColumnWidth>
+      <NameColumnWidth column_width="96"></NameColumnWidth>
       <ValueColumnWidth column_width="58"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="11" />
+   <WVObjectSize size="13" />
    <wvobject fp_name="/tb_data_mem/clk" type="logic">
       <obj_property name="ElementShortName">clk</obj_property>
       <obj_property name="ObjectShortName">clk</obj_property>
@@ -33,8 +33,8 @@
       <obj_property name="ObjectShortName">offset[1:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/tb_data_mem/index" type="array">
-      <obj_property name="ElementShortName">index[9:0]</obj_property>
-      <obj_property name="ObjectShortName">index[9:0]</obj_property>
+      <obj_property name="ElementShortName">index[4:0]</obj_property>
+      <obj_property name="ObjectShortName">index[4:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/tb_data_mem/data_i" type="array">
       <obj_property name="ElementShortName">data_i[31:0]</obj_property>
@@ -45,16 +45,16 @@
       <obj_property name="ObjectShortName">data_o[31:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/tb_data_mem/index" type="array">
-      <obj_property name="ElementShortName">index[9:0]</obj_property>
-      <obj_property name="ObjectShortName">index[9:0]</obj_property>
+      <obj_property name="ElementShortName">index[4:0]</obj_property>
+      <obj_property name="ObjectShortName">index[4:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/tb_data_mem/lru" type="array">
-      <obj_property name="ElementShortName">lru[3:0]</obj_property>
-      <obj_property name="ObjectShortName">lru[3:0]</obj_property>
+      <obj_property name="ElementShortName">lru[1:0]</obj_property>
+      <obj_property name="ObjectShortName">lru[1:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/tb_data_mem/way" type="array">
-      <obj_property name="ElementShortName">way[3:0]</obj_property>
-      <obj_property name="ObjectShortName">way[3:0]</obj_property>
+      <obj_property name="ElementShortName">way[1:0]</obj_property>
+      <obj_property name="ObjectShortName">way[1:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/tb_data_mem/data_from_mem_valid" type="logic">
       <obj_property name="ElementShortName">data_from_mem_valid</obj_property>
@@ -63,5 +63,13 @@
    <wvobject fp_name="/tb_data_mem/block_data" type="array">
       <obj_property name="ElementShortName">block_data[127:0]</obj_property>
       <obj_property name="ObjectShortName">block_data[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mem/data_from_mem" type="array">
+      <obj_property name="ElementShortName">data_from_mem[127:0]</obj_property>
+      <obj_property name="ObjectShortName">data_from_mem[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_mem/way" type="array">
+      <obj_property name="ElementShortName">way[1:0]</obj_property>
+      <obj_property name="ObjectShortName">way[1:0]</obj_property>
    </wvobject>
 </wave_config>

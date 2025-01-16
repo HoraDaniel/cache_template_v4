@@ -63,6 +63,11 @@ module fourway_LRU(
                 4'b1000: begin
                     plru_bits[2] <= 1'b1;
                     plru_bits[0] <= 1'b1;  
+                end
+                default: begin
+                    plru_bits[0] <= 1'b0;
+                    plru_bits[1] <= 1'b0;
+                    plru_bits[2] <= 1'b0;
                 end  
             endcase
         end
