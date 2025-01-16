@@ -11,15 +11,15 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="323.610 ns"></ZoomStartTime>
-      <ZoomEndTime time="747.611 ns"></ZoomEndTime>
-      <Cursor1Time time="620.610 ns"></Cursor1Time>
+      <ZoomStartTime time="1,914.166 ns"></ZoomStartTime>
+      <ZoomEndTime time="2,617.167 ns"></ZoomEndTime>
+      <Cursor1Time time="2,230.000 ns"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="60"></NameColumnWidth>
-      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+      <NameColumnWidth column_width="139"></NameColumnWidth>
+      <ValueColumnWidth column_width="124"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="13" />
+   <WVObjectSize size="35" />
    <wvobject fp_name="/tb_top/clk" type="logic">
       <obj_property name="ElementShortName">clk</obj_property>
       <obj_property name="ObjectShortName">clk</obj_property>
@@ -49,6 +49,10 @@
       <obj_property name="ObjectShortName">data_addr[11:0]</obj_property>
       <obj_property name="Radix">HEXRADIX</obj_property>
    </wvobject>
+   <wvobject fp_name="/tb_top/top_level/index" type="array">
+      <obj_property name="ElementShortName">index[4:0]</obj_property>
+      <obj_property name="ObjectShortName">index[4:0]</obj_property>
+   </wvobject>
    <wvobject fp_name="/tb_top/top_level/refill_cont/i_refill_en" type="logic">
       <obj_property name="ElementShortName">i_refill_en</obj_property>
       <obj_property name="ObjectShortName">i_refill_en</obj_property>
@@ -72,5 +76,90 @@
    <wvobject fp_name="/tb_top/top_level/hit" type="logic">
       <obj_property name="ElementShortName">hit</obj_property>
       <obj_property name="ObjectShortName">hit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_level/evict_en" type="logic">
+      <obj_property name="ElementShortName">evict_en</obj_property>
+      <obj_property name="ObjectShortName">evict_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_level/evict_cont/buffer" type="array">
+      <obj_property name="ElementShortName">buffer[3:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">buffer[3:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_level/evict_cont/i_evicted_block" type="array">
+      <obj_property name="ElementShortName">i_evicted_block[127:0]</obj_property>
+      <obj_property name="ObjectShortName">i_evicted_block[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_level/evict_cont/counter" type="array">
+      <obj_property name="ElementShortName">counter[1:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_level/evict_cont/o_addr_to_bram" type="array">
+      <obj_property name="ElementShortName">o_addr_to_bram[11:0]</obj_property>
+      <obj_property name="ObjectShortName">o_addr_to_bram[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_level/evict_cont/o_data_to_bram" type="array">
+      <obj_property name="ElementShortName">o_data_to_bram[31:0]</obj_property>
+      <obj_property name="ObjectShortName">o_data_to_bram[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_level/evict_cont/buffer" type="array">
+      <obj_property name="ElementShortName">buffer[3:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">buffer[3:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_level/evict_cont/o_write_signal" type="array">
+      <obj_property name="ElementShortName">o_write_signal[3:0]</obj_property>
+      <obj_property name="ObjectShortName">o_write_signal[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_level/evict_cont/i_sample_signal" type="logic">
+      <obj_property name="ElementShortName">i_sample_signal</obj_property>
+      <obj_property name="ObjectShortName">i_sample_signal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_level/controller/i_hit" type="logic">
+      <obj_property name="ElementShortName">i_hit</obj_property>
+      <obj_property name="ObjectShortName">i_hit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_level/controller/modified" type="logic">
+      <obj_property name="ElementShortName">modified</obj_property>
+      <obj_property name="ObjectShortName">modified</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_level/controller/MESI_state_0" type="logic">
+      <obj_property name="ElementShortName">MESI_state_0</obj_property>
+      <obj_property name="ObjectShortName">MESI_state_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_level/controller/MESI_state_1" type="logic">
+      <obj_property name="ElementShortName">MESI_state_1</obj_property>
+      <obj_property name="ObjectShortName">MESI_state_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_level/tag_array/i_modify" type="logic">
+      <obj_property name="ElementShortName">i_modify</obj_property>
+      <obj_property name="ObjectShortName">i_modify</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_level/tag_array/\genblk1[0].small_tag_mem /MESI_state_bit_0" type="logic">
+      <obj_property name="ElementShortName">MESI_state_bit_0</obj_property>
+      <obj_property name="ObjectShortName">MESI_state_bit_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_level/tag_array/\genblk1[0].small_tag_mem /MESI_state_bit_1" type="logic">
+      <obj_property name="ElementShortName">MESI_state_bit_1</obj_property>
+      <obj_property name="ObjectShortName">MESI_state_bit_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_level/tag_array/\genblk1[1].small_tag_mem /MESI_state_bit_0" type="logic">
+      <obj_property name="ElementShortName">MESI_state_bit_0</obj_property>
+      <obj_property name="ObjectShortName">MESI_state_bit_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_level/tag_array/\genblk1[1].small_tag_mem /MESI_state_bit_1" type="logic">
+      <obj_property name="ElementShortName">MESI_state_bit_1</obj_property>
+      <obj_property name="ObjectShortName">MESI_state_bit_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_level/tag_array/o_LRU_set_tag_info" type="array">
+      <obj_property name="ElementShortName">o_LRU_set_tag_info[4:0]</obj_property>
+      <obj_property name="ObjectShortName">o_LRU_set_tag_info[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_level/hit_way" type="array">
+      <obj_property name="ElementShortName">hit_way[1:0]</obj_property>
+      <obj_property name="ObjectShortName">hit_way[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top_level/lru_way" type="array">
+      <obj_property name="ElementShortName">lru_way[1:0]</obj_property>
+      <obj_property name="ObjectShortName">lru_way[1:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
    </wvobject>
 </wave_config>

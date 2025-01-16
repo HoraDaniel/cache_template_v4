@@ -45,11 +45,7 @@ module data_mem_column
     reg [31:0] data_mem[NUM_SETS-1:0];
     assign o_data = data_mem[i_index];
     
-    // testbench
-    initial begin
-        data_mem[0] <= 32'hDEADBEEF;
-        data_mem[1] <= 32'hB055ADE1;
-    end
+
     
     // Synchronous reads
     

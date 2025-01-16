@@ -72,7 +72,7 @@ module tag_array #
                 small_tag_mem(
                     .clk(clk),  .nrst(nrst),
                     .i_wr_en(i_wr_en), .i_tag(i_tag), .i_index(i_index),
-                    .i_invalidate(i_invalidate), .i_modify(i_modify), .i_reserve_exclusive(i_reserve_exclusive),
+                    .i_invalidate(i_invalidate), .i_modify(i_modify && hit_bus[i]), .i_reserve_exclusive(i_reserve_exclusive),
                     .i_am_LRU(i_LRU_set[i]),
                     .o_tag(tag_output_mems[i]), .o_hit(hit_bus[i])
                 );
@@ -89,7 +89,7 @@ module tag_array #
         lru_tag = 0;
         found = 1'b0;
         for (j=0; j < CACHE_WAY; j = j + 1) begin
-            if (i_LRU_set[j] == 1'b1 && found == 1'b0) begin
+            if (i_LRU_set[j] == 1'b1 && !found) begin
                 found = 1'b1;
                 lru_tag = tag_output_mems[j];
             end 

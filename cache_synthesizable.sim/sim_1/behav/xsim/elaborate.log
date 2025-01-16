@@ -7,20 +7,4 @@ Starting static elaboration
 Pass Through NonSizing Optimizer
 WARNING: [VRFC 10-5021] port 'i_dm_write' is not connected on this instance [F:/cache_synthesizable/cache_synthesizable.srcs/sim_1/new/tb_top.v:54]
 Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.tag_mem(TAG_BITS=3,INDEX_BITS=5)
-Compiling module xil_defaultlib.tag_array(TAG_BITS=3,INDEX_BITS=...
-Compiling module xil_defaultlib.twoway_LRU
-Compiling module xil_defaultlib.cache_controller(CACHE_WAY=2,ADD...
-Compiling module xil_defaultlib.data_mem_column(INDEX_BITS=5)
-Compiling module xil_defaultlib.data_mem_way(INDEX_BITS=5)
-Compiling module xil_defaultlib.data_array(CACHE_WAY=2,INDEX_BIT...
-Compiling module xil_defaultlib.refill_controller
-Compiling module xil_defaultlib.eviction_controller
-Compiling module xil_defaultlib.dual_port_bram_default
-Compiling module xil_defaultlib.cache_top(CACHE_WAY=2,CACHE_SIZE...
-Compiling module xil_defaultlib.tb_top
-Compiling module xil_defaultlib.glbl
-Built simulation snapshot tb_top_behav
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

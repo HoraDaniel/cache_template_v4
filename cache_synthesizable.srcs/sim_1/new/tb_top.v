@@ -35,7 +35,7 @@ module tb_top();
     // read = 0; write = 1;
     // so 1 + ADDR_BITS (12) + 32 bits = 45 bits
     localparam REQUEST_BITS = 1 + ADDR_BITS + 32;
-    reg [ADDR_BITS + 32:0] test_requests[11:0];
+    reg [ADDR_BITS + 32:0] test_requests[20:0];
     
     wire [31:0] data_out;
     wire done_signal;
@@ -95,9 +95,14 @@ module tb_top();
         test_requests[10] = {1'b0, 12'h028, 32'h0};
         test_requests[11] = {1'b0, 12'h02C, 32'h0};
         
+        test_requests[12] = {1'b1, 12'h004, 32'hEEEEEEEE};
+        test_requests[13] = {1'b1, 12'h014, 32'hFFFFFFFF};
         
+        // request a new block to check eviction
+        test_requests[14] = {1'b0, 12'h214, 32'h0};
         
-        
+        // then request data again 
+        test_requests[15] = {1'b0, 12'h014, 32'h0}; // result should be FFFFFFF
         
         clk = 0;
         gated_clk_core = 0;

@@ -31,7 +31,7 @@ module eviction_controller
     input i_evict_en,
     input ready_mm,
     input [127:0] i_evicted_block,
-    input [ADDR_BITS-1:0]                       i_base_addr,
+    input [ADDR_BITS-5:0]                       i_base_addr,
     output [ADDR_BITS-1:0]                      o_addr_to_bram,
     output [31:0]                               o_data_to_bram,
     output reg                                  o_done,
@@ -46,7 +46,7 @@ module eviction_controller
     reg [1:0] counter;
     
     assign o_data_to_bram = buffer[counter];
-    assign o_addr_to_bram = addr_buffer[counter] >> 2;
+    assign o_addr_to_bram = addr_buffer[counter];
     assign o_write_signal = (i_evict_en && ready_mm) ? 4'b1111 : 4'b0000;
     
     always @(posedge clk) begin
@@ -66,10 +66,10 @@ module eviction_controller
                 buffer[3] <= i_evicted_block[127:96];
                 
                 // Sample the address and generate addresses
-                addr_buffer[0] <= {i_base_addr[ADDR_BITS-1:4], 4'h00};
-                addr_buffer[1] <= {i_base_addr[ADDR_BITS-1:4], 4'h04};
-                addr_buffer[2] <= {i_base_addr[ADDR_BITS-1:4], 4'h08};
-                addr_buffer[3] <= {i_base_addr[ADDR_BITS-1:4], 4'h0C};
+                addr_buffer[0] <= {i_base_addr, 2'b00};
+                addr_buffer[1] <= {i_base_addr, 2'b01};
+                addr_buffer[2] <= {i_base_addr, 2'b10};
+                addr_buffer[3] <= {i_base_addr, 2'b11};
             end
             
             if (ready_mm && i_evict_en) begin

@@ -82,7 +82,7 @@ module cache_top
     wire [TAG_BITS+1:0] LRU_set_tag_info;
     wire [ADDR_BITS-1:0] addr_to_memA;
     wire [ADDR_BITS-1:0] addr_to_memB;
-    wire [ADDR_BITS-1:0] evicted_base_addr;
+    wire [ADDR_BITS-5:0] evicted_base_addr;
     wire [31:0] data_from_memA;
     wire [31:0] data_to_memB;
     wire [127:0] data_block_from_mem;
@@ -167,7 +167,7 @@ module cache_top
         evict_cont (
             .clk(clk),                          .nrst(nrst),
             .i_sample_signal(sample_en),        .i_evict_en(evict_en),
-            .ready_mm(i_ready_mm),                    .i_evicted_block(data_block_to_mem),
+            .ready_mm(i_ready_mm),              .i_evicted_block(data_block_to_mem),
             .i_base_addr(evicted_base_addr),    .o_addr_to_bram(addr_to_memB),
             .o_data_to_bram(data_to_memB),       .o_done(done_evict),
             .o_write_signal(weB)
@@ -183,14 +183,14 @@ module cache_top
             .enaA(1'b1),
             .weA(4'b0),
             .addrA(addr_to_memA),
-            .doutA(data_from_memA)
+            .doutA(data_from_memA),
             
-            /*
+            
             .clkB(clk),
             .enaB(1'b1),
             .weB(weB),
             .addrB(addr_to_memB),
             .dinB(data_to_memB)
-            */
+            
         );
 endmodule

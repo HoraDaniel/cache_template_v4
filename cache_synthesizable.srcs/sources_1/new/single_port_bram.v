@@ -51,13 +51,11 @@ module dual_port_bram #(
     
     initial begin
         $readmemh(INITIAL_DATA, ram_block);
-        ram_block[641] = 32'h1111000B;
-        ram_block[642] = 32'h1111000A;
-        ram_block[643] = 32'h00122110;
-        ram_block[644] = 32'h46646641;
-        ram_block[645] = 32'h51100013;
-        ram_block[646] = 32'h100123AB;
-        ram_block[647] = 32'hAB2317CD;
+        ram_block[132] = 32'h1111000B;
+        ram_block[133] = 32'h1111000A;
+        ram_block[134] = 32'h00122110;
+        ram_block[135] = 32'h46646641;
+        ram_block[136] = 32'h51100013;
     end
     
     integer i;

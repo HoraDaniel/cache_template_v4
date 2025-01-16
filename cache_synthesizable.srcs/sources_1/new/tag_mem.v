@@ -65,6 +65,8 @@ module tag_mem #(
     wire valid;
     wire match;
 
+    wire [TAG_BITS-1:0] tag;
+    assign tag = tag_mem[i_index];
     
     assign MESI_state_bit_0 = MESI_state_0[i_index];
     assign MESI_state_bit_1 = MESI_state_1[i_index];
@@ -73,19 +75,13 @@ module tag_mem #(
     
     assign valid = (MESI == 2'b00) ? 1'b0 : 1'b1;
     assign match = (tag_mem[i_index] == i_tag) ? 1'b1 : 1'b0;
-    assign o_hit = (valid && match );
+    assign o_hit = (valid) ? (match ? 1'b1 : 1'b0) : 1'b0;
  
-
-
     integer i;
     initial begin
-        for (i = 0; i < NUM_SETS; i = i + 1) begin
-            tag_mem[i] <= 5'b00000;
+        for (i = 0; i < NUM_SETS; i = i+ 1) begin
+            tag_mem[i] <= 0;
         end
-        //some hardcoded values;
-        tag_mem[0] <= 5'b11111;
-        tag_mem[1] <= 5'b10011;
-        tag_mem[2] <= 5'b10000;
     end
     
     // ============ SYNCHRONOUS READ ================//
@@ -94,6 +90,9 @@ module tag_mem #(
         if (!nrst) begin
            MESI_state_0 <= 0;
            MESI_state_1 <= 0;
+           
+           
+           
         end
         else begin
             if (i_wr_en && i_am_LRU) begin

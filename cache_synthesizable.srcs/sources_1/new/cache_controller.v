@@ -62,7 +62,7 @@ module cache_controller
     output                      o_sample_data,
     output                      o_sample_addr,
     output                      o_evict_en,
-    output [ADDR_WIDTH-1:0]     o_addr_evicted,
+    output [ADDR_WIDTH-5:0]     o_addr_evicted,
     
     output                      o_stall,
     output                      o_all_done
@@ -94,7 +94,7 @@ module cache_controller
     
     // Assemble the base address for evicting;
     // Address = Tag + index + Offset + 00;
-    assign o_addr_evicted = { i_LRU_set_tag_info[TAG_BITS-1:0], i_addr[ADDR_WIDTH - TAG_BITS - 1: 4], i_addr[3:2], 2'b00};
+    assign o_addr_evicted = { i_LRU_set_tag_info[TAG_BITS-1:0], i_addr[ADDR_WIDTH - TAG_BITS - 1: 4]};
     
     // Declaring States
     reg [2:0] state;
@@ -108,11 +108,11 @@ module cache_controller
     
     // Control signals
     assign o_modify = ( (state == S_WRITE) && i_hit ) ? 1'b1 : 1'b0; // Tag already exists in the cache, update the MESI protocols only
-    assign o_wetag = ( state == S_WAITING_FOR_MM) ? 1'b1 : 1'b0;                    //it doesnt matter if its a read or write miss, we'll be writing the tag in the cache anways
+    assign o_wetag = ( state == S_WAITING_FOR_MM && !i_hit) ? 1'b1 : 1'b0;                    //it doesnt matter if its a read or write miss, we'll be writing the tag in the cache anways
     assign o_refill_en = ( state == S_UPDATING ) ? 1'b1 : 1'b0;
     assign o_sample_addr = (state == S_WAITING_FOR_MM) ? 1'b1 : 1'b0;
     assign o_sample_data = ( (state == S_WRITE || state == S_READ) && ~i_hit && modified) ? 1'b1 : 1'b0;
-    assign o_evict_en = ( state == S_UPDATING ) ? 1'b1 : 1'b0;
+    assign o_evict_en = ( state == S_UPDATING ) ? (modified ? 1'b1 : 1'b0 ) : 1'b0; // TO DO FIX
     assign o_all_done = ( state == S_DONE ) ? 1'b1 : 1'b0;
     assign o_stall = (state == S_UPDATING || state == S_WAITING_FOR_MM || ~i_hit ) ? 1'b1 : 1'b0;
     
