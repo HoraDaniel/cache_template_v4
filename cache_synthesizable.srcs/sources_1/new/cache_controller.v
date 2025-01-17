@@ -107,12 +107,13 @@ module cache_controller
     localparam S_DONE = 3'b101; // For Testbench only
     
     // Control signals
+    reg evict_en_reg;    
     assign o_modify = ( (state == S_WRITE) && i_hit ) ? 1'b1 : 1'b0; // Tag already exists in the cache, update the MESI protocols only
     assign o_wetag = ( state == S_WAITING_FOR_MM && !i_hit) ? 1'b1 : 1'b0;                    //it doesnt matter if its a read or write miss, we'll be writing the tag in the cache anways
     assign o_refill_en = ( state == S_UPDATING ) ? 1'b1 : 1'b0;
     assign o_sample_addr = (state == S_WAITING_FOR_MM) ? 1'b1 : 1'b0;
-    assign o_sample_data = ( (state == S_WRITE || state == S_READ) && ~i_hit && modified) ? 1'b1 : 1'b0;
-    assign o_evict_en = ( state == S_UPDATING ) ? (modified ? 1'b1 : 1'b0 ) : 1'b0; // TO DO FIX
+    assign o_sample_data = ( state == S_WAITING_FOR_MM && ~i_hit && modified) ? 1'b1 : 1'b0;
+    assign o_evict_en = evict_en_reg;
     assign o_all_done = ( state == S_DONE ) ? 1'b1 : 1'b0;
     assign o_stall = (state == S_UPDATING || state == S_WAITING_FOR_MM || ~i_hit ) ? 1'b1 : 1'b0;
     
@@ -150,6 +151,7 @@ module cache_controller
                 S_IDLE: begin
                     if (i_rd) state <= S_READ;
                     if (i_wr) state <= S_WRITE;
+                    evict_en_reg <= 0;
                 end
                 
                 S_READ: begin
@@ -157,10 +159,13 @@ module cache_controller
                     else begin
                         state <= S_WAITING_FOR_MM;
                     end
+                    evict_en_reg <= 0;
                 end
                 
                 S_WAITING_FOR_MM: begin
                     if (i_readymm) state <= S_UPDATING;
+                    
+                    if (o_sample_data) evict_en_reg <= 1'b1;
                 end
                 
                 S_WRITE: begin
@@ -169,6 +174,7 @@ module cache_controller
                         state <= S_WAITING_FOR_MM;
                         
                     end
+                    evict_en_reg <= 0;
                 end
                 
                 S_UPDATING: begin
@@ -180,9 +186,16 @@ module cache_controller
                 
                 S_DONE: begin
                     state <= S_IDLE;
+                    evict_en_reg <= 0;
                 end
             endcase
+            
+            
+
         end
+        
+        
+        
         
     end
     

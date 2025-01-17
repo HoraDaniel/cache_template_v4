@@ -28,7 +28,7 @@ module tb_top();
     
     reg clk, nrst;
     reg ready_mm;
-    reg [3:0] counter;
+    reg [4:0] counter;
     
     
     // test consist of {read/write, address, data}
@@ -82,27 +82,25 @@ module tb_top();
         // writes first, same block
         test_requests[0] = {1'b0,12'h000, 32'h0};
         test_requests[1] = {1'b0,12'h004, 32'h0};
-        test_requests[2] = {1'b0,12'h008, 32'h0};
-        test_requests[3] = {1'b0,12'h00C, 32'h0};
+        test_requests[2] = {1'b1,12'h000, 32'hDDDDDEAD};
         
-        test_requests[4] = {1'b0,12'h010, 32'h0};
-        test_requests[5] = {1'b0,12'h014, 32'h0};
-        test_requests[6] = {1'b0,12'h018, 32'h0};
-        test_requests[7] = {1'b0,12'h01C, 32'h0};
+        test_requests[3] = {1'b0,12'h010, 32'h0};
+        test_requests[4] = {1'b0,12'h014, 32'h0};
+        test_requests[5] = {1'b1,12'h010, 32'hAAAA0000};
 
-        test_requests[8] = {1'b0, 12'h020, 32'h0};
-        test_requests[9] = {1'b0, 12'h024, 32'h0};
-        test_requests[10] = {1'b0, 12'h028, 32'h0};
-        test_requests[11] = {1'b0, 12'h02C, 32'h0};
+
+        test_requests[6] = {1'b0, 12'h020, 32'h0};
+        test_requests[7] = {1'b0, 12'h024, 32'h0};
+        test_requests[8] = {1'b1, 12'h020, 32'h0000BABB};
         
-        test_requests[12] = {1'b1, 12'h004, 32'hEEEEEEEE};
-        test_requests[13] = {1'b1, 12'h014, 32'hFFFFFFFF};
+        test_requests[9] = {1'b0, 12'h204, 32'h0};
+        test_requests[10] = {1'b0, 12'h208, 32'h0};
+        test_requests[11] = {1'b1, 12'h204, 32'hFFFF1111};
         
-        // request a new block to check eviction
-        test_requests[14] = {1'b0, 12'h214, 32'h0};
+        test_requests[12] = {1'b0, 12'h000, 32'h0}; // result should be hDDDDDEAD
         
-        // then request data again 
-        test_requests[15] = {1'b0, 12'h014, 32'h0}; // result should be FFFFFFF
+        //re read blocks
+        test_requests[13] = {1'b0, 12'h010, 32'h0};
         
         clk = 0;
         gated_clk_core = 0;
